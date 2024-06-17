@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CustomStringsDataSet" targetNamespace="http://www.activiser.com/schemas/Console/CustomStringsDataSet.xsd" xmlns:mstns="http://www.activiser.com/schemas/Console/CustomStringsDataSet.xsd" xmlns="http://www.activiser.com/schemas/Console/CustomStringsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CustomStringsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CustomStringsDataSet" msprop:Generator_DataSetName="CustomStringsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Form" msprop:Generator_UserTableName="Form" msprop:Generator_RowDeletedName="FormRowDeleted" msprop:Generator_RowChangedName="FormRowChanged" msprop:Generator_RowClassName="FormRow" msprop:Generator_RowChangingName="FormRowChanging" msprop:Generator_RowEvArgName="FormRowChangeEvent" msprop:Generator_RowEvHandlerName="FormRowChangeEventHandler" msprop:Generator_TableClassName="FormDataTable" msprop:Generator_TableVarName="tableForm" msprop:Generator_RowDeletingName="FormRowDeleting" msprop:Generator_TablePropName="Form">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FormName" msdata:Caption="Form Name" msprop:Generator_UserColumnName="FormName" msprop:Generator_ColumnVarNameInTable="columnFormName" msprop:Generator_ColumnPropNameInRow="FormName" msprop:Generator_ColumnPropNameInTable="FormNameColumn" type="xs:string" default="" />
+              <xs:element name="DisplayName" msprop:Generator_UserColumnName="DisplayName" msprop:nullValue="(Empty)" msprop:Generator_ColumnPropNameInRow="DisplayName" msprop:Generator_ColumnPropNameInTable="DisplayNameColumn" msprop:Generator_ColumnVarNameInTable="columnDisplayName" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="ClientKey" msprop:Generator_UserColumnName="ClientKey" msprop:Generator_ColumnVarNameInTable="columnClientKey" msprop:Generator_ColumnPropNameInRow="ClientKey" msprop:Generator_ColumnPropNameInTable="ClientKeyColumn" type="xs:int" default="1" />
+              <xs:element name="LanguageId" msprop:Generator_UserColumnName="LanguageId" msprop:Generator_ColumnVarNameInTable="columnLanguageId" msprop:Generator_ColumnPropNameInRow="LanguageId" msprop:Generator_ColumnPropNameInTable="LanguageIdColumn" type="xs:int" default="1" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Field" msprop:Generator_UserTableName="Field" msprop:Generator_RowDeletedName="FieldRowDeleted" msprop:Generator_RowChangedName="FieldRowChanged" msprop:Generator_RowClassName="FieldRow" msprop:Generator_RowChangingName="FieldRowChanging" msprop:Generator_RowEvArgName="FieldRowChangeEvent" msprop:Generator_RowEvHandlerName="FieldRowChangeEventHandler" msprop:Generator_TableClassName="FieldDataTable" msprop:Generator_TableVarName="tableField" msprop:Generator_RowDeletingName="FieldRowDeleting" msprop:Generator_TablePropName="Field">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FormName" msprop:Generator_UserColumnName="FormName" msprop:Generator_ColumnVarNameInTable="columnFormName" msprop:Generator_ColumnPropNameInRow="FormName" msprop:Generator_ColumnPropNameInTable="FormNameColumn" type="xs:string" default="" />
+              <xs:element name="FieldName" msprop:Generator_UserColumnName="FieldName" msprop:Generator_ColumnVarNameInTable="columnFieldName" msprop:Generator_ColumnPropNameInRow="FieldName" msprop:Generator_ColumnPropNameInTable="FieldNameColumn" type="xs:string" default="" />
+              <xs:element name="DefaultValue" msprop:Generator_UserColumnName="DefaultValue" msprop:nullValue="(Empty)" msprop:Generator_ColumnPropNameInRow="DefaultValue" msprop:Generator_ColumnPropNameInTable="DefaultValueColumn" msprop:Generator_ColumnVarNameInTable="columnDefaultValue" type="xs:string" />
+              <xs:element name="ClientKey" msprop:Generator_UserColumnName="ClientKey" msprop:Generator_ColumnVarNameInTable="columnClientKey" msprop:Generator_ColumnPropNameInRow="ClientKey" msprop:Generator_ColumnPropNameInTable="ClientKeyColumn" type="xs:int" default="1" />
+              <xs:element name="LanguageId" msprop:Generator_UserColumnName="LanguageId" msprop:Generator_ColumnVarNameInTable="columnLanguageId" msprop:Generator_ColumnPropNameInRow="LanguageId" msprop:Generator_ColumnPropNameInTable="LanguageIdColumn" type="xs:int" default="1" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="PK_Form" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Form" />
+      <xs:field xpath="mstns:FormName" />
+      <xs:field xpath="mstns:ClientKey" />
+      <xs:field xpath="mstns:LanguageId" />
+    </xs:unique>
+    <xs:unique name="FieldPK" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Field" />
+      <xs:field xpath="mstns:FormName" />
+      <xs:field xpath="mstns:FieldName" />
+      <xs:field xpath="mstns:ClientKey" />
+      <xs:field xpath="mstns:LanguageId" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Form_Field" msdata:parent="Form" msdata:child="Field" msdata:parentkey="FormName ClientKey LanguageId" msdata:childkey="FormName ClientKey LanguageId" msprop:Generator_UserRelationName="Form_Field" msprop:Generator_RelationVarName="relationForm_Field" msprop:Generator_UserChildTable="Field" msprop:Generator_UserParentTable="Form" msprop:Generator_ParentPropName="FormRowParent" msprop:Generator_ChildPropName="GetFieldRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

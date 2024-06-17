@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "activiser DB Scripts", "activiser DB Scripts\activiser DB Scripts.ssmssqlproj", "{BDBA4E4C-227F-4ECF-B21D-BB8639364E1F}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = \u0022$/activiser\u00203.4.0/Activiser\u0020DB\u0020Scripts\u0022,\u0020OUBAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName1 = activiser\u0020DB\u0020Scripts\\activiser\u0020DB\u0020Scripts.ssmssqlproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = activiser\u0020DB\u0020Scripts\\
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

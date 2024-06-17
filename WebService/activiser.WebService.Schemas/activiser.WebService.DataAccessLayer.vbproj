@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4F6F7BCB-E870-4237-9603-EBAE912A9751}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>activiser</RootNamespace>
+    <AssemblyName>activiser.WebService.DataAccessLayer</AssemblyName>
+    <MyType>Windows</MyType>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>activiser.WebService.Schemas.snk</AssemblyOriginatorKeyFile>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>http://localhost/activiser.WebService.Schemas/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseX64|AnyCPU' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\ReleaseX64\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClientDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultantProfile.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsultantProfile.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSchema.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSchema.vb">
+      <DependentUpon>DataSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomFormDefinition.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomFormDefinition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceTrackingDataSet.Designer.vb">
+      <DependentUpon>DeviceTrackingDataSet.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ErrorLog.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ErrorLog.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventLogDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventLogDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="LanguageDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UploadResults.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UploadResults.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Utility.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.vb">
+      <DependentUpon>Utility.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="activiser.WebService.Schemas.snk" />
+    <None Include="app.config" />
+    <None Include="ClientDataset.xsc">
+      <DependentUpon>ClientDataset.xsd</DependentUpon>
+    </None>
+    <None Include="ClientDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ClientDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ClientDataset.xss">
+      <DependentUpon>ClientDataset.xsd</DependentUpon>
+    </None>
+    <None Include="ConsultantProfile.xsc">
+      <DependentUpon>ConsultantProfile.xsd</DependentUpon>
+    </None>
+    <None Include="ConsultantProfile.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ConsultantProfile.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ConsultantProfile.xss">
+      <DependentUpon>ConsultantProfile.xsd</DependentUpon>
+    </None>
+    <None Include="DataSchema.xsc">
+      <DependentUpon>DataSchema.xsd</DependentUpon>
+    </None>
+    <None Include="DataSchema.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSchema.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSchema.xss">
+      <DependentUpon>DataSchema.xsd</DependentUpon>
+    </None>
+    <None Include="CustomFormDefinition.xsc">
+      <DependentUpon>CustomFormDefinition.xsd</DependentUpon>
+    </None>
+    <None Include="CustomFormDefinition.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>CustomFormDefinition.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="CustomFormDefinition.xss">
+      <DependentUpon>CustomFormDefinition.xsd</DependentUpon>
+    </None>
+    <None Include="DeviceTrackingDataSet.xsc">
+      <DependentUpon>DeviceTrackingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DeviceTrackingDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DeviceTrackingDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DeviceTrackingDataSet.xss">
+      <DependentUpon>DeviceTrackingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ErrorLog.xsc">
+      <DependentUpon>ErrorLog.xsd</DependentUpon>
+    </None>
+    <None Include="ErrorLog.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ErrorLog.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ErrorLog.xss">
+      <DependentUpon>ErrorLog.xsd</DependentUpon>
+    </None>
+    <None Include="EventLogDataSet.xsc">
+      <DependentUpon>EventLogDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EventLogDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>EventLogDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="EventLogDataSet.xss">
+      <DependentUpon>EventLogDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="LanguageDataSet.xsc">
+      <DependentUpon>LanguageDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LanguageDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>LanguageDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="LanguageDataSet.xss">
+      <DependentUpon>LanguageDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UploadResults.xsc">
+      <DependentUpon>UploadResults.xsd</DependentUpon>
+    </None>
+    <None Include="UploadResults.xsd">
+      <SubType>
+      </SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UploadResults.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="UploadResults.xsx">
+      <DependentUpon>UploadResults.xsd</DependentUpon>
+    </None>
+    <None Include="Utility.xsc">
+      <DependentUpon>Utility.xsd</DependentUpon>
+    </None>
+    <None Include="Utility.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Utility.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Utility.xss">
+      <DependentUpon>Utility.xsd</DependentUpon>
+    </None>
+    <None Include="Utility.xsx">
+      <DependentUpon>Utility.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="C:\Projects2008\Activiser3.5.0\BuildSupport\VersionNumber.Targets" />
+  <!--<Target Name="AfterBuild" Condition="$(MaxAssemblyVersion) != ''">
+    <MakeDir Directories="C:\BuildResults\$(MaxAssemblyVersion)\$(AssemblyName)" />
+    <CreateItem Include="$(OutputPath)\**\*.*">
+      <Output TaskParameter="Include" ItemName="FilesToArchive" />
+    </CreateItem>
+    <Copy SourceFiles="@(FilesToArchive)" DestinationFolder="C:\BuildResults\$(MaxAssemblyVersion)\$(AssemblyName)\%(FilesToArchive.RecursiveDir)" />
+  </Target>-->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

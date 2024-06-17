@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="activiserSchema">
+  <DataContextMoniker Name="/activiserSchemaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="fa2d655e-1bb9-454a-a64f-025a2a701908" isExpanded="false" absoluteBounds="5.125, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/activiserSchemaDataContext/Entity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f9d556d-b5c0-4f35-8508-fde4f6571a05" absoluteBounds="5.1400000000000006, 4.085, 1.9700000000000002, 3.3300577799479165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.125 : 3.78457692307692); (4.875 : 3.78457692307692); (4.875 : 3.91853846153846); (5.125 : 3.91853846153846)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/activiserSchemaDataContext/Entity/Entity_Entity" />
+      <nodes>
+        <classShapeMoniker Id="fa2d655e-1bb9-454a-a64f-025a2a701908" />
+        <classShapeMoniker Id="fa2d655e-1bb9-454a-a64f-025a2a701908" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="293d76d9-9936-4f93-88a1-c065799b6317" isExpanded="false" absoluteBounds="0.5, 2.25, 2, 0.45">
+      <DataClassMoniker Name="/activiserSchemaDataContext/FormField" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b876ba2a-7ded-435a-ad6e-89a2b7b7e1c2" absoluteBounds="0.51500000000000012, 2.71, 1.9700000000000002, 4.8091837565104161" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3382ab0b-aa97-4d43-b393-0cf539bb09da" isExpanded="false" absoluteBounds="1.375, 4, 2, 0.45">
+      <DataClassMoniker Name="/activiserSchemaDataContext/Attribute" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e3e8570f-d1e5-4b29-a13f-f41de273905b" absoluteBounds="1.3899999999999997, 4.46, 1.9700000000000002, 3.494405110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.9375 : 4); (1.9375 : 2.7)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/activiserSchemaDataContext/Attribute/Attribute_FormField" />
+      <nodes>
+        <classShapeMoniker Id="3382ab0b-aa97-4d43-b393-0cf539bb09da" />
+        <classShapeMoniker Id="293d76d9-9936-4f93-88a1-c065799b6317" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.125 : 3.67353596153846); (2.6875025 : 3.67353596153846); (2.6875025 : 4)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/activiserSchemaDataContext/Entity/Entity_Attribute" />
+      <nodes>
+        <classShapeMoniker Id="fa2d655e-1bb9-454a-a64f-025a2a701908" />
+        <classShapeMoniker Id="3382ab0b-aa97-4d43-b393-0cf539bb09da" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1bee7a39-57d4-4992-a7e9-8b93672fd948" absoluteBounds="4.875, 4.5, 2, 1.4248478190104166">
+      <DataClassMoniker Name="/activiserSchemaDataContext/AttributeType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d68fb9a-13e2-47ea-9d3a-55a83cc1a811" absoluteBounds="4.89, 4.96, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6 : 4.5); (6 : 4.075)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/activiserSchemaDataContext/AttributeType/AttributeType_Entity" />
+      <nodes>
+        <classShapeMoniker Id="1bee7a39-57d4-4992-a7e9-8b93672fd948" />
+        <classShapeMoniker Id="fa2d655e-1bb9-454a-a64f-025a2a701908" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.875 : 5.21242390950521); (2.375 : 5.21242390950521); (2.375 : 4.45)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/activiserSchemaDataContext/AttributeType/AttributeType_Attribute" />
+      <nodes>
+        <classShapeMoniker Id="1bee7a39-57d4-4992-a7e9-8b93672fd948" />
+        <classShapeMoniker Id="3382ab0b-aa97-4d43-b393-0cf539bb09da" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8ad004f2-b4bb-4015-a810-3a10245b841d" isExpanded="false" absoluteBounds="0.75, 0.875, 2, 0.45">
+      <DataClassMoniker Name="/activiserSchemaDataContext/Form" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df148dca-d0e5-41ae-8bdb-e0e0e559d3ac" absoluteBounds="0.765, 1.335, 1.9700000000000002, 3.823099772135417" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.625 : 1.325); (1.625 : 2.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/activiserSchemaDataContext/Form/Form_FormField" />
+      <nodes>
+        <classShapeMoniker Id="8ad004f2-b4bb-4015-a810-3a10245b841d" />
+        <classShapeMoniker Id="293d76d9-9936-4f93-88a1-c065799b6317" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.34375 : 3.625); (6.34375 : 1.1); (2.75 : 1.1)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/activiserSchemaDataContext/Entity/Entity_Form" />
+      <nodes>
+        <classShapeMoniker Id="fa2d655e-1bb9-454a-a64f-025a2a701908" />
+        <classShapeMoniker Id="8ad004f2-b4bb-4015-a810-3a10245b841d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.9218725 : 3.625); (5.9218725 : 1.2437525); (2.75 : 1.2437525)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/activiserSchemaDataContext/Entity/Entity_Form1" />
+      <nodes>
+        <classShapeMoniker Id="fa2d655e-1bb9-454a-a64f-025a2a701908" />
+        <classShapeMoniker Id="8ad004f2-b4bb-4015-a810-3a10245b841d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b041ffa1-32b3-48d1-9afb-a6c1f61d7e1e" isExpanded="false" absoluteBounds="3.5, 1.625, 2, 0.45">
+      <DataClassMoniker Name="/activiserSchemaDataContext/Client" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e66b6bec-ab2c-4ec9-968d-e8a43c76acc8" absoluteBounds="3.5149999999999997, 2.085, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DocumentXComments Version="4.0" Moniker="bin\debug\AssemblyInfoTask.dll" DocType="dx.Net" Template="" ShowInherited="False" SpellLastCheckDateTime="30/12/1899 00:00:00" TreePath="AssemblyInfoTask" RelatedProject="" LoadIncludeFilter="" LoadExcludeFilter="" LoadPrivate="True">
+    <IgnoreWordList/>
+    <c eid="AssemblyInfoTask" tid="##PROJECT_GETTINGSTARTED" q="" cd="38688.4785416667"><![CDATA[<H1>How To: Auto-Increment Version Numbers for a Project</H1>
+<P>The most common way to use the AssemblyInfo task is to add a reference to the Microsoft.VersionNumber.Targets file to any project file whose AssemblyInfo you want to manage.</P>
+<P>For standard .csproj, .vbproj, and .vjsproj files do the following:</P>
+<OL>
+<LI>Open the project in Visual Studio 2005</LI>
+<LI>Right-click on the project in Solution Explorer and select <EM>Unload Project</EM></LI>
+<LI>Right-click on the project in Solution Explorer and select <EM>Edit &lt;project file&gt;</EM></LI>
+<LI>If the AssemblyInfoTask was installed into the Global Assembly Cache add the following line at the end of the project file after the last&nbsp;<FONT color=#0000ff>&lt;</FONT><FONT color=maroon>Import</FONT><FONT color=blue>&gt;</FONT> tag:<BR><BR><FONT color=blue>&lt;</FONT><FONT color=#800000>Import</FONT> <FONT color=red>Project</FONT><FONT color=#0000ff>=</FONT>"<FONT color=#0000ff>$(MSBuildExtensionsPath)\Microsoft\AssemblyInfoTask\Microsoft.VersionNumber.Targets</FONT>"<FONT color=#0000ff>/&gt;<BR><BR></FONT><FONT color=#000000>If the AssemblyInfoTask was installed into the user's Application Data folder add the following line at the end of the project file after the last <FONT color=#0000ff>&lt;</FONT><FONT color=maroon>Import</FONT><FONT color=blue>&gt;</FONT> tag:<BR><BR><FONT color=#0000ff>&lt;</FONT><FONT color=#800000>Import</FONT> <FONT color=red>Project</FONT><FONT color=#0000ff>=</FONT>"<FONT color=#0000ff>$(APPDATA)\Microsoft\MSBuild\AssemblyInfoTask\Microsoft.VersionNumber.Targets</FONT>"<FONT color=#0000ff>/&gt;</FONT></FONT></LI>
+<LI>Save and close the project file</LI>
+<LI>Right-click on the project in Solution Explorer and select <EM>Reload Project</EM></LI></OL>
+<P>With these project file modifications all builds will have auto-incrementing&nbsp;assembly and file versions of the following format:</P>
+<P>1.0.date.revision</P>
+<P>For example,&nbsp;the first build on November 10th, 2005 will have&nbsp;a&nbsp;version number of:</P>
+<P>1.0.51110.00&nbsp;</P>
+<P>Subsequent builds on the same day will have version numbers 1.0.51110.01, 1.0.51110.02, and so on.</P>
+<BLOCKQUOTE dir=ltr style="MARGIN-RIGHT: 0px">
+<P><STRONG>Note:</STRONG> All AssemblyInfo.* files must have have entries with a starting value of "1.0.0.0" for AssemblyVersion and AssemblyFileVersion so the AssemblyInfoTask will work correctly. If these entries are missing from the files a build error will be generated.</P></BLOCKQUOTE>
+<H1>Overriding the Default Version Number Behaviour</H1>
+<P>In some situations the desired version number behaviour may be different than the defaults offered by the Microsoft.VersionNumber.Targets file.</P>
+<P>To set the assembly and file versions to specific numbers add the appropriate property to your project file. For example, to set the major version to 8, add the following two properties:</P>
+<P>&lt;AssemblyMajorVersion&gt;8&lt;/AssemblyMajorVersion&gt;</P>
+<P>&lt;AssemblyFileMajorVersion&gt;8&lt;/AssemblyFileMajorVersion&gt;</P>
+<P>For more information see the assembly version properties reference.</P>]]></c>
+    <c eid="AssemblyInfoTask" tid="##PROJECT_INTRODUCTION" q="" cd="38688.4784375"><![CDATA[<P>The AssemblyInfo task provides a way to manipulate the content of AssemblyInfo files at build time. It works with C#, VB, and J# AssemblyInfo files. </P>
+<P>For more information on how to get your first build up and running using the task see the <STRONG>Getting Started </STRONG>topic.</P>
+<P>The primary use of the AssemblyInfo task is to set assembly version numbers at build time. The typical way to use it is to add the Microsoft.VersionNumber.Targets file to your project file, and to then specify properties in your project file to control the assembly version numbers.</P>
+<P>Version numbers are of the form A.B.C.D, where:</P>
+<UL class=xmldocbulletlist>
+<LI class=xmldocbulletlist>A is the major version</LI>
+<LI class=xmldocbulletlist>B is the minor version</LI>
+<LI class=xmldocbulletlist>C is the build number</LI>
+<LI class=xmldocbulletlist>D is the revision</LI></UL>
+<P>Typically the major and minor versions are fixed and do not change over the course of multiple daily builds. For example, Visual Studio 2005 has a major and minor version of 8.0. The build number is frequently set to increment on a daily basis, either starting at 1 and continuing from there, or as some representation of the date of the build. For Visual Studio 2005, the build numbers are of the form YYMMDD. The revision is typically used to differentiate between multiple builds on the same day, usually starting at 1 and incrementing for each build.</P>
+<P>To get the standard Visual Studio-style version simply add the Microsoft.VersionNumber.Targets file to your project. To override the default version numbers, such as the major and minor version, you can set the appropriate properties. For more information see the %AssemblyMajorVersion:AssemblyInfoTask~Microsoft.Build.Extras.AssemblyInfo~AssemblyMajorVersion% and %AssemblyMinorVersion:AssemblyInfoTask~Microsoft.Build.Extras.AssemblyInfo~AssemblyMinorVersion% properties. </P>]]></c>
+    <c eid="AssemblyInfoTask~Microsoft.Build.Extras.AssemblyInfo~_ctor" tid="##EXCLUDE" q="" cd="0"/>
+    <c eid="AssemblyInfoTask~Microsoft.Build.Extras.AssemblyInfo~_ctor" tid="##EXCLUDE_TOC" q="" cd="0"/>
+    <c eid="AssemblyInfoTask~Microsoft.Build.Extras.AssemblyInfo~Execute" tid="##EXCLUDE" q="" cd="0"/>
+    <c eid="AssemblyInfoTask~Microsoft.Build.Extras.AssemblyInfo~Execute" tid="##EXCLUDE_TOC" q="" cd="0"/>
+</DocumentXComments>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://www.activiser.com/schemas/Language.xsd" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" xmlns="http://www.activiser.com/schemas/Language.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.activiser.com/schemas/Language.xsd" id="LanguageDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="LanguageDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="StringValue">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="StringID" msprop:Generator_ColumnVarNameInTable="columnCustomStringID" name="StringID" type="xs:int" />
+              <xs:element default="1" name="ClientKey" type="xs:int" />
+              <xs:element default="1" name="LanguageId" type="xs:int" />
+              <xs:element name="ModuleName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StringName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Value">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="CreatedDateTime" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="ModifiedDateTime" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Language">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LanguageId" type="xs:int" />
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="CreatedDateTime" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="ModifiedDateTime" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:StringValue" />
+      <xs:field xpath="mstns:StringID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Language_Constraint1">
+      <xs:selector xpath=".//mstns:Language" />
+      <xs:field xpath="mstns:LanguageId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

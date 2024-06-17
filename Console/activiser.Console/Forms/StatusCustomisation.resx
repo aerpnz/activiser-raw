@@ -1,0 +1,2859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="RequestStatusDisplayOrderLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RequestStatusDisplayOrderLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RequestStatusDisplayOrderLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RequestStatusDisplayOrderLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="RequestStatusDisplayOrderLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 31</value>
+  </data>
+  <data name="RequestStatusDisplayOrderLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="RequestStatusDisplayOrderLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="RequestStatusDisplayOrderLabel.Text" xml:space="preserve">
+    <value>Order:</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDisplayOrderLabel.Name" xml:space="preserve">
+    <value>RequestStatusDisplayOrderLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDisplayOrderLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDisplayOrderLabel.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDisplayOrderLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="RequestStatusColourLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="RequestStatusColourLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RequestStatusColourLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestStatusColourLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 262</value>
+  </data>
+  <data name="RequestStatusColourLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 21</value>
+  </data>
+  <data name="RequestStatusColourLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="RequestStatusColourLabel.Text" xml:space="preserve">
+    <value>Foreground Colour:</value>
+  </data>
+  <data name="RequestStatusColourLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusColourLabel.Name" xml:space="preserve">
+    <value>RequestStatusColourLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusColourLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusColourLabel.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusColourLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="RequestStatusDescriptionLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="RequestStatusDescriptionLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RequestStatusDescriptionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RequestStatusDescriptionLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestStatusDescriptionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 54</value>
+  </data>
+  <data name="RequestStatusDescriptionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="RequestStatusDescriptionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="RequestStatusDescriptionLabel.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDescriptionLabel.Name" xml:space="preserve">
+    <value>RequestStatusDescriptionLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDescriptionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDescriptionLabel.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDescriptionLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="RequestStatusIDLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="RequestStatusIDLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RequestStatusIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RequestStatusIDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestStatusIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="RequestStatusIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="RequestStatusIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="RequestStatusIDLabel.Text" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIDLabel.Name" xml:space="preserve">
+    <value>RequestStatusIDLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIDLabel.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIDLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="RequestStatusBackColourLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="RequestStatusBackColourLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RequestStatusBackColourLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestStatusBackColourLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 286</value>
+  </data>
+  <data name="RequestStatusBackColourLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 21</value>
+  </data>
+  <data name="RequestStatusBackColourLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="RequestStatusBackColourLabel.Text" xml:space="preserve">
+    <value>Background Colour:</value>
+  </data>
+  <data name="RequestStatusBackColourLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusBackColourLabel.Name" xml:space="preserve">
+    <value>RequestStatusBackColourLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusBackColourLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusBackColourLabel.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusBackColourLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="ColorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>967, 17</value>
+  </metadata>
+  <metadata name="MainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="FileSaveMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAixJREFUOE+tk91L
+        k3EUx/cvdN9N0EW3NTWGa7EaPOUcyqphWBG9PZEv5dJlmqhYmUYtXyBb4dJJy+kknFT4BqZIjaFMJUsz
+        V7TEoabYRDD49ju/6Pm1Mi+iH5zLz+c855zvo1L9j/fsaRRUvvZltHmX8Ni9gMaGCO47ZlBb8wn22yHc
+        KJ9CackECgteIy93FBfOB6H0JrC3B6ipXsVGb2V1Dca0XhxOe8JLEXhbF7mgsuLLX3mCIwsr2G1+DrVa
+        huWQRwjcj+a5oLTk87qCn/D78CLiTD4UXJ7GAXOTEDjrZ7ngku3dH4Jf4ZHJCLZJXlhzxpGa4hSCurth
+        LsjOGo0R/A4PBsPYrHdDlgMwmRxCUF31kQvkMwFFsB7c4/+ATYkNOHL0BZKSaoXgZuU0urvATgkcP/kK
+        lmMDfNu0MJqZPps6/4D7cNDSCUmyC8HVskl0+MAyADS5vrG7f0X59Tm+VFoYzZyZEVTg5NR2GAwVQnCl
+        cByeZuChc40FJwpjek5MmU/YkH6uiHdOTmHwfg/0+jIhsOWNMRiouhPlnUnAQoI4rYSht7MYm5qDnHsN
+        e41tHNbucUGnKxICiqXjHpTPJgHBZ/Nv4U1oHqGZJVwstiNe72JwI+J3PYA2MV8IMjOG2dzLfOatBg+2
+        7JDQ0tEPX9cguvv8GHg5hH0mC9S6eiQweLumDhqNVQgo06dP9fN4UsIoJHRnOhVtmxZGM1NXKoJ3JmTH
+        Cv71r/4OTrQ4xWMwWlcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="FileSaveMenuItem.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="FileSaveMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="FileSaveMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="FileSaveMenuItem.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="FileMenuSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 6</value>
+  </data>
+  <data name="FileExitMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="FileExitMenuItem.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="FileMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 20</value>
+  </data>
+  <data name="FileMenu.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="HelpContentsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="HelpContentsMenuItem.Text" xml:space="preserve">
+    <value>&amp;Contents</value>
+  </data>
+  <data name="HelpContentsMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="HelpIndexMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="HelpIndexMenuItem.Text" xml:space="preserve">
+    <value>&amp;Index</value>
+  </data>
+  <data name="HelpIndexMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="HelpSearchMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="HelpSearchMenuItem.Text" xml:space="preserve">
+    <value>&amp;Search</value>
+  </data>
+  <data name="HelpSearchMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="HelpMenuSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 6</value>
+  </data>
+  <data name="HelpMenuSeparator.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="HelpMenuAboutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="HelpMenuAboutButton.Text" xml:space="preserve">
+    <value>&amp;About...</value>
+  </data>
+  <data name="HelpMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="HelpMenu.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="MainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 24</value>
+  </data>
+  <data name="MainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MainMenu.Name" xml:space="preserve">
+    <value>MainMenu</value>
+  </data>
+  <data name="&gt;&gt;MainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="ClientSiteStatusID.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ClientSiteStatusID.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ClientSiteStatusIsActiveColumn.HeaderText" xml:space="preserve">
+    <value>IsActive</value>
+  </data>
+  <data name="ClientSiteStatusDescriptionColumn.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <metadata name="ClientSiteStatusBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>273, 17</value>
+  </metadata>
+  <metadata name="CustomisationTables.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>119, 17</value>
+  </metadata>
+  <data name="ClientSiteStatusDataGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ClientSiteStatusDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ClientSiteStatusDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 258</value>
+  </data>
+  <data name="ClientSiteStatusDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusDataGridView.Name" xml:space="preserve">
+    <value>ClientSiteStatusDataGridView</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusDataGridView.Parent" xml:space="preserve">
+    <value>ClientSiteStatusTab</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusDataGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClientSiteStatusNotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ClientSiteStatusNotes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ClientSiteStatusNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="ClientSiteStatusNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 67</value>
+  </data>
+  <data name="ClientSiteStatusNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ClientSiteStatusNotes.Text" xml:space="preserve">
+    <value>Deleting a status may cause synchronisation problems if the status was recently in use as it may still be in use on an activiser client system</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusNotes.Name" xml:space="preserve">
+    <value>ClientSiteStatusNotes</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusNotes.Parent" xml:space="preserve">
+    <value>ClientSiteStatusNotesGroup</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusNotes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClientSiteStatusNotesGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ClientSiteStatusNotesGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 261</value>
+  </data>
+  <data name="ClientSiteStatusNotesGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 86</value>
+  </data>
+  <data name="ClientSiteStatusNotesGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="ClientSiteStatusNotesGroup.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusNotesGroup.Name" xml:space="preserve">
+    <value>ClientSiteStatusNotesGroup</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusNotesGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusNotesGroup.Parent" xml:space="preserve">
+    <value>ClientSiteStatusTab</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusNotesGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="ClientSiteStatusToolbar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>154, 54</value>
+  </metadata>
+  <data name="ClientSiteStatusToolbarAddNewButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAU1JREFUOE9jYBi0
+        4O4C9v+35nH+vzqH6//FGbz/SXbodaDGP48a//952PD/5GQB0g04P50XbsDBHhHSDTg+SRBoe93/Pw+q
+        /u9oFydswKWZPP/PTuX7fxKo8Ui/0P993SJAzeX//94r+r++Qeb/qhq5/0srFf/PL1X+P6tIFdPAU0B/
+        /nlYD9RUC8SV///cKwHivP9/72b+/3sn+f/f23H//92MAOKQ/5NyNDENONQrDHbu3/ulQI0FQI3ZQI2p
+        QI0J///digZqDPv/70bQ/3/X/f53peliGrCzXeL/lmap/+vAzpX/v6RC8f/fWzFAjeH/p+Zp/J+QpfW/
+        O0P3f3uq/v/mREPCYTIb6E+Qc//dCPjfk6FDWAN6QgH5898NfyD2+9+arE+6Ad3pumD/gnB9nBHpBrQk
+        GfxviDf8XxNr/L8y2oR0A0hO++RqAAAkI9ieo+gjUwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ClientSiteStatusToolbarAddNewButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClientSiteStatusToolbarAddNewButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ClientSiteStatusToolbarAddNewButton.Text" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="ClientSiteStatusToolbarCountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="ClientSiteStatusToolbarCountLabel.Text" xml:space="preserve">
+    <value>of {0}</value>
+  </data>
+  <data name="ClientSiteStatusToolbarCountLabel.ToolTipText" xml:space="preserve">
+    <value>Total number of items</value>
+  </data>
+  <data name="ClientSiteStatusToolbarDeleteButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ClientSiteStatusToolbarDeleteButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAW9JREFUOE+tkk0o
+        w3EYx3dV3kq5uKBWDiPT8hISMiQsMiEyQ9qBg0hoFwcHUi7kgIvkQFJSTrQ4zdvmrTW1/kuT0i74x+X3
+        MRal/fEnv8tz+H2fz/N8vz0azX88PG6wmcDp4E881hYR3VUIixF2Nr+FcO2DlbnPGjaWoM+M6DAiOitg
+        YUoR8rqhsJTBWG/kP6fOMKTegGjKh/7mTyIx0oUw58C0/XubLM8iKtPeQIx2gfcMJgbD0FBVlRE+D7QU
+        hS2ZshANuTDQqq75fQIHe6GVcxHV6VCr/2VzQIKmAshOQNbHc6+PhTqDOggBP5jzoDCJoLUaLo7fwr3V
+        hSCr8z8EeHcLbSU8FCfjLU0nuL/70cB4Py5tDLL7UBnC8xMMW6EkhRNdIsGt9QjhTXkGUnsN8rVf4Q72
+        tpFzEnGlRiH1NIL8qDjJoY1DdjkVADNjSGnReI2ZIF196VW22+D8SAFw6YLJITjaV5e2qotSIXoBiiMD
+        HEVvQ/IAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ClientSiteStatusToolbarDeleteButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClientSiteStatusToolbarDeleteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ClientSiteStatusToolbarDeleteButton.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ClientSiteStatusToolbar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveFirstButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAStJREFUOE9jYBg0
+        oHDW8/9NC57/z5z4+D8uR4W3P8Apx5A789n/VUfe/8elKL77wf/ghmu4DciY8vT/wn0fsCqK73n4f+n+
+        ///9qy/gNiCh58n/aVveYyiKaL8P1pw56/9/r9ITuA2I7Hr0v3f1BxRFoa33wJpb1wFt7/z73yX/AG4D
+        Apsf/q+b/w6uKLjl7v9Fe///7wBqzpjz879d3c//9hnbcRvgUXX/f/60NyiK7Ipv/0+f8/u/f9e3/zqF
+        7/5bJKzHbYB96d3/2ZNfYyjSTzn/36ToxX+VrE//jSOX4TbAIu/O/9T+11gVGSSd+C+b9vW/bvA83AYY
+        Zt3+H9byEqci/dTL/zV8p+E2QCftxn+/6od4Fal4TMBtgFPulf8gBXgVDZqMh+wQAPB2wKsSwCgmAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveFirstButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveFirstButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveFirstButton.Text" xml:space="preserve">
+    <value>Move first</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMovePreviousButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAL1JREFUOE9jYBgy
+        ILz9wX+yHRvf/eB/cMM18gyI73n4f+n+///9qy+QbkBE+32w5sxZ//97lZ4gzYDQ1ntgza3rgLZ3/v3v
+        kn+AeAOCW+7+X7T3//8OoOaMOT//29X9/G+fsZ14A0ChbVd8+3/6nN///bu+/dcpfPffImE9aQaADNFP
+        Of/fpOjFf5WsT/+NI5eRbgDIEIOkE/9l077+1w2eR54BYJekXv6v4TuNfANAhqh4TKDMALKTMc01AgDQ
+        FGCYkuTLEQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMovePreviousButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMovePreviousButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMovePreviousButton.Text" xml:space="preserve">
+    <value>Move previous</value>
+  </data>
+  <data name="ClientSiteStatusToolbarSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ClientSiteStatusToolbarPositionButton.AccessibleName" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="ClientSiteStatusToolbarPositionButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ClientSiteStatusToolbarPositionButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="ClientSiteStatusToolbarPositionButton.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClientSiteStatusToolbarPositionButton.ToolTipText" xml:space="preserve">
+    <value>Current position</value>
+  </data>
+  <data name="ClientSiteStatusToolbarSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveNextButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKtJREFUOE9jYBh0
+        oHDW8/8UOSp35rP/Cd33yDckY8rT//P2//6f0HWHPEMSep78n73v1//OrX//u5VeJt2QyK5H/6ds+/W/
+        ZOnf/wnT//63yT1LmiGBzQ//t659D9ZsXPLlv3T0tf/GkcuIN8Sj6v7/krnv4JoVXXqI1wyKPvvSu/8D
+        W56BbSZZM8gAi7w7/20KrpCnGWSAYdZt8jWDDNBJu0GanylKtoNCMwCgfl+gC2KedgAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveNextButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveNextButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveNextButton.Text" xml:space="preserve">
+    <value>Move next</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveLastButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAATBJREFUOE9jYBhU
+        oHDW8/+4HASSa1rw/H/mxMc41TDkznz2P6H7HlYFILlVR97/D29/gNuAjClP/8/b//t/QtcdDEUguYX7
+        PvwPbriG24CEnif/Z+/79b9z69//bqWXURSC5KZtef/fv/oCbgMiux79n7Lt1/+SpX//J0z/+98m9yxc
+        MUiud/WH/16lJ3AbENj88H/r2vdgzcYlX/5LR1/7bxy5DKwBJFc3/91/l/wDuA3wqLr/v2TuO7hmRZce
+        uGKQXP60N//tM7bjNsC+9O7/wJZnYJuRNYNcAJLLnvz6v0XCetwGWOTd+W9TcAVDM8gAkFxq/2u4l7Cm
+        F8Os21g1gxSD5MJaXv7XDZ6H2wU6aTdwSoLk/Kof/tfwnYbbAHz5yin3yn8VjwlgPKjyHwMAvtG/s0Vm
+        x8MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveLastButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveLastButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ClientSiteStatusToolbarMoveLastButton.Text" xml:space="preserve">
+    <value>Move last</value>
+  </data>
+  <data name="ClientSiteStatusToolbarSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ClientSiteStatusToolbarSaveButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAilJREFUOE+tk91L
+        k3EUx/cvdN9N0EW3NTWGa7EaPOUcyqphWBG9PZEv5dJlmqhYmUYtXyBb4dJJy+kknFT4BqZIjaFMJUsz
+        V7TEoabYRDD49ju/6Pm1Mm/qB+fy8znPOef7qFT/4z17GgWVr30Zbd4lPHYvoLEhgvuOGdTWfIL9dgg3
+        yqdQWjKBwoLXyMsdxYXzQSi9CeztAWqqV7HRW1ldgzGtF4fTnvBSBN7WRS6orPjyV57gyMIKdpufQ62W
+        YTnkEQL3o3kuKC35vK7gJ/w+vIg4kw8Fl6dxwNwkBM76WS64ZHv3h+BXeGQygm2SF9accaSmOIWg7m6Y
+        C7KzRmMEv8ODwTA2692Q5QBMJocQVFd95AL5TEARrAf3+D9gU2IDjhx9gaSkWiG4WTmN7i6wUwLHT76C
+        5dgA3zYtjGamz6bOP+A+HLR0QpLsQnC1bBIdPrAMAE2ub+zuX1F+fY4vlRZGM2dmBBU4ObUdBkOFEFwp
+        HIenGXjoXGPBicKYnhNT5hM2pJ8r4p2TUxi83wO9vkwIbHljDAaq7kR5ZxJQSOK0EobezmJsag5y7jXs
+        NbZxWLvHBZ2uSAgolo57UD6bBASfzb+FN6F5hGaWcLHYjni9i8GNiN/1ANrEfCHIzBhmcy/zmbcaPNiy
+        Q0JLRz98XYPo7vNj4OUQ9pksUOvqkcDg7Zo6aDTWWMHpU/08npQwCgndmU5F26aF0czUlYrgnQnZQvAv
+        f/R3bGg6a0rM640AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ClientSiteStatusToolbarSaveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ClientSiteStatusToolbarSaveButton.Text" xml:space="preserve">
+    <value>Save Data</value>
+  </data>
+  <data name="ClientSiteStatusToolbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 347</value>
+  </data>
+  <data name="ClientSiteStatusToolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 25</value>
+  </data>
+  <data name="ClientSiteStatusToolbar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ClientSiteStatusToolbar.Text" xml:space="preserve">
+    <value>BindingNavigator1</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbar.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbar</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingNavigator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbar.Parent" xml:space="preserve">
+    <value>ClientSiteStatusTab</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ClientSiteStatusTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="ClientSiteStatusTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="ClientSiteStatusTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 375</value>
+  </data>
+  <data name="ClientSiteStatusTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ClientSiteStatusTab.Text" xml:space="preserve">
+    <value>Client Site Status</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusTab.Name" xml:space="preserve">
+    <value>ClientSiteStatusTab</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="JobStatusNotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="JobStatusNotes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="JobStatusNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="JobStatusNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 43</value>
+  </data>
+  <data name="JobStatusNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="JobStatusNotes.Text" xml:space="preserve">
+    <value>1) Job Status codes may not be added nor removed.
+2) You may change the descriptions, but this will have no effect on how they are used by activiser.</value>
+  </data>
+  <data name="&gt;&gt;JobStatusNotes.Name" xml:space="preserve">
+    <value>JobStatusNotes</value>
+  </data>
+  <data name="&gt;&gt;JobStatusNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusNotes.Parent" xml:space="preserve">
+    <value>JobStatusNotesGroup</value>
+  </data>
+  <data name="&gt;&gt;JobStatusNotes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="JobStatusNotesGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="JobStatusNotesGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 285</value>
+  </data>
+  <data name="JobStatusNotesGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 62</value>
+  </data>
+  <data name="JobStatusNotesGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="JobStatusNotesGroup.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="&gt;&gt;JobStatusNotesGroup.Name" xml:space="preserve">
+    <value>JobStatusNotesGroup</value>
+  </data>
+  <data name="&gt;&gt;JobStatusNotesGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusNotesGroup.Parent" xml:space="preserve">
+    <value>JobStatusTab</value>
+  </data>
+  <data name="&gt;&gt;JobStatusNotesGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="JobStatusDescriptionColumn.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <metadata name="JobStatusBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>473, 17</value>
+  </metadata>
+  <data name="JobStatusDataGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="JobStatusDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="JobStatusDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 344</value>
+  </data>
+  <data name="JobStatusDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;JobStatusDataGridView.Name" xml:space="preserve">
+    <value>JobStatusDataGridView</value>
+  </data>
+  <data name="&gt;&gt;JobStatusDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusDataGridView.Parent" xml:space="preserve">
+    <value>JobStatusTab</value>
+  </data>
+  <data name="&gt;&gt;JobStatusDataGridView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="JobStatusToolbar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>3, 347</value>
+  </metadata>
+  <data name="JobStatusToolbarCountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="JobStatusToolbarCountLabel.Text" xml:space="preserve">
+    <value>of {0}</value>
+  </data>
+  <data name="JobStatusToolbarCountLabel.ToolTipText" xml:space="preserve">
+    <value>Total number of items</value>
+  </data>
+  <data name="JobStatusToolbar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="JobStatusToolbarMoveFirstButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAStJREFUOE9jYBg0
+        oHDW8/9NC57/z5z4+D8uR4W3P8Apx5A789n/VUfe/8elKL77wf/ghmu4DciY8vT/wn0fsCqK73n4f+n+
+        ///9qy/gNiCh58n/aVveYyiKaL8P1pw56/9/r9ITuA2I7Hr0v3f1BxRFoa33wJpb1wFt7/z73yX/AG4D
+        Apsf/q+b/w6uKLjl7v9Fe///7wBqzpjz879d3c//9hnbcRvgUXX/f/60NyiK7Ipv/0+f8/u/f9e3/zqF
+        7/5bJKzHbYB96d3/2ZNfYyjSTzn/36ToxX+VrE//jSOX4TbAIu/O/9T+11gVGSSd+C+b9vW/bvA83AYY
+        Zt3+H9byEqci/dTL/zV8p+E2QCftxn+/6od4Fal4TMBtgFPulf8gBXgVDZqMh+wQAPB2wKsSwCgmAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="JobStatusToolbarMoveFirstButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="JobStatusToolbarMoveFirstButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="JobStatusToolbarMoveFirstButton.Text" xml:space="preserve">
+    <value>Move first</value>
+  </data>
+  <data name="JobStatusToolbarMovePreviousButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAL1JREFUOE9jYBgy
+        ILz9wX+yHRvf/eB/cMM18gyI73n4f+n+///9qy+QbkBE+32w5sxZ//97lZ4gzYDQ1ntgza3rgLZ3/v3v
+        kn+AeAOCW+7+X7T3//8OoOaMOT//29X9/G+fsZ14A0ChbVd8+3/6nN///bu+/dcpfPffImE9aQaADNFP
+        Of/fpOjFf5WsT/+NI5eRbgDIEIOkE/9l077+1w2eR54BYJekXv6v4TuNfANAhqh4TKDMALKTMc01AgDQ
+        FGCYkuTLEQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="JobStatusToolbarMovePreviousButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="JobStatusToolbarMovePreviousButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="JobStatusToolbarMovePreviousButton.Text" xml:space="preserve">
+    <value>Move previous</value>
+  </data>
+  <data name="JobStatusToolbarSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="JobStatusToolbarPositionButton.AccessibleName" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="JobStatusToolbarPositionButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="JobStatusToolbarPositionButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="JobStatusToolbarPositionButton.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="JobStatusToolbarPositionButton.ToolTipText" xml:space="preserve">
+    <value>Current position</value>
+  </data>
+  <data name="JobStatusToolbarSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="JobStatusToolbarMoveNextButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKtJREFUOE9jYBh0
+        oHDW8/8UOSp35rP/Cd33yDckY8rT//P2//6f0HWHPEMSep78n73v1//OrX//u5VeJt2QyK5H/6ds+/W/
+        ZOnf/wnT//63yT1LmiGBzQ//t659D9ZsXPLlv3T0tf/GkcuIN8Sj6v7/krnv4JoVXXqI1wyKPvvSu/8D
+        W56BbSZZM8gAi7w7/20KrpCnGWSAYdZt8jWDDNBJu0GanylKtoNCMwCgfl+gC2KedgAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="JobStatusToolbarMoveNextButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="JobStatusToolbarMoveNextButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="JobStatusToolbarMoveNextButton.Text" xml:space="preserve">
+    <value>Move next</value>
+  </data>
+  <data name="JobStatusToolbarMoveLastButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAATBJREFUOE9jYBhU
+        oHDW8/+4HASSa1rw/H/mxMc41TDkznz2P6H7HlYFILlVR97/D29/gNuAjClP/8/b//t/QtcdDEUguYX7
+        PvwPbriG24CEnif/Z+/79b9z69//bqWXURSC5KZtef/fv/oCbgMiux79n7Lt1/+SpX//J0z/+98m9yxc
+        MUiud/WH/16lJ3AbENj88H/r2vdgzcYlX/5LR1/7bxy5DKwBJFc3/91/l/wDuA3wqLr/v2TuO7hmRZce
+        uGKQXP60N//tM7bjNsC+9O7/wJZnYJuRNYNcAJLLnvz6v0XCetwGWOTd+W9TcAVDM8gAkFxq/2u4l7Cm
+        F8Os21g1gxSD5MJaXv7XDZ6H2wU6aTdwSoLk/Kof/tfwnYbbAHz5yin3yn8VjwlgPKjyHwMAvtG/s0Vm
+        x8MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="JobStatusToolbarMoveLastButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="JobStatusToolbarMoveLastButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="JobStatusToolbarMoveLastButton.Text" xml:space="preserve">
+    <value>Move last</value>
+  </data>
+  <data name="JobStatusToolbarSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="JobStatusToolbarSaveButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAilJREFUOE+tk91L
+        k3EUx/cvdN9N0EW3NTWGa7EaPOUcyqphWBG9PZEv5dJlmqhYmUYtXyBb4dJJy+kknFT4BqZIjaFMJUsz
+        V7TEoabYRDD49ju/6Pm1Mm/qB+fy8znPOef7qFT/4z17GgWVr30Zbd4lPHYvoLEhgvuOGdTWfIL9dgg3
+        yqdQWjKBwoLXyMsdxYXzQSi9CeztAWqqV7HRW1ldgzGtF4fTnvBSBN7WRS6orPjyV57gyMIKdpufQ62W
+        YTnkEQL3o3kuKC35vK7gJ/w+vIg4kw8Fl6dxwNwkBM76WS64ZHv3h+BXeGQygm2SF9accaSmOIWg7m6Y
+        C7KzRmMEv8ODwTA2692Q5QBMJocQVFd95AL5TEARrAf3+D9gU2IDjhx9gaSkWiG4WTmN7i6wUwLHT76C
+        5dgA3zYtjGamz6bOP+A+HLR0QpLsQnC1bBIdPrAMAE2ub+zuX1F+fY4vlRZGM2dmBBU4ObUdBkOFEFwp
+        HIenGXjoXGPBicKYnhNT5hM2pJ8r4p2TUxi83wO9vkwIbHljDAaq7kR5ZxJQSOK0EobezmJsag5y7jXs
+        NbZxWLvHBZ2uSAgolo57UD6bBASfzb+FN6F5hGaWcLHYjni9i8GNiN/1ANrEfCHIzBhmcy/zmbcaPNiy
+        Q0JLRz98XYPo7vNj4OUQ9pksUOvqkcDg7Zo6aDTWWMHpU/08npQwCgndmU5F26aF0czUlYrgnQnZQvAv
+        f/R3bGg6a0rM640AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="JobStatusToolbarSaveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="JobStatusToolbarSaveButton.Text" xml:space="preserve">
+    <value>Save Data</value>
+  </data>
+  <data name="JobStatusToolbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 347</value>
+  </data>
+  <data name="JobStatusToolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 25</value>
+  </data>
+  <data name="JobStatusToolbar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="JobStatusToolbar.Text" xml:space="preserve">
+    <value>BindingNavigator1</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbar.Name" xml:space="preserve">
+    <value>JobStatusToolbar</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingNavigator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbar.Parent" xml:space="preserve">
+    <value>JobStatusTab</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="JobStatusTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="JobStatusTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="JobStatusTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 375</value>
+  </data>
+  <data name="JobStatusTab.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="JobStatusTab.Text" xml:space="preserve">
+    <value>Job Status</value>
+  </data>
+  <data name="&gt;&gt;JobStatusTab.Name" xml:space="preserve">
+    <value>JobStatusTab</value>
+  </data>
+  <data name="&gt;&gt;JobStatusTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;JobStatusTab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="RequestStatusIDColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RequestStatusIDColumn.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="RequestStatusIDColumn.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="RequestStatusOrderColumn.HeaderText" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="RequestStatusOrderColumn.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="RequestStatusDescriptionColumn.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <metadata name="RequestStatusBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>773, 17</value>
+  </metadata>
+  <data name="RequestStatusDataGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="RequestStatusDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="RequestStatusDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 312</value>
+  </data>
+  <data name="RequestStatusDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDataGridView.Name" xml:space="preserve">
+    <value>RequestStatusDataGridView</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDataGridView.Parent" xml:space="preserve">
+    <value>RequestStatusTab</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDataGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RequestStatusCategoryGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RequestStatusIsCancelledStatusLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestStatusIsCancelledStatusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 69</value>
+  </data>
+  <data name="RequestStatusIsCancelledStatusLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="RequestStatusIsCancelledStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 24</value>
+  </data>
+  <data name="RequestStatusIsCancelledStatusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="RequestStatusIsCancelledStatusLabel.Text" xml:space="preserve">
+    <value>Is Cancelled Status:</value>
+  </data>
+  <data name="RequestStatusIsCancelledStatusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsCancelledStatusLabel.Name" xml:space="preserve">
+    <value>RequestStatusIsCancelledStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsCancelledStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsCancelledStatusLabel.Parent" xml:space="preserve">
+    <value>RequestStatusCategoryGroup</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsCancelledStatusLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RequestStatusIsCompleteStatusLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestStatusIsCompleteStatusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 50</value>
+  </data>
+  <data name="RequestStatusIsCompleteStatusLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="RequestStatusIsCompleteStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 24</value>
+  </data>
+  <data name="RequestStatusIsCompleteStatusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="RequestStatusIsCompleteStatusLabel.Text" xml:space="preserve">
+    <value>Is Complete Status:</value>
+  </data>
+  <data name="RequestStatusIsCompleteStatusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsCompleteStatusLabel.Name" xml:space="preserve">
+    <value>RequestStatusIsCompleteStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsCompleteStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsCompleteStatusLabel.Parent" xml:space="preserve">
+    <value>RequestStatusCategoryGroup</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsCompleteStatusLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RequestStatusIsInProgressStatusLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestStatusIsInProgressStatusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 30</value>
+  </data>
+  <data name="RequestStatusIsInProgressStatusLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="RequestStatusIsInProgressStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 24</value>
+  </data>
+  <data name="RequestStatusIsInProgressStatusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="RequestStatusIsInProgressStatusLabel.Text" xml:space="preserve">
+    <value>Is In Progress Status:</value>
+  </data>
+  <data name="RequestStatusIsInProgressStatusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsInProgressStatusLabel.Name" xml:space="preserve">
+    <value>RequestStatusIsInProgressStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsInProgressStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsInProgressStatusLabel.Parent" xml:space="preserve">
+    <value>RequestStatusCategoryGroup</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsInProgressStatusLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RequestStatusIsNewStatusLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestStatusIsNewStatusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 11</value>
+  </data>
+  <data name="RequestStatusIsNewStatusLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="RequestStatusIsNewStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 24</value>
+  </data>
+  <data name="RequestStatusIsNewStatusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="RequestStatusIsNewStatusLabel.Text" xml:space="preserve">
+    <value>Is New Status:</value>
+  </data>
+  <data name="RequestStatusIsNewStatusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsNewStatusLabel.Name" xml:space="preserve">
+    <value>RequestStatusIsNewStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsNewStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsNewStatusLabel.Parent" xml:space="preserve">
+    <value>RequestStatusCategoryGroup</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsNewStatusLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RequestStatusCategoryGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 154</value>
+  </data>
+  <data name="RequestStatusCategoryGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 99</value>
+  </data>
+  <data name="RequestStatusCategoryGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="RequestStatusCategoryGroup.Text" xml:space="preserve">
+    <value>Status Category</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusCategoryGroup.Name" xml:space="preserve">
+    <value>RequestStatusCategoryGroup</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusCategoryGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusCategoryGroup.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusCategoryGroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RequestStatusBackColourPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RequestStatusBackColourPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 286</value>
+  </data>
+  <data name="RequestStatusBackColourPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="RequestStatusBackColourPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusBackColourPanel.Name" xml:space="preserve">
+    <value>RequestStatusBackColourPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusBackColourPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusBackColourPanel.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusBackColourPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RequestStatusDescriptionTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RequestStatusDescriptionTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 51</value>
+  </data>
+  <data name="RequestStatusDescriptionTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 20</value>
+  </data>
+  <data name="RequestStatusDescriptionTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDescriptionTextBox.Name" xml:space="preserve">
+    <value>RequestStatusDescriptionTextBox</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDescriptionTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDescriptionTextBox.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDescriptionTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ActiviserClientSettingsGroupLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RequestStatusIsReasonRequiredLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestStatusIsReasonRequiredLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="RequestStatusIsReasonRequiredLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="RequestStatusIsReasonRequiredLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 24</value>
+  </data>
+  <data name="RequestStatusIsReasonRequiredLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="RequestStatusIsReasonRequiredLabel.Text" xml:space="preserve">
+    <value>Is Reason Required:</value>
+  </data>
+  <data name="RequestStatusIsReasonRequiredLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsReasonRequiredLabel.Name" xml:space="preserve">
+    <value>RequestStatusIsReasonRequiredLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsReasonRequiredLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsReasonRequiredLabel.Parent" xml:space="preserve">
+    <value>ActiviserClientSettingsGroupLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsReasonRequiredLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RequestStatusIsClientMenuItemLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestStatusIsClientMenuItemLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 14</value>
+  </data>
+  <data name="RequestStatusIsClientMenuItemLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="RequestStatusIsClientMenuItemLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 24</value>
+  </data>
+  <data name="RequestStatusIsClientMenuItemLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="RequestStatusIsClientMenuItemLabel.Text" xml:space="preserve">
+    <value>Is Client Menu Item:</value>
+  </data>
+  <data name="RequestStatusIsClientMenuItemLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsClientMenuItemLabel.Name" xml:space="preserve">
+    <value>RequestStatusIsClientMenuItemLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsClientMenuItemLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsClientMenuItemLabel.Parent" xml:space="preserve">
+    <value>ActiviserClientSettingsGroupLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIsClientMenuItemLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ActiviserClientSettingsGroupLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 87</value>
+  </data>
+  <data name="ActiviserClientSettingsGroupLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 61</value>
+  </data>
+  <data name="ActiviserClientSettingsGroupLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="ActiviserClientSettingsGroupLabel.Text" xml:space="preserve">
+    <value>Client Settings</value>
+  </data>
+  <data name="&gt;&gt;ActiviserClientSettingsGroupLabel.Name" xml:space="preserve">
+    <value>ActiviserClientSettingsGroupLabel</value>
+  </data>
+  <data name="&gt;&gt;ActiviserClientSettingsGroupLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActiviserClientSettingsGroupLabel.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;ActiviserClientSettingsGroupLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RequestStatusIDNumberBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RequestStatusIDNumberBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 7</value>
+  </data>
+  <data name="RequestStatusIDNumberBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="RequestStatusIDNumberBox.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="RequestStatusIDNumberBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIDNumberBox.Name" xml:space="preserve">
+    <value>RequestStatusIDNumberBox</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIDNumberBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIDNumberBox.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIDNumberBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="RequestStatusColourPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RequestStatusColourPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 262</value>
+  </data>
+  <data name="RequestStatusColourPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="RequestStatusColourPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusColourPanel.Name" xml:space="preserve">
+    <value>RequestStatusColourPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusColourPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusColourPanel.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusColourPanel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="RequestStatusDisplayOrderNumberBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RequestStatusDisplayOrderNumberBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 29</value>
+  </data>
+  <data name="RequestStatusDisplayOrderNumberBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="RequestStatusDisplayOrderNumberBox.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="RequestStatusDisplayOrderNumberBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDisplayOrderNumberBox.Name" xml:space="preserve">
+    <value>RequestStatusDisplayOrderNumberBox</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDisplayOrderNumberBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDisplayOrderNumberBox.Parent" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDisplayOrderNumberBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="RequestStatusDetailsPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="RequestStatusDetailsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 3</value>
+  </data>
+  <data name="RequestStatusDetailsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 312</value>
+  </data>
+  <data name="RequestStatusDetailsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDetailsPanel.Name" xml:space="preserve">
+    <value>RequestStatusDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDetailsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDetailsPanel.Parent" xml:space="preserve">
+    <value>RequestStatusTab</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDetailsPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="RequestStatusToolbar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>321, 54</value>
+  </metadata>
+  <data name="RequestStatusToolbarAddNewButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAU1JREFUOE9jYBi0
+        4O4C9v+35nH+vzqH6//FGbz/SXbodaDGP48a//952PD/5GQB0g04P50XbsDBHhHSDTg+SRBoe93/Pw+q
+        /u9oFydswKWZPP/PTuX7fxKo8Ui/0P993SJAzeX//94r+r++Qeb/qhq5/0srFf/PL1X+P6tIFdPAU0B/
+        /nlYD9RUC8SV///cKwHivP9/72b+/3sn+f/f23H//92MAOKQ/5NyNDENONQrDHbu3/ulQI0FQI3ZQI2p
+        QI0J///digZqDPv/70bQ/3/X/f53peliGrCzXeL/lmap/+vAzpX/v6RC8f/fWzFAjeH/p+Zp/J+QpfW/
+        O0P3f3uq/v/mREPCYTIb6E+Qc//dCPjfk6FDWAN6QgH5898NfyD2+9+arE+6Ad3pumD/gnB9nBHpBrQk
+        GfxviDf8XxNr/L8y2oR0A0hO++RqAAAkI9ieo+gjUwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="RequestStatusToolbarAddNewButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RequestStatusToolbarAddNewButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="RequestStatusToolbarAddNewButton.Text" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="RequestStatusToolbarCountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="RequestStatusToolbarCountLabel.Text" xml:space="preserve">
+    <value>of {0}</value>
+  </data>
+  <data name="RequestStatusToolbarCountLabel.ToolTipText" xml:space="preserve">
+    <value>Total number of items</value>
+  </data>
+  <data name="RequestStatusToolbarMoveFirstButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAStJREFUOE9jYBg0
+        oHDW8/9NC57/z5z4+D8uR4W3P8Apx5A789n/VUfe/8elKL77wf/ghmu4DciY8vT/wn0fsCqK73n4f+n+
+        ///9qy/gNiCh58n/aVveYyiKaL8P1pw56/9/r9ITuA2I7Hr0v3f1BxRFoa33wJpb1wFt7/z73yX/AG4D
+        Apsf/q+b/w6uKLjl7v9Fe///7wBqzpjz879d3c//9hnbcRvgUXX/f/60NyiK7Ipv/0+f8/u/f9e3/zqF
+        7/5bJKzHbYB96d3/2ZNfYyjSTzn/36ToxX+VrE//jSOX4TbAIu/O/9T+11gVGSSd+C+b9vW/bvA83AYY
+        Zt3+H9byEqci/dTL/zV8p+E2QCftxn+/6od4Fal4TMBtgFPulf8gBXgVDZqMh+wQAPB2wKsSwCgmAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="RequestStatusToolbarMoveFirstButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RequestStatusToolbarMoveFirstButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="RequestStatusToolbarMoveFirstButton.Text" xml:space="preserve">
+    <value>Move first</value>
+  </data>
+  <data name="RequestStatusToolbar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="RequestStatusToolbarMovePreviousButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAL1JREFUOE9jYBgy
+        ILz9wX+yHRvf/eB/cMM18gyI73n4f+n+///9qy+QbkBE+32w5sxZ//97lZ4gzYDQ1ntgza3rgLZ3/v3v
+        kn+AeAOCW+7+X7T3//8OoOaMOT//29X9/G+fsZ14A0ChbVd8+3/6nN///bu+/dcpfPffImE9aQaADNFP
+        Of/fpOjFf5WsT/+NI5eRbgDIEIOkE/9l077+1w2eR54BYJekXv6v4TuNfANAhqh4TKDMALKTMc01AgDQ
+        FGCYkuTLEQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="RequestStatusToolbarMovePreviousButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RequestStatusToolbarMovePreviousButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="RequestStatusToolbarMovePreviousButton.Text" xml:space="preserve">
+    <value>Move previous</value>
+  </data>
+  <data name="RequestStatusToolbarSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="RequestStatusToolbarPositionLabel.AccessibleName" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="RequestStatusToolbarPositionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RequestStatusToolbarPositionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="RequestStatusToolbarPositionLabel.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RequestStatusToolbarPositionLabel.ToolTipText" xml:space="preserve">
+    <value>Current position</value>
+  </data>
+  <data name="RequestStatusToolbarSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="RequestStatusToolbarMoveNextButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKtJREFUOE9jYBh0
+        oHDW8/8UOSp35rP/Cd33yDckY8rT//P2//6f0HWHPEMSep78n73v1//OrX//u5VeJt2QyK5H/6ds+/W/
+        ZOnf/wnT//63yT1LmiGBzQ//t659D9ZsXPLlv3T0tf/GkcuIN8Sj6v7/krnv4JoVXXqI1wyKPvvSu/8D
+        W56BbSZZM8gAi7w7/20KrpCnGWSAYdZt8jWDDNBJu0GanylKtoNCMwCgfl+gC2KedgAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="RequestStatusToolbarMoveNextButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RequestStatusToolbarMoveNextButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="RequestStatusToolbarMoveNextButton.Text" xml:space="preserve">
+    <value>Move next</value>
+  </data>
+  <data name="RequestStatusToolbarMoveLastButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAATBJREFUOE9jYBhU
+        oHDW8/+4HASSa1rw/H/mxMc41TDkznz2P6H7HlYFILlVR97/D29/gNuAjClP/8/b//t/QtcdDEUguYX7
+        PvwPbriG24CEnif/Z+/79b9z69//bqWXURSC5KZtef/fv/oCbgMiux79n7Lt1/+SpX//J0z/+98m9yxc
+        MUiud/WH/16lJ3AbENj88H/r2vdgzcYlX/5LR1/7bxy5DKwBJFc3/91/l/wDuA3wqLr/v2TuO7hmRZce
+        uGKQXP60N//tM7bjNsC+9O7/wJZnYJuRNYNcAJLLnvz6v0XCetwGWOTd+W9TcAVDM8gAkFxq/2u4l7Cm
+        F8Os21g1gxSD5MJaXv7XDZ6H2wU6aTdwSoLk/Kof/tfwnYbbAHz5yin3yn8VjwlgPKjyHwMAvtG/s0Vm
+        x8MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="RequestStatusToolbarMoveLastButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RequestStatusToolbarMoveLastButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="RequestStatusToolbarMoveLastButton.Text" xml:space="preserve">
+    <value>Move last</value>
+  </data>
+  <data name="RequestStatusToolbarSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="RequestStatusToolbarDeleteButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RequestStatusToolbarDeleteButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAW9JREFUOE+tkk0o
+        w3EYx3dV3kq5uKBWDiPT8hISMiQsMiEyQ9qBg0hoFwcHUi7kgIvkQFJSTrQ4zdvmrTW1/kuT0i74x+X3
+        MRal/fEnv8tz+H2fz/N8vz0azX88PG6wmcDp4E881hYR3VUIixF2Nr+FcO2DlbnPGjaWoM+M6DAiOitg
+        YUoR8rqhsJTBWG/kP6fOMKTegGjKh/7mTyIx0oUw58C0/XubLM8iKtPeQIx2gfcMJgbD0FBVlRE+D7QU
+        hS2ZshANuTDQqq75fQIHe6GVcxHV6VCr/2VzQIKmAshOQNbHc6+PhTqDOggBP5jzoDCJoLUaLo7fwr3V
+        hSCr8z8EeHcLbSU8FCfjLU0nuL/70cB4Py5tDLL7UBnC8xMMW6EkhRNdIsGt9QjhTXkGUnsN8rVf4Q72
+        tpFzEnGlRiH1NIL8qDjJoY1DdjkVADNjSGnReI2ZIF196VW22+D8SAFw6YLJITjaV5e2qotSIXoBiiMD
+        HEVvQ/IAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="RequestStatusToolbarDeleteButton.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RequestStatusToolbarDeleteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="RequestStatusToolbarDeleteButton.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RequestStatusToolbarDeleteButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RequestStatusToolbarSaveButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAilJREFUOE+tk91L
+        k3EUx/cvdN9N0EW3NTWGa7EaPOUcyqphWBG9PZEv5dJlmqhYmUYtXyBb4dJJy+kknFT4BqZIjaFMJUsz
+        V7TEoabYRDD49ju/6Pm1Mm/qB+fy8znPOef7qFT/4z17GgWVr30Zbd4lPHYvoLEhgvuOGdTWfIL9dgg3
+        yqdQWjKBwoLXyMsdxYXzQSi9CeztAWqqV7HRW1ldgzGtF4fTnvBSBN7WRS6orPjyV57gyMIKdpufQ62W
+        YTnkEQL3o3kuKC35vK7gJ/w+vIg4kw8Fl6dxwNwkBM76WS64ZHv3h+BXeGQygm2SF9accaSmOIWg7m6Y
+        C7KzRmMEv8ODwTA2692Q5QBMJocQVFd95AL5TEARrAf3+D9gU2IDjhx9gaSkWiG4WTmN7i6wUwLHT76C
+        5dgA3zYtjGamz6bOP+A+HLR0QpLsQnC1bBIdPrAMAE2ub+zuX1F+fY4vlRZGM2dmBBU4ObUdBkOFEFwp
+        HIenGXjoXGPBicKYnhNT5hM2pJ8r4p2TUxi83wO9vkwIbHljDAaq7kR5ZxJQSOK0EobezmJsag5y7jXs
+        NbZxWLvHBZ2uSAgolo57UD6bBASfzb+FN6F5hGaWcLHYjni9i8GNiN/1ANrEfCHIzBhmcy/zmbcaPNiy
+        Q0JLRz98XYPo7vNj4OUQ9pksUOvqkcDg7Zo6aDTWWMHpU/08npQwCgndmU5F26aF0czUlYrgnQnZQvAv
+        f/R3bGg6a0rM640AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="RequestStatusToolbarSaveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="RequestStatusToolbarSaveButton.Text" xml:space="preserve">
+    <value>Save Data</value>
+  </data>
+  <data name="RequestStatusToolbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 315</value>
+  </data>
+  <data name="RequestStatusToolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 25</value>
+  </data>
+  <data name="RequestStatusToolbar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RequestStatusToolbar.Text" xml:space="preserve">
+    <value>BindingNavigator1</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbar.Name" xml:space="preserve">
+    <value>RequestStatusToolbar</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingNavigator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbar.Parent" xml:space="preserve">
+    <value>RequestStatusTab</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RequestStatusNotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="RequestStatusNotes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestStatusNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="RequestStatusNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 43</value>
+  </data>
+  <data name="RequestStatusNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RequestStatusNotes.Text" xml:space="preserve">
+    <value>1) A status marked as 'Is Client Status' causes requests with that status to be downloaded to client systems.
+2) A status marked as 'Is Client Menu Item' can be set by a client system.
+3) Status codes may not be deleted using this console, due to the risk of client corruption.</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusNotes.Name" xml:space="preserve">
+    <value>RequestStatusNotes</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusNotes.Parent" xml:space="preserve">
+    <value>RequestStatusNotesGroup</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusNotes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RequestStatusNotesGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="RequestStatusNotesGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 340</value>
+  </data>
+  <data name="RequestStatusNotesGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 62</value>
+  </data>
+  <data name="RequestStatusNotesGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="RequestStatusNotesGroup.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusNotesGroup.Name" xml:space="preserve">
+    <value>RequestStatusNotesGroup</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusNotesGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusNotesGroup.Parent" xml:space="preserve">
+    <value>RequestStatusTab</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusNotesGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RequestStatusTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="RequestStatusTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="RequestStatusTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 405</value>
+  </data>
+  <data name="RequestStatusTab.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="RequestStatusTab.Text" xml:space="preserve">
+    <value>Request Status</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusTab.Name" xml:space="preserve">
+    <value>RequestStatusTab</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SyncMissedMoreThanOneLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SyncMissedMoreThanOneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 85</value>
+  </data>
+  <data name="SyncMissedMoreThanOneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 18</value>
+  </data>
+  <data name="SyncMissedMoreThanOneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="SyncMissedMoreThanOneLabel.Text" xml:space="preserve">
+    <value>Missed 2 or more sync cycles</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedMoreThanOneLabel.Name" xml:space="preserve">
+    <value>SyncMissedMoreThanOneLabel</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedMoreThanOneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedMoreThanOneLabel.Parent" xml:space="preserve">
+    <value>ConsultantStatusTab</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedMoreThanOneLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SyncMissedOneLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SyncMissedOneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 54</value>
+  </data>
+  <data name="SyncMissedOneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 18</value>
+  </data>
+  <data name="SyncMissedOneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SyncMissedOneLabel.Text" xml:space="preserve">
+    <value>Missed one sync cycle</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedOneLabel.Name" xml:space="preserve">
+    <value>SyncMissedOneLabel</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedOneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedOneLabel.Parent" xml:space="preserve">
+    <value>ConsultantStatusTab</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedOneLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SyncOnTimeColour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 24</value>
+  </data>
+  <data name="SyncOnTimeColour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="SyncOnTimeColour.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SyncOnTimeColour.Name" xml:space="preserve">
+    <value>SyncOnTimeColour</value>
+  </data>
+  <data name="&gt;&gt;SyncOnTimeColour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SyncOnTimeColour.Parent" xml:space="preserve">
+    <value>ConsultantStatusTab</value>
+  </data>
+  <data name="&gt;&gt;SyncOnTimeColour.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SyncMissedNoneLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SyncMissedNoneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="SyncMissedNoneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 18</value>
+  </data>
+  <data name="SyncMissedNoneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SyncMissedNoneLabel.Text" xml:space="preserve">
+    <value>Synced within designated sync cycle</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedNoneLabel.Name" xml:space="preserve">
+    <value>SyncMissedNoneLabel</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedNoneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedNoneLabel.Parent" xml:space="preserve">
+    <value>ConsultantStatusTab</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedNoneLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SyncMissedOneColour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 54</value>
+  </data>
+  <data name="SyncMissedOneColour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="SyncMissedOneColour.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedOneColour.Name" xml:space="preserve">
+    <value>SyncMissedOneColour</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedOneColour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedOneColour.Parent" xml:space="preserve">
+    <value>ConsultantStatusTab</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedOneColour.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SyncMissedTwoColour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 85</value>
+  </data>
+  <data name="SyncMissedTwoColour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="SyncMissedTwoColour.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedTwoColour.Name" xml:space="preserve">
+    <value>SyncMissedTwoColour</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedTwoColour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedTwoColour.Parent" xml:space="preserve">
+    <value>ConsultantStatusTab</value>
+  </data>
+  <data name="&gt;&gt;SyncMissedTwoColour.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ConsultantStatusTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="ConsultantStatusTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="ConsultantStatusTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 375</value>
+  </data>
+  <data name="ConsultantStatusTab.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ConsultantStatusTab.Text" xml:space="preserve">
+    <value>Consultant Sync Status</value>
+  </data>
+  <data name="&gt;&gt;ConsultantStatusTab.Name" xml:space="preserve">
+    <value>ConsultantStatusTab</value>
+  </data>
+  <data name="&gt;&gt;ConsultantStatusTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsultantStatusTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;ConsultantStatusTab.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="TabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 431</value>
+  </data>
+  <data name="TabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Name" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AbortButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="AbortButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="AbortButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="AbortButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AbortButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 9</value>
+  </data>
+  <data name="AbortButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="AbortButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="AbortButton.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;AbortButton.Name" xml:space="preserve">
+    <value>AbortButton</value>
+  </data>
+  <data name="&gt;&gt;AbortButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AbortButton.Parent" xml:space="preserve">
+    <value>ButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;AbortButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DoneButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="DoneButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DoneButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="DoneButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DoneButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 9</value>
+  </data>
+  <data name="DoneButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="DoneButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="DoneButton.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;DoneButton.Name" xml:space="preserve">
+    <value>DoneButton</value>
+  </data>
+  <data name="&gt;&gt;DoneButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DoneButton.Parent" xml:space="preserve">
+    <value>ButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;DoneButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 455</value>
+  </data>
+  <data name="ButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 41</value>
+  </data>
+  <data name="ButtonPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ButtonPanel.Name" xml:space="preserve">
+    <value>ButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;ButtonPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="ToolTipProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>644, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>98</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>592, 496</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAUAMDAAAAAAAACoDgAAVgAAABAQAAAAAAAAaAUAAP4OAAAgIAAAAAAAAKgIAABmFAAAQEAAAAAA
+        AAAoFgAADh0AAGBgAAAAAAAAqCwAADYzAAAoAAAAMAAAAGAAAAABAAgAAAAAAAAJAAAAAAAAAAAAAAAB
+        AAAAAQAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwADA3MAA8MqmAAQEBAAICAgADAwMABER
+        EQAWFhYAHBwcACIiIgApKSkAVVVVAE1NTQBCQkIAOTk5AIB8/wBQUP8AkwDWAP/szADG1u8A1ufnAJCp
+        rQAAADMAAABmAAAAmQAAAMwAADMAAAAzMwAAM2YAADOZAAAzzAAAM/8AAGYAAABmMwAAZmYAAGaZAABm
+        zAAAZv8AAJkAAACZMwAAmWYAAJmZAACZzAAAmf8AAMwAAADMMwAAzGYAAMyZAADMzAAAzP8AAP9mAAD/
+        mQAA/8wAMwAAADMAMwAzAGYAMwCZADMAzAAzAP8AMzMAADMzMwAzM2YAMzOZADMzzAAzM/8AM2YAADNm
+        MwAzZmYAM2aZADNmzAAzZv8AM5kAADOZMwAzmWYAM5mZADOZzAAzmf8AM8wAADPMMwAzzGYAM8yZADPM
+        zAAzzP8AM/8zADP/ZgAz/5kAM//MADP//wBmAAAAZgAzAGYAZgBmAJkAZgDMAGYA/wBmMwAAZjMzAGYz
+        ZgBmM5kAZjPMAGYz/wBmZgAAZmYzAGZmZgBmZpkAZmbMAGaZAABmmTMAZplmAGaZmQBmmcwAZpn/AGbM
+        AABmzDMAZsyZAGbMzABmzP8AZv8AAGb/MwBm/5kAZv/MAMwA/wD/AMwAmZkAAJkzmQCZAJkAmQDMAJkA
+        AACZMzMAmQBmAJkzzACZAP8AmWYAAJlmMwCZM2YAmWaZAJlmzACZM/8AmZkzAJmZZgCZmZkAmZnMAJmZ
+        /wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM/wCZ/wAAmf8zAJnMZgCZ/5kAmf/MAJn//wDMAAAAmQAzAMwA
+        ZgDMAJkAzADMAJkzAADMMzMAzDNmAMwzmQDMM8wAzDP/AMxmAADMZjMAmWZmAMxmmQDMZswAmWb/AMyZ
+        AADMmTMAzJlmAMyZmQDMmcwAzJn/AMzMAADMzDMAzMxmAMzMmQDMzMwAzMz/AMz/AADM/zMAmf9mAMz/
+        mQDM/8wAzP//AMwAMwD/AGYA/wCZAMwzAAD/MzMA/zNmAP8zmQD/M8wA/zP/AP9mAAD/ZjMAzGZmAP9m
+        mQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+ZmQD/mcwA/5n/AP/MAAD/zDMA/8xmAP/MmQD/zMwA/8z/AP//
+        MwDM/2YA//+ZAP//zABmZv8AZv9mAGb//wD/ZmYA/2b/AP//ZgAhAKUAX19fAHd3dwCGhoYAlpaWAMvL
+        ywCysrIA19fXAN3d3QDj4+MA6urqAPHx8QD4+PgA8Pv/AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAP8A
+        /wD//wAA////AAoKCgoKCgoKCgoKCgoKCgoKCgoKCgqKi5CKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgqKi4uKCgoKCouLi4uLiwoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKiouLiooKCgqKi6ysi4oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCoqKrKysigoK
+        CoqKrKyLiwoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqKiqysrKwKCgqLi6ysrIsKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKiooKCgoKCgoKCoussrKKCgoKi4qsrKyzkAoKCgoKCgoKCgoKCgoK
+        CgoKCgoKiouLrayzrAoKCgoKCoqsrLK4rQoKCoqsrKyys4sKCgoKCgoKCgoKCgoKCgoKCgqKi6ysrLKy
+        srKLCgoKCgqKrLLZuYoKCgqLrKyysrOKCgoKCgoKCgoKCgoKCgoKCoqtrKysrKyy2dqzigoKCgqKrLLZ
+        2rOLCgqKi6yssrKtCgoKCgoKCgoKCgoKCgoKiq2srKysrLKy2drbrQoKCgqKirKy2duzCgoKi6yssrK5
+        rQoKCgoKCgoKCgoKCgoKi62srKysrLKy2drbs4oKCgoKirKy2dqziwoKCq2srLLZs4sKCgoKCgoKCgoK
+        CgqLi6ysrKysrLKy2drc24oKCgoKirKy2drbswoKCousrLLZ2rMKCgoKCgoKCgoKCgqLraysrKyssrLT
+        2drc3IoKCgoKi7Ky2drbtAoKCoqsrLKy2rqQCgoKCgoKCgoKCgqKrKysrKyystPT2dsJ26wKCgoKkLKy
+        09rbtIoKCgqLrLKy2duzigoKCgoKCgoKCgqKrKysrLKystPZ2twJ24oKCgoKkLKy09rb24sKCgqLrLKy
+        2duzkAoKCgoKCgoKCgqKrKyysrKy09PZ2wncuYsKCgoKkLKy2drb3IoKCgqLrayy2drbrQoKCgoKCgoK
+        CgqKsrKystPT09na3Anbs4oKCgoKirKy2drc3LIKCgqLrayystrbswoKCgoKCgoKCgqKsrLT09nZ2dvc
+        GdzarAoKCgoKirKy2drc3LIKCgqLrayystrbtIsKCgoKCgoKCgoKrNnZ2dra2xkZCdqyigoKCgoKrLLT
+        2drc3LIKCgqLrayystrb24sKCgoKCgoKCgoKirPb29zcCRnc27KKCgoKCgqKrLLT2dsJ3LIKCgoKrKyy
+        strb24oKCgoKCoqKCgoKCou029zc3Nvas4oKCgoKCgqKsrLT2dwZ24oKCgqLrbKy09rb3LMKCgoKCgqL
+        CgoKCgoKirOzsrKKCgoKCgoKCoqystPZ2twJuYoKCgqKrLKy09rb3LMKCgoKCgqLiwoKCgoKCgqKCgoK
+        CgoKCgoKCqyystPZ2xncs4oKCgqLrbKy09rc3LMKCgoKCgqLiwoKCgoKCgoKCgoKCgoKCgoKirKy09na
+        3BnbswoKCgqLrLKy2drc3LMKCgoKCgqLrYqLCgoKCgoKCgoKCgoKCoqKsrLT09nbGQnarAoKCgqLrLKy
+        2drc3LOBCgoKCgoKiqyKiwoKCgoKCgoKCgoKiqyystPT2drcGduzigoKCgqsrLLT2drc3LOBCgoKCgoK
+        iqysrIuLCgoKCgoKCoqKrLKy09PZ2dwZGdqyCgoKCoutsrLT2dsJ27IKCgoKCgoKCousrKysrIutpoqt
+        rayysrLT09na2xkJ27KKCgoKCoussrLT2dwJ24oKCgoKCgoKCoqssrKysrKsrKyysrKy09PT2drbCRnc
+        uYoKCgoKCoqystPZ2gkJuYsKCgoKCgoKigaKsrKysrKysrKystPT09nZ2twZGdzarAoKCgoKiqyystPZ
+        2hncs4oKCgoKCgoKi4sKirLZ2dnZ2dnZ2dnZ2trb3BkJ27OsCgoKCgqLi7Ky09na3BnbswoKCgoKCgoK
+        CosKCouz2tra2tra2trb29wZGdzbs7OKCgoKCoqLrLKy09naCQnarQoKCgoKCgoKCouLCgqQs7Tb3Nzc
+        3AkJGQnc29qzrAoKCgoKCoussrLT09rcGdyziwoKCgoKCgoKCouLigoKCoqQtLrb29vb27mzs4oKCgoK
+        CgoKi6yystPT2dsZGdqyCgoKCgoKCgoKCgqKiosKCgoKkJCtsrOzsoqQCgoKCgoKCgqLrLKy09PZ2twZ
+        3LOKCgoKCgoKCgoKCgqKrKyLCgoKCgoKCpAKCgoKCgoKCgoKCoussrLT09na2xkZ26yKCgoKCgoKCgoK
+        CgoKi6ysrYoKCgoKCgoKCgoKCgoKCgqLrayystPT2drbGRnbsgoKCgoKCgoKCgoKCgoKCousrIqKi4sK
+        CgoKCgoKCgoKi4qsrLKy09PZ2dsZGdy5sgoKCgoKCgoKCgoKCgoKCoussqysrIuLi5CKipCQi4uLrbKy
+        srLT09nZ2xkZ3NqyCgoKCgoKCgoKCgoKCgoKCgqKsrKysqysrKysra2srLKysrKy09PT2drbGRnc2rKK
+        CgoKCgoKCgoKCgoKCgoKCgoKkLKysrKysrKysrKysrKystPT09na2twZGdzas5AKCgoKCgoKCgoKCgoK
+        CgoKCgoKCouz2dmysrKysrKystPT09nZ2drb3BkZ3NqykAoKCgoKCu/vCu8K7woKCgoKCgoKCgqLs9ra
+        2tnZ2dnZ2dnZ2trb3AkZGdzbsosKCgoKCgoKCu8K7+/vCgoKCgoKCgoKCgoKCq2029va2tra2tvb29wJ
+        GRnc27mzigoKCgoKCgoKCu8K7wrvCgoKCgoKCgoKCgoKCgqLs7Pb29zc3NwJCQnc3Nu5s6yBCgoKCgoK
+        CgoK7+/v7wrvCgoKCgoKCgoKCgoKCgoKCouQs7Ozurq5ubOzs4qKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgqKkJCQkJCKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCv///D///wAA//8PA///AAD//4OB//8AAP//
+        wOB//wAA///gcD//AAD/5/g4D/8AAP8B+BwH/wAA/gB8DgP/AAD8ADwGA/8AAPgAPAcB/wAA+AAeA4D/
+        AADwAB4DgP8AAPAAHgOAfwAA8AAeAcA/AADwAB4BwD8AAPAAHgHAPwAA8AAeAcA/AADwAD4BwB8AAPgA
+        PgHAHwAA+AB8AeAfAAA8APwBwB8AAL8D+AHAHwAAn9/4AcAfAACf//ADwB8AAIf/wAPADwAAw/+AA8AP
+        AADA/gAHgB8AAOAAAAeAHwAA4AAAD4AfAADAAAAfAB8AAMgAAD4APwAA7AAAPAA/AADmAAD8AD8AAOOA
+        A/gAfwAA8eAP8AB/AADw/v/gAH8AAPg//4AB/wAA/Af+AAH/AAD8AAAAA/8AAP4AAAAD/wAA/wAAAAf/
+        AAD/gAAAD8oAAP/AAAA/0QAA//AAAH/VAAD/+AAA/4UAAP/+AAf//wAA///gP///AAD///////8AACgA
+        AAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAAAAAACAAACAAAAAgIAAgAAAAIAA
+        gACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYWFgAcHBwAIiIiACkpKQBVVVUATU1NAEJC
+        QgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAAMwAAAGYAAACZAAAAzAAAMwAAADMzAAAz
+        ZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm/wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ
+        /wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA
+        /wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNmZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZ
+        ZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM/wAz/zMAM/9mADP/mQAz/8wAM///AGYA
+        AABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYzmQBmM8wAZjP/AGZmAABmZjMAZmZmAGZm
+        mQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbMMwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/
+        mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkzMwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkz
+        ZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnMAACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/
+        AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwAmQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwz
+        zADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZMwDMmWYAzJmZAMyZzADMmf8AzMwAAMzM
+        MwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/zADM//8AzAAzAP8AZgD/AJkAzDMAAP8z
+        MwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9mzADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+Z
+        zAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/ZgD//5kA///MAGZm/wBm/2YAZv//AP9m
+        ZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKysgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4
+        +ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8ACgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCoqsCoqsCgoKCgoKCoqssgoKirIKiqwKCgoKCoqsrLLaCoqyswqsswoKCgqKrLLT3AoKstsKirKz
+        CgoKirLT29sKCrLbCouy2goKCga529wKCorT3AqKstsKCgoKCgoKCgay2tsKirLbCgoKigoKCoqy09yz
+        CorT2woKCqzarLKy2dvbCgqy2dwKCgoKrNra29zbCgqLstu0CgoKigoKs7MKCgqLstncCgoKCgqsigoK
+        CousstncswoKCgoKCrKysrKy09rcugoKCgoKCgoKs9ra29zcswoKCgoKCgoKCgoKCgoKCgoKCgoKCv//
+        AAD8nwAAxk8AAIInAACDIwAAgyMAAIYjAAD8IwAAuCMAAIBjAADAwwAAs4cAAM4HAADgDwAA8B8AAP//
+        AAAoAAAAIAAAAEAAAAABAAgAAAAAAAAEAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAMDAwADA3MAA8MqmAAQEBAAICAgADAwMABEREQAWFhYAHBwcACIiIgApKSkAVVVVAE1N
+        TQBCQkIAOTk5AIB8/wBQUP8AkwDWAP/szADG1u8A1ufnAJCprQAAADMAAABmAAAAmQAAAMwAADMAAAAz
+        MwAAM2YAADOZAAAzzAAAM/8AAGYAAABmMwAAZmYAAGaZAABmzAAAZv8AAJkAAACZMwAAmWYAAJmZAACZ
+        zAAAmf8AAMwAAADMMwAAzGYAAMyZAADMzAAAzP8AAP9mAAD/mQAA/8wAMwAAADMAMwAzAGYAMwCZADMA
+        zAAzAP8AMzMAADMzMwAzM2YAMzOZADMzzAAzM/8AM2YAADNmMwAzZmYAM2aZADNmzAAzZv8AM5kAADOZ
+        MwAzmWYAM5mZADOZzAAzmf8AM8wAADPMMwAzzGYAM8yZADPMzAAzzP8AM/8zADP/ZgAz/5kAM//MADP/
+        /wBmAAAAZgAzAGYAZgBmAJkAZgDMAGYA/wBmMwAAZjMzAGYzZgBmM5kAZjPMAGYz/wBmZgAAZmYzAGZm
+        ZgBmZpkAZmbMAGaZAABmmTMAZplmAGaZmQBmmcwAZpn/AGbMAABmzDMAZsyZAGbMzABmzP8AZv8AAGb/
+        MwBm/5kAZv/MAMwA/wD/AMwAmZkAAJkzmQCZAJkAmQDMAJkAAACZMzMAmQBmAJkzzACZAP8AmWYAAJlm
+        MwCZM2YAmWaZAJlmzACZM/8AmZkzAJmZZgCZmZkAmZnMAJmZ/wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM
+        /wCZ/wAAmf8zAJnMZgCZ/5kAmf/MAJn//wDMAAAAmQAzAMwAZgDMAJkAzADMAJkzAADMMzMAzDNmAMwz
+        mQDMM8wAzDP/AMxmAADMZjMAmWZmAMxmmQDMZswAmWb/AMyZAADMmTMAzJlmAMyZmQDMmcwAzJn/AMzM
+        AADMzDMAzMxmAMzMmQDMzMwAzMz/AMz/AADM/zMAmf9mAMz/mQDM/8wAzP//AMwAMwD/AGYA/wCZAMwz
+        AAD/MzMA/zNmAP8zmQD/M8wA/zP/AP9mAAD/ZjMAzGZmAP9mmQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+Z
+        mQD/mcwA/5n/AP/MAAD/zDMA/8xmAP/MmQD/zMwA/8z/AP//MwDM/2YA//+ZAP//zABmZv8AZv9mAGb/
+        /wD/ZmYA/2b/AP//ZgAhAKUAX19fAHd3dwCGhoYAlpaWAMvLywCysrIA19fXAN3d3QDj4+MA6urqAPHx
+        8QD4+PgA8Pv/AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqKi4qKCgqLrIsKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgqKiqysCgqKrKyLigoKCgoKCgoKCgoKCgoKCgqKCgoKCgqKrKysigqLrKysgQoKCgoKCgoKCgoKCgqK
+        rayssooKCgqKrLKzCgqKrKyyiwoKCgoKCgoKCgoKiq2srLKys5AKCoqsstkKCgqKrLKyCgoKCgoKCgoK
+        CoqtrKysstPaswoKCoqy2bkKCousrLKzCgoKCgoKCgoKi6ysrKyy09rbigoKirLT2rMKCousstqLCgoK
+        CgoKCoqtrKysstPZ29yKCgqQstPaugoKiqyy2bSKCgoKCgoKiqysrLKy09nc3IoKCpCy09rbigqKrLLT
+        27MKCgoKCgqKrLKystPZ2wnaCgoKCrLT2tyKCgqLsrLaswoKCgoKCgqystPT2dvc3LMKCgqKstPa3IEK
+        Cousstq0CgoKCgoKCgra2tvbCdyzgQoKCoqy2dvcsgoKiqyy2tsKCgoKCgoKCrPb3NzbuYoKCgoKstPZ
+        3NyKCgqKsrLa24sKCgoKiwoKCoqQgYEKCgoKCqyy09oJ24oKCqyy09rbkAoKCgqLCgoKCgoKCgoKCgqK
+        stPZ2wmzCgoKrbLT2tyQCgoKCouKigoKCgoKCgoKirKy09rc27IKCoqsstPb3LMKCgoKiqysiwoKCgoK
+        ioqystPZ3Bm5gQoKi6yy2dvcswoKCgoKiqysrK2srK2ystPT2tsZ27IKCgqsstPZ3NuKCgoKCgoKsrKy
+        srKystPT2drcCdyzCgoKCqyy09oJ24oKCgoKi4sKs9rZ2dnZ2trb3Anbs4oKCgqLstPZ29yzCgoKCgoK
+        iwoKs9vb29vc3Anc2rMKCgoKi6yy09rc27MKCgoKCgqLigoKgbO0tNvUs7MKCgoKCousstPZ3BmzCgoK
+        CgoKCgqKiwoKCgqBkIEKCgoKCgqLrLLT2doZ3LIKCgoKCgoKCgqsrIoKCgoKCgoKCgqKrbKy09nbCdyz
+        CgoKCgoKCgoKCoqsrKyLi5CKkIuLi6yystPZ2gkZuQoKCgoKCgoKCgoKCpCysqysrKysrLKystPT2dsJ
+        3NqBCgoKCgoKCgoKCgoKCrOysrKysrKystPT2drbGQm5swoKCgcKBwoHCgoKCgoKCpCz2tra2tra2tvc
+        GQnbswoKCgoKBwoHBwcKCgoKCgoKCouzutvb29zcCdzbubKBCgoKCgcHBwcKBwoKCgoKCgoKCgqQkLOz
+        s7Ozs4oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr//////+GP///w
+        wf/++CD/+Bwwf/AMOH/gDhg/4AYMH8AGDA/ABgQPwA8GD+AOBg/wDgYP8B4GB7h8Bge/+A4Hj/AMB4fA
+        DAfAABwH4AA8B5AAOA/YAPAPzAPgH+ePwB/x/wA/8AAAf/gAAH/8AADq/gAD6P8AA8L/wB///////ygA
+        AABAAAAAgAAAAAEACAAAAAAAABAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAACAAACAAAAAgIAAgAAAAIAA
+        gACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYWFgAcHBwAIiIiACkpKQBVVVUATU1NAEJC
+        QgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAAMwAAAGYAAACZAAAAzAAAMwAAADMzAAAz
+        ZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm/wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ
+        /wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA
+        /wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNmZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZ
+        ZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM/wAz/zMAM/9mADP/mQAz/8wAM///AGYA
+        AABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYzmQBmM8wAZjP/AGZmAABmZjMAZmZmAGZm
+        mQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbMMwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/
+        mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkzMwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkz
+        ZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnMAACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/
+        AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwAmQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwz
+        zADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZMwDMmWYAzJmZAMyZzADMmf8AzMwAAMzM
+        MwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/zADM//8AzAAzAP8AZgD/AJkAzDMAAP8z
+        MwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9mzADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+Z
+        zAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/ZgD//5kA///MAGZm/wBm/2YAZv//AP9m
+        ZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKysgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4
+        +ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8ACgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCouQgYoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCoqsigoKCgoKCgqLrouLi7MKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgqKi4aLraYKCgoKCgqLioqKi8+LCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgqKrYusioqKCgoKCoqtrKysi4qKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqsiqysiqyKCgoKCqyKrKysiouLCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyKrKysrIoKCgoKi4usrKysrYsKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKiqysrLKsigoKCgqLi6ysrKysrJAKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKpqamCgoKCgoKCgoKCgqLrKyysrKKCgoKCouKrKysrLKQkAoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCoqmi4uLioqzpgoKCgoKCgoKioqssrK4s4sKCgoKrIqsrKyy
+        srOLCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCoqLi6ysrKyysrKKigoKCgoKCgqLrKyy2dmzigoKCgrP
+        rKysrLKys5AKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyGraysrKyssrLZuLOLCgoKCgoKioqssrLZ2ouK
+        CgoKi4usrKyysrKsCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqytraysrKysrLKy2drbswoKCgoKCgqsrLKy
+        2dqzzwoKCgqLraysrLKys4sKCgoKCgoKCgoKCgoKCgoKCgoKCoqtraysrKysrKyystnZ27qKCgoKCgoK
+        pqysstPZ27OtCgoKCouKrKyystmzrgoKCgoKCgoKCgoKCgoKCgoKCoqLra2srKysrKyysrLZ2dvbs4oK
+        CgoKCgqKrLKy2dq6iwoKCgqLiqyssrLZ2rOLCgoKCgoKCgoKCgoKCgoKCgqmi62srKysrKyssrLT2dnb
+        3LOKCgoKCgqKiqyystna27OLCgoKCs+srKyystnaiwoKCgoKCgoKCgoKCgoKCgoKi62srKysrKysrLKy
+        09na3NzbigoKCgoKCoussrLZ2tu6tAoKCgqLi6yssrLZ27OLCgoKCgoKCgoKCgoKCgoKioatrKysrKys
+        rLKy09PZ2twJ24qKCgoKCgqLrLKy2drc27MKCgoKiousrLKy09rbtAoKCgoKCgoKCgoKCgoKCqyLrKys
+        rKysrLKystPT2drcGdusigoKCgoKkKyystnZ29yzigoKCgqLrKyystPa27OKCgoKCgoKCgoKCgoKCgqK
+        i6ysrKysrLKystPT2dnbGRnbrIoKCgoKCrOKsrLT2dvcs5AKCgoKs4usrLKy2dvbrYoKCgoKCgoKCgoK
+        CgoKpousrKysrLKysrLT09na3Bnc2oqKCgoKCgqzirKy09nb3NuLCgoKCouLrKyystna27OQCgoKCgoK
+        CgoKCgoKCqyKrKyssrKystPT09nZ2wkZ3LOLCgoKCgoKkKyystnZ29zbiooKCgoKrqyssrLZ2tu6iwoK
+        CgoKCgoKCgoKCgqsirKysrKystPT09nZ2twJCduyrQoKCgoKCoussrLZ2dvc27KKCgoKCrSsrLKy2drc
+        27MKCgoKCgoKCgoKCgoKioqysrKy09PT09nZ2twJGdzasooKCgoKCoqKsrLT2dnb3NuyigoKCgqtrKyy
+        stnZ29yziwoKCgoKCgoKCgoKCgqsstPT09nZ2dnZ29wZGQnbsooKCgoKCgqKirKy09nZ2wnbsooKCgoK
+        hqyssrLT2dvcs7MKCgoKCgoKCgoKCgoKiqzZ2dnZ2dra2wkZGQnb2bIKCgoKCgoKiqyystPZ2twJ27KK
+        CgoKCoasrLKy09nb3LmQCgoKCgoKCgoKCgoKCgqLuNra2tvc3AkZGQnc2bKKCgoKCgoKCqyssrLT2drc
+        CduyigoKCgqLrKyystPZ29zbigoKCgoKCgoKigoKCgoKiq203NzcCRkZCdza2ayKCgoKCgoKCqyKsrLT
+        09nbCRnbsooKCgoKi6yssrLT2dvc24qKCgoKCgoKiqwKCgoKCgqKi7Tb3Nzc29vasrOKCgoKCgoKCgqL
+        rLKy09nZ2xkZ24qKCgoKCoasrLKy09nb3NuzkAoKCgoKCgqLiwoKCgoKCgqKrbOzs7KyipAKCgoKCgoK
+        CgqKrLKy09PZ2twZ3LmKCgoKCgqsrKyystPZ29zbs5AKCgoKCgoKkIsKCgoKCgoKCoqQiqaKCooKCgoK
+        CgoKCgoKrKyystPZ2doJGduykAoKCgoKrKyssrLT2dvc27OQCgoKCgoKCouGhgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKiqyystPT2drbGRnbsooKCgoKCs+ssrKy2dnb3NuzkAoKCgoKCgoKi4uLCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKrKyystPT09naCRkJ2ooKCgoKCgqLrLKy09nZ2wnbs5AKCgoKCgoKCq2siosKCgoK
+        CgoKCgoKCgoKCgoKCgoKiqyysrLT09na3BkZ27KsCgoKCgqLhqyystPZ2dsZ27OQCgoKCgoKCgqLi6yK
+        igoKCgoKCgoKCgoKCgoKCgqKiqyysrLT09nZ2gkZCduyigoKCgoKs4qssrLT2drcGduzkAoKCgoKCgoK
+        CoqsrIqti4oKCgoKCgoKCgoKCgqKi6yysrLT09nZ29wZGdvaigoKCgoKCoussrLT09na3Bnbs5AKCgoK
+        CgoKCgqLiqysrIuLswoKCgoKCgoKiouLrKyystPT09nZ2dwZGQnasq0KCgoKCpCLrLKy09PZ2wkZ27KB
+        CgoKCgoKCgoKCq2srKysrIqLkK2spqasz4usrLKystPT09nZ2tsZGQnbsq0KCgoKCgqGrLKystPZ2dsZ
+        CdqKigoKCgoKCgoKCgqKrLKysqysrKysrKysrLKysrKystPT09nZ2dsJGRnb2qyKCgoKCgoKi6yysrLT
+        2drcGdy5iwoKCgoKCgoKCgoKCoussrKysrKysrKysrKysrKy09PT09nZ29wZGRnc2rKLCgoKCgoKioqs
+        srLT09naCRncs7MKCgoKCgoKCgoKigoKirKysrKysrKysrKystPT09PZ2dna2twJGRnc2rKKCgoKCgoK
+        CoussrKy09nZ2xkZ27KLCgoKCgoKCgoKCq6QCgqKstnZ2dPT09PT09PT09nZ2dna3NwZGQnc2rKKCgoK
+        CgoKCouKsrKy09PZ2twZCdqzCgoKCgoKCgoKCgqLiwoKCouz2trZ2dnZ2dnZ2dnZ2trb3BkZGQnb2rKK
+        CgoKCgoKCoqtrLKy09PZ2dsZGdzarAoKCgoKCgoKCgoKCouLCgoKi7O529va29vb29vb29wJGRkZCdva
+        s6yLCgoKCgoKCouLrLKystPT2drcGRnbsosKCgoKCgoKCgoKCgqGi5AKCgqLrbPb29zc3AkJGRkZGQkJ
+        29vasrOKCgoKCgoKCgrPrayystPT2dnbCRnc2oqLCgoKCgoKCgoKCgoKi4uLigoKCgqLi7O629zc3Nzc
+        3Nva2rOziooKCgoKCgoKCgq0rKyystPT2dna3BkZ27KLCgoKCgoKCgoKCgoKCgqLiouKCgoKCgqLtLOz
+        s7Ozs7OysrOziwoKCgoKCgoKCgq0rKyysrLT09nZ2xkZCdqziwoKCgoKCgoKCgoKCgoKioqsrZAKCgoK
+        CgoKiqystLSsrIoKCgoKCgoKCgoKCouRrKyystPT09nZ2wkZGduzrAoKCgoKCgoKCgoKCgoKCgqsrKys
+        iwoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCoqLrKyysrLT09nZ2twZGdzarIoKCgoKCgoKCgoKCgoKCgoK
+        CousrIqtCgoKCgoKCgoKCgoKCgoKCgoKCgoKCoutrLKystPT09nZ2twZGQnaspAKCgoKCgoKCgoKCgoK
+        CgoKCgqKrKysrIqLiwoKCgoKCgoKCgoKCgoKCgoKioutrLKysrLT09nZ2tsZGRnc2awKCgoKCgoKCgoK
+        CgoKCgoKCgoKCousrKysrIqti5AKCgoKCgoKCgoKi5CLrYqssrKystPT09PZ2twZGRnb2rMKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgqKrbKyrKysrKyLi4u0raysrbSQi4uLrKyysrKystPT09nZ2tsZGRnc2rKKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCoqtsrKysqysrKysioqLi4uLrKysrLKysrKy09PT09nZ2twZGRnb2rKs
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKkK2ysrKysrKysqysrKyysrKysrKysrLT09PT2dnZ29wZGRnc
+        2rKzCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqQrbKysrKysrKysrKysrKysrKystPT09PZ2dnb2wkZ
+        GRnb2rKzCgoKCgoKCgoK9/cK9wr3CgoKCgoKCgoKCgoKCout2tnZ2dPTsrKysrKy09PT09PZ2dnZ2drb
+        3BkZGdzc2rKsCgoKCgoKCgoKCvf3CvcK9woKCgoKCgoKCgoKCgoKi4uz2trZ2dnZ09PT09PZ2dnZ2dna
+        29sJGRkZCdzauLOKCgoKCgoKCgoKCgr3Cvf39woKCgoKCgoKCgoKCgoKCgqLrbO629va2tra2tra2tra
+        2trb3AkZGRkJ3NvasqwKCgoKCgoKCgoKCgoK9wr3CvcKCgoKCgoKCgoKCgoKCgoKCgqLi7Pb29vb29vb
+        29vc3AkJGRkZGQnb2tqyrIsKCgoKCgoKCgoKCgr39/f39wr3CgoKCgoKCgoKCgoKCgoKCgoKCgqLrbOz
+        29vc3Nzc3NwJCQkJ29va2bKzrIEKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgqLkYuzs9Tb29vb2tra2rOzrIuKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgqLkIuss7S0s7Ozs6yLkIoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCv//
+        //4f///////4/gf///////gfgP///////gPAP///////gPAP///////AeAf//////+A8Af////x/8B4A
+        ////4A/wDwB////AA/gHgD///4AB+AOAP///AAH8A8Af//4AAPwB4A///AAAfgHgB//8AAB8APAH//wA
+        AH4A8AP/+AAAPgDwA//4AAA+AHgB//gAAD4AeAD/+AAAPgB4AP/4AAB+ADwA//gAAH4APAD/+AAAfAA8
+        AH/8AAD8ADwAf/wAAfwAPAB//gAB/AA8AH++AAP4ADwAPz8AB/gAPAA/n8Af8AB8AD+f4L/wAHwAP4//
+        /+AAfAA/x///wAD8AD/D//+AAPgAP8H//gAA+AA/4D/8AAH4AD/gH+AAAfAAP/AAAAAD8AA/8AAAAAPw
+        AH/4AAAAB+AAf+wAAAAP4AB/5gAAAB/AAP/nAAAAP4AA//OAAAB/AAD/8cAAAP8AAP/w8AAD/gAB//h8
+        AA/8AAH/+D+Af/AAA//8H///4AAD//4P///AAAf//gH//wAAD///AD/wAAAf//8AAAAAAB///4AAAAAA
+        P///wAAAAAB////gAAAAAP+V//AAAAAB/5X/+AAAAAP/o//8AAAAD/+r//8AAAAf/gv//8AAAD//////
+        8AAB///////8AAf/////////////////////////KAAAAGAAAADAAAAAAQAIAAAAAAAAJAAAAAAAAAAA
+        AAAAAQAAAAEAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAwNzAAPDKpgAEBAQACAgIAAwM
+        DAAREREAFhYWABwcHAAiIiIAKSkpAFVVVQBNTU0AQkJCADk5OQCAfP8AUFD/AJMA1gD/7MwAxtbvANbn
+        5wCQqa0AAAAzAAAAZgAAAJkAAADMAAAzAAAAMzMAADNmAAAzmQAAM8wAADP/AABmAAAAZjMAAGZmAABm
+        mQAAZswAAGb/AACZAAAAmTMAAJlmAACZmQAAmcwAAJn/AADMAAAAzDMAAMxmAADMmQAAzMwAAMz/AAD/
+        ZgAA/5kAAP/MADMAAAAzADMAMwBmADMAmQAzAMwAMwD/ADMzAAAzMzMAMzNmADMzmQAzM8wAMzP/ADNm
+        AAAzZjMAM2ZmADNmmQAzZswAM2b/ADOZAAAzmTMAM5lmADOZmQAzmcwAM5n/ADPMAAAzzDMAM8xmADPM
+        mQAzzMwAM8z/ADP/MwAz/2YAM/+ZADP/zAAz//8AZgAAAGYAMwBmAGYAZgCZAGYAzABmAP8AZjMAAGYz
+        MwBmM2YAZjOZAGYzzABmM/8AZmYAAGZmMwBmZmYAZmaZAGZmzABmmQAAZpkzAGaZZgBmmZkAZpnMAGaZ
+        /wBmzAAAZswzAGbMmQBmzMwAZsz/AGb/AABm/zMAZv+ZAGb/zADMAP8A/wDMAJmZAACZM5kAmQCZAJkA
+        zACZAAAAmTMzAJkAZgCZM8wAmQD/AJlmAACZZjMAmTNmAJlmmQCZZswAmTP/AJmZMwCZmWYAmZmZAJmZ
+        zACZmf8AmcwAAJnMMwBmzGYAmcyZAJnMzACZzP8Amf8AAJn/MwCZzGYAmf+ZAJn/zACZ//8AzAAAAJkA
+        MwDMAGYAzACZAMwAzACZMwAAzDMzAMwzZgDMM5kAzDPMAMwz/wDMZgAAzGYzAJlmZgDMZpkAzGbMAJlm
+        /wDMmQAAzJkzAMyZZgDMmZkAzJnMAMyZ/wDMzAAAzMwzAMzMZgDMzJkAzMzMAMzM/wDM/wAAzP8zAJn/
+        ZgDM/5kAzP/MAMz//wDMADMA/wBmAP8AmQDMMwAA/zMzAP8zZgD/M5kA/zPMAP8z/wD/ZgAA/2YzAMxm
+        ZgD/ZpkA/2bMAMxm/wD/mQAA/5kzAP+ZZgD/mZkA/5nMAP+Z/wD/zAAA/8wzAP/MZgD/zJkA/8zMAP/M
+        /wD//zMAzP9mAP//mQD//8wAZmb/AGb/ZgBm//8A/2ZmAP9m/wD//2YAIQClAF9fXwB3d3cAhoaGAJaW
+        lgDLy8sAsrKyANfX1wDd3d0A4+PjAOrq6gDx8fEA+Pj4APD7/wCkoKAAgICAAAAA/wAA/wAAAP//AP8A
+        AAD/AP8A//8AAP///wAKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCoasrq6RtayshgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKpqys
+        rKYKCgoKCgoKCgoKCqyui4uLi661rAoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyuZoaLrqymCgoKCgoKCgoKhq6KioqKi4u1
+        hgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKrIuLi4uGi6ymCgoKCgoKCgqsi4qsrIqKhq6sCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqa0i4qsioqLrKYK
+        CgoKCgoKhrSLrKysrIqKi6wKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKpqyKrKysiouspgoKCgoKCgqsi4qsrKysioquhgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCqyLiqysrKyKi6wKCgoKCgoKrIuKrKysrKyKi7WGCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqsi4qsrKyyrIqsCgoKCgoKCoau
+        i6ysrKysrIqLhgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKpousrKyssrKsrKYKCgoKCgqGroqsrKysrKysi6wKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyKrKys
+        srKysoumCgoKCgoKhq6KrKysrKyyrIq1CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgqmpqampgoKCgoKCgoKCgoKCgoKCgquiqysrLKysrKLpgoKCgoKCqyLiqysrKyssrKK
+        tAoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqmrK6LhouKiou0rKYKCgoK
+        CgoKCgoKCgqmi4qsrLKysriyrqYKCgoKCgqsi4qsrKysrLKyrJGGCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKpqyLi4utrKyssrKyiousCgoKCgoKCgoKCgoKrIqsrLKystnZs7QKCgoK
+        CgoKrIasrKysrLKysqy0CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqmi4uLrKys
+        rKyssrKysrKKrKYKCgoKCgoKCgoKCouKrKyystnZ2rOsCgoKCgoKCrWKrKysrKyysrKytAoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyGi62srKysrKyssrKy09m4s66mCgoKCgoKCgoKCqyK
+        rKyystPZ2bmLpgoKCgoKCoaLiqysrKyysrKyrawKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKrIuLraysrKysrKyssrKy09nZ2rOuCgoKCgoKCgoKCqaLrKyysrLZ2dqzi6YKCgoKCgqshqysrKys
+        srKysousCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqsi62trKysrKysrKyssrKy09nZ29uz
+        rAoKCgoKCgoKCgqsiqyysrLZ2drbs7UKCgoKCgoKtIqsrKyssrKy2bOLhgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCqysra2srKysrKysrKyssrKy09nZ2tu6i6YKCgoKCgoKCgqmhqyssrLT2drbuous
+        CgoKCgoKhouKrKyssrKy09mzroYKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKpouLra2srKysrKys
+        rKyssrKy09nZ2tvbs6wKCgoKCgoKCgoKi4qssrKy2dna27O0CgoKCgoKCrWKrKysrLKystnas7UKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKrIutraysrKysrKysrKyysrKy09nZ2tzc24umCgoKCgoKCgoK
+        rIqssrKy09na27qLrAoKCgoKCoaLrKysrLKystnauYuGCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqm
+        i4utraysrKysrKysrKyysrLT09nZ2tzc27OsCgoKCgoKCgoKrIqssrKy09na29uztAoKCgoKCgq1iqys
+        rLKystPZ2rOuCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqmi62trKysrKysrKysrKyysrLT09nZ2tzc
+        3LOLCgoKCgoKCgoKpoassrKy09na29u6i6YKCgoKCgqGhqysrKyysrLZ2tuzrAoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgqui62srKysrKysrKysrLKysrLT09nZ29wJ3NqKpgoKCgoKCgoKCoussrKy09nZ29zb
+        s7sKCgoKCgoKroqsrKyysrLZ2tu5i4YKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqaGra2srKysrKysrKys
+        rLKystPT09nZ29wJ3NuKpgoKCgoKCgoKCoussrKy09nZ29zbs5EKCgoKCgoKrIusrKyysrLT2drbs7UK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyLraysrKysrKysrKyssrKystPT2dna29wZ3NusrAoKCgoKCgoK
+        Cq6ssrKy09nZ2tzc24umCgoKCgoKhousrKyysrLT2drbuouGCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyL
+        rKysrKysrKysrKyysrKy09PT2dna3AkZ3NuyrAoKCgoKCgoKCrSKsrKy09nZ2tvc27OsCgoKCgoKCq6K
+        rKyssrKy2drb27OsCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyLrKysrKysrKysrLKysrLT09PT2dnb3BkZ
+        3NqyrAoKCgoKCgoKCrSKsrKy09PZ2tvc27O0CgoKCgoKCrWLrKyssrKy2dnb27SLrAoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCqaLrKysrKysrKyssrKysrLT09PZ2drb3BkZ3NqspgoKCgoKCgoKCrSKsrKy09PZ2tvc
+        3LOLCgoKCgoKCqyGrKyssrKy09na29utrAoKCgoKCgoKCgoKCgoKCgoKCgoKCqaLrKysrKysrKyysrKy
+        stPT09PZ2dvcGRkJ29qKpgoKCgoKCgoKCrSKsrKy09PZ2tvc3NuLpgoKCgoKCoaLrayssrKy09na29uz
+        tAoKCgoKCgoKCgoKCgoKCgoKCgoKCqyKrKysrKyssrKysrKy09PT09nZ2tsJGRnc27KLCgoKCgoKCgoK
+        CpGssrKy09nZ2tvc3NuKpgoKCgoKCgqui6yssrKy09na29u6i4YKCgoKCgoKCgoKCgoKCgoKCgoKCqyK
+        rKyssrKysrKysrLT09PT2dnZ29wJGRnc2rK0CgoKCgoKCgoKCoussrKy09nZ2tzc3NuypgoKCgoKCgq1
+        i6yssrKystnZ29zbs6wKCgoKCgoKCgoKCgoKCgoKCgoKCqyKsrKysrKysrKy09PT09PZ2dna3AkJCdzb
+        2rKsCgoKCgoKCgoKCoussrKy09nZ2tzc3NuyrAoKCgoKCgq1i6ysrLKystnZ29zbs7QKCgoKCgoKCgoK
+        CgoKCgoKCgoKCqaKsrKysrKystPT09PT09nZ2drcCQkZCdzasoqmCgoKCgoKCgoKpoussrKy09nZ2tzc
+        3NuyrAoKCgoKCgqsi6ysrLKystnZ2tzcuouGCgoKCgoKCgoKCgoKCgoKCgoKCgqLsrKysrLT09PT09PZ
+        2dnZ2twJGRkZ3NvasrQKCgoKCgoKCgoKrIqysrLT09nZ2twJ3NuyrAoKCgoKCgqGhqysrLKystPZ2tzc
+        24usCgoKCgoKCgoKCgoKCgoKCgoKCgqsrNPT09PT09nZ2dnZ2drb3AkZGRkJ3NqyiqYKCgoKCgoKCgoK
+        rIqysrLT09nZ2twJ3NuyrAoKCgoKCgqGhqysrLKystPZ2tvc27O1CgoKCgoKCgoKCgoKCgoKCgoKCgqm
+        i7LZ2dnZ2dnZ2dna2tvcCRkZGQnc29myrAoKCgoKCgoKCgoKi6yysrLT09nZ29wJ3NuyrAoKCgoKCgqG
+        hqysrLKystPZ2tvc27O0CgoKCgoKCgoKCgoKCgoKCgoKCgoKrKy42dnZ2dna2tvb3NwZGRkZCdzb2bKL
+        CgoKCgoKCgoKCgqmi6yysrLT2dnZ29wJ3NuyrAoKCgoKCgqGi6ysrLKystPZ2tvc3LmLCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCouy2tvb29vb3NzcCRkZGRkJ3NvZsoumCgoKCgoKCgoKCgqsirKystPT2dna2wkZ
+        3NuyrAoKCgoKCgoKi6ysrLKystPZ2tvc3NuKhgoKCgoKCgoKCgoKCgoKCgoKCgoKCqaLtNvc3NzcCQkZ
+        GRkZCdzb2tmyi6YKCgoKCgoKCgoKCqyLrLKystPT2dna3AkZ3NuyrAoKCgoKCgoKi6yssrKystPZ2tvc
+        3NuKhgoKCgoKCgoKCgoKpqYKCgoKCgoKCgqsi7Tb3Nzc3AkJCdzc29vasrKLpgoKCgoKCgoKCgoKCqyK
+        srKy09PT2dnb3BkZ3NqyrAoKCgoKCgqGhqyssrKystPZ2tvc3NuyrAoKCgoKCgoKCgoKrKwKCgoKCgoK
+        CgoKpq6ttNvb3Nzc29vb2tmyirSmCgoKCgoKCgoKCgoKCoussrKy09PZ2dnb3BkZ3NqKpgoKCgoKCgqG
+        hqyssrKy09PZ2tvc3NuztQoKCgoKCgoKCgoKpoumCgoKCgoKCgoKCgqsi62zs7m5ubKysoqQrAoKCgoK
+        CgoKCgoKCgoKrIqysrKy09PZ2drbCRkJ27mKpgoKCgoKCgqshqyssrKy09PZ2tvc3NuztAoKCgoKCgoK
+        CgoKCou1CgoKCgoKCgoKCgoKpqy0i4qKiouQrKYKCgoKCgoKCgoKCgoKCgqmi6yysrLT09PZ2dvcGRnc
+        27KLCgoKCgoKCgqsi6yssrKy09PZ2tvc3NuztAoKCgoKCgoKCgoKCpGGrAoKCgoKCgoKCgoKCgoKCqam
+        pgoKCgoKCgoKCgoKCgoKCgoKCgqsirKystPT09nZ2tvcGRnc2rK0CgoKCgoKCgqsi6yssrKy09PZ2tvc
+        3NuztAoKCgoKCgoKCgoKCrWGi6YKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqaKsrKy
+        stPT09nZ2twZGRnc2rKsCgoKCgoKCgq1i6yssrKy09nZ2tzc3NuzkAoKCgoKCgoKCgoKCqaGi66mCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKrIussrKy09PT2dna29wZGdzbuIqmCgoKCgoKCgqu
+        iqyysrKy09nZ2twJ3NuztAoKCgoKCgoKCgoKCgquiouRCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgqsi6yysrLT09PT2dna3BkZGdzasosKCgoKCgoKCgqLrKyysrLT09nZ2twJ3NuztAoKCgoKCgoK
+        CgoKCgq1iqyKkQoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqaLrLKysrLT09PZ2drb3BkZCdva
+        sqwKCgoKCgoKCoaGrKyysrLT09nZ2twZ3NuztAoKCgoKCgoKCgoKCgqmhqysiq6mCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKpoussrKystPT09nZ2dvcGRkZ3NuyiqYKCgoKCgoKCqyLrKyysrLT09nZ29wZ
+        3NuytAoKCgoKCgoKCgoKCgoKroqsrIqLrAoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqasi6yysrKy09PT
+        09nZ2tsJGRkJ3NqyrAoKCgoKCgoKCrSKrLKysrLT09nZ29wZ3NuytAoKCgoKCgoKCgoKCgoKrIqsrKyK
+        i7WmCgoKCgoKCgoKCgoKCgoKCgoKCgoKpouKrLKysrLT09PT2dna29wZGRnc29mKrAoKCgoKCgoKCous
+        rLKystPT2dna2wkZ3NuytAoKCgoKCgoKCgoKCgoKCq6KrKysrIqLtaYKCgoKCgoKCgoKCgoKCgoKCqas
+        i6yysrKystPT09PZ2dnb3BkZGQnb2rK0CgoKCgoKCgoKrIusrLKystPT2dna3AkZ3NuytQoKCgoKCgoK
+        CgoKCgoKCqyKrKysrKyKiou1rAoKCgoKCgoKCgoKCqasrouKrLKysrLT09PT09nZ2drcGRkZGdzasoqs
+        CgoKCgoKCgoKtIussrKystPT2dna3BkZ3NqyrAoKCgoKCgoKCgoKCgoKCgq0iqysrKysrKyKi4uRtays
+        pqamrKy1rouKrKyysrKystPT09PT2dnZ2twJGRkZ3NvZsrQKCgoKCgoKCgqGi6yssrKy09PT2dnb3BkZ
+        3NqKhgoKCgoKCgoKCgoKCgoKCgqmi6yysqysrKysrKyKiouLhoaLioqKrKyysrKysrKy09PT09PZ2dna
+        29wZGRnc29qyi6YKCgoKCgoKCgqsi6yysrKy09PZ2drbCRkJ27mKhgoKCgoKCgoKCgoKCgoKCgoKrIqy
+        srKysqysrKysrKysrKysrKyysrKysrKystPT09PT2dnZ2drc3BkZGQnc2rKKrAoKCgoKCgoKCgqLiqyy
+        srKy09PZ2drcGRnc27KLCgoKCgoKCgoKCgoKCgoKCgoKCrSssrKysrKysrKysrKysrKysrKysrKysrLT
+        09PT09PZ2dna29wJGRkZGdzb2bK0CgoKCgoKCgoKCqyLrKyysrLT09PZ2dvcGRnc27K0CgoKCgoKCgoK
+        CgoKCgoKCgoKCqaLsrKysrKysrKysrKysrKysrKysrKy09PT09PT2dnZ2drb3AkZGRkZ3NvZspCmCgoK
+        CgoKCgoKCouKrLKysrLT09nZ2tsJGRnc2rKsCgoKCgoKCgoKCgoKCgoKhqwKCgqmi7Ky07KysrKysrKy
+        srKysrKy09PT09PT09nZ2dna2tvcCRkZGQnc29myi6YKCgoKCgoKCgoKrIussrKystPT09nZ2twZGQnb
+        2oqGCgoKCgoKCgoKCgoKCgoKCq4KCgoKrIuy2dnZ2dPT09PT09PT09PT09PT09nZ2dnZ2drb3NwJGRkZ
+        Cdzb2bKLrAoKCgoKCgoKCgqGi4qssrKystPT2dnZ29wZGdzbsosKCgoKCgoKCgoKCgoKCgoKCrW1CgoK
+        CqyLs9rZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dra29zcCRkZGRnc29rZsousCgoKCgoKCgoKCgq0i6yysrKy
+        09PT2dna3BkZGdzasrQKCgoKCgoKCgoKCgoKCgoKCoZmhgoKCgqmi7Pa2tra2dnZ2dnZ2dnZ2dnZ2dra
+        29vc3AkZGRkZCdzb2riyi6YKCgoKCgoKCgoKCqyLrKyysrLT09PZ2dnb3BkZCdvarKwKCgoKCgoKCgoK
+        CgoKCgoKCgqLi4YKCgoKprStudvb29va2tra2tra2trb29vc3AkJGRkZGQnc29vasqy0pgoKCgoKCgoK
+        CgoKhouKrLKysrLT09PZ2drcCRkZ3Nuyi4YKCgoKCgoKCgoKCgoKCgoKCgq1hrQKCgoKCgq7i7Pb29vb
+        3Nzc3Nzc3Nzc3NwJGRkZGRkJ3Nzb2tmyi6wKCgoKCgoKCgoKCgqGroussrKystPT09nZ2dvcGRkZ3Nqy
+        tAoKCgoKCgoKCgoKCgoKCgoKCgqGhou1CgoKCgoKprSLtNvb3Nzc3NwJCQkZGRkZGRkJ3Nzb29rZsoq0
+        rAoKCgoKCgoKCgoKCgq1i6yssrKystPT09nZ2twJGRnc29mKhgoKCgoKCgoKCgoKCgoKCgoKCgoKrouL
+        rAoKCgoKCgqskYuzutvc3Nzc3Nzc3Nzc3Nzb29rasrKKkKwKCgoKCgoKCgoKCgoKCrWLrKyysrKy09PT
+        2dnZ29wZGRnc2rKLCgoKCgoKCgoKCgoKCgoKCgoKCgoKrIuKi6wKCgoKCgoKCqy0i7Ozudvb29vb29vb
+        2trasrKsi7SsCgoKCgoKCgoKCgoKCgoKrIusrLKysrLT09PZ2dna3BkZGdzb2rKsCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCouKiousCgoKCgoKCgoKpge0i4ussrKysrKysqyKi7QJpgoKCgoKCgoKCgoKCgoKCgq1
+        i6yssrKystPT09PZ2drb3BkZGdzasouGCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyKrIqGtQoKCgoKCgoK
+        CgoKCqasrKy1tbWsrKymCgoKCgoKCgoKCgoKCgoKCgoKCrWLrKyysrKy09PT09nZ2dvcGRkZ3NvasqwK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgquiqysirSGCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgqGrousrLKysrLT09PT2dnZ2twZGRkZ3Nqyi4YKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqs
+        iqysrIqLhgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyLiqyssrKystPT09PZ2dna
+        3AkZGRnc29msrAoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKkYqsrKyKi7UKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgqGtYuKrLKysrKy09PT09nZ2drb3BkZGdzb2rKQCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKhousrKysrIqLhgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyLi6yssrKy
+        srLT09PT09nZ2tvcGRkZGdzasoqsCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCqyKrKysrKyKpq6G
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqsi4utrKyysrKystPT09PZ2dna29wZGRkZ3NvZsqwKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqRirKsrKysrIqKi7WGCgoKCgoKCgoKCgoKCgoKCgoKCgqG
+        tYuLiqyssrKysrKy09PT09PZ2drb3BkZGRnc29qykAoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgqGi6yysqysrKysioqLrrWGCgoKCgoKCgoKCgoKCoaGta6Li62srLKysrKystPT09PT2dnZ2tvcGRkZ
+        Gdzb2rKLhgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKrIuysrKyrKysrKysioqLi660tays
+        rKystbW0rouLi4qsrKyysrKysrKy09PT09PZ2dna29wZGRkZ3NvasoqsCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCqyKsrKysrKyrKysrKysrIqKiouLi4uLi4uKrKysrKyssrKysrKystPT09PT
+        09nZ2drb3BkZGRnc29qyrKwKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgq1irKysrKy
+        srKyrKysrKysrKysrKysrKysrKyysrKysrKysrKy09PT09PZ2dna2tzcGRkZGdzb2rKstAoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKtYqysrKysrKysrKysrKyrKysrKyysrKysrKysrKy
+        srKy09PT09PT2dnZ2drb3AkZGRkZ3NvauKy0CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCrWKsriysrKysrKysrKysrKysrKysrKysrKysrKystPT09PT09nZ2dna29vcGRkZGRnc29qy
+        rLQKCgoKCgoKCgoKCgoKBwoHBwoHBwoHBwoKCgoKCgoKCgoKCgoKCgoKCgq1i7LZ2dnTsrKysrKysrKy
+        srKysrKysrKy09PT09PT09PZ2dnZ2trb3AkZGRkZCdzb2rKstQoKCgoKCgoKCgoKCgoKBwoHBwoHBwoH
+        BwoKCgoKCgoKCgoKCgoKCgoKCgoKrIuz2tnZ2dnT09OysrKysrKystPT09PT09PT09nZ2dnZ2dra29zc
+        GRkZGRnc3NvZsoqsCgoKCgoKCgoKCgoKCgoKBwoKBwoHBwoHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCoaL
+        s9ra2tnZ2dnZ2dnT09PT09PT09nZ2dnZ2dnZ2dna29vc3BkZGRkZCdzb2riyi6wKCgoKCgoKCgoKCgoK
+        CgoKBwoKBwcHBwe8CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqGtIuz29va2trZ2dnZ2dnZ2dnZ2dnZ2dnZ
+        2dra29vc3AkZGRkZGQnc29vasqyRhgoKCgoKCgoKCgoKCgoKCgoKBwoKBwcHBwe8CgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCqyLs7rb29vb29ra2tra2tra2tra2trb29vc3NwJGRkZGRkJ3Nzb2riyi6wKCgoK
+        CgoKCgoKCgoKCgoKCgoKBwoKBwcKCry8CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqGtYuz29vb29vb
+        29vb29vb29vc3Nzc3AkZGRkZGRkZ3Nzb29q4soq0hgoKCgoKCgoKCgoKCgoKCgoKCgcHBwcHBwcKCgcH
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCoa0i7O629vc3Nzc3Nzc3NzcCRkZGRkZGRkJ3Nzc29ra
+        uLKKtKwKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKhrSLs7Pb29vc3Nzc3Nzc3Nzc3Nzc3Nzb29va2bKyirSsCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqGu5GLs7O529vb29vb29vb
+        29vb2trasrKyioushgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqGu7SLi6yzs7Ozs7OzsrKysqyKi7SshgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKhqystbS0tJC0tLS1rKyGCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/////////////
+        //////////AH///////////+D/4A////////////AP+AH///////////wB/gB///////////4AfwAf//
+        ////////+AH8AH///////////AD+AB///////////gB/AA///////////wAfgAf//////////4APwAP/
+        //////g//8AH4AH//////8AD/8AD8AB//////wAB/+AD+AB//////gAAf/AB/AA//////AAAP/AA/AAf
+        ////+AAAP/AAfgAP////8AAAH/gAfwAH////4AAAD/gAPwAD////wAAAD/wAP4AD////wAAAB/wAH4AB
+        ////gAAAB/wAH8AB////gAAAB/wAD8AA////gAAAA/4AD+AAf///AAAAA/4AD+AAf///AAAAA/4AB+AA
+        P///AAAAA/4AB/AAP///AAAAA/4AB/AAH///AAAAA/4AB/AAH///AAAAA/4AA/AAH///AAAAB/4AA/gA
+        D///AAAAB/4AA/gAD///AAAAB/4AA/gAD///AAAAB/wAA/gAB///gAAAD/wAA/gAB///gAAAD/wAA/gA
+        B///gAAAH/wAA/gAB///wAAAP/gAA/gAB///4AAAP/gAA/wAA///4AAAf/AAA/wAA/+f8AAA//AAA/gA
+        A/+f+AAB//AAA/gAA/+P/gAH/+AAA/gAA//P/wAf/8AAB/gAA//H//H//8AAB/gAA//D/////4AAB/gA
+        A//B/////wAAB/gAA//h/////gAAD/gAA//g/////AAAD/AAA//gP///+AAAD/AAA//wH///4AAAH/AA
+        A//wB///wAAAH/AAA//4Af//AAAAP+AAA//4AH/4AAAAP+AAA//8AAAAAAAAf8AAA//8AAAAAAAAf8AA
+        A//+AAAAAAAA/8AAB///AAAAAAAB/4AAB///AAAAAAAB/4AAB//zgAAAAAAD/wAAB//7wAAAAAAH/gAA
+        D//54AAAAAAP/gAAD//48AAAAAAf/AAAD//8eAAAAAA/+AAAD//8fgAAAAD/8AAAH//8PwAAAAH/8AAA
+        H//+H8AAAAf/4AAAP//+D/AAAB//wAAAP///B/wAAH//gAAAP///A//AB///AAAAf///gP/////8AAAA
+        f///gH/////4AAAA////wD/////gAAAB////wA/////AAAAB////4AP///8AAAAD////8AB///gAAAAH
+        ////8AAP/4AAAAAH////+AAAAAAAAAAP/////AAAAAAAAAAf/////gAAAAAAAAA//////wAAAAAAAAB/
+        /////4AAAAAAAAD/+kn//8AAAAAAAAH/+kn//+AAAAAAAAP/+0v///AAAAAAAAf/+wP///gAAAAAAA//
+        +wP///4AAAAAAD//+zP///8AAAAAAH//4DP////AAAAAAf/////////wAAAAB//////////8AAAAH///
+        ////////gAAA////////////+AAP////////////////////////////////////////////////////
+        //8=
+</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>600, 480</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Status Field Customisation</value>
+  </data>
+  <data name="&gt;&gt;ColorDialog.Name" xml:space="preserve">
+    <value>ColorDialog</value>
+  </data>
+  <data name="&gt;&gt;ColorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileMenu.Name" xml:space="preserve">
+    <value>FileMenu</value>
+  </data>
+  <data name="&gt;&gt;FileMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileSaveMenuItem.Name" xml:space="preserve">
+    <value>FileSaveMenuItem</value>
+  </data>
+  <data name="&gt;&gt;FileSaveMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileMenuSeparator.Name" xml:space="preserve">
+    <value>FileMenuSeparator</value>
+  </data>
+  <data name="&gt;&gt;FileMenuSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileExitMenuItem.Name" xml:space="preserve">
+    <value>FileExitMenuItem</value>
+  </data>
+  <data name="&gt;&gt;FileExitMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpMenu.Name" xml:space="preserve">
+    <value>HelpMenu</value>
+  </data>
+  <data name="&gt;&gt;HelpMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpContentsMenuItem.Name" xml:space="preserve">
+    <value>HelpContentsMenuItem</value>
+  </data>
+  <data name="&gt;&gt;HelpContentsMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpIndexMenuItem.Name" xml:space="preserve">
+    <value>HelpIndexMenuItem</value>
+  </data>
+  <data name="&gt;&gt;HelpIndexMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpSearchMenuItem.Name" xml:space="preserve">
+    <value>HelpSearchMenuItem</value>
+  </data>
+  <data name="&gt;&gt;HelpSearchMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpMenuSeparator.Name" xml:space="preserve">
+    <value>HelpMenuSeparator</value>
+  </data>
+  <data name="&gt;&gt;HelpMenuSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpMenuAboutButton.Name" xml:space="preserve">
+    <value>HelpMenuAboutButton</value>
+  </data>
+  <data name="&gt;&gt;HelpMenuAboutButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusID.Name" xml:space="preserve">
+    <value>ClientSiteStatusID</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusIsActiveColumn.Name" xml:space="preserve">
+    <value>ClientSiteStatusIsActiveColumn</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusIsActiveColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusDescriptionColumn.Name" xml:space="preserve">
+    <value>ClientSiteStatusDescriptionColumn</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusDescriptionColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusBindingSource.Name" xml:space="preserve">
+    <value>ClientSiteStatusBindingSource</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomisationTables.Name" xml:space="preserve">
+    <value>CustomisationTables</value>
+  </data>
+  <data name="&gt;&gt;CustomisationTables.Type" xml:space="preserve">
+    <value>activiser.Library.activiserWebService.activiserDataSet, activiser.Library.WebServiceProxy.Desktop, Version=3.5.0.0, Culture=neutral, PublicKeyToken=743c357f1abbd2ef</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarAddNewButton.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarAddNewButton</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarAddNewButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarCountLabel.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarCountLabel</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarCountLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarDeleteButton.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarDeleteButton</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarDeleteButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarMoveFirstButton.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarMoveFirstButton</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarMoveFirstButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarMovePreviousButton.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarMovePreviousButton</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarMovePreviousButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarSeparator1.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarPositionButton.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarPositionButton</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarPositionButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarSeparator2.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarSeparator2</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarMoveNextButton.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarMoveNextButton</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarMoveNextButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarMoveLastButton.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarMoveLastButton</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarMoveLastButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarSeparator3.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarSeparator3</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarSaveButton.Name" xml:space="preserve">
+    <value>ClientSiteStatusToolbarSaveButton</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteStatusToolbarSaveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusDescriptionColumn.Name" xml:space="preserve">
+    <value>JobStatusDescriptionColumn</value>
+  </data>
+  <data name="&gt;&gt;JobStatusDescriptionColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusBindingSource.Name" xml:space="preserve">
+    <value>JobStatusBindingSource</value>
+  </data>
+  <data name="&gt;&gt;JobStatusBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarCountLabel.Name" xml:space="preserve">
+    <value>JobStatusToolbarCountLabel</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarCountLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarMoveFirstButton.Name" xml:space="preserve">
+    <value>JobStatusToolbarMoveFirstButton</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarMoveFirstButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarMovePreviousButton.Name" xml:space="preserve">
+    <value>JobStatusToolbarMovePreviousButton</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarMovePreviousButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarSeparator1.Name" xml:space="preserve">
+    <value>JobStatusToolbarSeparator1</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarPositionButton.Name" xml:space="preserve">
+    <value>JobStatusToolbarPositionButton</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarPositionButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarSeparator2.Name" xml:space="preserve">
+    <value>JobStatusToolbarSeparator2</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarMoveNextButton.Name" xml:space="preserve">
+    <value>JobStatusToolbarMoveNextButton</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarMoveNextButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarMoveLastButton.Name" xml:space="preserve">
+    <value>JobStatusToolbarMoveLastButton</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarMoveLastButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarSeparator3.Name" xml:space="preserve">
+    <value>JobStatusToolbarSeparator3</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarSaveButton.Name" xml:space="preserve">
+    <value>JobStatusToolbarSaveButton</value>
+  </data>
+  <data name="&gt;&gt;JobStatusToolbarSaveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIDColumn.Name" xml:space="preserve">
+    <value>RequestStatusIDColumn</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusIDColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusOrderColumn.Name" xml:space="preserve">
+    <value>RequestStatusOrderColumn</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusOrderColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDescriptionColumn.Name" xml:space="preserve">
+    <value>RequestStatusDescriptionColumn</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusDescriptionColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusBindingSource.Name" xml:space="preserve">
+    <value>RequestStatusBindingSource</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarAddNewButton.Name" xml:space="preserve">
+    <value>RequestStatusToolbarAddNewButton</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarAddNewButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarCountLabel.Name" xml:space="preserve">
+    <value>RequestStatusToolbarCountLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarCountLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarMoveFirstButton.Name" xml:space="preserve">
+    <value>RequestStatusToolbarMoveFirstButton</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarMoveFirstButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarMovePreviousButton.Name" xml:space="preserve">
+    <value>RequestStatusToolbarMovePreviousButton</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarMovePreviousButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarSeparator1.Name" xml:space="preserve">
+    <value>RequestStatusToolbarSeparator1</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarPositionLabel.Name" xml:space="preserve">
+    <value>RequestStatusToolbarPositionLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarPositionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarSeparator2.Name" xml:space="preserve">
+    <value>RequestStatusToolbarSeparator2</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarMoveNextButton.Name" xml:space="preserve">
+    <value>RequestStatusToolbarMoveNextButton</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarMoveNextButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarMoveLastButton.Name" xml:space="preserve">
+    <value>RequestStatusToolbarMoveLastButton</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarMoveLastButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarSeparator3.Name" xml:space="preserve">
+    <value>RequestStatusToolbarSeparator3</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarDeleteButton.Name" xml:space="preserve">
+    <value>RequestStatusToolbarDeleteButton</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarDeleteButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarSaveButton.Name" xml:space="preserve">
+    <value>RequestStatusToolbarSaveButton</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusToolbarSaveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTipProvider.Name" xml:space="preserve">
+    <value>ToolTipProvider</value>
+  </data>
+  <data name="&gt;&gt;ToolTipProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>StatusCustomisation</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

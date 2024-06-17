@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>3.0</ProductVersion>
+    <ProjectGuid>{bb33b8ca-fb78-47b0-9916-1e4a998ffc71}</ProjectGuid>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputName>activiserWorkstationComponents</OutputName>
+    <OutputType>Package</OutputType>
+    <WixTargetsPath Condition=" '$(WixTargetsPath)' == '' ">$(MSBuildExtensionsPath)\Microsoft\WiX\v3.0\Wix.targets</WixTargetsPath>
+    <Name>activiser.Setup.Workstation</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <DefineConstants>Debug</DefineConstants>
+    <CompilerAdditionalOptions>
+    </CompilerAdditionalOptions>
+    <LinkerAdditionalOptions>
+    </LinkerAdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Product.wxs" />
+    <Compile Include="ServerUrlDialog.wxs" />
+    <Compile Include="UI.wxs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LanguageEditor\LanguageEditor\activiser.LanguageEditor.vbproj">
+      <Name>activiser.LanguageEditor</Name>
+      <Project>{1bff519e-20d5-4023-a9b2-8d9279e929db}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\activiser.Library.DateTimePicker.Desktop\activiser.Library.DateTimePicker.Desktop.vbproj">
+      <Name>activiser.Library.DateTimePicker.Desktop</Name>
+      <Project>{8c2bb846-6d0a-4745-b8b5-fbd83ca5e25d}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\activiser.Library.ExceptionDialog.Desktop\activiser.Library.ExceptionDialog.Desktop.vbproj">
+      <Name>activiser.Library.ExceptionDialog.Desktop</Name>
+      <Project>{b8f1b95e-1897-458e-a10a-621da62ee5bd}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\activiser.Library.Gps.Desktop\activiser.Library.Gps.Desktop.csproj">
+      <Name>activiser.Library.Gps.Desktop</Name>
+      <Project>{3d5470ba-c914-4acc-beac-ba4f6a5d22cb}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\activiser.Library.Signature.Desktop\activiser.Library.Forms.Desktop.csproj">
+      <Name>activiser.Library.Forms.Desktop</Name>
+      <Project>{f48f9479-11a4-4c46-9d82-0a07b89a207e}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\activiser.Library.WebServiceProxy.Desktop\activiser.Library.WebServiceProxy.Desktop.csproj">
+      <Name>activiser.Library.WebServiceProxy.Desktop</Name>
+      <Project>{ce894214-4529-46a1-9bf4-117a33535d83}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Licensing\activiser.Licensing.Client\activiser.Licensing.Client.vbproj">
+      <Name>activiser.Licensing.Client</Name>
+      <Project>{b2e859ca-c34b-49a2-82e3-ecc79fecdec2}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Console\activiser.Console\activiser.Console.vbproj">
+      <Name>activiser.Console</Name>
+      <Project>{0dda89e5-c937-499b-ab40-25db42b0685a}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\SchemaEditor\SchemaEditor\activiser.SchemaEditor.vbproj">
+      <Name>activiser.SchemaEditor</Name>
+      <Project>{bf1dd345-bfab-4526-8600-d908c6d19d41}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperFile Include="Microsoft.Net.Framework.3.5">
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+    </BootstrapperFile>
+    <BootstrapperFile Include="Microsoft.Windows.Installer.3.1">
+      <ProductName>Windows Installer 3.1</ProductName>
+    </BootstrapperFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Folders.wxi" />
+    <Content Include="Images\activiser.ico" />
+    <Content Include="Graphics.wxi" />
+    <Content Include="Images\BannerBitmap.bmp" />
+    <Content Include="Images\DialogBitmap.bmp" />
+    <Content Include="License.rtf" />
+    <Content Include="SetupBannerLogo.bmp" />
+    <Content Include="SetupSplashLogo.bmp" />
+    <Content Include="Shortcuts.wxi" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="activiser-en-us.wxl" />
+  </ItemGroup>
+  <Import Project="$(WixTargetsPath)" />
+  <ItemGroup>
+    <WixExtension Include="WixUIExtension">
+      <HintPath>$(WixExtDir)\WixUIExtension.dll</HintPath>
+    </WixExtension>
+    <WixExtension Include="WixNetFxExtension">
+      <HintPath>$(WixExtDir)\WixNetFxExtension.dll</HintPath>
+    </WixExtension>
+  </ItemGroup>
+  <Target Name="Bootstrapper" Inputs="$(OutputPath)$(TargetFileName)" Outputs="$(OutputPath)Setup.exe" Condition=" '$(OutputType)'=='package' ">
+    <GenerateBootstrapper ApplicationFile="$(TargetFileName)" ApplicationName="activiser Console Components" BootstrapperItems="@(BootstrapperFile)" ComponentsLocation="HomeSite" OutputPath="$(OutputPath)" Path="C:\Program Files\Microsoft SDKs\Windows\v6.0A\Bootstrapper\" />
+  </Target>
+  <PropertyGroup>
+    <BuildDependsOn>$(BuildDependsOn);Bootstrapper</BuildDependsOn>
+    <PostBuildEvent>..\..\..\BuildSupport\PostBuild.cmd Console "$(ProjectDir)"  "$(TargetDir)" $(ConfigurationName)</PostBuildEvent>
+  </PropertyGroup>
+  <!--
+	To modify your build process, add your task inside one of the targets below and uncomment it.
+	Other similar extension points exist, see Wix.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Directory Id="TARGETDIR" Name="SourceDir">
+		<Directory Id="ProgramFilesFolder">
+			<Directory Id="ACTIVISERFOLDER" Name="activiser">
+				<Directory Id="APPLICATIONFOLDER" Name="Workstation" />
+			</Directory>
+		</Directory>
+
+		<Directory Id="DesktopFolder"/>
+
+		<Directory Id="ProgramMenuFolder">
+			<Directory Id="activiserStartFolder" Name="activiser">
+				<Component Id="activiserProgramGroup" Guid="57D227C3-8191-4515-8FC4-D14F868A6F75">
+					<CreateFolder />
+					<RemoveFolder Id="ProgramMenuDirRemoveFolder" On="uninstall"/>
+					<RegistryValue Root="HKCU" Key="SOFTWARE\activiser" Name="activiserProgramGroup" Type="string" Value="[activiserStartFolder]"/>
+				</Component>
+				
+			</Directory>
+		</Directory>
+	</Directory>
+</Include>

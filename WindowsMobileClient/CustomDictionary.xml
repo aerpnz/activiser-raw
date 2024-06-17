@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary>
+	<Words>
+		<Recognized>
+			<Word>activiser</Word>
+			<Word>gps</Word>
+			<Word>kilometre</Word>
+			<Word>kilometres</Word>
+			<Word>metre</Word>
+			<Word>metres</Word>
+			<Word>uid</Word>
+			<Word>sortable</Word>
+			<Word>colour</Word>
+			<Word>cancelled</Word>
+			<Word>synchronised</Word>
+			<Word>authorisation</Word>
+		</Recognized>
+		<CasingExceptions>
+			<Word>activiser</Word>
+		</CasingExceptions>
+	</Words>
+	<Acronyms>
+		<CasingExceptions>
+			<Acronym>GPS</Acronym>
+			<Acronym>UID</Acronym>
+			<Acronym>ID</Acronym>
+		</CasingExceptions>
+	</Acronyms>
+</Dictionary>

@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="activiser.WebService.OutputGateway.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SettingQuery" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT SettingName, Value FROM gateway.XmlFolderGateway$Setting Settings WHERE SettingName=@SettingName</Value>
+    </Setting>
+    <Setting Name="SettingNameParameter" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@SettingName</Value>
+    </Setting>
+    <Setting Name="FileNameFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{2}-{1}.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,99 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="ReminderTimeList" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;0,0 minutes&lt;/string&gt;
+  &lt;string&gt;5,5 minutes&lt;/string&gt;
+  &lt;string&gt;10,10 minutes&lt;/string&gt;
+  &lt;string&gt;15,15 minutes&lt;/string&gt;
+  &lt;string&gt;30,30 minutes&lt;/string&gt;
+  &lt;string&gt;60,1 hour&lt;/string&gt;
+  &lt;string&gt;120,2 hours&lt;/string&gt;
+  &lt;string&gt;180,3 hours&lt;/string&gt;
+  &lt;string&gt;240,4 hours&lt;/string&gt;
+  &lt;string&gt;360,6 hours&lt;/string&gt;
+  &lt;string&gt;480,8 hours&lt;/string&gt;
+  &lt;string&gt;720,12 hours&lt;/string&gt;
+  &lt;string&gt;1080,18 hours&lt;/string&gt;
+  &lt;string&gt;1440,1 day&lt;/string&gt;
+  &lt;string&gt;2880,2 days&lt;/string&gt;
+  &lt;string&gt;4320,3 days&lt;/string&gt;
+  &lt;string&gt;5760,4 days&lt;/string&gt;
+  &lt;string&gt;10080,1 week&lt;/string&gt;
+  &lt;string&gt;20160,2 weeks&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="ShowTimeAsList" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Free&lt;/string&gt;
+  &lt;string&gt;Tentative&lt;/string&gt;
+  &lt;string&gt;Busy&lt;/string&gt;
+  &lt;string&gt;Out of Office&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="activiserUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IgnoreServerCertificateNameMismatch" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="IgnoreServerCertificateErrors" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AutoDomainLogon" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="proxyServerUrl" Type="(Web Service URL)" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="proxyServerAuthenticate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="LogonAtStartup" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowTimeAsDefault" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="DefaultNewRequestStatus" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="DefaultTimeAsItem" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Busy</Value>
+    </Setting>
+    <Setting Name="CommandBarLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="NextActionDateOption" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MaximumSubjectLength" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="MaximumLongDescriptionLength" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3500</Value>
+    </Setting>
+    <Setting Name="IncludeTimeInNextActiondate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AppendAddressToLocation" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PrependAddressToLongDescription" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ForceWin2KLogon" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="LanguageId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="activiserServerUrl" Type="(Web Service URL)" Scope="User">
+      <Value Profile="(Default)">http://localhost:4200/activiser.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="activiser.ContextMenuBase" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQAAAAgQgBBAIAAAAAAAAJACIAggBAACAAAAAAAA=</HashCode>
+      <FileName>Menus\ContextMenuBase.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.EditContextMenu" Collapsed="true">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAQAAAAAAAAAAABMAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Menus\EditContextMenu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.PasswordContextMenu" Collapsed="true">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menus\PasswordContextMenu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.ReadOnlyContextMenu" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menus\ReadOnlyContextMenu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="activiser.ContextMenuType" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAACAAAIAAAAAAA=</HashCode>
+      <FileName>Menus\ContextMenuBase.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

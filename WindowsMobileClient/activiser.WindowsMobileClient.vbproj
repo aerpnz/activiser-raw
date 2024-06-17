@@ -1,0 +1,679 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56FE5708-8627-4FAA-BEB1-6488598BB093}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{68B1623D-7FB9-47D8-8664-7ECEA3297D4F};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <ApplicationIcon>activiser.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>activiser</AssemblyName>
+    <AssemblyOriginatorKeyFile>activiserMobileFrontEnd.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <OutputFileFolder>\Program Files\Activiser</OutputFileFolder>
+    <RootNamespace>activiser</RootNamespace>
+    <StartupObject>Sub Main</StartupObject>
+    <WebReference_EnableProperties>true</WebReference_EnableProperties>
+    <WebReference_EnableSQLTypes>false</WebReference_EnableSQLTypes>
+    <WebReference_EnableLegacyEventingModel>true</WebReference_EnableLegacyEventingModel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsForms</MyType>
+    <FormFactorID>
+    </FormFactorID>
+    <OSVersion>5.02</OSVersion>
+    <SignAssembly>true</SignAssembly>
+    <DeployDirPrefix>\</DeployDirPrefix>
+    <GenerateResourceNeverLockTypeAssemblies>true</GenerateResourceNeverLockTypeAssemblies>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <DeployDirSuffix>Storage Card\activiser</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BaseAddress>0</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>COMPACT_FRAMEWORK=True,HOPPER=False,WINDOWSMOBILE=True</DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>full</DebugType>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>off</GenerateSerializationAssemblies>
+    <WarningsAsErrors>42017,42018,42019,42032,42036</WarningsAsErrors>
+    <DocumentationFile>activiser.xml</DocumentationFile>
+    <CodeAnalysisRules>-Microsoft.Globalization#CA1303;-Microsoft.Design#CA1031;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1300;-Microsoft.Interoperability#CA1400;-Microsoft.Naming#CA1709;-Microsoft.Usage#CA2228</CodeAnalysisRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <NoWarn>
+    </NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BaseAddress>0</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>COMPACT_FRAMEWORK=1</DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>none</DebugType>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>off</GenerateSerializationAssemblies>
+    <WarningsAsErrors>42017,42018,42019,42032,42036</WarningsAsErrors>
+    <DocumentationFile>activiser.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms">
+      <Name>Microsoft.WindowsCE.Forms</Name>
+    </Reference>
+    <Reference Include="Microsoft.WindowsMobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsMobile.PocketOutlook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\Windows Mobile 6 SDK\Managed Libraries\Microsoft.WindowsMobile.PocketOutlook.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsMobile.Status, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\Windows Mobile 6 SDK\Managed Libraries\Microsoft.WindowsMobile.Status.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsMobile.Telephony, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\Windows Mobile 6 SDK\Managed Libraries\Microsoft.WindowsMobile.Telephony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="activiser" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Globalization" />
+    <Import Include="System.IO" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\ClientUtilities.vb" />
+    <Compile Include="Classes\CustomDataUtilities.vb" />
+    <Compile Include="Classes\LockCodes.vb" />
+    <Compile Include="Classes\MessageConstants.vb" />
+    <Compile Include="Classes\RequestStatusListItem.vb" />
+    <Compile Include="Forms\PopupBox.Designer.vb">
+      <DependentUpon>PopupBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PopupBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RequestFormTab.vb" />
+    <Compile Include="Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Synchronisation\Synchronisation.Client.VB" />
+    <Compile Include="Synchronisation\Synchronisation.GPS.VB" />
+    <Compile Include="Synchronisation\Synchronisation.Authentication.vb" />
+    <Compile Include="Synchronisation\ChecksumUtilities.vb" />
+    <Compile Include="Classes\ConfigurationSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Clipboard.vb" />
+    <Compile Include="Classes\CompactExceptionParser.vb" />
+    <Compile Include="Classes\ConsultantConfig.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\ControlPosition.vb" />
+    <Compile Include="Classes\CustomControlTypes.vb" />
+    <Compile Include="Serialisation\Serialisation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="activiserMobileFrontEnd.snk" />
+    <Compile Include="Classes\ExceptionManagement.vb" />
+    <Compile Include="Classes\ClientListItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Globals.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\JobStatusCodes.vb" />
+    <Compile Include="Classes\JobUtilities.vb" />
+    <Compile Include="Classes\LabelPosition.vb" />
+    <Compile Include="Classes\Main.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\SortableColumnHeader.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\NativeMethods.vb" />
+    <Compile Include="Classes\RequestStatusCodes.vb" />
+    <Compile Include="Classes\RequestUtilities.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Startup.vb" />
+    <Compile Include="Forms\SetupForm.Designer.vb">
+      <DependentUpon>SetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Synchronisation\Synchronisation.Notification.VB" />
+    <Compile Include="Synchronisation\Synchronisation.Logging.vb" />
+    <Compile Include="Synchronisation\Synchronisation.FullSync.vb" />
+    <Compile Include="Synchronisation\NoChecksumDataException.vb" />
+    <Compile Include="Synchronisation\SchemaClients.vb" />
+    <Compile Include="Synchronisation\SyncExceptions.vb" />
+    <Compile Include="Synchronisation\Synchronisation.Log.vb" />
+    <Compile Include="Synchronisation\Synchronisation.Profile.VB" />
+    <Compile Include="Synchronisation\Synchronisation.Schema.vb" />
+    <Compile Include="Synchronisation\Synchronisation.SyncWrapper.vb" />
+    <Compile Include="Synchronisation\Synchronisation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Terminology.vb" />
+    <Compile Include="Classes\UIEventHandlers.vb" />
+    <Compile Include="Classes\Utilities.vb" />
+    <Compile Include="Classes\WebServiceSupport.vb" />
+    <Compile Include="CustomForms\CustomControl.designer.vb">
+      <DependentUpon>CustomControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomForms\CustomControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomForms\CustomFormPanel.Designer.vb">
+      <DependentUpon>CustomFormPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomForms\CustomFormPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ErrorDialog.Designer.vb">
+      <DependentUpon>ErrorDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ErrorDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CredentialDialog.Designer.vb">
+      <DependentUpon>CredentialDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CredentialDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutForm.designer.vb">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AboutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientForm.Designer.vb">
+      <DependentUpon>ClientForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ClientForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DialogBox.Designer.vb">
+      <DependentUpon>DialogBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DialogBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingsForm.Designer.vb">
+      <DependentUpon>SettingsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RequestForm.Designer.vb">
+      <DependentUpon>RequestForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RequestForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JobForm.Designer.vb">
+      <DependentUpon>JobForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JobForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StartupForm.Designer.vb">
+      <DependentUpon>StartUpForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StartUpForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Synchronisation\SyncForm.Designer.vb">
+      <DependentUpon>SyncForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Synchronisation\SyncForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalSuppressions.vb" />
+    <Compile Include="GPS\Gps.vb" />
+    <Compile Include="Menus\ContextMenuBase.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\EditContextMenu.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\PasswordContextMenu.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\ReadOnlyContextMenu.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Phone\Phone.vb" />
+    <Compile Include="Synchronisation\Synchronisation.SyncType.vb" />
+    <Compile Include="Synchronisation\Synchronisation.Utilities.vb" />
+    <Compile Include="Synchronisation\Synchronisation.LogEntryAddedEventArgs.vb" />
+    <EmbeddedResource Include="CustomForms\CustomControl.resx">
+      <DependentUpon>CustomControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PopupBox.resx">
+      <DependentUpon>PopupBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ErrorDialog.resx">
+      <DependentUpon>ErrorDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CredentialDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CredentialDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AboutForm.resx">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ClientForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClientForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DialogBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DialogBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SettingsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RequestForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RequestForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JobForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>JobForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SetupForm.resx">
+      <DependentUpon>SetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StartUpForm.resx">
+      <DependentUpon>StartUpForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Synchronisation\SyncForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SyncForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="activiser.exe.config">
+      <SubType>Code</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="activiser.ico">
+    </Content>
+    <None Include="Resources\16x16\Add16disabled.bmp" />
+    <None Include="Resources\16x16\Delete16disabled.bmp" />
+    <None Include="Resources\32x32\Add32disabled.bmp" />
+    <None Include="Resources\32x32\Delete32disabled.bmp" />
+    <CodeAnalysisDictionary Include="CustomDictionary.xml" />
+    <None Include="Resources\32x32\_32X32_sync1.bmp" />
+    <None Include="Resources\Logos\Logo100x50.bmp" />
+    <None Include="Resources\Logos\Logo150x75.bmp" />
+    <None Include="Resources\Logos\Logo200x100.bmp" />
+    <None Include="Resources\Logos\Logo400x200.bmp" />
+    <Content Include="Resources\16x16\JobIcon16.bmp" />
+    <Content Include="Resources\24x24\JobIcon24.bmp" />
+    <Content Include="Resources\32x32\JobIcon32.bmp" />
+    <Content Include="Resources\48x48\JobIcon48.bmp" />
+    <Content Include="Sounds\SyncComplete.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.VisualBasic.SR.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\NewRequest.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Notify.ico" />
+    <Content Include="Sounds\SyncStart.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="System.SR.DLL">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\32x32\KeysIcon32.bmp" />
+    <None Include="Resources\32x32\LockIcon32.bmp" />
+    <None Include="Resources\32x32\NoEntryIcon32.bmp" />
+    <None Include="Resources\32x32\QuestionIcon32.bmp" />
+    <None Include="Resources\32x32\WarningIcon32.bmp" />
+    <None Include="Resources\48x48\ErrorIcon48.bmp" />
+    <None Include="Resources\48x48\InfoIcon48.bmp" />
+    <None Include="Resources\48x48\KeysIcon48.bmp" />
+    <None Include="Resources\48x48\LockIcon48.bmp" />
+    <None Include="Resources\48x48\NoEntryIcon48.bmp" />
+    <None Include="Resources\48x48\QuestionIcon48.bmp" />
+    <None Include="Resources\48x48\WarningIcon48.bmp" />
+    <None Include="Resources\32x32\ErrorIcon32.bmp" />
+    <None Include="Resources\32x32\InfoIcon32.bmp" />
+    <None Include="Resources\WarningIcon32.bmp" />
+    <None Include="Resources\32x32\Info32.bmp" />
+    <None Include="Resources\24x24\Info24.bmp" />
+    <None Include="Resources\16x16\Info16.bmp" />
+    <None Include="Resources\16x16\Orientation16.bmp" />
+    <None Include="Resources\16x16\ClientList16.bmp" />
+    <None Include="Resources\24x24\ClientList24.bmp" />
+    <None Include="Resources\32x32\ClientList32.bmp" />
+    <None Include="Resources\32x32\Add32.bmp" />
+    <None Include="Resources\16x16\Delete16.bmp" />
+    <None Include="Resources\16x16\Add16.bmp" />
+    <None Include="Resources\16x16\MoveFirst16.bmp" />
+    <None Include="Resources\16x16\MoveLast16.bmp" />
+    <None Include="Resources\16x16\MoveNext16.bmp" />
+    <None Include="Resources\16x16\MovePrevious16.bmp" />
+    <None Include="Resources\16x16\Settings16.bmp" />
+    <None Include="Resources\24x24\Settings24.bmp" />
+    <None Include="Resources\32x32\MoveFirst32.bmp" />
+    <None Include="Resources\32x32\MovePrevious32.bmp" />
+    <None Include="Resources\32x32\MoveLast32.bmp" />
+    <None Include="Resources\32x32\MoveNext32.bmp" />
+    <None Include="Resources\32x32\Orientation32.bmp" />
+    <None Include="Resources\32x32\Delete32.bmp" />
+    <None Include="Resources\32x32\Settings32.bmp" />
+    <None Include="Resources\AddRecord.bmp" />
+    <None Include="Resources\AddRecordButton.Image.bmp" />
+    <None Include="Resources\Delete.bmp" />
+    <None Include="Resources\16x16\Logo16.bmp" />
+    <None Include="Resources\32x32\Logo32.bmp" />
+    <None Include="Resources\48x48\Logo48.bmp" />
+    <None Include="Resources\64x64\Logo64.bmp" />
+    <None Include="Resources\MovePreviousButton.Image.bmp" />
+    <None Include="Resources\MoveNextButton.Image.bmp" />
+    <None Include="Resources\MoveLastButton.Image.bmp" />
+    <None Include="Resources\MoveFirstButton.Image.bmp" />
+    <None Include="Resources\DeleteRecordButton.Image.bmp" />
+    <None Include="Resources\16x16\Edit_Undo.bmp" />
+    <None Include="DesignTimeAttributes.xmta" />
+    <None Include="Resources\32x32\_32X32Orientation.bmp" />
+    <None Include="Resources\16x16\Orientation.bmp" />
+    <None Include="Resources\16x16\_16X16_sync.bmp" />
+    <None Include="Resources\24x24\_24X24_Sync.bmp" />
+    <None Include="Resources\32x32\_32X32_sync.bmp" />
+    <None Include="Resources\16x16\16x16_Orient.ico" />
+    <None Include="Resources\16x16\16x16_Down.ico" />
+    <None Include="Resources\16x16\16x16_Left.ico" />
+    <None Include="Resources\16x16\16x16_Right.ico" />
+    <None Include="Resources\16x16\16x16_Up.ico" />
+    <None Include="Resources\24x24\24x24_Down.ico" />
+    <None Include="Resources\24x24\24x24_Left.ico" />
+    <None Include="Resources\24x24\24x24_Right.ico" />
+    <None Include="Resources\24x24\24x24_Up.ico" />
+    <None Include="Resources\32x32\32x32_Down.ico" />
+    <None Include="Resources\32x32\32x32_Left.ico" />
+    <None Include="Resources\32x32\32x32_Right.ico" />
+    <None Include="Resources\32x32\32x32_Up.ico" />
+    <None Include="Resources\16x16\16X16_arrow_down_green.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_arrow_left_green.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_arrow_right_green.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_arrow_up_green.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_request.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_edit.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_job.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_Information.gif">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_option.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_nav_down_left_green.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_sync.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_clientList.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_switch_on.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\16x16\16X16_switch_off.png">
+      <CustomToolNamespace>16X16</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_arrow_down_green.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_arrow_left_green.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_arrow_right_green.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_arrow_up_green.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_request.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_edit.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_job.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_Information.gif">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_option.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_nav_down_left_green.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_sync.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_clientList.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_switch_on.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\24x24\24X24_switch_off.png">
+      <CustomToolNamespace>24X24</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_arrow_down_green.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_arrow_left_green.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_arrow_right_green.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_arrow_up_green.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_request.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_edit.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_job.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_Information.gif">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_option.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_nav_down_left_green.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_sync.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_clientList.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_switch_on.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\32x32\32X32_switch_off.png">
+      <CustomToolNamespace>32X32</CustomToolNamespace>
+    </None>
+    <None Include="Resources\UpArrow.bmp" />
+    <None Include="Resources\DownArrow.bmp" />
+    <None Include="Resources\24x24\view_next.png" />
+    <None Include="Resources\24x24\view_previous.png" />
+    <None Include="Resources\48x48\navigate_up.bmp" />
+    <None Include="Resources\48x48\navigate_down.bmp" />
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Library\activiser.Library.Base32\activiser.Library.Base32.csproj">
+      <Project>{58BAA2D2-55A3-4E72-964E-EB8ED35DF326}</Project>
+      <Name>activiser.Library.Base32</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\activiser.Library.Forms\activiser.Library.Forms.csproj">
+      <Project>{889BA558-985E-4A92-B901-79DE3894DBB7}</Project>
+      <Name>activiser.Library.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\activiser.Library.Gps\activiser.Library.Gps.csproj">
+      <Project>{2986546B-AF17-46DB-974C-4CB6CA496762}</Project>
+      <Name>activiser.Library.Gps</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\activiser.Library.PlatformInfo\activiser.Library.PlatformInfo.csproj">
+      <Project>{7FB0CFD6-0FE6-46FA-A15A-0471270A07F4}</Project>
+      <Name>activiser.Library.PlatformInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="activiser.WindowsMobileClient.WebServiceProxy\activiser.Library.WebServiceProxy.csproj">
+      <Project>{F0701F74-D3B1-4638-BF4D-B45165EA0AAB}</Project>
+      <Name>activiser.Library.WebServiceProxy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{F184B08F-C81C-45F6-A57F-5ABD9991F28F}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.VisualBasic.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.VisualBasic.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v3.5'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.VisualBasic.targets" />
+  <Import Project="C:\Projects2008\Activiser3.5.0\BuildSupport\VersionNumber.Targets" />
+</Project>

@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="activiserInputGateway.asmx.cs" Class="activiser.WebService.InputGateway.InputGatewayService" %>

@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "activiser.SchemaEditor", "Custom Form Designer\activiser.SchemaEditor.vbproj", "{BF1DD345-BFAB-4526-8600-D908C6D19D41}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF1DD345-BFAB-4526-8600-D908C6D19D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1DD345-BFAB-4526-8600-D908C6D19D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1DD345-BFAB-4526-8600-D908C6D19D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1DD345-BFAB-4526-8600-D908C6D19D41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

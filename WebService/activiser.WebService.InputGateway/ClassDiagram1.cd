@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="activiser.WebService.InputGateway.InputGatewayService" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAQAAABAAAAAAAAAACAAAAAAAEAAAAABCAAAAAA=</HashCode>
+      <FileName>activiserInputGateway.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.WebService.InputGateway.Entity">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IADAAAAkAAAACAAACAAEAAwQEBQAQAACAAEgAAAQAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.WebService.InputGateway.Sql" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAIAAAAAQEAAAAAAAAgAAA=</HashCode>
+      <FileName>Sql.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtensionMethods.GuidExtensions" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAA=</HashCode>
+      <FileName>ExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.WebService.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAQAgAgAAgAAAARlQAAAQAAwAAgAABQFCCIAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.WebService.Properties.Settings" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="activiser.WebService.InputGateway.ResultCode">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAAABAEQAEBAAAgIAAAAgAAAAAAACAAAAAAABI=</HashCode>
+      <FileName>ResultCode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

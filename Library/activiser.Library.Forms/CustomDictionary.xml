@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary>
+	<Words>
+		<Recognized>
+			<Word>activiser</Word>
+			<Word>gps</Word>
+			<Word>kilometre</Word>
+			<Word>kilometres</Word>
+			<Word>metre</Word>
+			<Word>metres</Word>
+		</Recognized>
+		<CasingExceptions>
+			<Word>activiser</Word>
+		</CasingExceptions>
+	</Words>
+	<Acronyms>
+		<CasingExceptions>
+			<Acronym>GPS</Acronym>
+		</CasingExceptions>
+	</Acronyms>
+</Dictionary>

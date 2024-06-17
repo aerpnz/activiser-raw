@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://www.activiser.com/Schemas/UploadResults.xsd" xmlns="http://www.activiser.com/Schemas/UploadResults.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.activiser.com/Schemas/UploadResults.xsd" id="UploadResults" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="UploadResults">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Result">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Type" type="xs:string" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="GUID" type="xs:string" />
+              <xs:element minOccurs="0" name="ID" type="xs:int" />
+              <xs:element minOccurs="0" name="Number" type="xs:string" />
+              <xs:element minOccurs="0" name="TimeStamp" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Checksum" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

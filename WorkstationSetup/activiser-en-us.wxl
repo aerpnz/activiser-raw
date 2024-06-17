@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+	<String Id="Font_FaceName" Overridable="yes">Tahoma</String>
+	<String Id="Font_Normal_Size" Overridable="yes">8</String>
+	<String Id="Font_Bigger_Size" Overridable="yes">12</String>
+	<String Id="Font_Title_Size" Overridable="yes">9</String>
+	<String Id="Font_Emphasized_Size" Overridable="yes">8</String>
+	
+	<String Id="UrlDlg_Title" Overridable="yes">[ProductName] Setup</String>
+	<String Id="UrlDlgPathLabel" Overridable="yes">Server URL:</String>
+	<String Id="UrlDlgBannerBitmap" Overridable="yes">WixUI_Bmp_Banner</String>
+	<String Id="UrlDlgDescription" Overridable="yes">Provide activiser Server URL</String>
+	<String Id="UrlDlgTitle" Overridable="yes">{\WixUI_Font_Title}Please provide activiser Server URL</String>
+
+</WixLocalization>

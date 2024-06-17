@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="activiserFormTitle" xml:space="preserve">
+    <value>activiser™</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetconnection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetconnection.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="activiser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\activiser.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="users2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\users2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplashLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SplashLogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BuilderDialog_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BuilderDialog_delete.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo16Mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo16Mask.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TaskHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TaskHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeleteHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogInOutLoginFailure" xml:space="preserve">
+    <value>Unknown username or incorrect password, please try again.</value>
+  </data>
+  <data name="LogInOutUnhandledError" xml:space="preserve">
+    <value>Unhandled error during login.</value>
+  </data>
+  <data name="LogInOutUserLinkConfirmationTemplate" xml:space="preserve">
+    <value>Re-link consultant {0} to domain user {1} ?</value>
+  </data>
+  <data name="LogInOutUserLinkFailure" xml:space="preserve">
+    <value>Error linking activiser user to network user, please contact your administrator</value>
+  </data>
+  <data name="RequestDialogTitleFormat" xml:space="preserve">
+    <value>activiser™ Request Appointment - {0}</value>
+  </data>
+  <data name="OutlookRequestFormAppointmentSaveError" xml:space="preserve">
+    <value>Error saving appointment: {0}</value>
+  </data>
+  <data name="OutlookRequestFormRequestSaveError" xml:space="preserve">
+    <value>Error saving request: {0}</value>
+  </data>
+  <data name="OutlookRequestFormSaveError" xml:space="preserve">
+    <value>General save error: {0}</value>
+  </data>
+  <data name="LogInOutWebServiceCommunicationFailure" xml:space="preserve">
+    <value>Error communicating with activiser Web Service: {0}</value>
+  </data>
+  <data name="RequestUidPropertyName" xml:space="preserve">
+    <value>RequestUid</value>
+  </data>
+  <data name="RequestNumberPropertyName" xml:space="preserve">
+    <value>RequestNumber</value>
+  </data>
+  <data name="ShortDescriptionRequired" xml:space="preserve">
+    <value>Please provide a short description of the problem.</value>
+  </data>
+  <data name="ConsultantRequired" xml:space="preserve">
+    <value>Please select a consultant to assign the request to.</value>
+  </data>
+  <data name="ClientRequired" xml:space="preserve">
+    <value>Please select a client.</value>
+  </data>
+  <data name="NoDataReturnedFromServer" xml:space="preserve">
+    <value>No data returned from server</value>
+  </data>
+  <data name="InstallerErrorUnableToUninstallCodeAccessSecurity" xml:space="preserve">
+    <value>Unable to uninstall code access security:\n\n</value>
+  </data>
+  <data name="InstallerErrorCouldNotFindMachinePolicyLevel" xml:space="preserve">
+    <value>Could not find Machine Policy level. Code Access Security is not configured for this application.</value>
+  </data>
+  <data name="SplashScreenApplicationTitle" xml:space="preserve">
+    <value>activiser™ Add-In for Microsoft Outlook 2003</value>
+  </data>
+  <data name="SplashScreenVersionTemplate" xml:space="preserve">
+    <value>version {0}.{1}.{2}.{3}</value>
+  </data>
+  <data name="InstallerServerUrlXPathQuery" xml:space="preserve">
+    <value>/configuration/userSettings/activiser.OutlookAddIn.MySettings/setting[@name="activiserServerUrl"]</value>
+  </data>
+  <data name="NewStatusForRequestUndefined" xml:space="preserve">
+    <value>'New' status for request undefined.</value>
+  </data>
+  <data name="ErrorSavingAppointmentAndOrRequest" xml:space="preserve">
+    <value>Error saving appointment and/or request</value>
+  </data>
+  <data name="DatePickerFormat" xml:space="preserve">
+    <value>ddd {0}</value>
+  </data>
+  <data name="UnableToLoadRequestData" xml:space="preserve">
+    <value>Unable to load request data</value>
+  </data>
+  <data name="ReminderTimeParseError" xml:space="preserve">
+    <value>Reminder Time must be an integer value and a description, separated by a comma.</value>
+  </data>
+  <data name="LoginOutWebServiceLoginTestSuccessful" xml:space="preserve">
+    <value>Web Service login test successful</value>
+  </data>
+  <data name="LoginOutWebServiceLoginTestFailed" xml:space="preserve">
+    <value>Web Service login test failed</value>
+  </data>
+  <data name="CommunicationWithWebServiceSuccessful" xml:space="preserve">
+    <value>Communication with Web Service successful.</value>
+  </data>
+  <data name="FailedToAuthenticateWithWebService" xml:space="preserve">
+    <value>Failed to authenticate with web service.</value>
+  </data>
+  <data name="ErrorSavingRequest" xml:space="preserve">
+    <value>Error saving request</value>
+  </data>
+  <data name="CredentialsRegistryBase" xml:space="preserve">
+    <value>SOFTWARE\activiser™\credentialCache</value>
+  </data>
+  <data name="ActiviserWebServiceMagic" xml:space="preserve">
+    <value>&lt;p class="intro"&gt;activiser™ Web Service</value>
+  </data>
+  <data name="LogInOutWebServiceAuthenticationFailure" xml:space="preserve">
+    <value>Failed to authenticate with web service.</value>
+  </data>
+  <data name="LogInOutWebServiceCommunicationSuccessful" xml:space="preserve">
+    <value>Communication with Web Service successful.</value>
+  </data>
+  <data name="Configure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\configure.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConfigureMask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\configuremask.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MustBeLoggedOn" xml:space="preserve">
+    <value>Warning: you are not logged on to activiser™ Web Service {0}.
+Unable to load activiser™ Appointment.</value>
+  </data>
+  <data name="Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginMask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoginMask.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logout.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoutMask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoutMask.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutlookAddInRegistryBase" xml:space="preserve">
+    <value>SOFTWARE\activiser™\OutlookAddIn</value>
+  </data>
+  <data name="RegistryServerUrlValueName" xml:space="preserve">
+    <value>ServerUrl</value>
+  </data>
+  <data name="RegistrySetupDateValueName" xml:space="preserve">
+    <value>SetupDate</value>
+  </data>
+  <data name="CredentialsWebServiceCredentialPrompt" xml:space="preserve">
+    <value>Please supply login information for your activiser web service at {0}
+{1}</value>
+  </data>
+  <data name="CredentialsProxyCredentialPrompt" xml:space="preserve">
+    <value>Please supply login information for your proxy server at {0}
+{1}</value>
+  </data>
+  <data name="ActiviserAboutButtonCaption" xml:space="preserve">
+    <value>about activiser™...</value>
+  </data>
+  <data name="ExplorerWrapperErrorCreatingRequestForm" xml:space="preserve">
+    <value>Unable to create request form: {0}</value>
+  </data>
+  <data name="ExplorerWrapperErrorGettingAppointmment" xml:space="preserve">
+    <value>Unable to open appointment: {0}</value>
+  </data>
+  <data name="HttpUserAgentString" xml:space="preserve">
+    <value>activiser™ Outlook Add-In</value>
+  </data>
+  <data name="Credential2KHelpInfo" xml:space="preserve">
+    <value>Username should be specified in the format &lt;username&gt;@&lt;domainname&gt; or &lt;domain&gt;\&lt;username&gt;</value>
+  </data>
+  <data name="CredentialXPHelpInfo" xml:space="preserve">
+    <value>Username should be specified in the format &lt;username&gt;@&lt;domainname&gt; or &lt;domain&gt;\&lt;username&gt;</value>
+  </data>
+  <data name="ActiviserAboutButtonToolTip" xml:space="preserve">
+    <value>activiser™</value>
+  </data>
+  <data name="ContextMenuNewRequestCaption" xml:space="preserve">
+    <value>New activiser™ Request...</value>
+  </data>
+  <data name="ToolBarScheduleRequestCaption" xml:space="preserve">
+    <value>Schedule Request...</value>
+  </data>
+  <data name="LoginCaption" xml:space="preserve">
+    <value>Login...</value>
+  </data>
+  <data name="ConfigureCaption" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="TRACEMESSAGEIgnoringClickEvent" xml:space="preserve">
+    <value>ExplorerWrapper ignoring click event, my tag = '{0}'/'{1}', ctrl tag = '{2}'</value>
+  </data>
+  <data name="ContextMenuCommandBarName" xml:space="preserve">
+    <value>Context Menu</value>
+  </data>
+  <data name="CalendarFolderName" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="NewActiviserRequest" xml:space="preserve">
+    <value>New Activiser Request...</value>
+  </data>
+  <data name="ContextMenuScheduleRequestCaption" xml:space="preserve">
+    <value>Schedule activiser™ Request...</value>
+  </data>
+  <data name="TRACEMESSAGEExplorerFolderSwitch" xml:space="preserve">
+    <value>Explorer folder switch to {0} @ {1}</value>
+  </data>
+  <data name="TRACEMESSAGEExplorerActivated" xml:space="preserve">
+    <value>Explorer activated @ {0}</value>
+  </data>
+  <data name="TRACEMESSAGEExplorerClosed" xml:space="preserve">
+    <value>Explorer closed @ {0}</value>
+  </data>
+  <data name="TRACEMESSAGEExplorerDeactivated" xml:space="preserve">
+    <value>Explorer deactivated @ {0}</value>
+  </data>
+  <data name="TRACEMESSAGEExplorerSelectionChange" xml:space="preserve">
+    <value>Explorer selection change @ {0}</value>
+  </data>
+  <data name="ActiviserCommandBarName" xml:space="preserve">
+    <value>Activiser</value>
+  </data>
+  <data name="NotLoggedOnExceptionMessage" xml:space="preserve">
+    <value>Please log on to the activiser™ web service before attempting this operation</value>
+  </data>
+  <data name="DoYouWantToSaveChanges" xml:space="preserve">
+    <value>Do you want to save changes?</value>
+  </data>
+  <data name="LoadingDefaultAppointmentForm" xml:space="preserve">
+    <value>Error opening Activiser appointment; loading default appointment form</value>
+  </data>
+  <data name="ErrorSavingRequestToActiviser" xml:space="preserve">
+    <value>Error saving request to activiser™</value>
+  </data>
+  <data name="NoDescription" xml:space="preserve">
+    <value>&lt;No Description&gt;</value>
+  </data>
+  <data name="AppointmentSubjectTemplate" xml:space="preserve">
+    <value>({0}) {1}</value>
+  </data>
+  <data name="AppointmentLocationTemplate" xml:space="preserve">
+    <value>{0}; {1}</value>
+  </data>
+  <data name="OutlookAppointmentClass" xml:space="preserve">
+    <value>IPM.Appointment.ActiviserRequest</value>
+  </data>
+  <data name="ErrorInitialisingActiviserAddIn" xml:space="preserve">
+    <value>Error initialising activiser™ Add-In</value>
+  </data>
+  <data name="SharedMessagesKey" xml:space="preserve">
+    <value>$SHARED</value>
+  </data>
+  <data name="ErrorCommunicatingWithActiviserWebService" xml:space="preserve">
+    <value>Error communicating with activiser™ web service</value>
+  </data>
+  <data name="StringNotFound" xml:space="preserve">
+    <value>{1}({0}): string not found</value>
+  </data>
+  <data name="UnableToLoadRequestStatusList" xml:space="preserve">
+    <value>Unable to load request status list</value>
+  </data>
+  <data name="ContextMenuOpenRequestCaption" xml:space="preserve">
+    <value>Open activiser™ Request...</value>
+  </data>
+  <data name="LogoutCaption" xml:space="preserve">
+    <value>Logout...</value>
+  </data>
+  <data name="ToolBarNewRequestCaption" xml:space="preserve">
+    <value>New Request...</value>
+  </data>
+  <data name="ToolBarOpenRequestCaption" xml:space="preserve">
+    <value>Open Request...</value>
+  </data>
+</root>

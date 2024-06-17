@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "activiser.OutlookAddIn", "activiser.OutlookAddIn\activiser.OutlookAddIn.vbproj", "{870CEDBC-F255-4FF6-B0F6-0D826FC9CC34}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "activiser.OutlookAddIn.Setup", "activiser.OutlookAddIn.Setup\activiser.OutlookAddin.Setup.vdproj", "{11013C2D-9101-4ED5-8259-F159FE8D948A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{870CEDBC-F255-4FF6-B0F6-0D826FC9CC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870CEDBC-F255-4FF6-B0F6-0D826FC9CC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870CEDBC-F255-4FF6-B0F6-0D826FC9CC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870CEDBC-F255-4FF6-B0F6-0D826FC9CC34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11013C2D-9101-4ED5-8259-F159FE8D948A}.Debug|Any CPU.ActiveCfg = Debug
+		{11013C2D-9101-4ED5-8259-F159FE8D948A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

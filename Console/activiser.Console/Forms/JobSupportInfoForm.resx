@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="EmailStatusLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EmailStatusLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EmailStatusLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="EmailStatusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 260</value>
+  </data>
+  <data name="EmailStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="EmailStatusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="EmailStatusLabel.Text" xml:space="preserve">
+    <value>E-Mail Status</value>
+  </data>
+  <data name="&gt;&gt;EmailStatusLabel.Name" xml:space="preserve">
+    <value>EmailStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;EmailStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailStatusLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;EmailStatusLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="FlagLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="FlagLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FlagLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FlagLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 104</value>
+  </data>
+  <data name="FlagLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="FlagLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="FlagLabel.Text" xml:space="preserve">
+    <value>Flag:</value>
+  </data>
+  <data name="FlagLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;FlagLabel.Name" xml:space="preserve">
+    <value>FlagLabel</value>
+  </data>
+  <data name="&gt;&gt;FlagLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlagLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;FlagLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="JobStatusIDLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="JobStatusIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="JobStatusIDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="JobStatusIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 286</value>
+  </data>
+  <data name="JobStatusIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="JobStatusIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="JobStatusIDLabel.Text" xml:space="preserve">
+    <value>Job Status ID:</value>
+  </data>
+  <data name="JobStatusIDLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;JobStatusIDLabel.Name" xml:space="preserve">
+    <value>JobStatusIDLabel</value>
+  </data>
+  <data name="&gt;&gt;JobStatusIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusIDLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;JobStatusIDLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="IDLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="IDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 52</value>
+  </data>
+  <data name="IDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="IDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="IDLabel.Text" xml:space="preserve">
+    <value>Job ID:</value>
+  </data>
+  <data name="IDLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;IDLabel.Name" xml:space="preserve">
+    <value>IDLabel</value>
+  </data>
+  <data name="&gt;&gt;IDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IDLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;IDLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="JobNumberLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="JobNumberLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="JobNumberLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="JobNumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="JobNumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="JobNumberLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="JobNumberLabel.Text" xml:space="preserve">
+    <value>Job Number:</value>
+  </data>
+  <data name="&gt;&gt;JobNumberLabel.Name" xml:space="preserve">
+    <value>JobNumberLabel</value>
+  </data>
+  <data name="&gt;&gt;JobNumberLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobNumberLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;JobNumberLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="ModifiedTimeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="ModifiedTimeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ModifiedTimeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ModifiedTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 208</value>
+  </data>
+  <data name="ModifiedTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="ModifiedTimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="ModifiedTimeLabel.Text" xml:space="preserve">
+    <value>Modified Time (UTC):</value>
+  </data>
+  <data name="ModifiedTimeLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ModifiedTimeLabel.Name" xml:space="preserve">
+    <value>ModifiedTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;ModifiedTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ModifiedTimeLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ModifiedTimeLabel.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <metadata name="CreatedTimeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="CreatedTimeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CreatedTimeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreatedTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 234</value>
+  </data>
+  <data name="CreatedTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="CreatedTimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="CreatedTimeLabel.Text" xml:space="preserve">
+    <value>Created Time (UTC):</value>
+  </data>
+  <data name="CreatedTimeLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;CreatedTimeLabel.Name" xml:space="preserve">
+    <value>CreatedTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;CreatedTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreatedTimeLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;CreatedTimeLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <metadata name="ConsultantJobIDLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="ConsultantJobIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ConsultantJobIDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ConsultantJobIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 78</value>
+  </data>
+  <data name="ConsultantJobIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="ConsultantJobIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ConsultantJobIDLabel.Text" xml:space="preserve">
+    <value>Consultant Job ID:</value>
+  </data>
+  <data name="ConsultantJobIDLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ConsultantJobIDLabel.Name" xml:space="preserve">
+    <value>ConsultantJobIDLabel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantJobIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsultantJobIDLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantJobIDLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="UIDLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="UIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UIDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
+  </data>
+  <data name="UIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="UIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="UIDLabel.Text" xml:space="preserve">
+    <value>Job UID:</value>
+  </data>
+  <data name="UIDLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;UIDLabel.Name" xml:space="preserve">
+    <value>UIDLabel</value>
+  </data>
+  <data name="&gt;&gt;UIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UIDLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;UIDLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="ConsultantUidLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="ConsultantUidLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ConsultantUidLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ConsultantUidLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 182</value>
+  </data>
+  <data name="ConsultantUidLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="ConsultantUidLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="ConsultantUidLabel.Text" xml:space="preserve">
+    <value>ConsultantUID:</value>
+  </data>
+  <data name="ConsultantUidLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ConsultantUidLabel.Name" xml:space="preserve">
+    <value>ConsultantUidLabel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantUidLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsultantUidLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantUidLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="RequestUidLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="RequestUidLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RequestUidLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RequestUidLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 130</value>
+  </data>
+  <data name="RequestUidLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="RequestUidLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="RequestUidLabel.Text" xml:space="preserve">
+    <value>RequestUID:</value>
+  </data>
+  <data name="RequestUidLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;RequestUidLabel.Name" xml:space="preserve">
+    <value>RequestUidLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestUidLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestUidLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestUidLabel.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <metadata name="ClientSiteUidLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="ClientSiteUidLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClientSiteUidLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ClientSiteUidLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 156</value>
+  </data>
+  <data name="ClientSiteUidLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="ClientSiteUidLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="ClientSiteUidLabel.Text" xml:space="preserve">
+    <value>ClientSiteUID:</value>
+  </data>
+  <data name="ClientSiteUidLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteUidLabel.Name" xml:space="preserve">
+    <value>ClientSiteUidLabel</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteUidLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteUidLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteUidLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="JobTrackingLayoutPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="JobTrackingLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="EMailStatusPicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 263</value>
+  </data>
+  <data name="EMailStatusPicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="EMailStatusPicker.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;EMailStatusPicker.Name" xml:space="preserve">
+    <value>EMailStatusPicker</value>
+  </data>
+  <data name="&gt;&gt;EMailStatusPicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EMailStatusPicker.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;EMailStatusPicker.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="JobNumberTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 3</value>
+  </data>
+  <data name="JobNumberTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="JobNumberTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="JobNumberTextBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;JobNumberTextBox.Name" xml:space="preserve">
+    <value>JobNumberTextBox</value>
+  </data>
+  <data name="&gt;&gt;JobNumberTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobNumberTextBox.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;JobNumberTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ConsultantUidTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 185</value>
+  </data>
+  <data name="ConsultantUidTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="ConsultantUidTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;ConsultantUidTextBox.Name" xml:space="preserve">
+    <value>ConsultantUidTextBox</value>
+  </data>
+  <data name="&gt;&gt;ConsultantUidTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsultantUidTextBox.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantUidTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="JobStatusPicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 289</value>
+  </data>
+  <data name="JobStatusPicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="JobStatusPicker.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;JobStatusPicker.Name" xml:space="preserve">
+    <value>JobStatusPicker</value>
+  </data>
+  <data name="&gt;&gt;JobStatusPicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DomainUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobStatusPicker.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;JobStatusPicker.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="JobUIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 29</value>
+  </data>
+  <data name="JobUIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="JobUIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;JobUIDTextBox.Name" xml:space="preserve">
+    <value>JobUIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;JobUIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobUIDTextBox.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;JobUIDTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="JobIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 55</value>
+  </data>
+  <data name="JobIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="JobIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;JobIDTextBox.Name" xml:space="preserve">
+    <value>JobIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;JobIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobIDTextBox.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;JobIDTextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ConsultantJobIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 81</value>
+  </data>
+  <data name="ConsultantJobIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="ConsultantJobIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ConsultantJobIDTextBox.Name" xml:space="preserve">
+    <value>ConsultantJobIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;ConsultantJobIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsultantJobIDTextBox.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantJobIDTextBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="FlagTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 107</value>
+  </data>
+  <data name="FlagTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="FlagTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;FlagTextBox.Name" xml:space="preserve">
+    <value>FlagTextBox</value>
+  </data>
+  <data name="&gt;&gt;FlagTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlagTextBox.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;FlagTextBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ClientSiteUidTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 159</value>
+  </data>
+  <data name="ClientSiteUidTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="ClientSiteUidTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteUidTextBox.Name" xml:space="preserve">
+    <value>ClientSiteUidTextBox</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteUidTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteUidTextBox.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteUidTextBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="CreatedTimeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 237</value>
+  </data>
+  <data name="CreatedTimeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="CreatedTimeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;CreatedTimeTextBox.Name" xml:space="preserve">
+    <value>CreatedTimeTextBox</value>
+  </data>
+  <data name="&gt;&gt;CreatedTimeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreatedTimeTextBox.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;CreatedTimeTextBox.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="RequestUidTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 133</value>
+  </data>
+  <data name="RequestUidTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="RequestUidTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;RequestUidTextBox.Name" xml:space="preserve">
+    <value>RequestUidTextBox</value>
+  </data>
+  <data name="&gt;&gt;RequestUidTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestUidTextBox.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestUidTextBox.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ModifiedTimeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 211</value>
+  </data>
+  <data name="ModifiedTimeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="ModifiedTimeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;ModifiedTimeTextBox.Name" xml:space="preserve">
+    <value>ModifiedTimeTextBox</value>
+  </data>
+  <data name="&gt;&gt;ModifiedTimeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ModifiedTimeTextBox.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ModifiedTimeTextBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="TrackingInfoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TrackingInfoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 309</value>
+  </data>
+  <data name="TrackingInfoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 20</value>
+  </data>
+  <data name="TrackingInfoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;TrackingInfoTextBox.Name" xml:space="preserve">
+    <value>TrackingInfoTextBox</value>
+  </data>
+  <data name="&gt;&gt;TrackingInfoTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrackingInfoTextBox.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;TrackingInfoTextBox.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="TrackingInfoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TrackingInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 306</value>
+  </data>
+  <data name="TrackingInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="TrackingInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="TrackingInfoLabel.Text" xml:space="preserve">
+    <value>Tracking Info</value>
+  </data>
+  <data name="&gt;&gt;TrackingInfoLabel.Name" xml:space="preserve">
+    <value>TrackingInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;TrackingInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrackingInfoLabel.Parent" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;TrackingInfoLabel.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="JobTrackingLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="JobTrackingLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="JobTrackingLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 383</value>
+  </data>
+  <data name="JobTrackingLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;JobTrackingLayoutPanel.Name" xml:space="preserve">
+    <value>JobTrackingLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;JobTrackingLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobTrackingLayoutPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;JobTrackingLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="JobTrackingLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="EmailStatusLabel" Row="14" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="EMailStatusPicker" Row="14" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="JobNumberLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="JobNumberTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ConsultantUidLabel" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ConsultantUidTextBox" Row="9" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="JobStatusIDLabel" Row="16" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="JobStatusPicker" Row="16" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="UIDLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="JobUIDTextBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="IDLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="JobIDTextBox" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ConsultantJobIDLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ConsultantJobIDTextBox" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="FlagLabel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="FlagTextBox" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ClientSiteUidTextBox" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="CreatedTimeTextBox" Row="11" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ClientSiteUidLabel" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CreatedTimeLabel" Row="11" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="RequestUidTextBox" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ModifiedTimeTextBox" Row="10" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="RequestUidLabel" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ModifiedTimeLabel" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TrackingInfoTextBox" Row="17" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TrackingInfoLabel" Row="17" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35.73668,Percent,64.26332" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,Absolute,20,Absolute,25,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="DoneButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="DoneButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 429</value>
+  </data>
+  <data name="DoneButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="DoneButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DoneButton.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;DoneButton.Name" xml:space="preserve">
+    <value>DoneButton</value>
+  </data>
+  <data name="&gt;&gt;DoneButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DoneButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DoneButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AbortButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="AbortButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 429</value>
+  </data>
+  <data name="AbortButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="AbortButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="AbortButton.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;AbortButton.Name" xml:space="preserve">
+    <value>AbortButton</value>
+  </data>
+  <data name="&gt;&gt;AbortButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AbortButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AbortButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="ToolTipProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>530, 464</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Job Support Information</value>
+  </data>
+  <data name="&gt;&gt;ToolTipProvider.Name" xml:space="preserve">
+    <value>ToolTipProvider</value>
+  </data>
+  <data name="&gt;&gt;ToolTipProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>JobSupportInfoForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

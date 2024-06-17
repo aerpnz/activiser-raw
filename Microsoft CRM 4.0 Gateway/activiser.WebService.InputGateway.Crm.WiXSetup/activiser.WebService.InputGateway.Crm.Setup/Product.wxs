@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="6975d1c2-4ff9-41c5-98d2-025abb5b0333" Name="activiser.WebService.InputGateway.Crm.Setup" Language="1033" Version="1.0.0.0" Manufacturer="activiser.WebService.InputGateway.Crm.Setup" UpgradeCode="540f6e91-6592-4f4c-9160-cb49c8762d25">
+		<Package InstallerVersion="200" Compressed="yes" />
+
+		<Media Id="1" Cabinet="activiser.WebService.InputGateway.Crm.Setup.cab" EmbedCab="yes" />
+
+		<Directory Id="TARGETDIR" Name="SourceDir" FileSource="C:\Projects2008\Activiser3.5.0\WebService\">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLLOCATION" Name="activiser.WebService.InputGateway.Crm">
+					<Directory Id="APPCODE" Name="App_Code">
+					 <Component Id="App_Code" Guid="5363500f-4f31-46a9-a3ea-d7e5c670ba9a"> 
+						 <!--TODO: Insert files, registry keys, and other resources here.-->
+						 <File Vital="yes" Name="ActiviserAttributeType.cs" ShortName="AttrType.cs"></File>
+						 <File Vital="yes" Name="activiserInputGatewayCrm.asmx.AssignEntity.cs" ShortName="Assign.cs"></File>
+						 <File Vital="yes" Name="activiserInputGatewayCrm.asmx.CreateEntity.cs" ShortName="Create.cs"></File>
+						 <File Vital="yes" Name="activiserInputGatewayCrm.asmx.DeleteEntity.cs" ShortName="Delete.cs"></File>
+						 <File Vital="yes" Name="activiserInputGatewayCrm.asmx.ReadEntity.cs" ShortName="Read.cs"></File>
+						 <File Vital="yes" Name="activiserInputGatewayCrm.asmx.RouteEntity.cs" ShortName="Route.cs"></File>
+						 <File Vital="yes" Name="activiserInputGatewayCrm.asmx.SetEntityState.cs" ShortName="SetState.cs"></File>
+						 <File Vital="yes" Name="activiserInputGatewayCrm.asmx.UpdateEntity.cs" ShortName="Update.cs"></File>
+						 <File Vital="yes" Name="activiserInputGatewayCrm.asmx._.cs" ShortName="Main.cs"></File>
+						 <File Vital="yes" Name="ErrorCode.cs" ShortName="ErrCode.cs"></File>
+						 <File Vital="yes" Name="ExtensionMethods.cs" ShortName="Extend.cs"></File>
+						 <File Vital="yes" Name="InstanceMap.xsd" ShortName="Instance.cs"></File>
+						 <File Vital="yes" Name="Logging.cs"></File>
+						 <File Vital="yes" Name="Serialization.cs" ShortName="Serializ.cs"></File>
+						 <File Vital="yes" Name="Utilities.CreateActiviserDoc.cs" ShortName="ActivDoc.cs"></File>
+						 <File Vital="yes" Name="Utilities.GetActiviserTypeCode.cs" ShortName="TypeCode.cs"></File>
+					 </Component>
+					</Directory>
+					<Directory Id="APPDATA" Name="App_Data">
+						<Component Id="App_Data" Guid="ea5aabf1-a3e9-dc11-9403-000c294662be">
+							<File Vital="yes" Name="InstanceMap.xml" ShortName="Instance.xml"></File>
+						</Component>
+					</Directory>
+					<Directory Id="RESOURCES" Name="App_GlobalResources">
+						<Component Id="App_GlobalResources" Guid="6fe8ea2e-b9f0-dc11-abe0-000c294662c8">
+							<File Vital="yes" Name="GlobalResources.resx" ShortName="Resource.rex"></File>
+						</Component>
+					</Directory>
+				</Directory>
+			</Directory>
+		</Directory>
+
+		<Feature Id="activiser.WebService.InputGateway.Crm" Title="activiser.WebService.InputGateway.Crm.Setup" Level="1">
+			<!-- TODO: Remove the comments around this ComponentRef element and the Component above in order to add resources to this installer. -->
+			<ComponentRef Id="App_Code" />
+			<ComponentRef Id="App_Data"/>
+			<ComponentRef Id="App_GlobalResources"/>
+			
+		</Feature>
+	</Product>
+</Wix>

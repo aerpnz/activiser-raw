@@ -1,0 +1,24 @@
+﻿Dear {Addressee},
+
+Thank for choosing a workforce mobilisation solution from activiser™.
+
+Here are your license details:
+
+Registered Client Name:	{ClientName}
+License Key:		{LicenseKey}
+
+Product:			{ProductName}
+Number of users:		{Users}
+Expiry date:		{Expiry}
+Version:			{Version}
+
+
+Please make sure that you enter your registered client name and license key
+exactly as they are shown here, otherwise it is likely that your software
+will not work correctly.
+
+We trust you will enjoy your activiser™ experience.
+
+Regards,
+
+The activiser™ Team

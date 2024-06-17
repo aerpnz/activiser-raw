@@ -1,0 +1,204 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="PollTimerInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="NotificationEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AutoDomainLogon" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SyncOnTimeColour" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">DarkBlue</Value>
+    </Setting>
+    <Setting Name="SyncMissedOneColour" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Green</Value>
+    </Setting>
+    <Setting Name="SyncMissedMoreColour" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Firebrick</Value>
+    </Setting>
+    <Setting Name="JobSheetTemplateFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">JobSheetTemplate.htm</Value>
+    </Setting>
+    <Setting Name="JobAdminGridColumnWidths" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</Value>
+    </Setting>
+    <Setting Name="JobsAllowEdits" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RequestsAllowEdits" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="JobsReadOnly" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RequestsReadOnly" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="EventLogColumnWidths" GenerateDefaultValueInCode="false" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ProfileAdminGridColumnWidths" GenerateDefaultValueInCode="false" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RequestAdminGridColumnWidths" GenerateDefaultValueInCode="false" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EnableDatabasePolling" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EventLogColumnOrder" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="JobAdminGridColumnOrder" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CustomLabelTemplates" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FormLabels.xml</Value>
+    </Setting>
+    <Setting Name="TerminologyEditorCustomLabelWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="TerminologyEditorFieldWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="TerminologyEditorDefaultLabelWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="NotificationFadeInTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4000</Value>
+    </Setting>
+    <Setting Name="NotificationFadeOutTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4000</Value>
+    </Setting>
+    <Setting Name="JobsDisableJobNumberEditing" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="JobTreeUserNodes" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;AdminUnapproved|Admin Pending ({0})|Jobs not yet approved by administration|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag = 0 OR Flag = 1)|DarkRed&lt;/string&gt;
+  &lt;string&gt;AdminApproved|Admin Approved ({0})|Administrator approved jobs|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag = 2 or Flag = 3)|DarkGreen&lt;/string&gt;
+  &lt;string&gt;ManagementUnapproved|Management Pending ({0})|Jobs not yet approved by management|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag=0 OR Flag=2)|DarkRed&lt;/string&gt;
+  &lt;string&gt;ManagementApproved|Management Approved ({0})|Jobs management has approved|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag = 1 OR Flag = 3)|DarkGreen&lt;/string&gt;
+  &lt;string&gt;AllComplete|All Complete ({0})|All Completed Jobs|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5|Green&lt;/string&gt;
+  &lt;string&gt;Incomplete|Incomplete ({0})|All incomplete jobs|JobStatusID = 0|Orange&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="JobTreeAdminNodes" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;New|New Jobs ({0})|Jobs not yet approved by administration|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag = 0 OR Flag = 1)|Red&lt;/string&gt;
+  &lt;string&gt;AdminUnApprovedMgmtApproved|New (Mgmt Approved) ({0})|Management approved jobs|(JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5) AND (Flag = 1)|Red&lt;/string&gt;
+  &lt;string&gt;Approved|Admin Approved ({0})|Administrator approved jobs|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag = 2 or Flag = 3)|Green&lt;/string&gt;
+  &lt;string&gt;ManagementApproved|Management Approved ({0})|Jobs management has approved|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag = 1 OR Flag = 3)|DarkRed&lt;/string&gt;
+  &lt;string&gt;ManagementUnapproved|Management Pending({0})|Jobs not yet approved by management|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag=0 OR Flag=2)|DarkGree&lt;/string&gt;
+  &lt;string&gt;AllComplete|All Complete ({0})|All Completed Jobs|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5|DarkGray&lt;/string&gt;
+  &lt;string&gt;Incomplete|Incomplete ({0})|All incomplete jobs|JobStatusID = 0|Orange&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="JobTreeManagementNodes" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;ManagementUnapproved|New ({0})|Jobs not yet approved by management|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag=0 OR Flag=2)|Red&lt;/string&gt;
+  &lt;string&gt;ManagementUnApprovedAdminApproved|New (Admin Approved) ({0})|Administrator approved jobs|(JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5) AND (Flag = 2)|Red&lt;/string&gt;
+  &lt;string&gt;ManagementApproved|Approved ({0})|Jobs management has approved|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag = 1 OR Flag = 3)|Green&lt;/string&gt;
+  &lt;string&gt;AdminUnapproved|Admin Pending ({0})|Jobs not yet approved by administration|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag = 0 OR Flag = 1)|DarkRed&lt;/string&gt;
+  &lt;string&gt;AdminApproved|Admin Approved ({0})|Administrator approved jobs|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5 AND (Flag = 2 or Flag = 3)|DarkGreen&lt;/string&gt;
+  &lt;string&gt;AllComplete|All Complete ({0})|All Completed Jobs|JobStatusID &amp;gt; 0 AND JobStatusID &amp;lt; 5|Black&lt;/string&gt;
+  &lt;string&gt;Incomplete|Incomplete ({0})|All incomplete jobs|JobStatusID = 0|DarkGray&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="WebServiceTimeout" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">600</Value>
+    </Setting>
+    <Setting Name="WindowsUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="WindowsDomainName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ActiviserUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="NotificationDisplayTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="proxyServerUrl" Type="(Web Service URL)" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="proxyServerAuthenticate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="proxyServerCredentials" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="JobEmailNullString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Unknown</Value>
+    </Setting>
+    <Setting Name="LockRequestNumber" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NotificationFormat" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{0} synchronised at {1}</Value>
+    </Setting>
+    <Setting Name="IgnoreServerCertificateErrors" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="IgnoreServerCertificateNameMismatch" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SyncOverlapBuffer" Description="Minutes to subtract from lastSyncTime for fetching from server." Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="ForceWin2KLogon" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UseSynchronousDataLoad" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LockJobOnManagementApproval" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LockJobOnAdminApproval" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WordWrapJobDetails" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WordWrapJobConsultantNotes" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WordWrapJobRequipment" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GpsViewerHeightAdjustment" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-48</Value>
+    </Setting>
+    <Setting Name="GpsViewerWidthAdjustment" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-36</Value>
+    </Setting>
+    <Setting Name="ShowConsultantStatusTree" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DeviceTrackingTemplateFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DeviceTrackingTemplate.htm</Value>
+    </Setting>
+    <Setting Name="DefaultLatitude" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-36.90234</Value>
+    </Setting>
+    <Setting Name="DefaultLongitude" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">174.80791</Value>
+    </Setting>
+    <Setting Name="LanguageId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="activiserServerUrl" Type="(Web Service URL)" Scope="User">
+      <Value Profile="(Default)">http://localhost:4200/activiser.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

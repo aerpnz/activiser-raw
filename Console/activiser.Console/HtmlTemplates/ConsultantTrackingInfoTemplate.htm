@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6"></script>
+    <script type="text/javascript">
+        
+        var map = null;
+        function GetMap(latitude, longitude) { 
+            map = new VEMap('activiserMap');        
+            map.LoadMap(new VELatLong(latitude, longitude), 15, VEMapStyle.Road, false, VEMapMode.Mode2D, true, 1);         
+            
+            var pin = new VEShape(VEShapeType.Pushpin, new VELatLong(latitude, longitude));
+            pin.SetTitle('{##PINTITLE##}');
+            pin.SetDescription('{##NOTES##}');
+            
+            map.AddShape(pin);
+        } 
+        
+    </script>
+</head>
+<body onload="GetMap({##LATITUDE##},{##LONGITUDE##});">
+    <div id="activiserMap" onresize="if (map) { map.Resize(); };" >
+</body>
+</html>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<activiserProductSet xmlns="http://www.activiser.com/schemas/licensing/ProductSet.xsd">
+	<Product>
+		<ProductID>0abce90f-330f-4520-963b-86c9f1851dce</ProductID>
+		<Name>activiser Web Service</Name>
+	</Product>
+	<ProductVersion>
+		<ProductID>0abce90f-330f-4520-963b-86c9f1851dce</ProductID>
+		<VersionNumber>3.4</VersionNumber>
+	</ProductVersion>
+	<ProductVersion>
+		<ProductID>0abce90f-330f-4520-963b-86c9f1851dce</ProductID>
+		<VersionNumber>3.5</VersionNumber>
+	</ProductVersion>
+</activiserProductSet>

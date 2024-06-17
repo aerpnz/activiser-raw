@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="kinetics" Class="CandidateEntityDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\ss2k8;Initial Catalog=kinetics;Integrated Security=True" SettingsObjectName="activiser.SchemaEditor.DataAccessLayer.Properties.Settings" SettingsPropertyName="kineticsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="metadata.CandidateEntity" Member="CandidateEntities">
+    <Type Name="CandidateEntity">
+      <Column Name="SchemaName" Type="System.String" DbType="NVarChar(128) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EntityName" Type="System.String" DbType="NVarChar(128) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SqlObjectType" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Association Name="CandidateEntity_CandidateEntityAttribute" Member="CandidateEntityAttributes" ThisKey="SchemaName,EntityName" OtherKey="SchemaName,EntityName" Type="CandidateEntityAttribute" />
+    </Type>
+  </Table>
+  <Table Name="metadata.CandidateEntityAttribute" Member="CandidateEntityAttributes">
+    <Type Name="CandidateEntityAttribute">
+      <Column Name="SchemaName" Type="System.String" DbType="NVarChar(128) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EntityName" Type="System.String" DbType="NVarChar(128) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AttributeName" Type="System.String" DbType="NVarChar(128)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="AttributeType" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="AttributeIsPK" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AttributeOrderInPK" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AttributeHoldsComputedValue" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AttributeIsNullable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="CandidateEntity_CandidateEntityAttribute" Member="CandidateEntity" ThisKey="SchemaName,EntityName" OtherKey="SchemaName,EntityName" Type="CandidateEntity" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

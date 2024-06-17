@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ProductSet xmlns="http://www.activiser.com/schemas/licensing/ProductSet.xsd">
+	<Product>
+		<ProductID>F97EB4E7-F684-4402-895D-CFD15CE86498</ProductID>
+		<Name>activiser Windows Mobile Application</Name>
+	</Product>
+	<Product>
+		<ProductID>0ABCE90F-330F-4520-963B-86C9F1851DCE</ProductID>
+		<Name>activiser Web Service</Name>
+	</Product>
+	<Product>
+		<ProductID>97993616-1D55-4080-B77E-B7999104F374</ProductID>
+		<Name>activiser SPAM</Name>
+	</Product>
+	<Product>
+		<ProductID></ProductID>
+	</Product>
+</ProductSet>

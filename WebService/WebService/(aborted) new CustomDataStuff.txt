@@ -1,0 +1,236 @@
+﻿
+    '''' New, hopefully faster version, RCP: 2007-02-27
+    ''''
+    'Friend Shared Sub GetCustomData(ByVal deviceId As String, ByVal consultantUid As Guid, ByRef targetDataSet As ClientDataSet, ByVal ModifiedSince As DateTime, ByVal schemaOnly As Boolean)
+    '    Dim con As New SqlClient.SqlConnection(My.Settings.activiserConnectionString)
+
+    '    Dim cds As New CustomDataSchema
+    '    Dim cdsfdta As New CustomDataSchemaTableAdapters.CustomDataFieldDefinitionTableAdapter
+    '    Dim cdstnta As New CustomDataSchemaTableAdapters.CustomTableNameTableAdapter
+
+    '    cdstnta.Fill(cds.CustomTableName)
+    '    If cds.CustomTableName.Count = 0 Then Return
+
+    '    cdsfdta.Fill(cds.CustomDataFieldDefinition)
+    '    If cds.CustomDataFieldDefinition.Count = 0 Then Return
+
+    '    Dim columnsToAdd As New Collections.Generic.Dictionary(Of String, List(Of String))
+    '    Dim fks As New Dictionary(Of String, fkDefinition)
+    '    Dim pks As New Dictionary(Of String, String)
+    '    Dim fk As fkDefinition ' (String.Empty, String.Empty, String.Empty, String.Empty, String.Empty)
+
+    '    ' used to assist with getting the right data for changing schemas...
+    '    Dim tableTimeStamps As New Collections.Generic.Dictionary(Of String, DateTime)
+
+    '    ' note: tableadapter is expected to return distinct rows.
+    '    For Each tn As CustomDataSchema.CustomTableNameRow In cds.CustomTableName
+    '        Dim tableNameIsValid As Boolean = True
+    '        For Each c As Char In tn.TableName.ToCharArray
+    '            If Not Char.IsLetterOrDigit(c) Then
+    '                tableNameIsValid = False
+    '                Exit For
+    '            End If
+    '        Next
+    '        If Not tableNameIsValid Then Continue For ' don't allow silly characters in tablename
+
+    '        Dim columnList As List(Of String) = New List(Of String)
+    '        columnsToAdd.Add(tn.TableName, columnList)
+
+    '        ' note: tableAdapter for CustomDataFieldDefinition table uses a UNION query that removes duplicates.
+    '        ' the union query also effectively sorts the data, but we'll force the order with a select.
+    '        For Each cc As CustomDataSchema.CustomDataFieldDefinitionRow In cds.CustomDataFieldDefinition.Select(String.Format("TableName = '{0}'", cc.TableName))
+    '            columnList.Add(cc.FieldName)
+    '            If cc.IsPrimaryKey Then
+    '                pks.Add(cc.TableName, cc.FieldName)
+    '            End If
+    '            If cc.IsForeignKey Then
+
+    '            End If
+    '        Next
+    '    Next
+
+
+    '    ' in principle, multiple custom forms against the same underlying table should be possible, 
+    '    ' even if the existing custom form editor doesn't support it.
+    '    ' columnsToAdd.Clear()
+    '    Dim cfList As New Dictionary(Of String, CustomFormDefinition.CustomFormRow)
+    '    For Each cfr As CustomFormDefinition.CustomFormRow In ucf.CustomForm
+    '        If cfr.Priority <> -1 Then
+    '            ' note this could break if two custom forms use the same table but specify different key columns
+    '            If Not cfList.ContainsKey(cfr.TableName) Then cfList.Add(cfr.TableName, cfr)
+
+    '            If Not targetDataSet.Tables.Contains(cfr.TableName) Then
+    '                AddTable(DeviceId, consultantUid, columnsToAdd, fks, pks, fk, cfr)
+    '            End If
+    '        End If
+    '    Next
+
+    '    ' add the missing data to the dataset.
+    '    ' there is a potential for disaster here, if a standard table is used as a data source, but some obscure column used for display
+    '    For Each newColumnItem As Generic.KeyValuePair(Of String, List(Of String)) In columnsToAdd
+    '        If Not targetDataSet.Tables.Contains(newColumnItem.Key) Then ' need to add table
+    '            If Not newColumnItem.Value.Contains(STR_CreatedDateTime) Then newColumnItem.Value.Add(STR_CreatedDateTime)
+    '            If Not newColumnItem.Value.Contains(STR_ModifiedDateTime) Then newColumnItem.Value.Add(STR_ModifiedDateTime)
+    '            Dim sqlColumnList As String = String.Join(",", newColumnItem.Value.ToArray)
+
+    '            Dim query As String = String.Format("SELECT {0} FROM {1}", sqlColumnList, newColumnItem.Key)
+    '            Dim cmd As SqlClient.SqlDataAdapter
+    '            Dim dt As New DataTable(newColumnItem.Key)
+    '            Try
+    '                cmd = New SqlClient.SqlDataAdapter(query, con)
+    '                cmd.FillSchema(dt, SchemaType.Mapped)
+    '            Catch ex As Exception
+    '                LogError(consultantUid, DateTime.UtcNow, DeviceId, MethodBase.GetCurrentMethod.Name, My.Resources.CustomFormSchemaError, newColumnItem.Key, WebServiceGuid, String.Format("table:{0}, columns:{1}", newColumnItem.Key, sqlColumnList), Nothing)
+    '                Continue For
+    '            End Try
+
+
+    '            If Not schemaOnly Then
+    '                Dim filters As New List(Of String)
+    '                If consultantUid <> Guid.Empty Then
+    '                    If cfList.ContainsKey(newColumnItem.Key) Then
+    '                        ' if this is a custom form table, then we can reasonably expect a consultant-filtered dataset
+    '                        ' assuming also that it's for a Job or Request.
+    '                        ' It is assumed (for now) that consultants will always get custom client information,
+    '                        ' since said information is not currently stored in the profile table.
+    '                        Dim cf As CustomFormDefinition.CustomFormRow = cfList(newColumnItem.Key)
+    '                        Const profileFilterTemplate As String = "({0} IN (SELECT ItemUid FROM dbo.GetConsultantProfileItems('{1}','{2}')))"
+    '                        Select Case cf.ParentTableName.ToLower
+    '                            Case "job"
+    '                                cf.FormType = "j"
+    '                                cf.ParentPrimaryKeyColumnName = "JobUid"
+    '                                If ModifiedSince <> NullDate Then
+    '                                    filters.Add(String.Format(STR_CustomFormJobTimeFilterTemplate, ModifiedSince.ToString("yyyy-MM-dd HH:mm:ss"), cf.ForeignKeyColumnName))
+    '                                End If
+    '                                filters.Add(String.Format(profileFilterTemplate, cf.ForeignKeyColumnName, consultantUid.ToString, cf.FormType))
+    '                            Case "request"
+    '                                cf.FormType = "r"
+    '                                cf.ParentPrimaryKeyColumnName = "RequestUid"
+    '                                If ModifiedSince <> NullDate Then
+    '                                    filters.Add(String.Format(STR_CustomFormRequestTimeFilterTemplate, ModifiedSince.ToString("yyyy-MM-dd HH:mm:ss"), cf.ForeignKeyColumnName))
+    '                                End If
+    '                                filters.Add(String.Format(profileFilterTemplate, cf.ForeignKeyColumnName, consultantUid.ToString, cf.FormType))
+    '                            Case "clientsite"
+    '                                cf.FormType = "c"
+    '                                cf.ParentPrimaryKeyColumnName = "ClientSiteUid"
+    '                                If ModifiedSince <> NullDate Then
+    '                                    filters.Add(String.Format(STR_CustomFormClientSiteTimeFilterTemplate, ModifiedSince.ToString("yyyy-MM-dd HH:mm:ss"), cf.ForeignKeyColumnName))
+    '                                End If
+    '                                filters.Add(String.Format(profileFilterTemplate, cf.ForeignKeyColumnName, consultantUid.ToString, cf.FormType))
+    '                            Case Else
+    '                                'Que
+    '                                LogError(consultantUid, DateTime.UtcNow, DeviceId, MethodBase.GetCurrentMethod.Name, "Invalid Custom Form definition - unsupported parent", "CustomForm", cf.CustomFormUID, cf.ParentTableName, Nothing)
+    '                        End Select
+    '                        If cf.FormType <> "?" Then
+    '                        End If
+    '                    End If
+
+    '                Else ' console data.
+    '                    ' if the custom table used job or request as a parent, then
+    '                    ' assume that the result should be filtered accordingly; we only
+    '                    ' want custom data for jobs and requests that are current, so we
+    '                    ' will use the same filter as the core table adapters.
+    '                    If cfList.ContainsKey(newColumnItem.Key) Then
+    '                        Dim cf As CustomFormDefinition.CustomFormRow = cfList(newColumnItem.Key)
+    '                        If cf.FormType.ToLower = "j" OrElse cf.ParentTableName.ToLower = "job" Then
+    '                            filters.Add(String.Format("({0} IN (SELECT JobUid FROM viewActiveRequestJobList))", cf.ForeignKeyColumnName))
+    '                        ElseIf cf.FormType.ToLower = "r" OrElse cf.ParentTableName.ToLower = "request" Then
+    '                            filters.Add(String.Format("({0} IN (SELECT RequestUid FROM viewActiveRequestList))", cf.ForeignKeyColumnName))
+    '                        ElseIf cf.FormType.ToLower = "c" OrElse cf.ParentTableName.ToLower = "clientsite" Then
+    '                        End If
+    '                    End If
+    '                End If
+
+    '                If filters.Count > 0 Then
+    '                    Dim filterString As String = " WHERE " & String.Join(" AND ", filters.ToArray)
+    '                    query &= filterString
+    '                End If
+
+    '                cmd = New SqlClient.SqlDataAdapter(query, con)
+    '                cmd.FillLoadOption = LoadOption.OverwriteChanges
+    '                cmd.Fill(dt)
+    '            End If
+    '            targetDataSet.Tables.Add(dt)
+    '            'Else
+    '            ' not currently supported - adding columns to standard tables.
+    '            ' dt = dsInput.Tables(newColumnItem.Key)
+    '        End If
+    '    Next
+    '    Try
+    '        ' add derived primary keys.
+    '        For Each pk As KeyValuePair(Of String, String) In pks
+    '            Dim dt As DataTable = targetDataSet.Tables(pk.Key)
+    '            Dim dc As DataColumn = dt.Columns(pk.Value)
+    '            If dt.PrimaryKey.Length = 0 Then
+    '                dt.Constraints.Add(String.Format("PK_{0}", pk.Key), dc, True)
+    '            Else
+    '                For Each constraint As Constraint In dt.Constraints
+    '                    Dim uc As UniqueConstraint = TryCast(constraint, UniqueConstraint)
+    '                    If uc IsNot Nothing Then
+    '                        If uc.IsPrimaryKey Then
+    '                            uc.ConstraintName = String.Format("PK_{0}", pk.Key)
+    '                        ElseIf uc.ConstraintName.StartsWith("Constraint") Then
+    '                            Dim s As String = String.Empty
+    '                            For Each keyColumn As DataColumn In uc.Columns
+    '                                s &= "_" & keyColumn.ColumnName
+    '                            Next
+    '                            uc.ConstraintName = String.Format("UC_{0}_{1}", pk.Key, s)
+    '                        End If
+    '                    Else
+    '                        Dim fc As ForeignKeyConstraint = TryCast(constraint, ForeignKeyConstraint)
+    '                        If fc IsNot Nothing Then
+    '                            Debug.WriteLine(fc.ConstraintName)
+    '                        End If
+    '                    End If
+    '                Next
+    '            End If
+    '        Next
+
+    '        ' review all primary keys.
+    '        For Each dt As DataTable In targetDataSet.Tables
+    '            If dt.PrimaryKey.Length <> 0 Then
+    '                For Each constraint As Constraint In dt.Constraints
+    '                    Dim uc As UniqueConstraint = TryCast(constraint, UniqueConstraint)
+    '                    If uc IsNot Nothing Then
+    '                        If uc.IsPrimaryKey Then
+    '                            uc.ConstraintName = String.Format("PK_{0}", dt.TableName)
+    '                        ElseIf uc.ConstraintName.StartsWith("Constraint") Then
+    '                            Dim s As String = String.Empty
+    '                            For Each keyColumn As DataColumn In uc.Columns
+    '                                s &= "_" & keyColumn.ColumnName
+    '                            Next
+    '                            uc.ConstraintName = String.Format("UC_{0}_{1}", dt.TableName, s)
+    '                        End If
+    '                    Else
+    '                        Dim fc As ForeignKeyConstraint = TryCast(constraint, ForeignKeyConstraint)
+    '                        If fc IsNot Nothing Then
+    '                            Debug.WriteLine(fc.ConstraintName)
+    '                        End If
+    '                    End If
+    '                Next
+    '            End If
+    '        Next
+
+    '        ' add foreign key relationships.
+    '        ' 25/9/2006 RCP: adding in foreign key constraints would appear to break the resultant dataset when
+    '        ' trying to read it using DataSet.ReadXml. 
+    '        ' TODO: 25/9/2006 RCP: find out why and fix.
+    '        For Each fk In fks.Values
+    '            Try
+    '                Dim parentDT As DataTable = targetDataSet.Tables(fk.ParentTableName)
+    '                Dim childDT As DataTable = targetDataSet.Tables(fk.ChildTableName)
+    '                Dim parentDC As DataColumn = parentDT.Columns(fk.ParentColumnName)
+    '                Dim childDC As DataColumn = childDT.Columns(fk.ChildColumnName)
+    '                targetDataSet.Relations.Add(fk.Name, parentDC, childDC, False)
+    '            Catch ex As Exception
+    '                LogError(consultantUid, DateTime.UtcNow, DeviceId, MethodBase.GetCurrentMethod.Name, "Error in custom data relationships", "CustomForm", WebServiceGuid, fk.Name, ex)
+    '            End Try
+    '        Next
+    '    Catch ex As Exception
+    '        If Not String.IsNullOrEmpty(fk.Name) Then
+    '            LogError(consultantUid, DateTime.UtcNow, DeviceId, MethodBase.GetCurrentMethod.Name, "Error adding custom data relationships", "CustomControl", WebServiceGuid, fk.Name, ex)
+    '        Else
+    '            LogError(consultantUid, DateTime.UtcNow, DeviceId, MethodBase.GetCurrentMethod.Name, "Error adding custom data relationships", "CustomControl", WebServiceGuid, "<no details>", ex)
+    '        End If
+    '    End Try
+    'End Sub

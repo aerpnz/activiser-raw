@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF1DD345-BFAB-4526-8600-D908C6D19D41}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>activiser.SchemaEditor.My.MyApplication</StartupObject>
+    <RootNamespace>activiser.SchemaEditor</RootNamespace>
+    <AssemblyName>activiser.SchemaEditor</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <OptionStrict>On</OptionStrict>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <ApplicationIcon>activiser.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Data.ConnectionUI, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\Microsoft.Data.ConnectionUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.ConnectionUI.Dialog, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\Microsoft.Data.ConnectionUI.Dialog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="activiserSchema.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>activiserSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AttributeType.vb" />
+    <Compile Include="CandidateEntityDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CandidateEntityDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPosition.vb" />
+    <Compile Include="ControlType.vb" />
+    <Compile Include="ColumnPicker.designer.vb">
+      <DependentUpon>ColumnPicker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ColumnPicker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="activiserSchema.vb">
+      <DependentUpon>activiserSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomFormEditor.Designer.vb">
+      <DependentUpon>CustomFormEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomFormEditor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Globals.vb" />
+    <Compile Include="ListEditorDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListEditorDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ListEditorDataSet.vb">
+      <DependentUpon>ListEditorDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CandidateEntityDataSet.vb">
+      <DependentUpon>CandidateEntityDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LabelPosition.vb" />
+    <Compile Include="ListEditor.designer.vb">
+      <DependentUpon>ListEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListFiller.vb" />
+    <Compile Include="LockCode.vb" />
+    <Compile Include="MainForm.designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTypePicker.Designer.vb">
+      <DependentUpon>FormTypePicker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTypePicker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="CustomControl.designer.vb">
+      <DependentUpon>CustomControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PdaControlCollection.vb" />
+    <Compile Include="SelectedItemChangedEventArgs.vb" />
+    <Compile Include="TablePicker.designer.vb">
+      <DependentUpon>TablePicker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TablePicker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ColumnPicker.resx">
+      <DependentUpon>ColumnPicker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFormEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CustomFormEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListEditor.resx">
+      <DependentUpon>ListEditor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl.resx">
+      <DependentUpon>CustomControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTypePicker.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormTypePicker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TablePicker.resx">
+      <DependentUpon>TablePicker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="CandidateEntityDataSet.xsx">
+      <DependentUpon>CandidateEntityDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ListEditorDataSet.xsc">
+      <DependentUpon>ListEditorDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ListEditorDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ListEditorDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ListEditorDataSet.xss">
+      <DependentUpon>ListEditorDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CandidateEntityDataSet.xsc">
+      <DependentUpon>CandidateEntityDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CandidateEntityDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>CandidateEntityDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="CandidateEntityDataSet.xss">
+      <DependentUpon>CandidateEntityDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="activiserSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>activiserSchema.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="activiser.ico" />
+    <None Include="activiserSchema.xsc">
+      <DependentUpon>activiserSchema.xsd</DependentUpon>
+    </None>
+    <None Include="activiserSchema.xss">
+      <DependentUpon>activiserSchema.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="Resources\SplashLogo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="..\..\BuildSupport\VersionNumber.Targets" />
+  <!--<Target Name="AfterBuild" Condition="$(MaxAssemblyVersion) != ''">
+    <MakeDir Directories="C:\BuildResults\$(MaxAssemblyVersion)\$(AssemblyName)" />
+    <CreateItem Include="$(OutputPath)\**\*.*">
+      <Output TaskParameter="Include" ItemName="FilesToArchive" />
+    </CreateItem>
+    <Copy SourceFiles="@(FilesToArchive)" DestinationFolder="C:\BuildResults\$(MaxAssemblyVersion)\$(AssemblyName)\%(FilesToArchive.RecursiveDir)" />
+  </Target>-->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

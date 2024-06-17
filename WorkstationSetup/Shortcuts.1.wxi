@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<DirectoryRef Id="activiserStartFolder">
+		<Component Id="ShortCut_StartMenu_activiserConsole" Guid="46BFD7BC-6D88-4FBE-9F0C-3FE3B4178FEC">
+			<Shortcut Id="ConsoleStartMenuShortCut"
+					ShortName="Console" Name="activiser Console"
+					Target="[APPLICATIONFOLDER]$(var.activiser.Console.TargetFileName)"
+					Description="Launches the activiser Console"
+					WorkingDirectory="APPLICATIONFOLDER"
+					Icon="activiserIconFile.exe"  />
+					<!--Arguments="[SERVERURL]"-->
+							
+
+			<RegistryValue Root="HKCU"
+				Key="SOFTWARE\activiser\Console"
+				Type="string"
+				Name="StartMenuShortCutInstalled"
+				Value="yes"
+				KeyPath="yes"
+						/>
+		</Component>
+		<Component Id="ShortCut_StartMenu_activiserLanguageEditor" Guid="C4DC4D0F-18A8-48FB-AAF2-5EF07D24478A">
+			<Shortcut Id="LanguageEditorStartMenuShortCut"
+					ShortName="LangEdit" Name="activiser Language Editor"
+					Target="[APPLICATIONFOLDER]$(var.activiser.LanguageEditor.TargetFileName)"
+					Description="Launches the activiser Language Editor"
+					WorkingDirectory="APPLICATIONFOLDER"
+							  />
+
+			<RegistryValue Root="HKCU"
+				Key="SOFTWARE\activiser\LanguageEditor"
+				Type="string"
+				Name="StartMenuShortCutInstalled"
+				Value="yes"
+				KeyPath="yes"
+						/>
+		</Component>
+		<Component Id="ShortCut_StartMenu_activiserSchemaEditor" Guid="A7B0F9AA-E5E3-48EE-8CAC-B48321923AB4">
+			<Shortcut Id="SchemaEditorStartMenuShortCut"
+					ShortName="SchemEdt" Name="activiser Schema Editor"
+					Target="[APPLICATIONFOLDER]$(var.activiser.SchemaEditor.TargetFileName)"
+					Description="Launches the activiser Schema Editor"
+					WorkingDirectory="APPLICATIONFOLDER"
+							  />
+
+			<RegistryValue Root="HKCU"
+				Key="SOFTWARE\activiser\SchemaEditor"
+				Type="string"
+				Name="StartMenuShortCutInstalled"
+				Value="yes"
+				KeyPath="yes"
+						/>
+		</Component>
+	</DirectoryRef>
+	
+	<DirectoryRef Id="DesktopFolder">
+		<Component Id="ShortCut_Desktop_activiserConsole" Guid="E22194D8-BC2A-4279-A488-049C7D0105AE">
+			<Shortcut Id="ConsoleDesktopShortCut"
+					ShortName="Console" Name="activiser Console"
+					Target="[APPLICATIONFOLDER]$(var.activiser.Console.TargetFileName)"
+					Description="Launches the activiser Console"
+					WorkingDirectory="APPLICATIONFOLDER"
+					/>
+			<RegistryValue Root="HKCU"
+					Key="SOFTWARE\activiser\Console"
+					Type="string"
+					Name="DesktopShortCutInstalled"
+					Value="yes"
+					KeyPath="yes"
+					/>
+		</Component>
+		<!--<Component Id="ShortCut_Desktop_activiserLanguageEditor" Guid="ED044AD4-5BDD-4091-8767-0CACBF93AABA">
+			<Shortcut Id="LanguageEditorDesktopShortCut"
+					ShortName="LangEdit" Name="activiser Language Editor"
+					Target="[APPLICATIONFOLDER]$(var.activiser.LanguageEditor.TargetFileName)"
+					Description="Launches the activiser Language Editor"
+					WorkingDirectory="APPLICATIONFOLDER"
+					/>
+			<RegistryValue Root="HKCU"
+					Key="SOFTWARE\activiser\LanguageEditor"
+					Type="string"
+					Name="DesktopShortCutInstalled"
+					Value="yes"
+					KeyPath="yes"
+					/>
+		</Component>-->
+	</DirectoryRef>
+</Include>

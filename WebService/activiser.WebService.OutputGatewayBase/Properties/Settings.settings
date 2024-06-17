@@ -1,0 +1,20 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="activiser.WebService.OutputGateway.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="activiserConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=.;Initial Catalog=activiser;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=.;Initial Catalog=activiser;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="activiser_WebService_OutputGateway_Crm_CrmSdk_CrmService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://rcp-w2k3-dev2:5555/MSCrmServices/2007/CrmService.asmx</Value>
+    </Setting>
+    <Setting Name="activiser_WebService_OutputGateway_Crm_MetadataServiceSdk_MetadataService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:5555/mscrmservices/2007/MetadataService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

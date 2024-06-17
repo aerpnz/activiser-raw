@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.1"></script>
+    <script type="text/javascript">
+    
+        var map = null;
+        
+        function LoadMap(latitude, longitude) { 
+            // ClearMap();
+            map = new VEMap('map');        
+            map.LoadMap(new VELatLong(latitude, longitude), 15, VEMapStyle.Road, false, VEMapMode.Mode2D, true, 1);     
+        }
+
+        function AddPin(latitude, longitude, title, notes) {
+    	    if (!map) return;
+            var pin = new VEShape(VEShapeType.Pushpin, new VELatLong(latitude, longitude));
+            pin.SetTitle(title);
+            pin.SetDescription(notes);
+            map.AddShape(pin);
+        }
+        
+        function ClearMap() {
+            GetGlobalMap();
+            return;
+        }
+        
+        function GetGlobalMap() {
+            map = new VEMap('map');
+            map.LoadMap(new VELatLong(0,0),1);
+        }
+
+	function TestMap() {
+	    LoadMap(47.6334999720256, -122.185166660945); 
+	    AddPin(47.6334999720256, -122.185166660945, 'Title', 'Notes');
+	}
+    </script>
+</head>
+<body onload="TestMap()">
+    <div id="map" onresize="if (map) { map.Resize(); };" />
+</body>
+</html>
+
+

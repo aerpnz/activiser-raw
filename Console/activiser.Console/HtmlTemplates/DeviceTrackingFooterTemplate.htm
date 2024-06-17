@@ -1,0 +1,15 @@
+        }
+
+        function AddPin(latitude, longitude, title, notes) {
+            var pin = new VEShape(VEShapeType.Pushpin, new VELatLong(latitude, longitude));
+            pin.SetTitle(title);
+            pin.SetDescription(notes);
+            map.AddShape(pin);
+        }
+    </script>
+</head>
+<body onload="LoadMap({##LATITUDE##},{##LONGITUDE##});">
+    <div id="activiserMap" onresize="if (map) { map.Resize(); };" >
+</body>
+</html>
+

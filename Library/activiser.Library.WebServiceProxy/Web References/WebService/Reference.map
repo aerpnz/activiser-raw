@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=Utility" filename="Utility.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=ClientRegistrationDataSet" filename="ClientRegistrationDataSet.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=ConsultantSettingDataSet" filename="ConsultantSettingDataSet.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=activiserDataSet" filename="activiserDataSet.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=LanguageDataSet" filename="LanguageDataSet.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=ClientSettingDataSet" filename="ClientSettingDataSet.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=FormDefinition" filename="FormDefinition.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=SyncLogDataSet" filename="SyncLogDataSet.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=ConsultantItemDataSet" filename="ConsultantItemDataSet.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?disco" filename="activiser.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=UploadResults" filename="UploadResults.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=DeviceTrackingDataSet" filename="DeviceTrackingDataSet.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?wsdl" filename="activiser.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.27.172.137:4200/activiser/activiser.asmx?schema=EventLogDataSet" filename="EventLogDataSet.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

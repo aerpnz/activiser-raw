@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="activiserProductSet" targetNamespace="http://www.activiser.com/schemas/licensing/ProductSet.xsd" xmlns:mstns="http://www.activiser.com/schemas/licensing/ProductSet.xsd" xmlns="http://www.activiser.com/schemas/licensing/ProductSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="activiserProductSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="activiserProductSet" msprop:Generator_DataSetName="activiserProductSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Product" msprop:Generator_UserTableName="Product" msprop:Generator_RowDeletedName="ProductRowDeleted" msprop:Generator_RowChangedName="ProductRowChanged" msprop:Generator_RowClassName="ProductRow" msprop:Generator_RowChangingName="ProductRowChanging" msprop:Generator_RowEvArgName="ProductRowChangeEvent" msprop:Generator_RowEvHandlerName="ProductRowChangeEventHandler" msprop:Generator_TableClassName="ProductDataTable" msprop:Generator_TableVarName="tableProduct" msprop:Generator_RowDeletingName="ProductRowDeleting" msprop:Generator_TablePropName="Product">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProductID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="ProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" type="xs:string" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductModule" msprop:Generator_UserTableName="ProductModule" msprop:Generator_RowDeletedName="ProductModuleRowDeleted" msprop:Generator_RowChangedName="ProductModuleRowChanged" msprop:Generator_RowClassName="ProductModuleRow" msprop:Generator_RowChangingName="ProductModuleRowChanging" msprop:Generator_RowEvArgName="ProductModuleRowChangeEvent" msprop:Generator_RowEvHandlerName="ProductModuleRowChangeEventHandler" msprop:Generator_TableClassName="ProductModuleDataTable" msprop:Generator_TableVarName="tableProductModule" msprop:Generator_RowDeletingName="ProductModuleRowDeleting" msprop:Generator_TablePropName="ProductModule">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProductID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="ProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" type="xs:string" />
+              <xs:element name="ModuleID" msprop:Generator_UserColumnName="ModuleID" msprop:Generator_ColumnPropNameInRow="ModuleID" msprop:Generator_ColumnVarNameInTable="columnModuleID" msprop:Generator_ColumnPropNameInTable="ModuleIDColumn" type="xs:unsignedByte" />
+              <xs:element name="ModuleName" msprop:Generator_UserColumnName="ModuleName" msprop:Generator_ColumnPropNameInRow="ModuleName" msprop:Generator_ColumnVarNameInTable="columnModuleName" msprop:Generator_ColumnPropNameInTable="ModuleNameColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductVersion" msprop:Generator_UserTableName="ProductVersion" msprop:Generator_RowDeletedName="ProductVersionRowDeleted" msprop:Generator_RowChangedName="ProductVersionRowChanged" msprop:Generator_RowClassName="ProductVersionRow" msprop:Generator_RowChangingName="ProductVersionRowChanging" msprop:Generator_RowEvArgName="ProductVersionRowChangeEvent" msprop:Generator_RowEvHandlerName="ProductVersionRowChangeEventHandler" msprop:Generator_TableClassName="ProductVersionDataTable" msprop:Generator_TableVarName="tableProductVersion" msprop:Generator_RowDeletingName="ProductVersionRowDeleting" msprop:Generator_TablePropName="ProductVersion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProductID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="ProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" type="xs:string" />
+              <xs:element name="VersionNumber" msdata:Caption="ModuleID" msprop:Generator_UserColumnName="VersionNumber" msprop:Generator_ColumnPropNameInRow="VersionNumber" msprop:Generator_ColumnVarNameInTable="columnVersionNumber" msprop:Generator_ColumnPropNameInTable="VersionNumberColumn" type="xs:float" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Product" />
+      <xs:field xpath="mstns:ProductID" />
+    </xs:unique>
+    <xs:unique name="ProductModule_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ProductModule" />
+      <xs:field xpath="mstns:ProductID" />
+      <xs:field xpath="mstns:ModuleID" />
+    </xs:unique>
+    <xs:unique name="ProductVersion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ProductVersion" />
+      <xs:field xpath="mstns:ProductID" />
+      <xs:field xpath="mstns:VersionNumber" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Product_Module" msdata:parent="Product" msdata:child="ProductModule" msdata:parentkey="ProductID" msdata:childkey="ProductID" msprop:Generator_UserRelationName="Product_Module" msprop:Generator_RelationVarName="relationProduct_Module" msprop:Generator_UserChildTable="ProductModule" msprop:Generator_UserParentTable="Product" msprop:Generator_ParentPropName="ProductRow" msprop:Generator_ChildPropName="GetProductModuleRows" />
+      <msdata:Relationship name="Product_Version" msdata:parent="Product" msdata:child="ProductVersion" msdata:parentkey="ProductID" msdata:childkey="ProductID" msprop:Generator_UserRelationName="Product_Version" msprop:Generator_RelationVarName="relationProduct_Version" msprop:Generator_UserChildTable="ProductVersion" msprop:Generator_UserParentTable="Product" msprop:Generator_ParentPropName="ProductRow" msprop:Generator_ChildPropName="GetProductVersionRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

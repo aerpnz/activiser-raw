@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "activiser.Licensing.Client", "activiser.Licensing.Client.vbproj", "{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		ReleaseX64|Any CPU = ReleaseX64|Any CPU
+		ReleaseX64|x64 = ReleaseX64|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.Debug|x64.ActiveCfg = Debug|x64
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.Debug|x64.Build.0 = Debug|x64
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.Release|x64.ActiveCfg = Release|x64
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.Release|x64.Build.0 = Release|x64
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.ReleaseX64|Any CPU.ActiveCfg = Release|x64
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.ReleaseX64|Any CPU.Build.0 = Release|x64
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.ReleaseX64|x64.ActiveCfg = ReleaseX64|x64
+		{B2E859CA-C34B-49A2-82E3-ECC79FECDEC2}.ReleaseX64|x64.Build.0 = ReleaseX64|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

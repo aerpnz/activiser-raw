@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="activiser.WebService.Binaries" FileSource="$(var.activiser.WebService.TargetDir)">
+            <Component Id="activiser.WebService.Binaries.activiser.WebService.dll" Guid="{391BC7DE-E58F-4EFA-9176-5448BDBECDB9}">
+                <File Id="activiser.WebService.Binaries.activiser.WebService.dll" Name="activiser.WebService.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="activiser.WebService.Binaries">
+            <ComponentRef Id="activiser.WebService.Binaries.activiser.WebService.dll" />
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="activiser.WebService.Content" FileSource="$(var.activiser.WebService.ProjectDir)">
+            <Component Id="activiser.WebService.Content.activiser.asmx" Guid="{699F8F87-A7EC-4798-A5EA-C3257F00EA7A}">
+                <File Id="activiser.WebService.Content.activiser.asmx" Name="activiser.asmx" />
+            </Component>
+            <Component Id="activiser.WebService.Content.Web.config" Guid="{AE47D9AB-B868-4CB0-901C-428FED7C27F1}">
+                <File Id="activiser.WebService.Content.Web.config" Name="Web.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="activiser.WebService.Content">
+            <ComponentRef Id="activiser.WebService.Content.activiser.asmx" />
+            <ComponentRef Id="activiser.WebService.Content.Web.config" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

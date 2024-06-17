@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CustomStringsDataSet" targetNamespace="http://www.activiser.com/schemas/Console/CustomStringsDataSet.xsd" xmlns:mstns="http://www.activiser.com/schemas/Console/CustomStringsDataSet.xsd" xmlns="http://www.activiser.com/schemas/Console/CustomStringsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="ExcludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CustomStringsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CustomStringsDataSet" msprop:Generator_DataSetName="CustomStringsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="StringModule" msprop:Generator_UserTableName="StringModule" msprop:Generator_RowDeletedName="StringModuleRowDeleted" msprop:Generator_RowChangedName="StringModuleRowChanged" msprop:Generator_RowClassName="StringModuleRow" msprop:Generator_RowChangingName="StringModuleRowChanging" msprop:Generator_RowEvArgName="StringModuleRowChangeEvent" msprop:Generator_RowEvHandlerName="StringModuleRowChangeEventHandler" msprop:Generator_TableClassName="StringModuleDataTable" msprop:Generator_TableVarName="tableStringModule" msprop:Generator_RowDeletingName="StringModuleRowDeleting" msprop:Generator_TablePropName="StringModule">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ModuleName" msdata:Caption="Form Name" msprop:Generator_UserColumnName="ModuleName" msprop:Generator_ColumnVarNameInTable="columnModuleName" msprop:Generator_ColumnPropNameInRow="ModuleName" msprop:Generator_ColumnPropNameInTable="ModuleNameColumn" type="xs:string" default="" />
+              <xs:element name="DisplayName" msprop:Generator_UserColumnName="DisplayName" msprop:nullValue="(Empty)" msprop:Generator_ColumnPropNameInRow="DisplayName" msprop:Generator_ColumnPropNameInTable="DisplayNameColumn" msprop:Generator_ColumnVarNameInTable="columnDisplayName" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="ClientKey" msprop:Generator_UserColumnName="ClientKey" msprop:Generator_ColumnVarNameInTable="columnClientKey" msprop:Generator_ColumnPropNameInRow="ClientKey" msprop:Generator_ColumnPropNameInTable="ClientKeyColumn" type="xs:int" default="1" />
+              <xs:element name="LanguageId" msprop:Generator_UserColumnName="LanguageId" msprop:Generator_ColumnVarNameInTable="columnLanguageId" msprop:Generator_ColumnPropNameInRow="LanguageId" msprop:Generator_ColumnPropNameInTable="LanguageIdColumn" type="xs:int" default="1" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StringValue" msprop:Generator_UserTableName="StringValue" msprop:Generator_RowDeletedName="StringValueRowDeleted" msprop:Generator_RowChangedName="StringValueRowChanged" msprop:Generator_RowClassName="StringValueRow" msprop:Generator_RowChangingName="StringValueRowChanging" msprop:Generator_RowEvArgName="StringValueRowChangeEvent" msprop:Generator_RowEvHandlerName="StringValueRowChangeEventHandler" msprop:Generator_TableClassName="StringValueDataTable" msprop:Generator_TableVarName="tableStringValue" msprop:Generator_RowDeletingName="StringValueRowDeleting" msprop:Generator_TablePropName="StringValue">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ModuleName" msprop:Generator_UserColumnName="ModuleName" msprop:Generator_ColumnVarNameInTable="columnModuleName" msprop:Generator_ColumnPropNameInRow="ModuleName" msprop:Generator_ColumnPropNameInTable="ModuleNameColumn" type="xs:string" default="" />
+              <xs:element name="StringName" msprop:Generator_UserColumnName="StringName" msprop:Generator_ColumnVarNameInTable="columnStringName" msprop:Generator_ColumnPropNameInRow="StringName" msprop:Generator_ColumnPropNameInTable="StringNameColumn" type="xs:string" default="" />
+              <xs:element name="DefaultValue" msprop:Generator_UserColumnName="DefaultValue" msprop:nullValue="(Empty)" msprop:Generator_ColumnPropNameInRow="DefaultValue" msprop:Generator_ColumnPropNameInTable="DefaultValueColumn" msprop:Generator_ColumnVarNameInTable="columnDefaultValue" type="xs:string" />
+              <xs:element name="ClientKey" msprop:Generator_UserColumnName="ClientKey" msprop:Generator_ColumnVarNameInTable="columnClientKey" msprop:Generator_ColumnPropNameInRow="ClientKey" msprop:Generator_ColumnPropNameInTable="ClientKeyColumn" type="xs:int" default="1" />
+              <xs:element name="LanguageId" msprop:Generator_UserColumnName="LanguageId" msprop:Generator_ColumnVarNameInTable="columnLanguageId" msprop:Generator_ColumnPropNameInRow="LanguageId" msprop:Generator_ColumnPropNameInTable="LanguageIdColumn" type="xs:int" default="1" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="PK_Form" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StringModule" />
+      <xs:field xpath="mstns:ModuleName" />
+      <xs:field xpath="mstns:ClientKey" />
+      <xs:field xpath="mstns:LanguageId" />
+    </xs:unique>
+    <xs:unique name="FieldPK" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StringValue" />
+      <xs:field xpath="mstns:ModuleName" />
+      <xs:field xpath="mstns:StringName" />
+      <xs:field xpath="mstns:ClientKey" />
+      <xs:field xpath="mstns:LanguageId" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Form_Field" msdata:parent="StringModule" msdata:child="StringValue" msdata:parentkey="ModuleName ClientKey LanguageId" msdata:childkey="ModuleName ClientKey LanguageId" msprop:Generator_UserRelationName="Form_Field" msprop:Generator_RelationVarName="relationForm_Field" msprop:Generator_UserChildTable="StringValue" msprop:Generator_UserParentTable="StringModule" msprop:Generator_ParentPropName="FormRowParent" msprop:Generator_ChildPropName="GetStringValueRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

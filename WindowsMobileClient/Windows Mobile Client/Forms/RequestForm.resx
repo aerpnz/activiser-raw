@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="JobListDetailsColumn.Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="JobListDetailsColumn.Width" type="System.Int32, mscorlib">
+    <value>260</value>
+  </data>
+  <metadata name="JobContextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>330, 17</value>
+  </metadata>
+  <data name="JobContextMenuOpen.Text" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="JobContextMenuNew.Text" xml:space="preserve">
+    <value>New...</value>
+  </data>
+  <data name="RemoveJobContextMenuItem.Text" xml:space="preserve">
+    <value>Remove...</value>
+  </data>
+  <data name="JobListFinishTimeColumn.Text" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="JobListFinishTimeColumn.Width" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="JobListStartTimeColumn.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="JobListStartTimeColumn.Width" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Splitter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Splitter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 145</value>
+  </data>
+  <data name="Splitter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 3</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.Name" xml:space="preserve">
+    <value>Splitter1</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.Parent" xml:space="preserve">
+    <value>JobTab</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="ReadOnlyContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="JobInformation.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="JobInformation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="JobInformation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 148</value>
+  </data>
+  <data name="JobInformation.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="JobInformation.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="JobInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 48</value>
+  </data>
+  <data name="JobInformation.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;JobInformation.Name" xml:space="preserve">
+    <value>JobInformation</value>
+  </data>
+  <data name="&gt;&gt;JobInformation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobInformation.Parent" xml:space="preserve">
+    <value>JobTab</value>
+  </data>
+  <data name="&gt;&gt;JobInformation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="EditContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>188, 17</value>
+  </metadata>
+  <data name="LongDescription.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LongDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="LongDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LongDescription.MaxLength" type="System.Int32, mscorlib">
+    <value>3500</value>
+  </data>
+  <data name="LongDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LongDescription.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="LongDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 228</value>
+  </data>
+  <data name="LongDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LongDescription.Name" xml:space="preserve">
+    <value>LongDescription</value>
+  </data>
+  <data name="&gt;&gt;LongDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LongDescription.Parent" xml:space="preserve">
+    <value>LongDescriptionTab</value>
+  </data>
+  <data name="&gt;&gt;LongDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LongDescriptionTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LongDescriptionTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 228</value>
+  </data>
+  <data name="LongDescriptionTab.Text" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="&gt;&gt;LongDescriptionTab.Name" xml:space="preserve">
+    <value>LongDescriptionTab</value>
+  </data>
+  <data name="&gt;&gt;LongDescriptionTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LongDescriptionTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;LongDescriptionTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="JobListDateColumn.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="JobListDateColumn.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="JobList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="JobList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="JobList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="JobList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 145</value>
+  </data>
+  <data name="JobList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;JobList.Name" xml:space="preserve">
+    <value>JobList</value>
+  </data>
+  <data name="&gt;&gt;JobList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobList.Parent" xml:space="preserve">
+    <value>JobTab</value>
+  </data>
+  <data name="&gt;&gt;JobList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NewJobButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="NewJobButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 4</value>
+  </data>
+  <data name="NewJobButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="NewJobButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="NewJobButton.Text" xml:space="preserve">
+    <value>New Job...</value>
+  </data>
+  <data name="&gt;&gt;NewJobButton.Name" xml:space="preserve">
+    <value>NewJobButton</value>
+  </data>
+  <data name="&gt;&gt;NewJobButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewJobButton.Parent" xml:space="preserve">
+    <value>JobButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;NewJobButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OpenJobButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="OpenJobButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="OpenJobButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="OpenJobButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OpenJobButton.Text" xml:space="preserve">
+    <value>Open Job...</value>
+  </data>
+  <data name="&gt;&gt;OpenJobButton.Name" xml:space="preserve">
+    <value>OpenJobButton</value>
+  </data>
+  <data name="&gt;&gt;OpenJobButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OpenJobButton.Parent" xml:space="preserve">
+    <value>JobButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;OpenJobButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="JobButtonPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="JobButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 196</value>
+  </data>
+  <data name="JobButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 32</value>
+  </data>
+  <data name="&gt;&gt;JobButtonPanel.Name" xml:space="preserve">
+    <value>JobButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;JobButtonPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobButtonPanel.Parent" xml:space="preserve">
+    <value>JobTab</value>
+  </data>
+  <data name="&gt;&gt;JobButtonPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="JobTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="JobTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 228</value>
+  </data>
+  <data name="JobTab.Text" xml:space="preserve">
+    <value>Jobs</value>
+  </data>
+  <data name="&gt;&gt;JobTab.Name" xml:space="preserve">
+    <value>JobTab</value>
+  </data>
+  <data name="&gt;&gt;JobTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;JobTab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Splitter2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="Splitter2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 145</value>
+  </data>
+  <data name="Splitter2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 3</value>
+  </data>
+  <data name="&gt;&gt;Splitter2.Name" xml:space="preserve">
+    <value>Splitter2</value>
+  </data>
+  <data name="&gt;&gt;Splitter2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Splitter2.Parent" xml:space="preserve">
+    <value>HistoryTab</value>
+  </data>
+  <data name="&gt;&gt;Splitter2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="JobHistoryInformation.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="JobHistoryInformation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="JobHistoryInformation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 148</value>
+  </data>
+  <data name="JobHistoryInformation.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="JobHistoryInformation.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="JobHistoryInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 48</value>
+  </data>
+  <data name="JobHistoryInformation.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryInformation.Name" xml:space="preserve">
+    <value>JobHistoryInformation</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryInformation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryInformation.Parent" xml:space="preserve">
+    <value>HistoryTab</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryInformation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="JobHistoryContextMenuOpen.Text" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="JobHistoryContextMenuRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="GetJobHistoryButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GetJobHistoryButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="GetJobHistoryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 4</value>
+  </data>
+  <data name="GetJobHistoryButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="GetJobHistoryButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GetJobHistoryButton.Text" xml:space="preserve">
+    <value>Get History...</value>
+  </data>
+  <data name="&gt;&gt;GetJobHistoryButton.Name" xml:space="preserve">
+    <value>GetJobHistoryButton</value>
+  </data>
+  <data name="&gt;&gt;GetJobHistoryButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GetJobHistoryButton.Parent" xml:space="preserve">
+    <value>HistoryButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;GetJobHistoryButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OpenJobHistoryButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="OpenJobHistoryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="OpenJobHistoryButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="OpenJobHistoryButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OpenJobHistoryButton.Text" xml:space="preserve">
+    <value>Open Job...</value>
+  </data>
+  <data name="&gt;&gt;OpenJobHistoryButton.Name" xml:space="preserve">
+    <value>OpenJobHistoryButton</value>
+  </data>
+  <data name="&gt;&gt;OpenJobHistoryButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OpenJobHistoryButton.Parent" xml:space="preserve">
+    <value>HistoryButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;OpenJobHistoryButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="HistoryButtonPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="HistoryButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 196</value>
+  </data>
+  <data name="HistoryButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 32</value>
+  </data>
+  <data name="&gt;&gt;HistoryButtonPanel.Name" xml:space="preserve">
+    <value>HistoryButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;HistoryButtonPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HistoryButtonPanel.Parent" xml:space="preserve">
+    <value>HistoryTab</value>
+  </data>
+  <data name="&gt;&gt;HistoryButtonPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="InputPanelPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="InputPanelPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 254</value>
+  </data>
+  <data name="InputPanelPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 14</value>
+  </data>
+  <data name="InputPanelPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.Name" xml:space="preserve">
+    <value>InputPanelPanel</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="JobHistoryListDateColumn.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="JobHistoryListDateColumn.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="JobHistoryListConsultantColumn.Text" xml:space="preserve">
+    <value>Consultant</value>
+  </data>
+  <data name="JobHistoryListConsultantColumn.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="JobHistoryListDetailsColumn.Text" xml:space="preserve">
+    <value>Job Details</value>
+  </data>
+  <data name="JobHistoryListDetailsColumn.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <metadata name="JobHistoryContextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>464, 17</value>
+  </metadata>
+  <data name="JobHistoryList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="JobHistoryList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="JobHistoryList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="JobHistoryList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 145</value>
+  </data>
+  <data name="JobHistoryList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryList.Name" xml:space="preserve">
+    <value>JobHistoryList</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryList.Parent" xml:space="preserve">
+    <value>HistoryTab</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="HistoryTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="HistoryTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 228</value>
+  </data>
+  <data name="HistoryTab.Text" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="&gt;&gt;HistoryTab.Name" xml:space="preserve">
+    <value>HistoryTab</value>
+  </data>
+  <data name="&gt;&gt;HistoryTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HistoryTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;HistoryTab.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DateLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="DateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 55</value>
+  </data>
+  <data name="DateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="DateLabel.Text" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="&gt;&gt;DateLabel.Name" xml:space="preserve">
+    <value>DateLabel</value>
+  </data>
+  <data name="&gt;&gt;DateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DateLabel.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;DateLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ShowToolBars.Text" xml:space="preserve">
+    <value>Show Tool Bars</value>
+  </data>
+  <data name="WordWrapCheckBox.Text" xml:space="preserve">
+    <value>Word Wrap</value>
+  </data>
+  <data name="ViewRotate0.Text" xml:space="preserve">
+    <value>Rotate 0°</value>
+  </data>
+  <data name="ViewRotate90.Text" xml:space="preserve">
+    <value>Rotate 90°</value>
+  </data>
+  <data name="ViewRotate180.Text" xml:space="preserve">
+    <value>Rotate 180°</value>
+  </data>
+  <data name="ViewRotate270.Text" xml:space="preserve">
+    <value>Rotate 270°</value>
+  </data>
+  <data name="MainMenuView.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ViewFullScreen.Text" xml:space="preserve">
+    <value>Full Screen</value>
+  </data>
+  <data name="MainMenuNewJob.Text" xml:space="preserve">
+    <value>New Job...</value>
+  </data>
+  <data name="MainMenuOpenJob.Text" xml:space="preserve">
+    <value>Open Job...</value>
+  </data>
+  <data name="MainMenuSync.Text" xml:space="preserve">
+    <value>Synchronise...</value>
+  </data>
+  <data name="MainMenuClientInfo.Text" xml:space="preserve">
+    <value>Client Info</value>
+  </data>
+  <data name="MainMenuNewRequest.Text" xml:space="preserve">
+    <value>New Request...</value>
+  </data>
+  <data name="MainMenuChangeStatus.Text" xml:space="preserve">
+    <value>Change Status</value>
+  </data>
+  <data name="MainMenuGetHistory.Text" xml:space="preserve">
+    <value>Get History...</value>
+  </data>
+  <data name="MainMenuClearSyncedJobs.Text" xml:space="preserve">
+    <value>Clear Sync'd Jobs</value>
+  </data>
+  <data name="MainMenuClearHistory.Text" xml:space="preserve">
+    <value>Clear History</value>
+  </data>
+  <data name="MainMenuRequest.Text" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="MainMenuSeparator2.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MainMenuSeparator1.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MainMenuCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="MainMenuSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="MainMenuClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="MainMenu.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="Contact.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Contact.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="Contact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 29</value>
+  </data>
+  <data name="Contact.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="Contact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 19</value>
+  </data>
+  <data name="Contact.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Contact.Name" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="&gt;&gt;Contact.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Contact.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;Contact.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="NextButton.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="ClientLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="ClientLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 10</value>
+  </data>
+  <data name="ClientLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="ClientLabel.Text" xml:space="preserve">
+    <value>Client:</value>
+  </data>
+  <data name="&gt;&gt;ClientLabel.Name" xml:space="preserve">
+    <value>ClientLabel</value>
+  </data>
+  <data name="&gt;&gt;ClientLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientLabel.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;ClientLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RequestNumber.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="RequestNumber.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="RequestNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 96</value>
+  </data>
+  <data name="RequestNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 19</value>
+  </data>
+  <data name="RequestNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;RequestNumber.Name" xml:space="preserve">
+    <value>RequestNumber</value>
+  </data>
+  <data name="&gt;&gt;RequestNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestNumber.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestNumber.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ShortDescription.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ShortDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ShortDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="ShortDescription.MaxLength" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="ShortDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ShortDescription.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="ShortDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 94</value>
+  </data>
+  <data name="ShortDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ShortDescription.Name" xml:space="preserve">
+    <value>ShortDescription</value>
+  </data>
+  <data name="&gt;&gt;ShortDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShortDescription.Parent" xml:space="preserve">
+    <value>ShortDescriptionPanel</value>
+  </data>
+  <data name="&gt;&gt;ShortDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RequestNumberLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="RequestNumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 99</value>
+  </data>
+  <data name="RequestNumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="RequestNumberLabel.Text" xml:space="preserve">
+    <value>Request #:</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberLabel.Name" xml:space="preserve">
+    <value>RequestNumberLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberLabel.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ClientSiteName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 4</value>
+  </data>
+  <data name="ClientSiteName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 21</value>
+  </data>
+  <data name="ClientSiteName.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteName.Name" xml:space="preserve">
+    <value>ClientSiteName</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteName.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ShortDescriptionLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ShortDescriptionLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="ShortDescriptionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ShortDescriptionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 16</value>
+  </data>
+  <data name="ShortDescriptionLabel.Text" xml:space="preserve">
+    <value>Short Description</value>
+  </data>
+  <data name="&gt;&gt;ShortDescriptionLabel.Name" xml:space="preserve">
+    <value>ShortDescriptionLabel</value>
+  </data>
+  <data name="&gt;&gt;ShortDescriptionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShortDescriptionLabel.Parent" xml:space="preserve">
+    <value>ShortDescriptionPanel</value>
+  </data>
+  <data name="&gt;&gt;ShortDescriptionLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ShortDescriptionPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ShortDescriptionPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 121</value>
+  </data>
+  <data name="ShortDescriptionPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 110</value>
+  </data>
+  <data name="&gt;&gt;ShortDescriptionPanel.Name" xml:space="preserve">
+    <value>ShortDescriptionPanel</value>
+  </data>
+  <data name="&gt;&gt;ShortDescriptionPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShortDescriptionPanel.Parent" xml:space="preserve">
+    <value>DescriptionTab</value>
+  </data>
+  <data name="&gt;&gt;ShortDescriptionPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OwnerTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="OwnerTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="OwnerTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 74</value>
+  </data>
+  <data name="OwnerTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 19</value>
+  </data>
+  <data name="OwnerTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;OwnerTextBox.Name" xml:space="preserve">
+    <value>OwnerTextBox</value>
+  </data>
+  <data name="&gt;&gt;OwnerTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OwnerTextBox.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;OwnerTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OwnerLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="OwnerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 75</value>
+  </data>
+  <data name="OwnerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 18</value>
+  </data>
+  <data name="OwnerLabel.Text" xml:space="preserve">
+    <value>Owner:</value>
+  </data>
+  <data name="&gt;&gt;OwnerLabel.Name" xml:space="preserve">
+    <value>OwnerLabel</value>
+  </data>
+  <data name="&gt;&gt;OwnerLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OwnerLabel.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;OwnerLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ClientInfoButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA/wD//wD/
+        /wD//wD//wD/7e3tzs7Nv768v768zs7N7e3t/wD//wD//wD//wD//wD//wD//wD//wD/8/PztK2irIZO
+        wokyzYglzYglwokyrIZOtK2i8/Pz/wD//wD//wD//wD//wD/7u7uq5Fr4JQl6Zom4ZAY34wT344Y45Uj
+        6pwp4JQlq5Fr7u7u/wD//wD//wD/+vr6spVr658w4ZIh35Yt5atX3pUr2oYO24kU24sW4ZMk658wspVr
+        +vr6/wD//wD/wK+W7KE04ZYr3IkT8MyZ/wD/+/Hk6rhy3o8f3pAg3o8f4Zcr7KE0wK+W/wD/2tPI1ZpF
+        6aI/4ZUq35Ag7cOF/wD/+/Dh7sGC67du4JMm4ZYs4ZUq6aI/1ZpF2tPI48CL5KBB5p8/5Jw445o056hR
+        /vr1/wD/67Vr5qFD5Jw55Jw55Jw45p8/5KBB48CL5bFn6KhR6aRH6KNF6KNE55069969/wD/9tu15506
+        6KNE6KNF6KNF6aRH6KhR5bFn5a1c665c7KhS7KhR7KlU7rRp8cKE/wD//fjw7bBg7KZP7KhS7KhS7KhS
+        665c5a1c5rRr7bJl8LFj769d761a88aN99So/vr0/wD/9MmS7qtW769e769e8LFj7bJl5rRr7MeR67Jj
+        9Lx48rVp8rVq8bNm9smR++rU/O7e9cGD8rJl8rVq8rVp9Lx467Jj7MeR/wD/565e+cmS9rt39rp29rt2
+        9bdw9bl0+deu+das9rx49rp19rt3+cmS565e/wD//wD/79Sq8Lt4/M2b+cCA+MCA+L9++MWK//v4/wD/
+        +s6b+L57/M2b8Lt479Sq/wD//wD//wD/7ceQ88aM/tSp/MiR+8SI+8SI/d28/ujR/M2a/tOn88aM7ceQ
+        /wD//wD//wD//wD//wD/7suX7Lhv+9as/tmz/9ev/9Wq/teu+9Wq7Lhv7suX/wD//wD//wD//wD//wD/
+        /wD//wD//wD/6b5+6rpz67lz67ly6rlz6b5+/wD//wD//wD//wD//wD/
+</value>
+  </data>
+  <data name="ClientInfoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 6</value>
+  </data>
+  <data name="ClientInfoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="ClientInfoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoButton.Name" xml:space="preserve">
+    <value>ClientInfoButton</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoButton.Type" xml:space="preserve">
+    <value>activiser.Library.Forms.ImageButton, activiser.Library.Forms, Version=4.0.0.1723, Culture=neutral, PublicKeyToken=cbf73b8a80567a87</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoButton.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ClientListComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ClientListComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 4</value>
+  </data>
+  <data name="ClientListComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="ClientListComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ClientListComboBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ClientListComboBox.Name" xml:space="preserve">
+    <value>ClientListComboBox</value>
+  </data>
+  <data name="&gt;&gt;ClientListComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientListComboBox.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;ClientListComboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RequestDate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="RequestDate.CustomFormat" xml:space="preserve">
+    <value>yyyy-MM-dd</value>
+  </data>
+  <data name="RequestDate.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RequestDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="RequestDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 51</value>
+  </data>
+  <data name="RequestDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="RequestDate.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RequestDate.Name" xml:space="preserve">
+    <value>RequestDate</value>
+  </data>
+  <data name="&gt;&gt;RequestDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestDate.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestDate.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ContactLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="ContactLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 32</value>
+  </data>
+  <data name="ContactLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="ContactLabel.Text" xml:space="preserve">
+    <value>Contact:</value>
+  </data>
+  <data name="&gt;&gt;ContactLabel.Name" xml:space="preserve">
+    <value>ContactLabel</value>
+  </data>
+  <data name="&gt;&gt;ContactLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContactLabel.Parent" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;ContactLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="RequestHeaderPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="RequestHeaderPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="RequestHeaderPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 121</value>
+  </data>
+  <data name="&gt;&gt;RequestHeaderPanel.Name" xml:space="preserve">
+    <value>RequestHeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestHeaderPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestHeaderPanel.Parent" xml:space="preserve">
+    <value>DescriptionTab</value>
+  </data>
+  <data name="&gt;&gt;RequestHeaderPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DescriptionTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DescriptionTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 231</value>
+  </data>
+  <data name="DescriptionTab.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="&gt;&gt;DescriptionTab.Name" xml:space="preserve">
+    <value>DescriptionTab</value>
+  </data>
+  <data name="&gt;&gt;DescriptionTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescriptionTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;DescriptionTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClientInfoBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ClientInfoBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ClientInfoBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ClientInfoBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClientInfoBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="ClientInfoBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 228</value>
+  </data>
+  <data name="ClientInfoBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoBox.Name" xml:space="preserve">
+    <value>ClientInfoBox</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoBox.Parent" xml:space="preserve">
+    <value>ClientTab</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClientTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ClientTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 228</value>
+  </data>
+  <data name="ClientTab.Text" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="&gt;&gt;ClientTab.Name" xml:space="preserve">
+    <value>ClientTab</value>
+  </data>
+  <data name="&gt;&gt;ClientTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;ClientTab.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 254</value>
+  </data>
+  <data name="TabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Name" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="InputPanel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>633, 17</value>
+  </metadata>
+  <metadata name="MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
+    <value>Pocket_PC</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Skin" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>77</value>
+  </metadata>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 268</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>activiser™</value>
+  </data>
+  <data name="&gt;&gt;JobListDetailsColumn.Name" xml:space="preserve">
+    <value>JobListDetailsColumn</value>
+  </data>
+  <data name="&gt;&gt;JobListDetailsColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobContextMenu.Name" xml:space="preserve">
+    <value>JobContextMenu</value>
+  </data>
+  <data name="&gt;&gt;JobContextMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobContextMenuOpen.Name" xml:space="preserve">
+    <value>JobContextMenuOpen</value>
+  </data>
+  <data name="&gt;&gt;JobContextMenuOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobContextMenuNew.Name" xml:space="preserve">
+    <value>JobContextMenuNew</value>
+  </data>
+  <data name="&gt;&gt;JobContextMenuNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RemoveJobContextMenuItem.Name" xml:space="preserve">
+    <value>RemoveJobContextMenuItem</value>
+  </data>
+  <data name="&gt;&gt;RemoveJobContextMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobListFinishTimeColumn.Name" xml:space="preserve">
+    <value>JobListFinishTimeColumn</value>
+  </data>
+  <data name="&gt;&gt;JobListFinishTimeColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobListStartTimeColumn.Name" xml:space="preserve">
+    <value>JobListStartTimeColumn</value>
+  </data>
+  <data name="&gt;&gt;JobListStartTimeColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReadOnlyContextMenu1.Name" xml:space="preserve">
+    <value>ReadOnlyContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;ReadOnlyContextMenu1.Type" xml:space="preserve">
+    <value>activiser.ReadOnlyContextMenu, activiser, Version=4.0.0.1723, Culture=neutral, PublicKeyToken=93e99a6873a9660d</value>
+  </data>
+  <data name="&gt;&gt;EditContextMenu1.Name" xml:space="preserve">
+    <value>EditContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;EditContextMenu1.Type" xml:space="preserve">
+    <value>activiser.EditContextMenu, activiser, Version=4.0.0.1723, Culture=neutral, PublicKeyToken=93e99a6873a9660d</value>
+  </data>
+  <data name="&gt;&gt;JobListDateColumn.Name" xml:space="preserve">
+    <value>JobListDateColumn</value>
+  </data>
+  <data name="&gt;&gt;JobListDateColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryContextMenuOpen.Name" xml:space="preserve">
+    <value>JobHistoryContextMenuOpen</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryContextMenuOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryContextMenuRemove.Name" xml:space="preserve">
+    <value>JobHistoryContextMenuRemove</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryContextMenuRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryListDateColumn.Name" xml:space="preserve">
+    <value>JobHistoryListDateColumn</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryListDateColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryListConsultantColumn.Name" xml:space="preserve">
+    <value>JobHistoryListConsultantColumn</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryListConsultantColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryListDetailsColumn.Name" xml:space="preserve">
+    <value>JobHistoryListDetailsColumn</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryListDetailsColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryContextMenu.Name" xml:space="preserve">
+    <value>JobHistoryContextMenu</value>
+  </data>
+  <data name="&gt;&gt;JobHistoryContextMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuView.Name" xml:space="preserve">
+    <value>MainMenuView</value>
+  </data>
+  <data name="&gt;&gt;MainMenuView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowToolBars.Name" xml:space="preserve">
+    <value>ShowToolBars</value>
+  </data>
+  <data name="&gt;&gt;ShowToolBars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WordWrapCheckBox.Name" xml:space="preserve">
+    <value>WordWrapCheckBox</value>
+  </data>
+  <data name="&gt;&gt;WordWrapCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate0.Name" xml:space="preserve">
+    <value>ViewRotate0</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate90.Name" xml:space="preserve">
+    <value>ViewRotate90</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate90.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate180.Name" xml:space="preserve">
+    <value>ViewRotate180</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate180.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate270.Name" xml:space="preserve">
+    <value>ViewRotate270</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate270.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewFullScreen.Name" xml:space="preserve">
+    <value>ViewFullScreen</value>
+  </data>
+  <data name="&gt;&gt;ViewFullScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenu.Name" xml:space="preserve">
+    <value>MainMenu</value>
+  </data>
+  <data name="&gt;&gt;MainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuNewJob.Name" xml:space="preserve">
+    <value>MainMenuNewJob</value>
+  </data>
+  <data name="&gt;&gt;MainMenuNewJob.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuOpenJob.Name" xml:space="preserve">
+    <value>MainMenuOpenJob</value>
+  </data>
+  <data name="&gt;&gt;MainMenuOpenJob.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSync.Name" xml:space="preserve">
+    <value>MainMenuSync</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSync.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClientInfo.Name" xml:space="preserve">
+    <value>MainMenuClientInfo</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClientInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuRequest.Name" xml:space="preserve">
+    <value>MainMenuRequest</value>
+  </data>
+  <data name="&gt;&gt;MainMenuRequest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuNewRequest.Name" xml:space="preserve">
+    <value>MainMenuNewRequest</value>
+  </data>
+  <data name="&gt;&gt;MainMenuNewRequest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuChangeStatus.Name" xml:space="preserve">
+    <value>MainMenuChangeStatus</value>
+  </data>
+  <data name="&gt;&gt;MainMenuChangeStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuGetHistory.Name" xml:space="preserve">
+    <value>MainMenuGetHistory</value>
+  </data>
+  <data name="&gt;&gt;MainMenuGetHistory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClearSyncedJobs.Name" xml:space="preserve">
+    <value>MainMenuClearSyncedJobs</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClearSyncedJobs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClearHistory.Name" xml:space="preserve">
+    <value>MainMenuClearHistory</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClearHistory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSeparator2.Name" xml:space="preserve">
+    <value>MainMenuSeparator2</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSeparator1.Name" xml:space="preserve">
+    <value>MainMenuSeparator1</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuCancel.Name" xml:space="preserve">
+    <value>MainMenuCancel</value>
+  </data>
+  <data name="&gt;&gt;MainMenuCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSave.Name" xml:space="preserve">
+    <value>MainMenuSave</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClose.Name" xml:space="preserve">
+    <value>MainMenuClose</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NextButton.Name" xml:space="preserve">
+    <value>NextButton</value>
+  </data>
+  <data name="&gt;&gt;NextButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputPanel.Name" xml:space="preserve">
+    <value>InputPanel</value>
+  </data>
+  <data name="&gt;&gt;InputPanel.Type" xml:space="preserve">
+    <value>Microsoft.CompactFramework.Design.UnsafeComponent, Microsoft.CompactFramework.Design, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Name" xml:space="preserve">
+    <value>MenuStrip</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RequestForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

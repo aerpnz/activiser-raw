@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ActivityFinishLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ActivityFinishLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="ActivityFinishLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ActivityFinishLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="ActivityFinishLabel.Text" xml:space="preserve">
+    <value>Finish:</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishLabel.Name" xml:space="preserve">
+    <value>ActivityFinishLabel</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishLabel.Parent" xml:space="preserve">
+    <value>ActivityTimePanel</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RequestStatusPicker.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RequestStatusPicker.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RequestStatusPicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="RequestStatusPicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 1</value>
+  </data>
+  <data name="RequestStatusPicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="RequestStatusPicker.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusPicker.Name" xml:space="preserve">
+    <value>RequestStatusPicker</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusPicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusPicker.Parent" xml:space="preserve">
+    <value>RequestStatusPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusPicker.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StatusChangeLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="StatusChangeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="StatusChangeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="StatusChangeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="StatusChangeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="StatusChangeLabel.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="RequestStatusPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="RequestStatusPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 137</value>
+  </data>
+  <data name="RequestStatusPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 24</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusPanel.Name" xml:space="preserve">
+    <value>RequestStatusPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusPanel.Parent" xml:space="preserve">
+    <value>SignatureTab</value>
+  </data>
+  <data name="&gt;&gt;RequestStatusPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="JobCompleteLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="JobCompleteLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="JobCompleteLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 161</value>
+  </data>
+  <data name="JobCompleteLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="JobCompleteLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="JobCompleteLabel.Text" xml:space="preserve">
+    <value>Job Complete</value>
+  </data>
+  <data name="Email.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <metadata name="EditContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>202, 17</value>
+  </metadata>
+  <data name="Email.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="Email.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 1</value>
+  </data>
+  <data name="Email.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="Email.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 19</value>
+  </data>
+  <data name="Email.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Email.Name" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="&gt;&gt;Email.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Email.Parent" xml:space="preserve">
+    <value>EmailPanel</value>
+  </data>
+  <data name="&gt;&gt;Email.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EmailLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="EmailLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="EmailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="EmailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="EmailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="EmailLabel.Text" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="EmailPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="EmailPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 94</value>
+  </data>
+  <data name="EmailPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 21</value>
+  </data>
+  <data name="&gt;&gt;EmailPanel.Name" xml:space="preserve">
+    <value>EmailPanel</value>
+  </data>
+  <data name="&gt;&gt;EmailPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailPanel.Parent" xml:space="preserve">
+    <value>FollowUpPanel</value>
+  </data>
+  <data name="&gt;&gt;EmailPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ReturnDatePicker.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ReturnDatePicker.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="ReturnDatePicker.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ReturnDatePicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ReturnDatePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 1</value>
+  </data>
+  <data name="ReturnDatePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="ReturnDatePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ReturnDatePicker.Name" xml:space="preserve">
+    <value>ReturnDatePicker</value>
+  </data>
+  <data name="&gt;&gt;ReturnDatePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReturnDatePicker.Parent" xml:space="preserve">
+    <value>ReturnDatePanel</value>
+  </data>
+  <data name="&gt;&gt;ReturnDatePicker.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ReturnDateLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ReturnDateLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="ReturnDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ReturnDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="ReturnDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ReturnDateLabel.Text" xml:space="preserve">
+    <value>Return:</value>
+  </data>
+  <data name="Signatory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Signatory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="Signatory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 1</value>
+  </data>
+  <data name="Signatory.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="Signatory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 19</value>
+  </data>
+  <data name="Signatory.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Signatory.Name" xml:space="preserve">
+    <value>Signatory</value>
+  </data>
+  <data name="&gt;&gt;Signatory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Signatory.Parent" xml:space="preserve">
+    <value>NamePanel</value>
+  </data>
+  <data name="&gt;&gt;Signatory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClearSignatureButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ClearSignatureButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ClearSignatureButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 1</value>
+  </data>
+  <data name="ClearSignatureButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 19</value>
+  </data>
+  <data name="ClearSignatureButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ClearSignatureButton.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;ClearSignatureButton.Name" xml:space="preserve">
+    <value>ClearSignatureButton</value>
+  </data>
+  <data name="&gt;&gt;ClearSignatureButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClearSignatureButton.Parent" xml:space="preserve">
+    <value>NamePanel</value>
+  </data>
+  <data name="&gt;&gt;ClearSignatureButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SignatoryLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="SignatoryLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="SignatoryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="SignatoryLabel.Text" xml:space="preserve">
+    <value>Signed By:</value>
+  </data>
+  <data name="&gt;&gt;SignatoryLabel.Name" xml:space="preserve">
+    <value>SignatoryLabel</value>
+  </data>
+  <data name="&gt;&gt;SignatoryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SignatoryLabel.Parent" xml:space="preserve">
+    <value>NamePanel</value>
+  </data>
+  <data name="&gt;&gt;SignatoryLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NamePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NamePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 72</value>
+  </data>
+  <data name="NamePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="&gt;&gt;NamePanel.Name" xml:space="preserve">
+    <value>NamePanel</value>
+  </data>
+  <data name="&gt;&gt;NamePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NamePanel.Parent" xml:space="preserve">
+    <value>FollowUpPanel</value>
+  </data>
+  <data name="&gt;&gt;NamePanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Signature.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Signature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 0</value>
+  </data>
+  <data name="Signature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 72</value>
+  </data>
+  <data name="Signature.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Signature.Name" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="&gt;&gt;Signature.Type" xml:space="preserve">
+    <value>activiser.Library.Forms.Signature, activiser.Library.Forms, Version=4.0.0.1726, Culture=neutral, PublicKeyToken=cbf73b8a80567a87</value>
+  </data>
+  <data name="&gt;&gt;Signature.Parent" xml:space="preserve">
+    <value>SignaturePanel</value>
+  </data>
+  <data name="&gt;&gt;Signature.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SignaturePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="SignaturePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="SignaturePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 72</value>
+  </data>
+  <data name="&gt;&gt;SignaturePanel.Name" xml:space="preserve">
+    <value>SignaturePanel</value>
+  </data>
+  <data name="&gt;&gt;SignaturePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SignaturePanel.Parent" xml:space="preserve">
+    <value>FollowUpPanel</value>
+  </data>
+  <data name="&gt;&gt;SignaturePanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="NotesSplitter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NotesSplitter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 100</value>
+  </data>
+  <data name="NotesSplitter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 3</value>
+  </data>
+  <data name="&gt;&gt;NotesSplitter.Name" xml:space="preserve">
+    <value>NotesSplitter</value>
+  </data>
+  <data name="&gt;&gt;NotesSplitter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotesSplitter.Parent" xml:space="preserve">
+    <value>NotesTab</value>
+  </data>
+  <data name="&gt;&gt;NotesSplitter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EquipmentPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Equipment.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Equipment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="Equipment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="Equipment.MaxLength" type="System.Int32, mscorlib">
+    <value>1000</value>
+  </data>
+  <data name="Equipment.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Equipment.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="Equipment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 119</value>
+  </data>
+  <data name="Equipment.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Equipment.Name" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="&gt;&gt;Equipment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Equipment.Parent" xml:space="preserve">
+    <value>EquipmentPanel</value>
+  </data>
+  <data name="&gt;&gt;Equipment.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EquipmentLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="EquipmentLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="EquipmentLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="EquipmentLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 16</value>
+  </data>
+  <data name="EquipmentLabel.Text" xml:space="preserve">
+    <value>Equipment:</value>
+  </data>
+  <data name="&gt;&gt;EquipmentLabel.Name" xml:space="preserve">
+    <value>EquipmentLabel</value>
+  </data>
+  <data name="&gt;&gt;EquipmentLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EquipmentLabel.Parent" xml:space="preserve">
+    <value>EquipmentPanel</value>
+  </data>
+  <data name="&gt;&gt;EquipmentLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EquipmentPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="EquipmentPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 103</value>
+  </data>
+  <data name="EquipmentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 135</value>
+  </data>
+  <data name="&gt;&gt;EquipmentPanel.Name" xml:space="preserve">
+    <value>EquipmentPanel</value>
+  </data>
+  <data name="&gt;&gt;EquipmentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EquipmentPanel.Parent" xml:space="preserve">
+    <value>NotesTab</value>
+  </data>
+  <data name="&gt;&gt;EquipmentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="JobNotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="JobNotes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="JobNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="JobNotes.MaxLength" type="System.Int32, mscorlib">
+    <value>1000</value>
+  </data>
+  <data name="JobNotes.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="JobNotes.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="JobNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 84</value>
+  </data>
+  <data name="JobNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;JobNotes.Name" xml:space="preserve">
+    <value>JobNotes</value>
+  </data>
+  <data name="&gt;&gt;JobNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobNotes.Parent" xml:space="preserve">
+    <value>ConsultantNotesPanel</value>
+  </data>
+  <data name="&gt;&gt;JobNotes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ConsultantNotesLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ConsultantNotesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="ConsultantNotesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ConsultantNotesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 16</value>
+  </data>
+  <data name="ConsultantNotesLabel.Text" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNotesLabel.Name" xml:space="preserve">
+    <value>ConsultantNotesLabel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNotesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNotesLabel.Parent" xml:space="preserve">
+    <value>ConsultantNotesPanel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNotesLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ConsultantNotesPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ConsultantNotesPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ConsultantNotesPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 100</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNotesPanel.Name" xml:space="preserve">
+    <value>ConsultantNotesPanel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNotesPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNotesPanel.Parent" xml:space="preserve">
+    <value>NotesTab</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNotesPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NotesTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="NotesTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 238</value>
+  </data>
+  <data name="NotesTab.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="&gt;&gt;NotesTab.Name" xml:space="preserve">
+    <value>NotesTab</value>
+  </data>
+  <data name="&gt;&gt;NotesTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotesTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;NotesTab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SignatureTab.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ReturnDatePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ReturnDatePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 115</value>
+  </data>
+  <data name="ReturnDatePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 22</value>
+  </data>
+  <data name="&gt;&gt;ReturnDatePanel.Name" xml:space="preserve">
+    <value>ReturnDatePanel</value>
+  </data>
+  <data name="&gt;&gt;ReturnDatePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReturnDatePanel.Parent" xml:space="preserve">
+    <value>FollowUpPanel</value>
+  </data>
+  <data name="&gt;&gt;ReturnDatePanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FollowUpPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="FollowUpPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="FollowUpPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 137</value>
+  </data>
+  <data name="&gt;&gt;FollowUpPanel.Name" xml:space="preserve">
+    <value>FollowUpPanel</value>
+  </data>
+  <data name="&gt;&gt;FollowUpPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FollowUpPanel.Parent" xml:space="preserve">
+    <value>SignatureTab</value>
+  </data>
+  <data name="&gt;&gt;FollowUpPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="JobNumberLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="JobNumberLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 7pt</value>
+  </data>
+  <data name="JobNumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 213</value>
+  </data>
+  <data name="JobNumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 11</value>
+  </data>
+  <data name="JobNumberLabel.Text" xml:space="preserve">
+    <value>job number</value>
+  </data>
+  <data name="JobNumberLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="JobNumberLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;JobNumberLabel.Name" xml:space="preserve">
+    <value>JobNumberLabel</value>
+  </data>
+  <data name="&gt;&gt;JobNumberLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobNumberLabel.Parent" xml:space="preserve">
+    <value>SignatureTab</value>
+  </data>
+  <data name="&gt;&gt;JobNumberLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GpsLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="GpsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 7pt</value>
+  </data>
+  <data name="GpsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 224</value>
+  </data>
+  <data name="GpsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 14</value>
+  </data>
+  <data name="GpsLabel.Text" xml:space="preserve">
+    <value>gps</value>
+  </data>
+  <data name="GpsLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;GpsLabel.Name" xml:space="preserve">
+    <value>GpsLabel</value>
+  </data>
+  <data name="&gt;&gt;GpsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GpsLabel.Parent" xml:space="preserve">
+    <value>SignatureTab</value>
+  </data>
+  <data name="&gt;&gt;GpsLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SignatureTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="SignatureTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 238</value>
+  </data>
+  <data name="SignatureTab.Text" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="&gt;&gt;SignatureTab.Name" xml:space="preserve">
+    <value>SignatureTab</value>
+  </data>
+  <data name="&gt;&gt;SignatureTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SignatureTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;SignatureTab.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ViewRotate180.Text" xml:space="preserve">
+    <value>Rotate 180°</value>
+  </data>
+  <data name="ViewRotate270.Text" xml:space="preserve">
+    <value>Rotate 270°</value>
+  </data>
+  <data name="ViewRotate90.Text" xml:space="preserve">
+    <value>Rotate 90°</value>
+  </data>
+  <data name="ShowShortCutList.Text" xml:space="preserve">
+    <value>Short Cut List</value>
+  </data>
+  <data name="ViewRotate0.Text" xml:space="preserve">
+    <value>Rotate 0°</value>
+  </data>
+  <data name="NextButton.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <metadata name="InputPanel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>355, 17</value>
+  </metadata>
+  <data name="MainMenuSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="MainMenuClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="MainMenuSynchronise.Text" xml:space="preserve">
+    <value>Synchronise...</value>
+  </data>
+  <data name="ShowActivitiesFinishTimeMenuItem.Text" xml:space="preserve">
+    <value>Activities Finish Time</value>
+  </data>
+  <data name="ViewFullScreen.Text" xml:space="preserve">
+    <value>Full Screen</value>
+  </data>
+  <metadata name="MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>465, 17</value>
+  </metadata>
+  <data name="MainMenuRequestDetails.Text" xml:space="preserve">
+    <value>Request Details...</value>
+  </data>
+  <data name="MainMenuClientDetails.Text" xml:space="preserve">
+    <value>Client Details...</value>
+  </data>
+  <data name="MainMenuSeparator2.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MainMenuGpsInfo.Text" xml:space="preserve">
+    <value>GPS Info</value>
+  </data>
+  <data name="MainMenuGpsOn.Text" xml:space="preserve">
+    <value>GPS On</value>
+  </data>
+  <data name="MainMenuGpsOff.Text" xml:space="preserve">
+    <value>GPS Off</value>
+  </data>
+  <data name="MainMenuGps.Text" xml:space="preserve">
+    <value>GPS</value>
+  </data>
+  <data name="MainMenuView.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="MainMenuSeparator1.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MainMenuCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="MainMenu.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="ClientLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ClientLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="ClientLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ClientLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="ClientLabel.Text" xml:space="preserve">
+    <value>Client:</value>
+  </data>
+  <data name="&gt;&gt;ClientLabel.Name" xml:space="preserve">
+    <value>ClientLabel</value>
+  </data>
+  <data name="&gt;&gt;ClientLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientLabel.Parent" xml:space="preserve">
+    <value>ClientNamePanel</value>
+  </data>
+  <data name="&gt;&gt;ClientLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="HeaderSplitter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="HeaderSplitter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 154</value>
+  </data>
+  <data name="HeaderSplitter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 3</value>
+  </data>
+  <data name="&gt;&gt;HeaderSplitter.Name" xml:space="preserve">
+    <value>HeaderSplitter</value>
+  </data>
+  <data name="&gt;&gt;HeaderSplitter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeaderSplitter.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;HeaderSplitter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="HeaderPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DescriptionPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="ReadOnlyContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="RequestDescription.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="RequestDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="RequestDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 0</value>
+  </data>
+  <data name="RequestDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RequestDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 110</value>
+  </data>
+  <data name="RequestDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;RequestDescription.Name" xml:space="preserve">
+    <value>RequestDescription</value>
+  </data>
+  <data name="&gt;&gt;RequestDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestDescription.Parent" xml:space="preserve">
+    <value>DescriptionPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RequestDescriptionLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="RequestDescriptionLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="RequestDescriptionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="RequestDescriptionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 110</value>
+  </data>
+  <data name="RequestDescriptionLabel.Text" xml:space="preserve">
+    <value>Short
+Desc:
+</value>
+  </data>
+  <data name="&gt;&gt;RequestDescriptionLabel.Name" xml:space="preserve">
+    <value>RequestDescriptionLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestDescriptionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestDescriptionLabel.Parent" xml:space="preserve">
+    <value>DescriptionPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestDescriptionLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DescriptionPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DescriptionPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 44</value>
+  </data>
+  <data name="DescriptionPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 110</value>
+  </data>
+  <data name="&gt;&gt;DescriptionPanel.Name" xml:space="preserve">
+    <value>DescriptionPanel</value>
+  </data>
+  <data name="&gt;&gt;DescriptionPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescriptionPanel.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;DescriptionPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClientSiteNameTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ClientSiteNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ClientSiteNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 0</value>
+  </data>
+  <data name="ClientSiteNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 19</value>
+  </data>
+  <data name="ClientSiteNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteNameTextBox.Name" xml:space="preserve">
+    <value>ClientSiteNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteNameTextBox.Parent" xml:space="preserve">
+    <value>ClientNamePanel</value>
+  </data>
+  <data name="&gt;&gt;ClientSiteNameTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClientNamePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ClientNamePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="ClientNamePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="&gt;&gt;ClientNamePanel.Name" xml:space="preserve">
+    <value>ClientNamePanel</value>
+  </data>
+  <data name="&gt;&gt;ClientNamePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientNamePanel.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;ClientNamePanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TimePanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FinishTimePicker.CustomFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="FinishTimePicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="FinishTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 32</value>
+  </data>
+  <data name="FinishTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="FinishTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;FinishTimePicker.Name" xml:space="preserve">
+    <value>FinishTimePicker</value>
+  </data>
+  <data name="&gt;&gt;FinishTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FinishTimePicker.Parent" xml:space="preserve">
+    <value>TimePanel</value>
+  </data>
+  <data name="&gt;&gt;FinishTimePicker.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StartDatePicker.CalendarFont" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="StartDatePicker.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="StartDatePicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="StartDatePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 6</value>
+  </data>
+  <data name="StartDatePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="StartDatePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;StartDatePicker.Name" xml:space="preserve">
+    <value>StartDatePicker</value>
+  </data>
+  <data name="&gt;&gt;StartDatePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartDatePicker.Parent" xml:space="preserve">
+    <value>TimePanel</value>
+  </data>
+  <data name="&gt;&gt;StartDatePicker.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NoTravelTimeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="NoTravelTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 58</value>
+  </data>
+  <data name="NoTravelTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="NoTravelTimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="NoTravelTimeLabel.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="FinishDatePicker.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="FinishDatePicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="FinishDatePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 32</value>
+  </data>
+  <data name="FinishDatePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="FinishDatePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;FinishDatePicker.Name" xml:space="preserve">
+    <value>FinishDatePicker</value>
+  </data>
+  <data name="&gt;&gt;FinishDatePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FinishDatePicker.Parent" xml:space="preserve">
+    <value>TimePanel</value>
+  </data>
+  <data name="&gt;&gt;FinishDatePicker.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="FinishNowButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="FinishNowButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 32</value>
+  </data>
+  <data name="FinishNowButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="FinishNowButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="FinishNowButton.Text" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="&gt;&gt;FinishNowButton.Name" xml:space="preserve">
+    <value>FinishNowButton</value>
+  </data>
+  <data name="&gt;&gt;FinishNowButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FinishNowButton.Parent" xml:space="preserve">
+    <value>TimePanel</value>
+  </data>
+  <data name="&gt;&gt;FinishNowButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TravelTimePicker.CustomFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="TravelTimePicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="TravelTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 58</value>
+  </data>
+  <data name="TravelTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="TravelTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TravelTimePicker.Name" xml:space="preserve">
+    <value>TravelTimePicker</value>
+  </data>
+  <data name="&gt;&gt;TravelTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TravelTimePicker.Parent" xml:space="preserve">
+    <value>TimePanel</value>
+  </data>
+  <data name="&gt;&gt;TravelTimePicker.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="FinishLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="FinishLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="FinishLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="FinishLabel.Text" xml:space="preserve">
+    <value>Finish:</value>
+  </data>
+  <data name="&gt;&gt;FinishLabel.Name" xml:space="preserve">
+    <value>FinishLabel</value>
+  </data>
+  <data name="&gt;&gt;FinishLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FinishLabel.Parent" xml:space="preserve">
+    <value>TimePanel</value>
+  </data>
+  <data name="&gt;&gt;FinishLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="StartTimePicker.CustomFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="StartTimePicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="StartTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 6</value>
+  </data>
+  <data name="StartTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="StartTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;StartTimePicker.Name" xml:space="preserve">
+    <value>StartTimePicker</value>
+  </data>
+  <data name="&gt;&gt;StartTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartTimePicker.Parent" xml:space="preserve">
+    <value>TimePanel</value>
+  </data>
+  <data name="&gt;&gt;StartTimePicker.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TravelTimeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="TravelTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 60</value>
+  </data>
+  <data name="TravelTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="TravelTimeLabel.Text" xml:space="preserve">
+    <value>Travel:</value>
+  </data>
+  <data name="&gt;&gt;TravelTimeLabel.Name" xml:space="preserve">
+    <value>TravelTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;TravelTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TravelTimeLabel.Parent" xml:space="preserve">
+    <value>TimePanel</value>
+  </data>
+  <data name="&gt;&gt;TravelTimeLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="StartNowButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="StartNowButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 6</value>
+  </data>
+  <data name="StartNowButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="StartNowButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="StartNowButton.Text" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="&gt;&gt;StartNowButton.Name" xml:space="preserve">
+    <value>StartNowButton</value>
+  </data>
+  <data name="&gt;&gt;StartNowButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartNowButton.Parent" xml:space="preserve">
+    <value>TimePanel</value>
+  </data>
+  <data name="&gt;&gt;StartNowButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="StartLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="StartLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="StartLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="StartLabel.Text" xml:space="preserve">
+    <value>Start:</value>
+  </data>
+  <data name="&gt;&gt;StartLabel.Name" xml:space="preserve">
+    <value>StartLabel</value>
+  </data>
+  <data name="&gt;&gt;StartLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartLabel.Parent" xml:space="preserve">
+    <value>TimePanel</value>
+  </data>
+  <data name="&gt;&gt;StartLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="TimePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="TimePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 157</value>
+  </data>
+  <data name="TimePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 84</value>
+  </data>
+  <data name="&gt;&gt;TimePanel.Name" xml:space="preserve">
+    <value>TimePanel</value>
+  </data>
+  <data name="&gt;&gt;TimePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TimePanel.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;TimePanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RequestNumberTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="RequestNumberTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="RequestNumberTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 0</value>
+  </data>
+  <data name="RequestNumberTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 19</value>
+  </data>
+  <data name="RequestNumberTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberTextBox.Name" xml:space="preserve">
+    <value>RequestNumberTextBox</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberTextBox.Parent" xml:space="preserve">
+    <value>RequestNumberPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RequestLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="RequestLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="RequestLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="RequestLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="RequestLabel.Text" xml:space="preserve">
+    <value>Request:</value>
+  </data>
+  <data name="&gt;&gt;RequestLabel.Name" xml:space="preserve">
+    <value>RequestLabel</value>
+  </data>
+  <data name="&gt;&gt;RequestLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestLabel.Parent" xml:space="preserve">
+    <value>RequestNumberPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RequestNumberPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="RequestNumberPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="RequestNumberPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberPanel.Name" xml:space="preserve">
+    <value>RequestNumberPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberPanel.Parent" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;RequestNumberPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="HeaderPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="HeaderPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="HeaderPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 241</value>
+  </data>
+  <data name="&gt;&gt;HeaderPanel.Name" xml:space="preserve">
+    <value>HeaderPanel</value>
+  </data>
+  <data name="&gt;&gt;HeaderPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeaderPanel.Parent" xml:space="preserve">
+    <value>JobHeaderTab</value>
+  </data>
+  <data name="&gt;&gt;HeaderPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="JobHeaderTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="JobHeaderTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 241</value>
+  </data>
+  <data name="JobHeaderTab.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;JobHeaderTab.Name" xml:space="preserve">
+    <value>JobHeaderTab</value>
+  </data>
+  <data name="&gt;&gt;JobHeaderTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobHeaderTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;JobHeaderTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="JobDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="JobDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="JobDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="JobDetails.MaxLength" type="System.Int32, mscorlib">
+    <value>3500</value>
+  </data>
+  <data name="JobDetails.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="JobDetails.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="JobDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 199</value>
+  </data>
+  <data name="JobDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;JobDetails.Name" xml:space="preserve">
+    <value>JobDetails</value>
+  </data>
+  <data name="&gt;&gt;JobDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobDetails.Parent" xml:space="preserve">
+    <value>ActivityTab</value>
+  </data>
+  <data name="&gt;&gt;JobDetails.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ActivityFinishNowButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ActivityFinishNowButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ActivityFinishNowButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 0</value>
+  </data>
+  <data name="ActivityFinishNowButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="ActivityFinishNowButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ActivityFinishNowButton.Text" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishNowButton.Name" xml:space="preserve">
+    <value>ActivityFinishNowButton</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishNowButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishNowButton.Parent" xml:space="preserve">
+    <value>ActivityTimePanel</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishNowButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ActivityFinishTimePicker.CustomFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="ActivityFinishTimePicker.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ActivityFinishTimePicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ActivityFinishTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 0</value>
+  </data>
+  <data name="ActivityFinishTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="ActivityFinishTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishTimePicker.Name" xml:space="preserve">
+    <value>ActivityFinishTimePicker</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishTimePicker.Parent" xml:space="preserve">
+    <value>ActivityTimePanel</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishTimePicker.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ActivityFinishDatePicker.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="ActivityFinishDatePicker.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ActivityFinishDatePicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ActivityFinishDatePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="ActivityFinishDatePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="ActivityFinishDatePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishDatePicker.Name" xml:space="preserve">
+    <value>ActivityFinishDatePicker</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishDatePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishDatePicker.Parent" xml:space="preserve">
+    <value>ActivityTimePanel</value>
+  </data>
+  <data name="&gt;&gt;ActivityFinishDatePicker.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ActivityTimePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ActivityTimePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ActivityTimePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 20</value>
+  </data>
+  <data name="&gt;&gt;ActivityTimePanel.Name" xml:space="preserve">
+    <value>ActivityTimePanel</value>
+  </data>
+  <data name="&gt;&gt;ActivityTimePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActivityTimePanel.Parent" xml:space="preserve">
+    <value>ActivityTab</value>
+  </data>
+  <data name="&gt;&gt;ActivityTimePanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ActivityShortCutComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ActivityShortCutComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 7pt</value>
+  </data>
+  <data name="ActivityShortCutComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ActivityShortCutComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 19</value>
+  </data>
+  <data name="ActivityShortCutComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutComboBox.Name" xml:space="preserve">
+    <value>ActivityShortCutComboBox</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutComboBox.Parent" xml:space="preserve">
+    <value>ActivityShortCutPanel</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ActivityShortCutSetupButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="ActivityShortCutSetupButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 7pt</value>
+  </data>
+  <data name="ActivityShortCutSetupButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 0</value>
+  </data>
+  <data name="ActivityShortCutSetupButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 19</value>
+  </data>
+  <data name="ActivityShortCutSetupButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutSetupButton.Name" xml:space="preserve">
+    <value>ActivityShortCutSetupButton</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutSetupButton.Type" xml:space="preserve">
+    <value>activiser.Library.Forms.ImageButton, activiser.Library.Forms, Version=4.0.0.1726, Culture=neutral, PublicKeyToken=cbf73b8a80567a87</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutSetupButton.Parent" xml:space="preserve">
+    <value>ActivityShortCutPanel</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutSetupButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ActivityShortCutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ActivityShortCutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 219</value>
+  </data>
+  <data name="ActivityShortCutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 19</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutPanel.Name" xml:space="preserve">
+    <value>ActivityShortCutPanel</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutPanel.Parent" xml:space="preserve">
+    <value>ActivityTab</value>
+  </data>
+  <data name="&gt;&gt;ActivityShortCutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ActivityTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ActivityTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 238</value>
+  </data>
+  <data name="ActivityTab.Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="&gt;&gt;ActivityTab.Name" xml:space="preserve">
+    <value>ActivityTab</value>
+  </data>
+  <data name="&gt;&gt;ActivityTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActivityTab.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;ActivityTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 264</value>
+  </data>
+  <data name="TabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Name" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="InputPanelPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="InputPanelPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 264</value>
+  </data>
+  <data name="InputPanelPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 4</value>
+  </data>
+  <data name="InputPanelPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.Name" xml:space="preserve">
+    <value>InputPanelPanel</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
+    <value>Pocket_PC</value>
+  </metadata>
+  <metadata name="$this.FormRotation" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>180</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Skin" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>54</value>
+  </metadata>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 268</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>activiser™</value>
+  </data>
+  <data name="&gt;&gt;EditContextMenu1.Name" xml:space="preserve">
+    <value>EditContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;EditContextMenu1.Type" xml:space="preserve">
+    <value>activiser.EditContextMenu, activiser, Version=4.0.0.1726, Culture=neutral, PublicKeyToken=93e99a6873a9660d</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate180.Name" xml:space="preserve">
+    <value>ViewRotate180</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate180.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate270.Name" xml:space="preserve">
+    <value>ViewRotate270</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate270.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate90.Name" xml:space="preserve">
+    <value>ViewRotate90</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate90.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowShortCutList.Name" xml:space="preserve">
+    <value>ShowShortCutList</value>
+  </data>
+  <data name="&gt;&gt;ShowShortCutList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate0.Name" xml:space="preserve">
+    <value>ViewRotate0</value>
+  </data>
+  <data name="&gt;&gt;ViewRotate0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NextButton.Name" xml:space="preserve">
+    <value>NextButton</value>
+  </data>
+  <data name="&gt;&gt;NextButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputPanel.Name" xml:space="preserve">
+    <value>InputPanel</value>
+  </data>
+  <data name="&gt;&gt;InputPanel.Type" xml:space="preserve">
+    <value>Microsoft.CompactFramework.Design.UnsafeComponent, Microsoft.CompactFramework.Design, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSave.Name" xml:space="preserve">
+    <value>MainMenuSave</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClose.Name" xml:space="preserve">
+    <value>MainMenuClose</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSynchronise.Name" xml:space="preserve">
+    <value>MainMenuSynchronise</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSynchronise.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowActivitiesFinishTimeMenuItem.Name" xml:space="preserve">
+    <value>ShowActivitiesFinishTimeMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ShowActivitiesFinishTimeMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewFullScreen.Name" xml:space="preserve">
+    <value>ViewFullScreen</value>
+  </data>
+  <data name="&gt;&gt;ViewFullScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Name" xml:space="preserve">
+    <value>MenuStrip</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenu.Name" xml:space="preserve">
+    <value>MainMenu</value>
+  </data>
+  <data name="&gt;&gt;MainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuRequestDetails.Name" xml:space="preserve">
+    <value>MainMenuRequestDetails</value>
+  </data>
+  <data name="&gt;&gt;MainMenuRequestDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClientDetails.Name" xml:space="preserve">
+    <value>MainMenuClientDetails</value>
+  </data>
+  <data name="&gt;&gt;MainMenuClientDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSeparator2.Name" xml:space="preserve">
+    <value>MainMenuSeparator2</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuGps.Name" xml:space="preserve">
+    <value>MainMenuGps</value>
+  </data>
+  <data name="&gt;&gt;MainMenuGps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuGpsInfo.Name" xml:space="preserve">
+    <value>MainMenuGpsInfo</value>
+  </data>
+  <data name="&gt;&gt;MainMenuGpsInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuGpsOn.Name" xml:space="preserve">
+    <value>MainMenuGpsOn</value>
+  </data>
+  <data name="&gt;&gt;MainMenuGpsOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuGpsOff.Name" xml:space="preserve">
+    <value>MainMenuGpsOff</value>
+  </data>
+  <data name="&gt;&gt;MainMenuGpsOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuView.Name" xml:space="preserve">
+    <value>MainMenuView</value>
+  </data>
+  <data name="&gt;&gt;MainMenuView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSeparator1.Name" xml:space="preserve">
+    <value>MainMenuSeparator1</value>
+  </data>
+  <data name="&gt;&gt;MainMenuSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuCancel.Name" xml:space="preserve">
+    <value>MainMenuCancel</value>
+  </data>
+  <data name="&gt;&gt;MainMenuCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReadOnlyContextMenu1.Name" xml:space="preserve">
+    <value>ReadOnlyContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;ReadOnlyContextMenu1.Type" xml:space="preserve">
+    <value>activiser.ReadOnlyContextMenu, activiser, Version=4.0.0.1726, Culture=neutral, PublicKeyToken=93e99a6873a9660d</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>JobForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

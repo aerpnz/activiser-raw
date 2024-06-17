@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="activiser.Library.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="activiser_Library_WebServiceProxy_Desktop_activiserWebService_activiser" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:4200/activiser/activiser.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

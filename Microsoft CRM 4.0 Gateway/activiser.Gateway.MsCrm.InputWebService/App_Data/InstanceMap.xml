@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InstanceMap xmlns="http://activiser.com/Schemas/InputGateway/Crm/InstanceMap.xsd">
+	<Map>
+		<OrganizationId>00000000-0000-0000-0000-000000000000</OrganizationId>
+		<ActiviserUrl>http://localhost:4200/InputGateway/activiserInputGateway.asmx</ActiviserUrl>
+		<Timeout>60000</Timeout>
+		<UserName/>
+		<Password/>
+		<Domain/>
+	</Map>
+</InstanceMap>

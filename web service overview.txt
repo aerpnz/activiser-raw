@@ -1,0 +1,35 @@
+Activiser web service overview.
+
+Activiser also has a Windows-based console which uses the same web service; any method with 'Console' in the name is intended for the console and not for mobile devices.
+
+The web service requires an authenticated connection, it makes no pretense at being inherently secure, and so we make access available only over HTTPS and using integrated authentication.
+
+Methods without an 'AsXml' or 'Compressed' suffix return a serialized .NET DataSet, possibly including the schema.
+Methods with an 'AsXml' suffix return just the data as an XML string, without all the DataSet baggage.
+Methods with a 'Compressed' suffix return same data as the 'AsXml', but first passed through a ZIP compression. 
+
+Pretty much every method requires a device id string. This prevents random unknown devices from connecting (well attempts to). This is a string in the form of <Version Number>;<Device ID>. Version number is currently 4.0.0.0. The device id is currently derived from a Windows Mobile device id, for the new platform, we'll need to come up with a new way of uniquely identifying the devices.
+
+Most client-side methods also require a consultant ID; this is a GUID value (e.g. 95b81dbd-7263-40d9-95ca-a474e6ffc856).
+
+It was intended that the device controls what data it has, so there are a number of methods it can use to retrieve data from the web service.
+
+Key Client methods:
+1) GetClientDataSet - this gets a complete set of data for the device. Takes 2 arguments, a device ID and a consultant ID
+	This method is the one called for an initial sync; retrieves a complete database for the device/consultant combination.
+	
+2) GetClientDataSetUpdates - gets a set of changes that have occurred since the specified date. Takes 3 arguments: device ID, consultant ID and date/time.
+	This method is called by client devices to get a list of changes since they last updated. By allowing the client to specify the time, it is possible for the user to restore a local backup of their database and 'roll forward' any changes since they last sync'd.
+
+3) StartSync & SyncComplete - advises the server that the client is starting/completing a sync
+	since a sync can take several seconds, we wrap them in a kind of transaction, if it never completes, then it never started. 
+	
+4) UploadClientDataSetUpdates - uploads updates to the server. This will normally only contain 'Job' records, but can also contain 'Request' records.
+
+There are a bumch of other things the web service and current client do, but if these 4 can be handled, then the job is largely done.
+
+The other main additional method we'd like to see utilized:
+
+5) UploadDeviceTrackingInfo - uploads GPS data from the device to the server. The current activiser client can keep track of GPS position at pre-selected intervals, and this method allows that data to be uploaded.
+
+There was a 'retail' version of activiser which allowed clients to add custom data to clients, requests and jobs, and so there are a number of 'schema' methods to support this functionality, and the mobile client supported dynamic addition of data entry controls for this custom data. This won't be required for this version, which is expected to remain for Kinetics' use only.

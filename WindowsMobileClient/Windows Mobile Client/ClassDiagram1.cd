@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="activiser.ClientListItem" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAAAAABAAA=</HashCode>
+      <FileName>Classes\ClientListItem.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.Clipboard" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Clipboard.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.ExceptionParser" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAIEAAAAEAAABAABAAEABAAAAgAAAAAACAAA=</HashCode>
+      <FileName>Classes\CompactExceptionParser.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.ConfigurationSettings" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAoAAAAgAQAAAAAAEEQBBAAIAAAAAAAgAAAAA=</HashCode>
+      <FileName>Classes\ConfigurationSettings.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.ConsultantConfig" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgBAAAAgAEEAQAEBEDMQAhAEMAAAEAAKABgAAMAA=</HashCode>
+      <FileName>Classes\ConsultantConfig.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.RequestStatusListItem" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\RequestStatusListItem.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.SortableColumnHeader" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAFAAAAAAAAEQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SortableColumnHeader.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.Terminology" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgIAABAACAgYAQAhANAAAACAAASAISAAFAABAAAA=</HashCode>
+      <FileName>Classes\Terminology.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.CertificatePolicy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAgAAgAACAAAAAAAA=</HashCode>
+      <FileName>Classes\WebServiceSupport.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="activiser.CustomControl" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASQLSdhIcSUQghPIhMKFExRiAEmRIAQGGQAoIElCYBA=</HashCode>
+      <FileName>CustomForms\CustomControl.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.CustomFormPanel" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAICBIE4SWwAAGDCe3aggBiCQAAWOmsEQDJIQg7UAIE=</HashCode>
+      <FileName>CustomForms\CustomFormPanel.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.AboutForm" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQAAgCAAAQAAAICBAAACAAAAAAAAIgAAAgCRAAA=</HashCode>
+      <FileName>Forms\AboutForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.ClientForm" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Ic0nGYH2queNQjpNjdWZxFR7BTxABlUDGRixemeDJso=</HashCode>
+      <FileName>Forms\ClientForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.CredentialDialog" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIACAAQCBiQAICAASICAAIAKAAEAEBAHKQAQAggABAA=</HashCode>
+      <FileName>Forms\CredentialDialog.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.DialogBox" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAACUICHGAjAAsBAMCQADRSMAEBCIIBCAAQNgCgBAA=</HashCode>
+      <FileName>Forms\DialogBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.ErrorDialog" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAACAAAACAAAAAAAICAAAgSEAAAAAIACAAAIASAAAA=</HashCode>
+      <FileName>Forms\ErrorDialog.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.JobForm" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>XOguUfjqPPW/yFfBzaT1EFx6pWj/1dXJP/Ttuk34Zhs=</HashCode>
+      <FileName>Forms\JobForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.MainForm" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wbi7aY8/+f6fHAeqDo/9ZArzcp1wd1F8Geh38hzV+n8=</HashCode>
+      <FileName>Forms\MainForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.PopupBox" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAACAAiECABAAAAgICAAAhCAAEASEIhCCEAYgCDJAA=</HashCode>
+      <FileName>Forms\PopupBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.RequestForm" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YMGmTgFObuxZSrbEjsupA352QDDxyHFJGRnwAh2EZuc=</HashCode>
+      <FileName>Forms\RequestForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.SettingsForm" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BhJpuQqDDumBUOKxLqnFLAZ+FlxQoEGhCcZJSjCyruI=</HashCode>
+      <FileName>Forms\SettingsForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.SetupForm" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBEEKYQiRiQAUNNAzIWlbqQudiVihAJjqUoEBqoIBoo=</HashCode>
+      <FileName>Forms\SetupForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.StartupForm" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABUBCQIGACAAAmAAQAGACIQ6AAQAQKABCUABBoAABIg=</HashCode>
+      <FileName>Forms\StartUpForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.ContextMenuBase">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQAAAAgQgBBAIAAAAAAAAJACIAggBAAAAAAAAAAA=</HashCode>
+      <FileName>Menus\ContextMenuBase.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.EditContextMenu">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAQAAAAAAAAAAABMAAAIAAAAAAABACAAAAAAAA=</HashCode>
+      <FileName>Menus\EditContextMenu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.PasswordContextMenu" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menus\PasswordContextMenu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.ReadOnlyContextMenu">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAIAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Menus\ReadOnlyContextMenu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.NoChecksumDataException" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Synchronisation\NoChecksumDataException.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.SyncCanceledException" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Synchronisation\SyncExceptions.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.SyncAuthorisationException" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Synchronisation\SyncExceptions.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.SyncForm" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EOCAQAQKgCJAAiAggIDQQAASAMkAQAYICAgEg1AEAAA=</HashCode>
+      <FileName>Synchronisation\SyncForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.Synchronisation" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CKMEhwQRKDCICCABAUckGAoDQAMUBRmYAKAQphCNIKY=</HashCode>
+      <FileName>Synchronisation\Synchronisation.Authentication.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.SyncLog" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAABAAAAAAAAAAAAgAYAICABAAAAAAQACAFEAAA=</HashCode>
+      <FileName>Synchronisation\Synchronisation.Log.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.SyncLogEntryAddedEventArgs" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAACAAAAAEAAAIAAAAAA=</HashCode>
+      <FileName>Synchronisation\Synchronisation.LogEntryAddedEventArgs.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="activiser.SyncWrapper" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Synchronisation\Synchronisation.SyncWrapper.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="activiser.ControlPosition" Collapsed="true">
+    <Position X="12.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAEACA=</HashCode>
+      <FileName>Classes\ControlPosition.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="activiser.ControlType" Collapsed="true">
+    <Position X="14.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAIAAAAAAEAAAAAAAAAAAAQBAAAAAAAAASI=</HashCode>
+      <FileName>Classes\CustomControlTypes.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="activiser.LabelPosition" Collapsed="true">
+    <Position X="7.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACACAAAEAACA=</HashCode>
+      <FileName>Classes\LabelPosition.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="activiser.LockCodes" Collapsed="true">
+    <Position X="9.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAABAAACAAAAAAAAAAEEgAA=</HashCode>
+      <FileName>Classes\LockCodes.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="activiser.ColumnType" Collapsed="true">
+    <Position X="9.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQEAAAAAAAAAAABQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SortableColumnHeader.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="activiser.CertificateProblemCode" Collapsed="true">
+    <Position X="7.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAASAEACAAAAMAAAAAAAAAAAKAABJAAAAAEABgA=</HashCode>
+      <FileName>Classes\WebServiceSupport.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="activiser.IconList" Collapsed="true">
+    <Position X="16.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAQAACAAAABBAAAAAAAAEAAAAAEEAAAA=</HashCode>
+      <FileName>Forms\DialogBox.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="activiser.RequestFormTab" Collapsed="true">
+    <Position X="11" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAAACBAAAAAA=</HashCode>
+      <FileName>Forms\RequestFormTab.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="activiser.ContextMenuType" Collapsed="true">
+    <Position X="11" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAACAAAIAAAAAAA=</HashCode>
+      <FileName>Menus\ContextMenuBase.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="activiser.SchemaClients" Collapsed="true">
+    <Position X="12.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iASAEERAICEAgIAAAAACAAAAAAAAAACBEIAAACEACAQ=</HashCode>
+      <FileName>Synchronisation\SchemaClients.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="activiser.SyncType" Collapsed="true">
+    <Position X="14.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAgBAACAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Synchronisation\Synchronisation.SyncType.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Module Name="activiser.ClientUtilities" Collapsed="true">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAQAAAAAIBAAAAAAAIAAAAAAAgAAAAg=</HashCode>
+      <FileName>Classes\ClientUtilities.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.ExceptionManagement" Collapsed="true">
+    <Position X="12.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAACAAAAAAIAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ExceptionManagement.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.Globals" Collapsed="true">
+    <Position X="14.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IghXBAARBgAYAkBAKCQCAQwAJCAIaQETgAECBEACgpg=</HashCode>
+      <FileName>Classes\Globals.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.JobStatusCodeModule" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAABAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\JobStatusCodes.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.JobUtilities" Collapsed="true">
+    <Position X="9.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAIAAAgAAAAA=</HashCode>
+      <FileName>Classes\JobUtilities.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.Main" Collapsed="true">
+    <Position X="11" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>Classes\Main.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.MessageConstants" Collapsed="true">
+    <Position X="12.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>aqNndfkuDKq33F6T79ls919p2tjw637iuaYcmPXm4n8=</HashCode>
+      <FileName>Classes\MessageConstants.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.NativeMethods" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAAAABABAAAEAAgAAgAAAABAgAgOAAAAAAgBgAAA=</HashCode>
+      <FileName>Classes\NativeMethods.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.RequestStatusCodeModule" Collapsed="true">
+    <Position X="9.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAAAAA=</HashCode>
+      <FileName>Classes\RequestStatusCodes.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.RequestStatusListExtensions" Collapsed="true">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\RequestStatusListItem.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.RequestUtilities" Collapsed="true">
+    <Position X="12.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>igQAAAAAAQAgEIAAAAAAIAABAAEBAAQAAAEAAgAAAAA=</HashCode>
+      <FileName>Classes\RequestUtilities.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.SimpleDelegates" Collapsed="true">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SimpleDelegates.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.Startup" Collapsed="true">
+    <Position X="9.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAAgAAAAA=</HashCode>
+      <FileName>Classes\Startup.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.UIEventHandlers" Collapsed="true">
+    <Position X="11" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Classes\UIEventHandlers.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.Utilities" Collapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAEEAAAQEAQMIAAEBBAIEICAAACAQAABgAgAAQ=</HashCode>
+      <FileName>Classes\Utilities.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.CustomDataUtilities" Collapsed="true">
+    <Position X="11" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomForms\CustomDataUtilities.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.Gps" Collapsed="true">
+    <Position X="16.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ANAgAAQABQgBAIAIQAMACABBAAQMAhQECAAAMogAIAY=</HashCode>
+      <FileName>GPS\Gps.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.Phone" Collapsed="true">
+    <Position X="7.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAIAAAAAAQQABAAAAAAAAAAAACACgYAEAA=</HashCode>
+      <FileName>Phone\Phone.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.Serialisation" Collapsed="true">
+    <Position X="16.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAgAADAAEQAAAAAAAAAQChEAAAJgAAIAA=</HashCode>
+      <FileName>Serialisation\Serialisation.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.ChecksumUtilities" Collapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAA=</HashCode>
+      <FileName>Synchronisation\ChecksumUtilities.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.Notifier" Collapsed="true">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAgAAAIAAgAAJAAAAAAABAEAIGAAACgBAAAA=</HashCode>
+      <FileName>Synchronisation\Synchronisation.Notification.VB</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="activiser.My.Resources.Resources" Collapsed="true">
+    <Position X="14.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>7+//7/9/f+//d7n7v19/+n//5+Tf/7/f//7/973/3/s=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

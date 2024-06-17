@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://www.activiser.com/schemas/activiserDataSet.XSD" xmlns="http://www.activiser.com/schemas/activiserDataSet.XSD" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.activiser.com/schemas/activiserDataSet.XSD" id="activiserDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:Locale="" name="activiserDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Consultant">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsultantNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Username">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="EmailAddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="MobilePhone">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="ConsultantUID" type="xs:string" />
+              <xs:element minOccurs="0" name="ConsultantID" type="xs:int" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="CreatedDateTime" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="ModifiedDateTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="MinSyncTime" type="xs:int" />
+              <xs:element minOccurs="0" name="LastSyncTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="SyncTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" default="false" name="MobileAlert" type="xs:boolean" />
+              <xs:element minOccurs="0" default="true" name="IsActiviserUser" type="xs:boolean" />
+              <xs:element minOccurs="0" default="false" name="Management" type="xs:boolean" />
+              <xs:element minOccurs="0" default="false" name="Administration" type="xs:boolean" />
+              <xs:element minOccurs="0" name="DomainLogon">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="TrackingTimestamp" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="TrackingInfo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ClientSiteStatus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ClientSiteStatusID" type="xs:int" />
+              <xs:element name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsActive" type="xs:boolean" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="CreatedDateTime" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="ModifiedDateTime" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ClientSite">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msdata:Caption="UID" name="ClientSiteUID" type="xs:string" />
+              <xs:element msdata:Caption="ID" minOccurs="0" name="ClientSiteID" type="xs:int" />
+              <xs:element minOccurs="0" name="ClientSiteNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="SiteName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="SiteAddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="SiteContactEmail">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="SiteNotes">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Contact">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ContactPhone1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ContactPhone2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Hold" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ClientSiteStatusID" type="xs:int" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="CreatedDateTime" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="ModifiedDateTime" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RequestStatus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:Caption="ID" name="RequestStatusID" type="xs:int" />
+              <xs:element name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DisplayOrder" type="xs:int" />
+              <xs:element name="IsClientMenuItem" type="xs:boolean" />
+              <xs:element name="IsReasonRequired" type="xs:boolean" />
+              <xs:element name="IsNewStatus" type="xs:boolean" />
+              <xs:element name="IsInProgressStatus" type="xs:boolean" />
+              <xs:element name="IsCompleteStatus" type="xs:boolean" />
+              <xs:element name="IsCancelledStatus" type="xs:boolean" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="CreatedDateTime" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="ModifiedDateTime" type="xs:dateTime" />
+              <xs:element default="0" name="Colour" type="xs:int" />
+              <xs:element default="-1" name="BackColour" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Request">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msdata:Caption="UID" name="RequestUID" type="xs:string" />
+              <xs:element msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msdata:Caption="ID" minOccurs="0" name="RequestID" type="xs:int" />
+              <xs:element minOccurs="0" name="RequestNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" minOccurs="0" name="ConsultantRID" type="xs:int" />
+              <xs:element minOccurs="0" name="ConsultantStatusID" type="xs:int" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="ClientSiteUID" type="xs:string" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="AssignedToUID" type="xs:string" />
+              <xs:element minOccurs="0" name="RequestStatusID" type="xs:int" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="NextActionDate" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="CompletedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Contact">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ShortDescription">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LongDescription">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="CreatedDateTime" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="ModifiedDateTime" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" msdata:Expression="Parent(FK_Request_ClientSite).SiteName" minOccurs="0" name="ClientSiteName" type="xs:string" />
+              <xs:element msdata:ReadOnly="true" msdata:Expression="COUNT(CHILD(FK_Job_Request).JobStatusID)" minOccurs="0" name="Jobs" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" msdata:Expression="Parent(FK_Request_Consultant).Name" minOccurs="0" name="AssignedToName" type="xs:string" />
+              <xs:element msdata:ReadOnly="true" msdata:Expression="Parent(FK_Request_RequestStatus).Description" minOccurs="0" name="RequestStatusDescription" type="xs:string" />
+              <xs:element msdata:ReadOnly="true" msdata:Expression="Parent(FK_Request_RequestStatus).DisplayOrder" minOccurs="0" name="RequestStatusOrder" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" msdata:Expression="ISNULL(Parent(FK_Request_ConsultantStatus).Description,Parent(FK_Request_RequestStatus).Description)" minOccurs="0" name="ConsultantStatusDescription" type="xs:string" />
+              <xs:element msdata:ReadOnly="true" msdata:Expression="ISNULL(Parent(FK_Request_ConsultantStatus).DisplayOrder, Parent(FK_Request_RequestStatus).DisplayOrder)" minOccurs="0" name="ConsultantStatusOrder" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="JobStatus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JobStatusID" type="xs:int" />
+              <xs:element name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:DateTimeMode="Utc" name="CreatedDateTime" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" name="ModifiedDateTime" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Job">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="JobUID" type="xs:string" />
+              <xs:element msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" minOccurs="0" name="JobID" type="xs:int" />
+              <xs:element minOccurs="0" name="JobNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" minOccurs="0" name="ConsultantJobID" type="xs:int" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="ConsultantUID" type="xs:string" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="ClientSiteUID" type="xs:string" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="RequestUID" type="xs:string" />
+              <xs:element msdata:DateTimeMode="Local" minOccurs="0" name="JobDate" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="StartTime" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="FinishTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="JobDetails">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="JobNotes">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Equipment">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" default="0" name="JobStatusID" type="xs:int" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="ReturnDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Signatory">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Signature">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Email">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" default="0" name="EmailStatus" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="MinutesTravelled" type="xs:int" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="CreatedDateTime" type="xs:dateTime" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="ModifiedDateTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" default="0" name="Flag" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" msdata:Expression="Parent(FK_Job_Consultant).Name" minOccurs="0" name="ConsultantName" type="xs:string" />
+              <xs:element msdata:ReadOnly="true" msdata:Expression="Parent(FK_Job_Request).RequestNumber" minOccurs="0" name="RequestNumber" type="xs:string" />
+              <xs:element msdata:ReadOnly="true" msdata:Expression="Parent(FK_Job_ClientSite).SiteName" minOccurs="0" name="ClientSiteName" type="xs:string" />
+              <xs:element msdata:DateTimeMode="Utc" minOccurs="0" name="TrackingTimeStamp" type="xs:dateTime" />
+              <xs:element minOccurs="0" default="" name="TrackingInfo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="PK_Consultant">
+      <xs:selector xpath=".//mstns:Consultant" />
+      <xs:field xpath="mstns:ConsultantUID" />
+    </xs:unique>
+    <xs:unique name="UX_Consultant_Username">
+      <xs:selector xpath=".//mstns:Consultant" />
+      <xs:field xpath="mstns:Username" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="PK_ClientSiteStatus">
+      <xs:selector xpath=".//mstns:ClientSiteStatus" />
+      <xs:field xpath="mstns:ClientSiteStatusID" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="PK_ClientSite">
+      <xs:selector xpath=".//mstns:ClientSite" />
+      <xs:field xpath="mstns:ClientSiteUID" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="PK_RequestStatus">
+      <xs:selector xpath=".//mstns:RequestStatus" />
+      <xs:field xpath="mstns:RequestStatusID" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="PK_Request">
+      <xs:selector xpath=".//mstns:Request" />
+      <xs:field xpath="mstns:RequestUID" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="PK_JobStatus">
+      <xs:selector xpath=".//mstns:JobStatus" />
+      <xs:field xpath="mstns:JobStatusID" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="PK_Job">
+      <xs:selector xpath=".//mstns:Job" />
+      <xs:field xpath="mstns:JobUID" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_Job_Consultant" msdata:parent="Consultant" msdata:child="Job" msdata:parentkey="ConsultantUID" msdata:childkey="ConsultantUID" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" />
+      <msdata:Relationship name="FK_Job_ClientSite" msdata:parent="ClientSite" msdata:child="Job" msdata:parentkey="ClientSiteUID" msdata:childkey="ClientSiteUID" />
+      <msdata:Relationship name="FK_Job_Request" msdata:parent="Request" msdata:child="Job" msdata:parentkey="RequestUID" msdata:childkey="RequestUID" />
+      <msdata:Relationship name="FK_Request_ClientSite" msdata:parent="ClientSite" msdata:child="Request" msdata:parentkey="ClientSiteUID" msdata:childkey="ClientSiteUID" />
+      <msdata:Relationship name="FK_JobStatus_Job" msdata:parent="JobStatus" msdata:child="Job" msdata:parentkey="JobStatusID" msdata:childkey="JobStatusID" />
+      <msdata:Relationship name="FK_ClientSite_ClientSiteStatus" msdata:parent="ClientSiteStatus" msdata:child="ClientSite" msdata:parentkey="ClientSiteStatusID" msdata:childkey="ClientSiteStatusID" />
+      <msdata:Relationship name="FK_Request_Consultant" msdata:parent="Consultant" msdata:child="Request" msdata:parentkey="ConsultantUID" msdata:childkey="AssignedToUID" />
+      <msdata:Relationship name="FK_Request_ConsultantStatus" msdata:parent="RequestStatus" msdata:child="Request" msdata:parentkey="RequestStatusID" msdata:childkey="ConsultantStatusID" />
+      <msdata:Relationship name="FK_Request_RequestStatus" msdata:parent="RequestStatus" msdata:child="Request" msdata:parentkey="RequestStatusID" msdata:childkey="RequestStatusID" />
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_Job_Consultant" msdata:parent="Consultant" msdata:child="Job" msdata:parentkey="ConsultantUID" msdata:childkey="ConsultantUID" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" />
+      <msdata:Relationship name="FK_Job_ClientSite" msdata:parent="ClientSite" msdata:child="Job" msdata:parentkey="ClientSiteUID" msdata:childkey="ClientSiteUID" />
+      <msdata:Relationship name="FK_Job_Request" msdata:parent="Request" msdata:child="Job" msdata:parentkey="RequestUID" msdata:childkey="RequestUID" />
+      <msdata:Relationship name="FK_Request_ClientSite" msdata:parent="ClientSite" msdata:child="Request" msdata:parentkey="ClientSiteUID" msdata:childkey="ClientSiteUID" />
+      <msdata:Relationship name="FK_JobStatus_Job" msdata:parent="JobStatus" msdata:child="Job" msdata:parentkey="JobStatusID" msdata:childkey="JobStatusID" />
+      <msdata:Relationship name="FK_ClientSite_ClientSiteStatus" msdata:parent="ClientSiteStatus" msdata:child="ClientSite" msdata:parentkey="ClientSiteStatusID" msdata:childkey="ClientSiteStatusID" />
+      <msdata:Relationship name="FK_Request_Consultant" msdata:parent="Consultant" msdata:child="Request" msdata:parentkey="ConsultantUID" msdata:childkey="AssignedToUID" />
+      <msdata:Relationship name="FK_Request_ConsultantStatus" msdata:parent="RequestStatus" msdata:child="Request" msdata:parentkey="RequestStatusID" msdata:childkey="ConsultantStatusID" />
+      <msdata:Relationship name="FK_Request_RequestStatus" msdata:parent="RequestStatus" msdata:child="Request" msdata:parentkey="RequestStatusID" msdata:childkey="RequestStatusID" />
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_Job_Consultant" msdata:parent="Consultant" msdata:child="Job" msdata:parentkey="ConsultantUID" msdata:childkey="ConsultantUID" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" />
+      <msdata:Relationship name="FK_Job_ClientSite" msdata:parent="ClientSite" msdata:child="Job" msdata:parentkey="ClientSiteUID" msdata:childkey="ClientSiteUID" />
+      <msdata:Relationship name="FK_Job_Request" msdata:parent="Request" msdata:child="Job" msdata:parentkey="RequestUID" msdata:childkey="RequestUID" />
+      <msdata:Relationship name="FK_Request_ClientSite" msdata:parent="ClientSite" msdata:child="Request" msdata:parentkey="ClientSiteUID" msdata:childkey="ClientSiteUID" />
+      <msdata:Relationship name="FK_JobStatus_Job" msdata:parent="JobStatus" msdata:child="Job" msdata:parentkey="JobStatusID" msdata:childkey="JobStatusID" />
+      <msdata:Relationship name="FK_ClientSite_ClientSiteStatus" msdata:parent="ClientSiteStatus" msdata:child="ClientSite" msdata:parentkey="ClientSiteStatusID" msdata:childkey="ClientSiteStatusID" />
+      <msdata:Relationship name="FK_Request_Consultant" msdata:parent="Consultant" msdata:child="Request" msdata:parentkey="ConsultantUID" msdata:childkey="AssignedToUID" />
+      <msdata:Relationship name="FK_Request_ConsultantStatus" msdata:parent="RequestStatus" msdata:child="Request" msdata:parentkey="RequestStatusID" msdata:childkey="ConsultantStatusID" />
+      <msdata:Relationship name="FK_Request_RequestStatus" msdata:parent="RequestStatus" msdata:child="Request" msdata:parentkey="RequestStatusID" msdata:childkey="RequestStatusID" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

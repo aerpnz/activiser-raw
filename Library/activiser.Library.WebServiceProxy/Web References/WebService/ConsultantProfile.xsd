@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://www.activiser.com/Schemas/ConsultantProfile.xsd" xmlns="http://www.activiser.com/Schemas/ConsultantProfile.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.activiser.com/Schemas/ConsultantProfile.xsd" id="ConsultantProfile" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:Locale="" name="ConsultantProfile">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ConsultantProfileEntry">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" msdata:AutoIncrement="true" name="ID" type="xs:int" />
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="ConsultantUID" type="xs:string" />
+              <xs:element name="ItemType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="ItemUID" type="xs:string" />
+              <xs:element minOccurs="0" default="0" name="ItemInt" type="xs:int" />
+              <xs:element minOccurs="0" name="ItemDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ItemText">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element default="false" name="ItemDeleted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="CreatedDateTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ModifiedDateTime" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:ConsultantProfileEntry" />
+      <xs:field xpath="mstns:ConsultantUID" />
+      <xs:field xpath="mstns:ItemUID" />
+      <xs:field xpath="mstns:ItemType" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

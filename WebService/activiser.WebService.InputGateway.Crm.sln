@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "activiser.WebService.InputGateway.Crm", "activiser.WebService.InputGateway.Crm\", "{ADCE8098-0DFF-4BE1-A3C1-F727945D64E4}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "Svn"
+		SccAuxPath = "Svn"
+		SccLocalPath = "Svn"
+		SccProvider = "SubversionScc"
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/activiser.WebService.InputGateway.Crm"
+		Debug.AspNetCompiler.PhysicalPath = "activiser.WebService.InputGateway.Crm\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\activiser.WebService.InputGateway.Crm\"
+		Debug.AspNetCompiler.Updateable = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/activiser.WebService.InputGateway.Crm"
+		Release.AspNetCompiler.PhysicalPath = "activiser.WebService.InputGateway.Crm\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\activiser.WebService.InputGateway.Crm\"
+		Release.AspNetCompiler.Updateable = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4242"
+		VWDDynamicPort = "false"
+		VWDVirtualPath = "/"
+		StartServerOnDebug = "true"
+	EndProjectSection
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "activiser.WebService.InputGateway.Crm.Setup", "activiser.WebService.InputGateway.Crm.WiXSetup\activiser.WebService.InputGateway.Crm.Setup\activiser.WebService.InputGateway.Crm.Setup.wixproj", "{6D6684E0-F63A-4293-A408-E72937724172}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|.NET = Release|.NET
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADCE8098-0DFF-4BE1-A3C1-F727945D64E4}.Debug|.NET.ActiveCfg = Debug|.NET
+		{ADCE8098-0DFF-4BE1-A3C1-F727945D64E4}.Debug|.NET.Build.0 = Debug|.NET
+		{ADCE8098-0DFF-4BE1-A3C1-F727945D64E4}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{ADCE8098-0DFF-4BE1-A3C1-F727945D64E4}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{ADCE8098-0DFF-4BE1-A3C1-F727945D64E4}.Debug|x86.ActiveCfg = Debug|.NET
+		{ADCE8098-0DFF-4BE1-A3C1-F727945D64E4}.Release|.NET.ActiveCfg = Debug|.NET
+		{ADCE8098-0DFF-4BE1-A3C1-F727945D64E4}.Release|.NET.Build.0 = Debug|.NET
+		{ADCE8098-0DFF-4BE1-A3C1-F727945D64E4}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{ADCE8098-0DFF-4BE1-A3C1-F727945D64E4}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{ADCE8098-0DFF-4BE1-A3C1-F727945D64E4}.Release|x86.ActiveCfg = Debug|.NET
+		{6D6684E0-F63A-4293-A408-E72937724172}.Debug|.NET.ActiveCfg = Debug|x86
+		{6D6684E0-F63A-4293-A408-E72937724172}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{6D6684E0-F63A-4293-A408-E72937724172}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{6D6684E0-F63A-4293-A408-E72937724172}.Debug|x86.ActiveCfg = Debug|x86
+		{6D6684E0-F63A-4293-A408-E72937724172}.Debug|x86.Build.0 = Debug|x86
+		{6D6684E0-F63A-4293-A408-E72937724172}.Release|.NET.ActiveCfg = Release|x86
+		{6D6684E0-F63A-4293-A408-E72937724172}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{6D6684E0-F63A-4293-A408-E72937724172}.Release|Mixed Platforms.Build.0 = Release|x86
+		{6D6684E0-F63A-4293-A408-E72937724172}.Release|x86.ActiveCfg = Release|x86
+		{6D6684E0-F63A-4293-A408-E72937724172}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

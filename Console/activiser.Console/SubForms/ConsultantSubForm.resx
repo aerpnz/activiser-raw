@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ConsultantNumberLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConsultantNumberLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ConsultantNumberLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ConsultantNumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 1</value>
+  </data>
+  <data name="ConsultantNumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConsultantNumberLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ConsultantNumberLabel.Text" xml:space="preserve">
+    <value>Consultant Number:</value>
+  </data>
+  <data name="ConsultantNumberLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNumberLabel.Name" xml:space="preserve">
+    <value>ConsultantNumberLabel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNumberLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNumberLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNumberLabel.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <metadata name="LastSyncTimeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="LastSyncTimeLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LastSyncTimeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LastSyncTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 97</value>
+  </data>
+  <data name="LastSyncTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="LastSyncTimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="LastSyncTimeLabel.Text" xml:space="preserve">
+    <value>Last Sync Time:</value>
+  </data>
+  <data name="LastSyncTimeLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LastSyncTimeLabel.Name" xml:space="preserve">
+    <value>LastSyncTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;LastSyncTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LastSyncTimeLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;LastSyncTimeLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="DomainUserLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="DomainUserLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DomainUserLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DomainUserLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 265</value>
+  </data>
+  <data name="DomainUserLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="DomainUserLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="DomainUserLabel.Text" xml:space="preserve">
+    <value>Domain User:</value>
+  </data>
+  <data name="DomainUserLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;DomainUserLabel.Name" xml:space="preserve">
+    <value>DomainUserLabel</value>
+  </data>
+  <data name="&gt;&gt;DomainUserLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DomainUserLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;DomainUserLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="MinSyncTimeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="MinSyncTimeLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="MinSyncTimeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MinSyncTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 73</value>
+  </data>
+  <data name="MinSyncTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="MinSyncTimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="MinSyncTimeLabel.Text" xml:space="preserve">
+    <value>Sync Interval</value>
+  </data>
+  <data name="MinSyncTimeLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;MinSyncTimeLabel.Name" xml:space="preserve">
+    <value>MinSyncTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;MinSyncTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MinSyncTimeLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;MinSyncTimeLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="AdministrationLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="AdministrationLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="AdministrationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AdministrationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 241</value>
+  </data>
+  <data name="AdministrationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="AdministrationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="AdministrationLabel.Text" xml:space="preserve">
+    <value>Administration:</value>
+  </data>
+  <data name="AdministrationLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;AdministrationLabel.Name" xml:space="preserve">
+    <value>AdministrationLabel</value>
+  </data>
+  <data name="&gt;&gt;AdministrationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdministrationLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;AdministrationLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="ManagementLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="ManagementLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ManagementLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManagementLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 217</value>
+  </data>
+  <data name="ManagementLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="ManagementLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="ManagementLabel.Text" xml:space="preserve">
+    <value>Management:</value>
+  </data>
+  <data name="ManagementLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ManagementLabel.Name" xml:space="preserve">
+    <value>ManagementLabel</value>
+  </data>
+  <data name="&gt;&gt;ManagementLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManagementLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;ManagementLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="IsActiviserUserLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="IsActiviserUserLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="IsActiviserUserLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsActiviserUserLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 193</value>
+  </data>
+  <data name="IsActiviserUserLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="IsActiviserUserLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="IsActiviserUserLabel.Text" xml:space="preserve">
+    <value>Is activiser™ User:</value>
+  </data>
+  <data name="IsActiviserUserLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;IsActiviserUserLabel.Name" xml:space="preserve">
+    <value>IsActiviserUserLabel</value>
+  </data>
+  <data name="&gt;&gt;IsActiviserUserLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsActiviserUserLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;IsActiviserUserLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="MobileAlertLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="MobileAlertLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="MobileAlertLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MobileAlertLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 169</value>
+  </data>
+  <data name="MobileAlertLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="MobileAlertLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="MobileAlertLabel.Text" xml:space="preserve">
+    <value>Mobile Alert:</value>
+  </data>
+  <data name="MobileAlertLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;MobileAlertLabel.Name" xml:space="preserve">
+    <value>MobileAlertLabel</value>
+  </data>
+  <data name="&gt;&gt;MobileAlertLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MobileAlertLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;MobileAlertLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="MobilePhoneLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="MobilePhoneLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="MobilePhoneLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MobilePhoneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 145</value>
+  </data>
+  <data name="MobilePhoneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="MobilePhoneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="MobilePhoneLabel.Text" xml:space="preserve">
+    <value>Mobile Phone:</value>
+  </data>
+  <data name="MobilePhoneLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;MobilePhoneLabel.Name" xml:space="preserve">
+    <value>MobilePhoneLabel</value>
+  </data>
+  <data name="&gt;&gt;MobilePhoneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MobilePhoneLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;MobilePhoneLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="EmailAddressLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="EmailAddressLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="EmailAddressLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EmailAddressLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 121</value>
+  </data>
+  <data name="EmailAddressLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="EmailAddressLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="EmailAddressLabel.Text" xml:space="preserve">
+    <value>Email Address:</value>
+  </data>
+  <data name="EmailAddressLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressLabel.Name" xml:space="preserve">
+    <value>EmailAddressLabel</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <metadata name="NameLabel.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="NameLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="NameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 49</value>
+  </data>
+  <data name="NameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="NameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="NameLabel.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="NameLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;NameLabel.Name" xml:space="preserve">
+    <value>NameLabel</value>
+  </data>
+  <data name="&gt;&gt;NameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;NameLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="ConsultantInfoPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ConsultantInfoPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="UsernameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <metadata name="ConsultantBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>125, 17</value>
+  </metadata>
+  <metadata name="CoreDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>300, 17</value>
+  </metadata>
+  <data name="UsernameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 28</value>
+  </data>
+  <data name="UsernameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 20</value>
+  </data>
+  <data name="UsernameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;UsernameTextBox.Name" xml:space="preserve">
+    <value>UsernameTextBox</value>
+  </data>
+  <data name="&gt;&gt;UsernameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UsernameTextBox.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;UsernameTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SyncInterval1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SyncInterval1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="SyncInterval1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 76</value>
+  </data>
+  <data name="SyncInterval1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="SyncInterval1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;SyncInterval1.Name" xml:space="preserve">
+    <value>SyncInterval1</value>
+  </data>
+  <data name="&gt;&gt;SyncInterval1.Type" xml:space="preserve">
+    <value>activiser.Console.DurationPicker, activiser.Console, Version=3.5.0.1597, Culture=neutral, PublicKeyToken=743c357f1abbd2ef</value>
+  </data>
+  <data name="&gt;&gt;SyncInterval1.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;SyncInterval1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DomainLogonTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="DomainLogonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 269</value>
+  </data>
+  <data name="DomainLogonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 20</value>
+  </data>
+  <data name="DomainLogonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;DomainLogonTextBox.Name" xml:space="preserve">
+    <value>DomainLogonTextBox</value>
+  </data>
+  <data name="&gt;&gt;DomainLogonTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DomainLogonTextBox.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;DomainLogonTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="AdministrationCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AdministrationCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 244</value>
+  </data>
+  <data name="AdministrationCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="AdministrationCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;AdministrationCheckBox.Name" xml:space="preserve">
+    <value>AdministrationCheckBox</value>
+  </data>
+  <data name="&gt;&gt;AdministrationCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdministrationCheckBox.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;AdministrationCheckBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ManagementCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManagementCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 220</value>
+  </data>
+  <data name="ManagementCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="ManagementCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ManagementCheckBox.Name" xml:space="preserve">
+    <value>ManagementCheckBox</value>
+  </data>
+  <data name="&gt;&gt;ManagementCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManagementCheckBox.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;ManagementCheckBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="IsActiviserUserCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsActiviserUserCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 196</value>
+  </data>
+  <data name="IsActiviserUserCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="IsActiviserUserCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;IsActiviserUserCheckBox.Name" xml:space="preserve">
+    <value>IsActiviserUserCheckBox</value>
+  </data>
+  <data name="&gt;&gt;IsActiviserUserCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsActiviserUserCheckBox.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;IsActiviserUserCheckBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="MobileAlertCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MobileAlertCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 172</value>
+  </data>
+  <data name="MobileAlertCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="MobileAlertCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;MobileAlertCheckBox.Name" xml:space="preserve">
+    <value>MobileAlertCheckBox</value>
+  </data>
+  <data name="&gt;&gt;MobileAlertCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MobileAlertCheckBox.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;MobileAlertCheckBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="MobilePhoneTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="MobilePhoneTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 148</value>
+  </data>
+  <data name="MobilePhoneTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 20</value>
+  </data>
+  <data name="MobilePhoneTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;MobilePhoneTextBox.Name" xml:space="preserve">
+    <value>MobilePhoneTextBox</value>
+  </data>
+  <data name="&gt;&gt;MobilePhoneTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MobilePhoneTextBox.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;MobilePhoneTextBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="EmailAddressTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="EmailAddressTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 124</value>
+  </data>
+  <data name="EmailAddressTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 20</value>
+  </data>
+  <data name="EmailAddressTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressTextBox.Name" xml:space="preserve">
+    <value>EmailAddressTextBox</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressTextBox.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressTextBox.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="NameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="NameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 52</value>
+  </data>
+  <data name="NameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 20</value>
+  </data>
+  <data name="NameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NameTextBox.Name" xml:space="preserve">
+    <value>NameTextBox</value>
+  </data>
+  <data name="&gt;&gt;NameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameTextBox.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;NameTextBox.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="ConsultantNumberTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 4</value>
+  </data>
+  <data name="ConsultantNumberTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="ConsultantNumberTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNumberTextBox.Name" xml:space="preserve">
+    <value>ConsultantNumberTextBox</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNumberTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNumberTextBox.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantNumberTextBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="LastSyncDateTimePicker.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="LastSyncDateTimePicker.CustomDateFormat" xml:space="preserve">
+    <value>ddd dd/MM/yyyy</value>
+  </data>
+  <data name="LastSyncDateTimePicker.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LastSyncDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 99</value>
+  </data>
+  <data name="LastSyncDateTimePicker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 0, 0</value>
+  </data>
+  <data name="LastSyncDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 22</value>
+  </data>
+  <data name="LastSyncDateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;LastSyncDateTimePicker.Name" xml:space="preserve">
+    <value>LastSyncDateTimePicker</value>
+  </data>
+  <data name="&gt;&gt;LastSyncDateTimePicker.Type" xml:space="preserve">
+    <value>activiser.Library.DateTimePicker, activiser.Library.DateTimePicker, Version=3.5.0.0, Culture=neutral, PublicKeyToken=4891406a0fa5e1c8</value>
+  </data>
+  <data name="&gt;&gt;LastSyncDateTimePicker.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;LastSyncDateTimePicker.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="UserNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UserNameLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UserNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UserNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="UserNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="UserNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="UserNameLabel.Text" xml:space="preserve">
+    <value>User name:</value>
+  </data>
+  <data name="UserNameLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.Name" xml:space="preserve">
+    <value>UserNameLabel</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.Parent" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="ConsultantInfoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ConsultantInfoPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="ConsultantInfoPanel.RowCount" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ConsultantInfoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 294</value>
+  </data>
+  <data name="ConsultantInfoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ConsultantInfoPanel.Name" xml:space="preserve">
+    <value>ConsultantInfoPanel</value>
+  </data>
+  <data name="&gt;&gt;ConsultantInfoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsultantInfoPanel.Parent" xml:space="preserve">
+    <value>GeneralTab</value>
+  </data>
+  <data name="&gt;&gt;ConsultantInfoPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ConsultantInfoPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="UsernameTextBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LastSyncTimeLabel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="DomainUserLabel" Row="11" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="SyncInterval1" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="MinSyncTimeLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="DomainLogonTextBox" Row="11" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="AdministrationLabel" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="AdministrationCheckBox" Row="10" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ManagementLabel" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ManagementCheckBox" Row="9" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="IsActiviserUserLabel" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="IsActiviserUserCheckBox" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="MobileAlertLabel" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="MobileAlertCheckBox" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="MobilePhoneLabel" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="MobilePhoneTextBox" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="EmailAddressLabel" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="EmailAddressTextBox" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="NameLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="NameTextBox" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ConsultantNumberLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ConsultantNumberTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LastSyncDateTimePicker" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="UserNameLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,110,AutoSize,0" /&gt;&lt;Rows Styles="Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="ColorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ToolTipProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>414, 17</value>
+  </metadata>
+  <data name="ChangePasswordButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAr1JREFUOE91k19I
+        k2EUxr9PpBIpRFxdhItlEUoEdrG6yPz6Q+6muvFC0FaiUKLUTfaXdJWpLaytpiPXSnPLP1nYUtowttkq
+        zQgjWxAShS1wzoIoSCr75bdcTWYHDrwvvOc5z3nO84rCTOzWFkipqpWVqalKaVFigjA2Ni7cvNkhTEwE
+        vRc0v/qUivnCwbb3gsv/xTtdIue/KCou9hhvuKi9dI0CbSG5ubnk52vR601cNNp53F3BVH8RRzQKpqs8
+        s4rly5GaBg7VWkhOTkatVrOvpASLqY6XPSfxuq9iMHYRsGoYrMyQAeScHVV6A62ddxgeHubd6HtCL1z8
+        fOuAUDc/xmupu3CL+6ez+d6+BfXyBBlAF42gc7lcBINBbnc5GGqvgE+v4Ekdn5slbJd1VFc18OC8Bhzb
+        Me1bFcuitbUVv99PY2MjTrseJk7D1XU8rNnM+ZoqHnUfhft7+d65jWqtKgIg/WVhNpsZGhrCZrPR1NTM
+        16eHwbeLHy1ZhEami4Nn+NiygSen0okTwxrM1qGsrIzBwUGcTieTk5OMPu3kl38/dGyd1qGaqXfHCNk2
+        MmLOJGdNYowGgiRJ9Pb24vF4sNvtOO52E7irBW8e/Ve2cf1YJvQXMnxuJfeq10ZYzNqETqlUolAowmv0
+        evswnKvi8sk9LFwgsiVjAf6OnYy35fDhVg7qtHmxLGZWo8vKyvKYTCYsFgtnz+oj87I+LZ6J5xWM2TZg
+        P7V2bj/InFQqlc5oNNLT04PVakUUxXC3ravn6RrKVvDt2QlC7jzSl8bNyULGkMrLy/H5fDgcDuLj4yMP
+        JUPREl47DzDlKaQ4bw4/RFQxGAwMDAzgdrtJSkqK7oSvuZDPb46zY9Pi/49RWlpKIBAIg6SkpEQDSMsU
+        ImlLBMQ/Xoj9WDKL7Oxs6uvrkf0xY5po78vnSAq/AW1xrrk0eT1OAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ChangePasswordButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChangePasswordButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 114</value>
+  </data>
+  <data name="ChangePasswordButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 45</value>
+  </data>
+  <data name="ChangePasswordButton.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="ChangePasswordButton.Text" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ChangePasswordButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ChangePasswordButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;ChangePasswordButton.Name" xml:space="preserve">
+    <value>ChangePasswordButton</value>
+  </data>
+  <data name="&gt;&gt;ChangePasswordButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChangePasswordButton.Parent" xml:space="preserve">
+    <value>GeneralTab</value>
+  </data>
+  <data name="&gt;&gt;ChangePasswordButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UndoButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UndoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 69</value>
+  </data>
+  <data name="UndoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 39</value>
+  </data>
+  <data name="UndoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="UndoButton.Text" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="UndoButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;UndoButton.Name" xml:space="preserve">
+    <value>UndoButton</value>
+  </data>
+  <data name="&gt;&gt;UndoButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UndoButton.Parent" xml:space="preserve">
+    <value>GeneralTab</value>
+  </data>
+  <data name="&gt;&gt;UndoButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SaveButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SaveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 24</value>
+  </data>
+  <data name="SaveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 39</value>
+  </data>
+  <data name="SaveButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="SaveButton.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="SaveButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Name" xml:space="preserve">
+    <value>SaveButton</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Parent" xml:space="preserve">
+    <value>GeneralTab</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GeneralTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="GeneralTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="GeneralTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>632, 454</value>
+  </data>
+  <data name="GeneralTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GeneralTab.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;GeneralTab.Name" xml:space="preserve">
+    <value>GeneralTab</value>
+  </data>
+  <data name="&gt;&gt;GeneralTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GeneralTab.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;GeneralTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GpsBrowser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GpsBrowser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="GpsBrowser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>626, 448</value>
+  </data>
+  <data name="GpsBrowser.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GpsBrowser.Name" xml:space="preserve">
+    <value>GpsBrowser</value>
+  </data>
+  <data name="&gt;&gt;GpsBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GpsBrowser.Parent" xml:space="preserve">
+    <value>TrackingTab</value>
+  </data>
+  <data name="&gt;&gt;GpsBrowser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TrackingTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TrackingTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TrackingTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>632, 454</value>
+  </data>
+  <data name="TrackingTab.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TrackingTab.Text" xml:space="preserve">
+    <value>Tracking</value>
+  </data>
+  <data name="&gt;&gt;TrackingTab.Name" xml:space="preserve">
+    <value>TrackingTab</value>
+  </data>
+  <data name="&gt;&gt;TrackingTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrackingTab.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TrackingTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 480</value>
+  </data>
+  <data name="TabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Name" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>71</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 480</value>
+  </data>
+  <data name="&gt;&gt;ConsultantBindingSource.Name" xml:space="preserve">
+    <value>ConsultantBindingSource</value>
+  </data>
+  <data name="&gt;&gt;ConsultantBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CoreDataSet.Name" xml:space="preserve">
+    <value>CoreDataSet</value>
+  </data>
+  <data name="&gt;&gt;CoreDataSet.Type" xml:space="preserve">
+    <value>activiser.Library.activiserWebService.activiserDataSet, activiser.Library.WebServiceProxy.Desktop, Version=3.5.0.0, Culture=neutral, PublicKeyToken=743c357f1abbd2ef</value>
+  </data>
+  <data name="&gt;&gt;ColorDialog.Name" xml:space="preserve">
+    <value>ColorDialog</value>
+  </data>
+  <data name="&gt;&gt;ColorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTipProvider.Name" xml:space="preserve">
+    <value>ToolTipProvider</value>
+  </data>
+  <data name="&gt;&gt;ToolTipProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ConsultantSubForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="AfterBuild" Condition="$(MaxAssemblyFileVersion) != ''">
+    <MakeDir Directories="C:\BuildResults\$(MaxAssemblyFileVersion)\$(AssemblyName)" />
+    <CreateItem Include="$(OutputPath)\**\*.*">
+      <Output TaskParameter="Include" ItemName="FilesToArchive" />
+    </CreateItem>
+    <Copy SourceFiles="@(FilesToArchive)" DestinationFolder="C:\BuildResults\$(MaxAssemblyFileVersion)\$(AssemblyName)\%(FilesToArchive.RecursiveDir)" />
+  </Target>
+</Project>

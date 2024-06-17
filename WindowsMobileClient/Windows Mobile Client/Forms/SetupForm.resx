@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ActiviserCredentialsHelp.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ActiviserCredentialsHelp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ActiviserCredentialsHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 102</value>
+  </data>
+  <data name="ActiviserCredentialsHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 60</value>
+  </data>
+  <data name="ActiviserCredentialsHelp.Text" xml:space="preserve">
+    <value>If your administrator has enabled the feature, tick 'Use Integrated Authentication', otherwise enter your activiser™ user name and password.</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsHelp.Name" xml:space="preserve">
+    <value>ActiviserCredentialsHelp</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsHelp.Parent" xml:space="preserve">
+    <value>ActiviserCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="FormMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>463, 17</value>
+  </metadata>
+  <data name="NextTestDoneButton.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="BackButton.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="HttpTestButton.Text" xml:space="preserve">
+    <value>HTTP Test</value>
+  </data>
+  <data name="ResetButton.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="MenuItem1.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="UseIntegratedAuthenticationCheckbox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="UseIntegratedAuthenticationCheckbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="UseIntegratedAuthenticationCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="UseIntegratedAuthenticationCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UseIntegratedAuthenticationCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="UseIntegratedAuthenticationCheckbox.Text" xml:space="preserve">
+    <value>Use Integrated Authentication</value>
+  </data>
+  <data name="UserNameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <metadata name="EditContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>567, 17</value>
+  </metadata>
+  <data name="UserNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="UserNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 42</value>
+  </data>
+  <data name="UserNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 19</value>
+  </data>
+  <data name="UserNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.Name" xml:space="preserve">
+    <value>UserNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.Parent" xml:space="preserve">
+    <value>ActiviserCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PasswordTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <metadata name="PasswordContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>293, 17</value>
+  </metadata>
+  <data name="PasswordTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="PasswordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 64</value>
+  </data>
+  <data name="PasswordTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="PasswordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 19</value>
+  </data>
+  <data name="PasswordTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PasswordTextBox.Name" xml:space="preserve">
+    <value>PasswordTextBox</value>
+  </data>
+  <data name="&gt;&gt;PasswordTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PasswordTextBox.Parent" xml:space="preserve">
+    <value>ActiviserCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;PasswordTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UserNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="UserNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="UserNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="UserNameLabel.Text" xml:space="preserve">
+    <value>User name:</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.Name" xml:space="preserve">
+    <value>UserNameLabel</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.Parent" xml:space="preserve">
+    <value>ActiviserCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PasswordLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="PasswordLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 63</value>
+  </data>
+  <data name="PasswordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="PasswordLabel.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="&gt;&gt;PasswordLabel.Name" xml:space="preserve">
+    <value>PasswordLabel</value>
+  </data>
+  <data name="&gt;&gt;PasswordLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PasswordLabel.Parent" xml:space="preserve">
+    <value>ActiviserCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;PasswordLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ActiviserCredentialsLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ActiviserCredentialsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="ActiviserCredentialsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ActiviserCredentialsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 16</value>
+  </data>
+  <data name="ActiviserCredentialsLabel.Text" xml:space="preserve">
+    <value>Activiser Credentials:</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsLabel.Name" xml:space="preserve">
+    <value>ActiviserCredentialsLabel</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsLabel.Parent" xml:space="preserve">
+    <value>ActiviserCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ActiviserCredentialsPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ActiviserCredentialsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ActiviserCredentialsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 162</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsPanel.Name" xml:space="preserve">
+    <value>ActiviserCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsPanel.Parent" xml:space="preserve">
+    <value>ActiviserUserTab</value>
+  </data>
+  <data name="&gt;&gt;ActiviserCredentialsPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ServiceCredentialsHelp.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ServiceCredentialsHelp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ServiceCredentialsHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 102</value>
+  </data>
+  <data name="ServiceCredentialsHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 60</value>
+  </data>
+  <data name="ServiceCredentialsHelp.Text" xml:space="preserve">
+    <value>Your activiser™ server may require you to log on as a user (usually your Windows® user). 
+
+Note: this not your activiser™ user.</value>
+  </data>
+  <data name="&gt;&gt;ServiceCredentialsHelp.Name" xml:space="preserve">
+    <value>ServiceCredentialsHelp</value>
+  </data>
+  <data name="&gt;&gt;ServiceCredentialsHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServiceCredentialsHelp.Parent" xml:space="preserve">
+    <value>NetUserTab</value>
+  </data>
+  <data name="&gt;&gt;ServiceCredentialsHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ActiviserUserTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ActiviserUserTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 162</value>
+  </data>
+  <data name="ActiviserUserTab.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="&gt;&gt;ActiviserUserTab.Name" xml:space="preserve">
+    <value>ActiviserUserTab</value>
+  </data>
+  <data name="&gt;&gt;ActiviserUserTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActiviserUserTab.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;ActiviserUserTab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="WebServiceCredentialsLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="WebServiceCredentialsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="WebServiceCredentialsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="WebServiceCredentialsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 16</value>
+  </data>
+  <data name="WebServiceCredentialsLabel.Text" xml:space="preserve">
+    <value>Web Service Credentials:</value>
+  </data>
+  <data name="&gt;&gt;WebServiceCredentialsLabel.Name" xml:space="preserve">
+    <value>WebServiceCredentialsLabel</value>
+  </data>
+  <data name="&gt;&gt;WebServiceCredentialsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WebServiceCredentialsLabel.Parent" xml:space="preserve">
+    <value>NetUserTab</value>
+  </data>
+  <data name="&gt;&gt;WebServiceCredentialsLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="ReadOnlyContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="UserInfoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UserInfoTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 8pt</value>
+  </data>
+  <data name="UserInfoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 70</value>
+  </data>
+  <data name="UserInfoTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UserInfoTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="UserInfoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 92</value>
+  </data>
+  <data name="UserInfoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="UserInfoTextBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;UserInfoTextBox.Name" xml:space="preserve">
+    <value>UserInfoTextBox</value>
+  </data>
+  <data name="&gt;&gt;UserInfoTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserInfoTextBox.Parent" xml:space="preserve">
+    <value>TestTab</value>
+  </data>
+  <data name="&gt;&gt;UserInfoTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Splitter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Splitter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 66</value>
+  </data>
+  <data name="Splitter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 4</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.Name" xml:space="preserve">
+    <value>Splitter1</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.Parent" xml:space="preserve">
+    <value>TestTab</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AuthenticationLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="AuthenticationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="AuthenticationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 36</value>
+  </data>
+  <data name="AuthenticationLabel.Text" xml:space="preserve">
+    <value>not authenticated</value>
+  </data>
+  <data name="AuthenticationLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;AuthenticationLabel.Name" xml:space="preserve">
+    <value>AuthenticationLabel</value>
+  </data>
+  <data name="&gt;&gt;AuthenticationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AuthenticationLabel.Parent" xml:space="preserve">
+    <value>DeviceIDPanel</value>
+  </data>
+  <data name="&gt;&gt;AuthenticationLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DeviceIDTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="DeviceIDTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 7pt</value>
+  </data>
+  <data name="DeviceIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="DeviceIDTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="DeviceIDTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DeviceIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 15</value>
+  </data>
+  <data name="DeviceIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DeviceIDTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDTextBox.Name" xml:space="preserve">
+    <value>DeviceIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDTextBox.Parent" xml:space="preserve">
+    <value>DeviceIDPanel</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DeviceIDLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="DeviceIDLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="DeviceIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DeviceIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 15</value>
+  </data>
+  <data name="DeviceIDLabel.Text" xml:space="preserve">
+    <value>Device ID:</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDLabel.Name" xml:space="preserve">
+    <value>DeviceIDLabel</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDLabel.Parent" xml:space="preserve">
+    <value>DeviceIDPanel</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DeviceIDPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="DeviceIDPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DeviceIDPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 66</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDPanel.Name" xml:space="preserve">
+    <value>DeviceIDPanel</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDPanel.Parent" xml:space="preserve">
+    <value>TestTab</value>
+  </data>
+  <data name="&gt;&gt;DeviceIDPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TestTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TestTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 162</value>
+  </data>
+  <data name="TestTab.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="&gt;&gt;TestTab.Name" xml:space="preserve">
+    <value>TestTab</value>
+  </data>
+  <data name="&gt;&gt;TestTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TestTab.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TestTab.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DomainUsernameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="DomainUsernameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="DomainUsernameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 19</value>
+  </data>
+  <data name="DomainUsernameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DomainUsernameTextBox.Name" xml:space="preserve">
+    <value>DomainUsernameTextBox</value>
+  </data>
+  <data name="&gt;&gt;DomainUsernameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DomainUsernameTextBox.Parent" xml:space="preserve">
+    <value>NetUserTab</value>
+  </data>
+  <data name="&gt;&gt;DomainUsernameTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="WebServiceUserNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="WebServiceUserNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 19</value>
+  </data>
+  <data name="WebServiceUserNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="WebServiceUserNameLabel.Text" xml:space="preserve">
+    <value>User name:</value>
+  </data>
+  <data name="&gt;&gt;WebServiceUserNameLabel.Name" xml:space="preserve">
+    <value>WebServiceUserNameLabel</value>
+  </data>
+  <data name="&gt;&gt;WebServiceUserNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WebServiceUserNameLabel.Parent" xml:space="preserve">
+    <value>NetUserTab</value>
+  </data>
+  <data name="&gt;&gt;WebServiceUserNameLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SavePasswordCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="SavePasswordCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 83</value>
+  </data>
+  <data name="SavePasswordCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 19</value>
+  </data>
+  <data name="SavePasswordCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SavePasswordCheckBox.Text" xml:space="preserve">
+    <value>Save Password</value>
+  </data>
+  <data name="WebServicePasswordLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="WebServicePasswordLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="WebServicePasswordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="WebServicePasswordLabel.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="&gt;&gt;WebServicePasswordLabel.Name" xml:space="preserve">
+    <value>WebServicePasswordLabel</value>
+  </data>
+  <data name="&gt;&gt;WebServicePasswordLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WebServicePasswordLabel.Parent" xml:space="preserve">
+    <value>NetUserTab</value>
+  </data>
+  <data name="&gt;&gt;WebServicePasswordLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DomainNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="DomainNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 63</value>
+  </data>
+  <data name="DomainNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 19</value>
+  </data>
+  <data name="DomainNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;DomainNameTextBox.Name" xml:space="preserve">
+    <value>DomainNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;DomainNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DomainNameTextBox.Parent" xml:space="preserve">
+    <value>NetUserTab</value>
+  </data>
+  <data name="&gt;&gt;DomainNameTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="DomainLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="DomainLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 63</value>
+  </data>
+  <data name="DomainLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="DomainLabel.Text" xml:space="preserve">
+    <value>Domain:</value>
+  </data>
+  <data name="&gt;&gt;DomainLabel.Name" xml:space="preserve">
+    <value>DomainLabel</value>
+  </data>
+  <data name="&gt;&gt;DomainLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DomainLabel.Parent" xml:space="preserve">
+    <value>NetUserTab</value>
+  </data>
+  <data name="&gt;&gt;DomainLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DomainPasswordTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="DomainPasswordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 41</value>
+  </data>
+  <data name="DomainPasswordTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="DomainPasswordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 19</value>
+  </data>
+  <data name="DomainPasswordTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DomainPasswordTextBox.Name" xml:space="preserve">
+    <value>DomainPasswordTextBox</value>
+  </data>
+  <data name="&gt;&gt;DomainPasswordTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DomainPasswordTextBox.Parent" xml:space="preserve">
+    <value>NetUserTab</value>
+  </data>
+  <data name="&gt;&gt;DomainPasswordTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="NetUserTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="NetUserTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 162</value>
+  </data>
+  <data name="NetUserTab.Text" xml:space="preserve">
+    <value>Auth</value>
+  </data>
+  <data name="&gt;&gt;NetUserTab.Name" xml:space="preserve">
+    <value>NetUserTab</value>
+  </data>
+  <data name="&gt;&gt;NetUserTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetUserTab.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;NetUserTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UrlLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="UrlLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="UrlLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="UrlLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 16</value>
+  </data>
+  <data name="UrlLabel.Text" xml:space="preserve">
+    <value>Server URL:</value>
+  </data>
+  <data name="&gt;&gt;UrlLabel.Name" xml:space="preserve">
+    <value>UrlLabel</value>
+  </data>
+  <data name="&gt;&gt;UrlLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UrlLabel.Parent" xml:space="preserve">
+    <value>WebServiceCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;UrlLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="InputPanel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>188, 17</value>
+  </metadata>
+  <data name="ServerUrlHelp.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ServerUrlHelp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ServerUrlHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 105</value>
+  </data>
+  <data name="ServerUrlHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 60</value>
+  </data>
+  <data name="ServerUrlHelp.Text" xml:space="preserve">
+    <value>Please enter the full URL for your activiser™ web service.</value>
+  </data>
+  <data name="&gt;&gt;ServerUrlHelp.Name" xml:space="preserve">
+    <value>ServerUrlHelp</value>
+  </data>
+  <data name="&gt;&gt;ServerUrlHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerUrlHelp.Parent" xml:space="preserve">
+    <value>WebServiceCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;ServerUrlHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="IgnoreCertificateErrorsCheckbox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IgnoreCertificateErrorsCheckbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="IgnoreCertificateErrorsCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 48</value>
+  </data>
+  <data name="IgnoreCertificateErrorsCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 20</value>
+  </data>
+  <data name="IgnoreCertificateErrorsCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="IgnoreCertificateErrorsCheckbox.Text" xml:space="preserve">
+    <value>Ignore certificate errors</value>
+  </data>
+  <data name="SecondsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="SecondsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 70</value>
+  </data>
+  <data name="SecondsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 14</value>
+  </data>
+  <data name="SecondsLabel.Text" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="&gt;&gt;SecondsLabel.Name" xml:space="preserve">
+    <value>SecondsLabel</value>
+  </data>
+  <data name="&gt;&gt;SecondsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SecondsLabel.Parent" xml:space="preserve">
+    <value>WebServiceCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;SecondsLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ServerTimeoutLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ServerTimeoutLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ServerTimeoutLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 70</value>
+  </data>
+  <data name="ServerTimeoutLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 14</value>
+  </data>
+  <data name="ServerTimeoutLabel.Text" xml:space="preserve">
+    <value>Timeout:</value>
+  </data>
+  <data name="&gt;&gt;ServerTimeoutLabel.Name" xml:space="preserve">
+    <value>ServerTimeoutLabel</value>
+  </data>
+  <data name="&gt;&gt;ServerTimeoutLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerTimeoutLabel.Parent" xml:space="preserve">
+    <value>WebServiceCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;ServerTimeoutLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ServerTimeoutValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ServerTimeoutValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ServerTimeoutValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 68</value>
+  </data>
+  <data name="ServerTimeoutValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="ServerTimeoutValue.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ServerTimeoutValue.Name" xml:space="preserve">
+    <value>ServerTimeoutValue</value>
+  </data>
+  <data name="&gt;&gt;ServerTimeoutValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerTimeoutValue.Parent" xml:space="preserve">
+    <value>WebServiceCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;ServerTimeoutValue.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ServerUrlTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ServerUrlTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="ServerUrlTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="ServerUrlTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ServerUrlTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 32</value>
+  </data>
+  <data name="ServerUrlTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ServerUrlTextBox.Name" xml:space="preserve">
+    <value>ServerUrlTextBox</value>
+  </data>
+  <data name="&gt;&gt;ServerUrlTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerUrlTextBox.Parent" xml:space="preserve">
+    <value>WebServiceCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;ServerUrlTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="WebServiceCredentialsPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="WebServiceCredentialsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="WebServiceCredentialsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 165</value>
+  </data>
+  <data name="&gt;&gt;WebServiceCredentialsPanel.Name" xml:space="preserve">
+    <value>WebServiceCredentialsPanel</value>
+  </data>
+  <data name="&gt;&gt;WebServiceCredentialsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WebServiceCredentialsPanel.Parent" xml:space="preserve">
+    <value>WebServiceTab</value>
+  </data>
+  <data name="&gt;&gt;WebServiceCredentialsPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="WebServiceTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="WebServiceTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 165</value>
+  </data>
+  <data name="WebServiceTab.Text" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="&gt;&gt;WebServiceTab.Name" xml:space="preserve">
+    <value>WebServiceTab</value>
+  </data>
+  <data name="&gt;&gt;WebServiceTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WebServiceTab.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;WebServiceTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="WebBrowser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="WebBrowser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="WebBrowser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 162</value>
+  </data>
+  <data name="&gt;&gt;WebBrowser.Name" xml:space="preserve">
+    <value>WebBrowser</value>
+  </data>
+  <data name="&gt;&gt;WebBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WebBrowser.Parent" xml:space="preserve">
+    <value>BrowserTab</value>
+  </data>
+  <data name="&gt;&gt;WebBrowser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BrowserTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="BrowserTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 162</value>
+  </data>
+  <data name="BrowserTab.Text" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="&gt;&gt;BrowserTab.Name" xml:space="preserve">
+    <value>BrowserTab</value>
+  </data>
+  <data name="&gt;&gt;BrowserTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BrowserTab.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;BrowserTab.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 188</value>
+  </data>
+  <data name="TabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Name" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="InputPanelPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="InputPanelPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 188</value>
+  </data>
+  <data name="InputPanelPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 80</value>
+  </data>
+  <data name="InputPanelPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.Name" xml:space="preserve">
+    <value>InputPanelPanel</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputPanelPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
+    <value>Pocket_PC</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Skin" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 268</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>activiser™ Setup</value>
+  </data>
+  <data name="&gt;&gt;FormMenu.Name" xml:space="preserve">
+    <value>FormMenu</value>
+  </data>
+  <data name="&gt;&gt;FormMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NextTestDoneButton.Name" xml:space="preserve">
+    <value>NextTestDoneButton</value>
+  </data>
+  <data name="&gt;&gt;NextTestDoneButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem1.Name" xml:space="preserve">
+    <value>MenuItem1</value>
+  </data>
+  <data name="&gt;&gt;MenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Name" xml:space="preserve">
+    <value>BackButton</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HttpTestButton.Name" xml:space="preserve">
+    <value>HttpTestButton</value>
+  </data>
+  <data name="&gt;&gt;HttpTestButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ResetButton.Name" xml:space="preserve">
+    <value>ResetButton</value>
+  </data>
+  <data name="&gt;&gt;ResetButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel.Name" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;Cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditContextMenu1.Name" xml:space="preserve">
+    <value>EditContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;EditContextMenu1.Type" xml:space="preserve">
+    <value>activiser.EditContextMenu, activiser, Version=4.0.0.1699, Culture=neutral, PublicKeyToken=93e99a6873a9660d</value>
+  </data>
+  <data name="&gt;&gt;PasswordContextMenu1.Name" xml:space="preserve">
+    <value>PasswordContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;PasswordContextMenu1.Type" xml:space="preserve">
+    <value>activiser.PasswordContextMenu, activiser, Version=4.0.0.1699, Culture=neutral, PublicKeyToken=93e99a6873a9660d</value>
+  </data>
+  <data name="&gt;&gt;ReadOnlyContextMenu1.Name" xml:space="preserve">
+    <value>ReadOnlyContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;ReadOnlyContextMenu1.Type" xml:space="preserve">
+    <value>activiser.ReadOnlyContextMenu, activiser, Version=4.0.0.1699, Culture=neutral, PublicKeyToken=93e99a6873a9660d</value>
+  </data>
+  <data name="&gt;&gt;InputPanel.Name" xml:space="preserve">
+    <value>InputPanel</value>
+  </data>
+  <data name="&gt;&gt;InputPanel.Type" xml:space="preserve">
+    <value>Microsoft.CompactFramework.Design.UnsafeComponent, Microsoft.CompactFramework.Design, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SetupForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

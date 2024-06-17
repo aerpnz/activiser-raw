@@ -1,0 +1,1663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbortLabel" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="AboutFormDeviceIdFormat" xml:space="preserve">
+    <value>Device ID: {0}</value>
+  </data>
+  <data name="AboutFormFrameworkVersionFormat" xml:space="preserve">
+    <value>Microsoft® .NET Compact Framework v{0}.{1}.{2}.{3}</value>
+  </data>
+  <data name="AboutFormPlatformFormat" xml:space="preserve">
+    <value>Platform: {0}
+O/S Version: {1}</value>
+  </data>
+  <data name="AboutFormServerFormat" xml:space="preserve">
+    <value>Server: {0}</value>
+  </data>
+  <data name="AboutFormServerUrlFormat" xml:space="preserve">
+    <value>Server URL: {0}</value>
+  </data>
+  <data name="AboutFormUserFormat" xml:space="preserve">
+    <value>User: {0}</value>
+  </data>
+  <data name="AboutFormVersionFormat" xml:space="preserve">
+    <value>activiser™ v{0}.{1}.{2}.{3}</value>
+  </data>
+  <data name="activiserFormTitle" xml:space="preserve">
+    <value>activiser™</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Delete16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\16x16\Delete16.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\32x32\Delete32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\16x16\16x16_edit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditIcon24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\24x24\24x24_edit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorIcon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\erroricon32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorIcon48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\48x48\erroricon48.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\16x16\Add16.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\32x32\Add32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClientList16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\16x16\ClientList16.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClientList24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\24x24\ClientList24.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClientList32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\32x32\ClientList32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add16disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\16x16\add16disabled.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add32disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\add32disabled.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete16disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\16x16\delete16disabled.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete32disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\delete32disabled.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppConfigAllowRequestsForClientsOnHoldKey" xml:space="preserve">
+    <value>AllowRequestsForClientsOnHold</value>
+  </data>
+  <data name="AppConfigAllowNewRequestsKey" xml:space="preserve">
+    <value>AllowNewRequests</value>
+  </data>
+  <data name="AppConfigAutoSyncIntervalKey" xml:space="preserve">
+    <value>AutoSyncInterval</value>
+  </data>
+  <data name="AppConfigAutoSyncKey" xml:space="preserve">
+    <value>AutoSync</value>
+  </data>
+  <data name="AppConfigErrorFolderDefault" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="AppConfigErrorFolderKey" xml:space="preserve">
+    <value>ErrorFolder</value>
+  </data>
+  <data name="AppConfigLanguageFileDefault" xml:space="preserve">
+    <value>Language.Xml</value>
+  </data>
+  <data name="AppConfigLanguageFileKey" xml:space="preserve">
+    <value>LanguageFile</value>
+  </data>
+  <data name="AppConfigDatabaseRootFolderDefault" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="AppConfigDatabaseRootFolderKey" xml:space="preserve">
+    <value>DatabaseRootFolder</value>
+  </data>
+  <data name="AppConfigDataFolderDefault" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="AppConfigDataFolderKey" xml:space="preserve">
+    <value>DataFolder</value>
+  </data>
+  <data name="AppConfigDefaultJobDurationKey" xml:space="preserve">
+    <value>DefaultJobDuration</value>
+  </data>
+  <data name="AppConfigDefaultJobStartKey" xml:space="preserve">
+    <value>DefaultJobStart</value>
+  </data>
+  <data name="AppConfigDefaultTravelTimeKey" xml:space="preserve">
+    <value>DefaultTravelTime</value>
+  </data>
+  <data name="RegistryDomainKey" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="AppConfigEventLogDefault" xml:space="preserve">
+    <value>EventLog.XML</value>
+  </data>
+  <data name="AppConfigEventLogKey" xml:space="preserve">
+    <value>EventLogDB</value>
+  </data>
+  <data name="AppConfigMainDbDefault" xml:space="preserve">
+    <value>Main.Xml</value>
+  </data>
+  <data name="AppConfigMainDbKey" xml:space="preserve">
+    <value>MainDB</value>
+  </data>
+  <data name="AppConfigMainFormColumnWidthsKey" xml:space="preserve">
+    <value>MainFormColumnWidths</value>
+  </data>
+  <data name="AppConfigMainFormGridColouringKey" xml:space="preserve">
+    <value>MainFormGridColouring</value>
+  </data>
+  <data name="AppConfigMainFormGridColouringRows" xml:space="preserve">
+    <value>Coloured Rows</value>
+  </data>
+  <data name="AppConfigMainFormGridColouringText" xml:space="preserve">
+    <value>Coloured Text</value>
+  </data>
+  <data name="AppConfigMainFormLastSortColumnKey" xml:space="preserve">
+    <value>MainFormLastSortColumn</value>
+  </data>
+  <data name="AppConfigMainFormShowLargeToolBarKey" xml:space="preserve">
+    <value>MainFormShowLargeToolBar</value>
+  </data>
+  <data name="AppConfigMainFormShowMyRequestsOnlyKey" xml:space="preserve">
+    <value>MainFormShowMyRequestsOnly</value>
+  </data>
+  <data name="AppConfigMainFormStatusFilterKey" xml:space="preserve">
+    <value>MainFormStatusFilter</value>
+  </data>
+  <data name="RegistryDomainPasswordKey" xml:space="preserve">
+    <value>DomainPassword</value>
+  </data>
+  <data name="AppConfigPendingFolderDefault" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="AppConfigPendingFolderKey" xml:space="preserve">
+    <value>PendingFolder</value>
+  </data>
+  <data name="AppConfigProxyServerKey" xml:space="preserve">
+    <value>ProxyServer</value>
+  </data>
+  <data name="AppConfigSchemaFolderDefault" xml:space="preserve">
+    <value>Schema</value>
+  </data>
+  <data name="AppConfigSchemaFolderKey" xml:space="preserve">
+    <value>SchemaFolder</value>
+  </data>
+  <data name="AppConfigServerTimeoutKey" xml:space="preserve">
+    <value>ServerTimeout</value>
+  </data>
+  <data name="AppConfigServerUrlKey" xml:space="preserve">
+    <value>ServerURL</value>
+  </data>
+  <data name="AppConfigSettingsDefault" xml:space="preserve">
+    <value>Settings.Xml</value>
+  </data>
+  <data name="AppConfigSettingsKey" xml:space="preserve">
+    <value>SettingsDB</value>
+  </data>
+  <data name="AppConfigSyncIntervalKey" xml:space="preserve">
+    <value>SyncInterval</value>
+  </data>
+  <data name="AppConfigTimePickerIntervalKey" xml:space="preserve">
+    <value>TimePickerInterval</value>
+  </data>
+  <data name="RegistryDomainUserNameKey" xml:space="preserve">
+    <value>DomainUserName</value>
+  </data>
+  <data name="CancelLabel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ClientFormRemoveHistory" xml:space="preserve">
+    <value>Remove all history for this client?</value>
+  </data>
+  <data name="ClientFormClientOnHoldBlockedMessage" xml:space="preserve">
+    <value>This client is on hold, you cannot create a new request for this client.</value>
+  </data>
+  <data name="ClientFormClientOnHoldMessage" xml:space="preserve">
+    <value>This client is on hold. Are you sure you want to continue?</value>
+  </data>
+  <data name="ConfigSaveError" xml:space="preserve">
+    <value>Error saving configuration: {0}</value>
+    <comment>0 = exception message</comment>
+  </data>
+  <data name="ConfigUrlChangeError" xml:space="preserve">
+    <value>Error saving URL setting: {0}</value>
+  </data>
+  <data name="ConfirmModifedRequestRemoval" xml:space="preserve">
+    <value>Request #: {0}
+Client: {1} 
+{2}
+
+Note: This request has been modified since is was last uploaded to the server
+
+Are you sure?</value>
+  </data>
+  <data name="ConfirmNewRequest" xml:space="preserve">
+    <value>Create a new Request?</value>
+  </data>
+  <data name="ConfirmNewRequestRemoval" xml:space="preserve">
+    <value>Request #: {0}
+Client: {1} 
+{2}
+
+Note: This request was never uploaded to the server
+
+Are you sure?</value>
+  </data>
+  <data name="ConfirmRequestRemoval" xml:space="preserve">
+    <value>Request #: {0}
+Client: {1} 
+{2}
+
+Remove this request?</value>
+  </data>
+  <data name="CustomFormDefinitionError" xml:space="preserve">
+    <value>Error in custom form definition
+Please report this incident to your support team.
+Error Details:
+{0}</value>
+    <comment>0 = form 'type' - should be 'J', 'R' or 'C'</comment>
+  </data>
+  <data name="CustomFormForeignKeyNotGuid" xml:space="preserve">
+    <value>Custom form must use GUID for foreign key</value>
+  </data>
+  <data name="CustomFormNullDataError" xml:space="preserve">
+    <value>Unable to save custom form data due to missing information</value>
+  </data>
+  <data name="CustomFormPrimaryKeyNotGuid" xml:space="preserve">
+    <value>Custom form must use GUID for primary key</value>
+  </data>
+  <data name="CustomFormRecordLocationFormat" xml:space="preserve">
+    <value>{0}/{1}</value>
+  </data>
+  <data name="CustomFormRequiredDataMissing" xml:space="preserve">
+    <value>Required information missing for {0}, please enter details for all required fields. {1}</value>
+  </data>
+  <data name="CustomFormRequiredDataMissingDetails" xml:space="preserve">
+    <value>Fields missing data include: {0}</value>
+  </data>
+  <data name="CustomFormSaveError" xml:space="preserve">
+    <value>Error saving custom form data</value>
+  </data>
+  <data name="CustomFormUnsupportedControlType" xml:space="preserve">
+    <value>Control type '{0}' is not supported by this version of activiser™</value>
+    <comment>0 = control type </comment>
+  </data>
+  <data name="SerialisationDataInconsistencyWarning" xml:space="preserve">
+    <value>WARNING: Due to an inconsistency in the database, some data may have been lost since you last synchronised.</value>
+  </data>
+  <data name="SerialisationReadFromBackupNotSupported" xml:space="preserve">
+    <value>Reading Xml directly from Backup not currently supported</value>
+  </data>
+  <data name="SerialisationTableErrorsTemplate" xml:space="preserve">
+    <value>Error(s) in table '{0}'.</value>
+    <comment>0 = table name</comment>
+  </data>
+  <data name="SerialisationTableMergeError" xml:space="preserve">
+    <value>Target for table merge operation has errors</value>
+  </data>
+  <data name="DefaultUrl" xml:space="preserve">
+    <value>http://activiser:4200/activiser.asmx</value>
+  </data>
+  <data name="DeleteCompletedJob" xml:space="preserve">
+    <value>Delete this completed but not synchronised job?
+Note that you will be unable to recover the deleted job
+if you proceed.</value>
+  </data>
+  <data name="DeleteDraftJob" xml:space="preserve">
+    <value>Delete this draft job?</value>
+  </data>
+  <data name="DeviceUnauthorised" xml:space="preserve">
+    <value>This device is not authorised to connect with the database</value>
+  </data>
+  <data name="ErrorLoadingClientList" xml:space="preserve">
+    <value>Error loading client list</value>
+  </data>
+  <data name="ErrorLabel" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ExceptionMessageFormat" xml:space="preserve">
+    <value>activiser™ has encountered an error.
+Form Name: {0}
+Function Name: {1}
+Error Details: {2}</value>
+  </data>
+  <data name="FileNotFoundErrorFormat" xml:space="preserve">
+    <value>File not found: {0}</value>
+  </data>
+  <data name="UnsupportedDeviceID" xml:space="preserve">
+    <value>&lt;unsupported&gt;</value>
+  </data>
+  <data name="UnsupportedPlatform" xml:space="preserve">
+    <value>Unable to determine Device ID on unsupported Pocket PC platform.</value>
+  </data>
+  <data name="NavigationError" xml:space="preserve">
+    <value>Error navigating to specified URL</value>
+  </data>
+  <data name="Info16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\16x16\Info16.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\32x32\Info32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InfoIcon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\infoicon32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InfoIcon48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\48x48\infoicon48.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JobDetailsMissing" xml:space="preserve">
+    <value>&lt;No details&gt;</value>
+  </data>
+  <data name="JobFormConfirmClearSignature" xml:space="preserve">
+    <value>Clear signature and reset to 'draft' ?</value>
+  </data>
+  <data name="JobFormConfirmSave" xml:space="preserve">
+    <value>Job has been modified, save changes?</value>
+  </data>
+  <data name="JobFormJobSetFailed" xml:space="preserve">
+    <value>Unable to load new job because of a failure to save the old one.</value>
+  </data>
+  <data name="JobFormNoShortCuts" xml:space="preserve">
+    <value>&lt;No shortcuts defined&gt;</value>
+  </data>
+  <data name="JobFormSaveError" xml:space="preserve">
+    <value>Couldn't save job - please check all required fields are filled in.
+({0})</value>
+  </data>
+  <data name="JobFormSyncSaveFailed" xml:space="preserve">
+    <value>Can't sync because couldn't save job.</value>
+  </data>
+  <data name="JobRequestUidIsNull" xml:space="preserve">
+    <value>Job.RequestUID may not be null</value>
+  </data>
+  <data name="KeysIcon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\keysicon32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeysIcon48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\48x48\keysicon48.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LockIcon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\lockicon32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LockIcon48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\48x48\lockicon48.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainFormConfirmExit" xml:space="preserve">
+    <value>Are you sure you want to close activiser™</value>
+  </data>
+  <data name="MainFormDeleteYesToAll" xml:space="preserve">
+    <value>Delete ALL Items ?</value>
+  </data>
+  <data name="MainFormLastSyncMessageFormat" xml:space="preserve">
+    <value>Last Sync: {0}</value>
+    <comment>0 = Date/Time of last sync</comment>
+  </data>
+  <data name="MainFormRequestDetailTemplate" xml:space="preserve">
+    <value>Desc: {0}
+Engineer: {1}
+Status: {2}
+Requested Status: {5}
+Request: {3}
+Date: {4}</value>
+  </data>
+  <data name="MayNotDeleteSignedJob" xml:space="preserve">
+    <value>Deletion of signed jobs not permitted.</value>
+  </data>
+  <data name="MinimumServerVersion" xml:space="preserve">
+    <value>3.5.0</value>
+  </data>
+  <data name="MoveFirst16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\16x16\MoveFirst16.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoveFirst32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\32x32\MoveFirst32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoveLast16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\16x16\MoveLast16.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoveLast32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\32x32\MoveLast32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoveNext16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\16x16\MoveNext16.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoveNext32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\32x32\MoveNext32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MovePrevious16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\16x16\MovePrevious16.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MovePrevious32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\32x32\MovePrevious32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewRequestsNotAllowed" xml:space="preserve">
+    <value>Creation of new requests blocked by policy</value>
+  </data>
+  <data name="NoDescription" xml:space="preserve">
+    <value>&lt;No description&gt;</value>
+  </data>
+  <data name="NoDetails" xml:space="preserve">
+    <value>&lt;No details&gt;</value>
+  </data>
+  <data name="NoEmail" xml:space="preserve">
+    <value>&lt;Not Supplied&gt;</value>
+  </data>
+  <data name="NoEntryIcon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\noentryicon32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NoEntryIcon48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\48x48\noentryicon48.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NoRequestDate" xml:space="preserve">
+    <value>&lt;None&gt;</value>
+  </data>
+  <data name="NoRequestID" xml:space="preserve">
+    <value>&lt;None&gt;</value>
+  </data>
+  <data name="NoRequestNumber" xml:space="preserve">
+    <value>&lt;Unassigned&gt;</value>
+  </data>
+  <data name="NoRequestSelected" xml:space="preserve">
+    <value>No currently selected request. Please select a request to change.</value>
+  </data>
+  <data name="NoRequestToRemove" xml:space="preserve">
+    <value>No current or selected request. Please select one or more requests to delete</value>
+  </data>
+  <data name="NoSignatory" xml:space="preserve">
+    <value>&lt;Not Supplied&gt;</value>
+  </data>
+  <data name="NoLabel" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoWIPJobs" xml:space="preserve">
+    <value>There are no current WIP jobs. Would you like to create a new job?</value>
+  </data>
+  <data name="OkLabel" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OrientationChangeFailure" xml:space="preserve">
+    <value>Error changing screen orientation</value>
+  </data>
+  <data name="QuestionIcon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\questionicon32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuestionIcon48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\48x48\questionicon48.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClientFormRemoveAllSyncedJobs" xml:space="preserve">
+    <value>Remove all synchronised jobs for this client?</value>
+  </data>
+  <data name="RemoveHistory" xml:space="preserve">
+    <value>Remove job history?</value>
+  </data>
+  <data name="RequestConfirmRemoveDirty" xml:space="preserve">
+    <value>Request {0}:
+Unsynchronised information will be lost if this item is removed. 
+Are you sure ?</value>
+  </data>
+  <data name="RequestDescriptionTemplate" xml:space="preserve">
+    <value>({0}) {1}</value>
+    <comment>0 = StatusID, 1 = Description</comment>
+  </data>
+  <data name="RequestFormConfirmSave" xml:space="preserve">
+    <value>Request has been modified, save changes?</value>
+  </data>
+  <data name="RequestFormJobHistoryInformation" xml:space="preserve">
+    <value>({0}) {1}</value>
+  </data>
+  <data name="RequestFormJobHistoryInformationWithoutDetails" xml:space="preserve">
+    <value>({0})</value>
+  </data>
+  <data name="RequestFormJobInformation" xml:space="preserve">
+    <value>({0}, {1}) {2}
+Signed by: {3}
+Email to: {4}</value>
+  </data>
+  <data name="RequestFormJobInformationWithoutDetails" xml:space="preserve">
+    <value>({0}, {1}) 
+Signed by: {2}
+Email to: {3}</value>
+  </data>
+  <data name="RequestFormNeedsClientMessage" xml:space="preserve">
+    <value>Please select a client before saving the request</value>
+  </data>
+  <data name="RequestFormNoJobSelected" xml:space="preserve">
+    <value>No job selected</value>
+  </data>
+  <data name="RequestFormRemoveAllSyncedJobsb" xml:space="preserve">
+    <value>Remove all synchronised jobs for this request ?</value>
+  </data>
+  <data name="RequestFormRemoveSynchronisedJob" xml:space="preserve">
+    <value>Remove Synchronised Job?</value>
+  </data>
+  <data name="RequestIcon16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\16x16\16x16_request.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RequestIcon24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\24x24\24x24_request.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RequestIcon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\32x32_request.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RequestListClientColumn" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="RequestListDateColumn" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="RequestListJobsColumn" xml:space="preserve">
+    <value>Jobs</value>
+  </data>
+  <data name="RequestListRequestIDColumn" xml:space="preserve">
+    <value>Request ID</value>
+  </data>
+  <data name="RequestListRequestNumberColumn" xml:space="preserve">
+    <value>Request #</value>
+  </data>
+  <data name="RequestListStatusColumn" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="RequestMenuRemove" xml:space="preserve">
+    <value>Remove Request</value>
+  </data>
+  <data name="RequestMenuRemovePlural" xml:space="preserve">
+    <value>Remove Requests</value>
+  </data>
+  <data name="RequestNumberUnknown" xml:space="preserve">
+    <value>&lt;Not assigned&gt;</value>
+  </data>
+  <data name="RequestStatusChangeReasonPrompt" xml:space="preserve">
+    <value>Please enter reason for status change:</value>
+  </data>
+  <data name="RequestStatusDefinitionError" xml:space="preserve">
+    <value>Fatal error: request status types incorrectly defined</value>
+  </data>
+  <data name="RequestStatusUnknown" xml:space="preserve">
+    <value>&lt;Unknown&gt;</value>
+  </data>
+  <data name="RetryLabel" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="SettingsFormErrorSavingConfiguration" xml:space="preserve">
+    <value>Error Saving Configuration</value>
+  </data>
+  <data name="SettingsFormErrorSavingServerTimeout" xml:space="preserve">
+    <value>Error Saving Server Timeout</value>
+  </data>
+  <data name="SettingsFormErrorSavingServerURL" xml:space="preserve">
+    <value>Error Saving Server URL</value>
+  </data>
+  <data name="SettingsFormJobHistoryLimit14Days" xml:space="preserve">
+    <value>2 Weeks</value>
+  </data>
+  <data name="SettingsFormJobHistoryLimit183Days" xml:space="preserve">
+    <value>6 Months</value>
+  </data>
+  <data name="SettingsFormJobHistoryLimit31Days" xml:space="preserve">
+    <value>1 Month</value>
+  </data>
+  <data name="SettingsFormJobHistoryLimit7Days" xml:space="preserve">
+    <value>1 Week</value>
+  </data>
+  <data name="SettingsFormJobHistoryLimit92Days" xml:space="preserve">
+    <value>3 Months</value>
+  </data>
+  <data name="SettingsFormJobHistoryLimitNone" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="SettingsFormSaveChangesOnCancel" xml:space="preserve">
+    <value>Save Changes ?</value>
+  </data>
+  <data name="SettingsTasksEmpty" xml:space="preserve">
+    <value>&lt;Enter Shortcuts Here&gt;</value>
+  </data>
+  <data name="SetupFormHttpErrorMessage" xml:space="preserve">
+    <value>Error setting up system.
+Please contact your administrator.
+Error Details:
+{0}</value>
+  </data>
+  <data name="SetupFormGettingConsultantsMessage" xml:space="preserve">
+    <value>Downloading Consultant List...</value>
+  </data>
+  <data name="SetupFormInvalidOperationExceptionMessage" xml:space="preserve">
+    <value>The web service URL is returning HTML. Start web service setup dialog ?</value>
+  </data>
+  <data name="SetupFormLoadErrorMessage" xml:space="preserve">
+    <value>Error loading setup form.
+Please contact your administrator.
+Error Details:
+{0}</value>
+  </data>
+  <data name="SetupFormNoDataMessage" xml:space="preserve">
+    <value>No data return from your server</value>
+  </data>
+  <data name="SetupFormSaveErrorMessage" xml:space="preserve">
+    <value>Error saving configuration. Check that configuration file is not set to read-only</value>
+  </data>
+  <data name="SetupFormSelectConsultantMessage" xml:space="preserve">
+    <value>Please select your name from the list below.</value>
+  </data>
+  <data name="SetupFormSelectUserNote" xml:space="preserve">
+    <value>Please select a user name</value>
+  </data>
+  <data name="SetupFormSoapExceptionNote" xml:space="preserve">
+    <value>SOAP Error</value>
+  </data>
+  <data name="SetupFormSoapHeaderExceptionNote" xml:space="preserve">
+    <value>SOAP Header Error</value>
+  </data>
+  <data name="SetupFormWebErrorMessage" xml:space="preserve">
+    <value>Error {0} ({1});
+while trying to communicate with
+{2}</value>
+  </data>
+  <data name="SetupFormWebExceptionMessage" xml:space="preserve">
+    <value>Unable to connect to server. Start web service setup dialog ?</value>
+  </data>
+  <data name="SetupFormWebExceptionNote" xml:space="preserve">
+    <value>Web Service Error</value>
+  </data>
+  <data name="SideBarOff16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\16x16\16x16_switch_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SideBarOn16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\16x16\16x16_switch_off.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartupFormDeviceIDCheckFailed" xml:space="preserve">
+    <value>Error checking device id, or device not authorised. Check Server URL, user name and password settings</value>
+  </data>
+  <data name="StartupFormDatabaseDownloadFailure" xml:space="preserve">
+    <value>Unable to load or download main database.
+Please check your Internet connection and confirm
+that the WebService is available.</value>
+  </data>
+  <data name="StartupFormDatabaseLoadFailure" xml:space="preserve">
+    <value>Error loading main database.</value>
+  </data>
+  <data name="StartupFormDownloadingMainDatabase" xml:space="preserve">
+    <value>Downloading main database...
+(Could take a while)</value>
+  </data>
+  <data name="StartupFormDownloadQuestionTemplate" xml:space="preserve">
+    <value>{0}.
+Download from server ? (Answering 'No' will close the program)</value>
+  </data>
+  <data name="StartupFormEnterUrlDialogQuestion" xml:space="preserve">
+    <value>Error communicating with server, Start web service setup dialog ?</value>
+  </data>
+  <data name="StartupFormErrorUpdatingProfile" xml:space="preserve">
+    <value>Error updating profile.</value>
+  </data>
+  <data name="StartupFormLoadingConfiguration" xml:space="preserve">
+    <value>Loading configuration...</value>
+  </data>
+  <data name="StartupFormLoadingMainDB" xml:space="preserve">
+    <value>Loading main database...</value>
+  </data>
+  <data name="StartupFormLoadingUpdates" xml:space="preserve">
+    <value>Loading Updates Since Last Sync...</value>
+  </data>
+  <data name="StartupFormMainDatabaseLoaded" xml:space="preserve">
+    <value>Database loaded</value>
+  </data>
+  <data name="StartupFormMainDatabaseMissing" xml:space="preserve">
+    <value>Main database missing</value>
+  </data>
+  <data name="StartupFormNewUser" xml:space="preserve">
+    <value>New installation, starting web service dialog...</value>
+  </data>
+  <data name="StartupFormNullDatabaseReturned" xml:space="preserve">
+    <value>Fatal: No data returned from activiser™ server</value>
+  </data>
+  <data name="StartupFormSavingBackup" xml:space="preserve">
+    <value>Saving main database (Backup Copy)...</value>
+  </data>
+  <data name="StartupFormSavingMainDB" xml:space="preserve">
+    <value>Saving main database...</value>
+  </data>
+  <data name="StartupFormStartingSetupDialog" xml:space="preserve">
+    <value>Starting Setup Dialog...</value>
+  </data>
+  <data name="StartupFormTerminologyLoadError" xml:space="preserve">
+    <value>Warning: error loading terminology</value>
+  </data>
+  <data name="StartupFormTerminologyLoading" xml:space="preserve">
+    <value>Loading terminology</value>
+  </data>
+  <data name="StartupFormTestingConnection" xml:space="preserve">
+    <value>Checking server connection...</value>
+  </data>
+  <data name="StartupFormUpdatingProfile" xml:space="preserve">
+    <value>Updating profile...</value>
+  </data>
+  <data name="SyncAuthenticated" xml:space="preserve">
+    <value>Authenticated</value>
+  </data>
+  <data name="SyncAuthenticationFailed" xml:space="preserve">
+    <value>Authentication failure, please check server URL, user name and password</value>
+  </data>
+  <data name="SyncCancelled" xml:space="preserve">
+    <value>Sync Cancelled</value>
+  </data>
+  <data name="SyncCheckingSchema" xml:space="preserve">
+    <value>Checking for schema updates...</value>
+  </data>
+  <data name="SyncCheckingSchemaNone" xml:space="preserve">
+    <value>No schema updates.</value>
+  </data>
+  <data name="SyncChecksumErrorMessage" xml:space="preserve">
+    <value>Warning: a checksum error was detected.</value>
+  </data>
+  <data name="SyncCommsFailureMessage" xml:space="preserve">
+    <value>Communication with web service failed.
+Error message: {0}
+#RETRY#</value>
+  </data>
+  <data name="SyncCommsFailureQuestion" xml:space="preserve">
+    <value>Communication with web service failed, retry or cancel?</value>
+  </data>
+  <data name="SyncComplete" xml:space="preserve">
+    <value>Complete.</value>
+  </data>
+  <data name="SyncFormConfirmSyncCancel" xml:space="preserve">
+    <value>Cancel Synchronisation?</value>
+  </data>
+  <data name="SyncDataErrorMessage" xml:space="preserve">
+    <value>Invalid data received during synchronisation.
+Error Details: {0}
+#RETRY#</value>
+  </data>
+  <data name="SyncDeviceUnauthorised" xml:space="preserve">
+    <value>This device is not authorised to connect with the database</value>
+  </data>
+  <data name="SyncDownloading" xml:space="preserve">
+    <value>Downloading updates to requests and jobs...</value>
+  </data>
+  <data name="SyncGettingClientDetails" xml:space="preserve">
+    <value>Synchronising Client Details...</value>
+  </data>
+  <data name="SyncGettingClientHistory" xml:space="preserve">
+    <value>Synchronising Client History...</value>
+  </data>
+  <data name="SyncGettingServerVersion" xml:space="preserve">
+    <value>Checking activiser™ server version</value>
+  </data>
+  <data name="SyncLoggingErrors" xml:space="preserve">
+    <value>Logging Errors</value>
+  </data>
+  <data name="SyncMerging" xml:space="preserve">
+    <value>Merging downloaded requests and jobs...</value>
+  </data>
+  <data name="SyncMessageLogFormat" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="SyncNoDataNote" xml:space="preserve">
+    <value>Note: no data received from activiser server.</value>
+  </data>
+  <data name="SyncNoDataQuestion" xml:space="preserve">
+    <value>No data received from server, retry or cancel?</value>
+  </data>
+  <data name="SyncNoDataWarning" xml:space="preserve">
+    <value>Warning: no data received from server.
+Error message: {0}
+#RETRY#</value>
+  </data>
+  <data name="SyncProfileSyncing" xml:space="preserve">
+    <value>Synchronising profile...</value>
+  </data>
+  <data name="SyncRefreshingClientListMessage" xml:space="preserve">
+    <value>Refreshing client list...</value>
+  </data>
+  <data name="SyncSaving" xml:space="preserve">
+    <value>Saving main database...</value>
+  </data>
+  <data name="SyncSavingBackup" xml:space="preserve">
+    <value>Saving backup of database...</value>
+  </data>
+  <data name="SyncServerVersionOk" xml:space="preserve">
+    <value>activiser™ server version ok</value>
+  </data>
+  <data name="SyncServerVersionTooOld" xml:space="preserve">
+    <value>activiser™ server version (v{0}.{1}.{2}.{3}) out-of-date, this version of the activiser client requires a newer version of the activiser server.</value>
+  </data>
+  <data name="SyncStarting" xml:space="preserve">
+    <value>Starting synchronisation...</value>
+  </data>
+  <data name="SyncTimeSyncing" xml:space="preserve">
+    <value>Notifying server of sync start...</value>
+  </data>
+  <data name="SyncUnhandledErrorMessage" xml:space="preserve">
+    <value>A problem occurred during synchronisation.
+Error message: {0}
+#RETRY#</value>
+  </data>
+  <data name="SyncUpdatingCustomTerms" xml:space="preserve">
+    <value>Updating custom terminology...</value>
+  </data>
+  <data name="SyncUpdatingSchema" xml:space="preserve">
+    <value>Downloading updated schema...</value>
+  </data>
+  <data name="SyncUploadComplete" xml:space="preserve">
+    <value>Upload complete.</value>
+  </data>
+  <data name="SyncUploading" xml:space="preserve">
+    <value>Uploading changes...</value>
+  </data>
+  <data name="SyncUploadingErrorReports" xml:space="preserve">
+    <value>Uploading exception reports...</value>
+  </data>
+  <data name="SyncValidatingDataSet" xml:space="preserve">
+    <value>Validating uploaded data...</value>
+  </data>
+  <data name="SyncTryAgain" xml:space="preserve">
+    <value>Please try again. If the problem persists, please contact your activiser support team.</value>
+  </data>
+  <data name="SyncIcon24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\24x24\_24X24_Sync.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StringNotFound" xml:space="preserve">
+    <value>{1}({0}): string not found</value>
+  </data>
+  <data name="Unassigned" xml:space="preserve">
+    <value>&lt;Unassigned&gt;</value>
+  </data>
+  <data name="UserAgentString" xml:space="preserve">
+    <value>activiser™ Windows Mobile Client</value>
+  </data>
+  <data name="WarningIcon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WarningIcon32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarningIcon48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\48x48\warningicon48.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YesLabel" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="NetFxMinimumVersionMessage" xml:space="preserve">
+    <value>This version of the activiser™ client requires Microsoft .NET Compact Framework 3.5 or later.</value>
+  </data>
+  <data name="SyncAutoSyncConnectFailure" xml:space="preserve">
+    <value>Unable to connect to existing sync process. Please try again in a few minutes; if the problem persists, please restart activiser and try again.</value>
+  </data>
+  <data name="AppConfigSyncDaysKey" xml:space="preserve">
+    <value>SyncDays</value>
+  </data>
+  <data name="AppConfigSyncDaysDefault" xml:space="preserve">
+    <value>MTWHF</value>
+  </data>
+  <data name="AppConfigSyncStartTimeKey" xml:space="preserve">
+    <value>SyncStartTime</value>
+  </data>
+  <data name="AppConfigSyncStartTimeDefault" xml:space="preserve">
+    <value>08:00</value>
+  </data>
+  <data name="AppConfigSyncFinishTimeKey" xml:space="preserve">
+    <value>SyncFinishTime</value>
+  </data>
+  <data name="AppConfigSyncFinishTimeDefault" xml:space="preserve">
+    <value>18:00</value>
+  </data>
+  <data name="SyncCommsFailed" xml:space="preserve">
+    <value>Communication with web service failed. Please check your Internet connection settings</value>
+  </data>
+  <data name="SyncDeviceAuthenticated" xml:space="preserve">
+    <value>Device authenticated</value>
+  </data>
+  <data name="SyncDeviceAuthenticationFailed" xml:space="preserve">
+    <value>Device authentication failed</value>
+  </data>
+  <data name="SyncUserAuthenticated" xml:space="preserve">
+    <value>User authenticated</value>
+  </data>
+  <data name="SyncFormHideButton" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="SyncFormSyncButton" xml:space="preserve">
+    <value>Sync</value>
+  </data>
+  <data name="SyncNoChecksumDataMessage" xml:space="preserve">
+    <value>No checksum data returned from server.</value>
+  </data>
+  <data name="OpenRequestCancelled" xml:space="preserve">
+    <value>Opening of request cancelled</value>
+  </data>
+  <data name="ResumeOpenRequestQuestion" xml:space="preserve">
+    <value>Sync completed, continue opening request ?</value>
+  </data>
+  <data name="ClientFormSyncInProgressQuestion" xml:space="preserve">
+    <value>A sync is in progress, select 'Ok' to open the sync screen or 'Cancel' to return to the client screen</value>
+  </data>
+  <data name="MainFormOpenCancelled" xml:space="preserve">
+    <value>Sync still in progress, opening of {0} cancelled</value>
+  </data>
+  <data name="AppConfigMainFormSyncInProgressQuestionKey" xml:space="preserve">
+    <value>A sync is in progress, select 'Ok' to open the sync screen or 'Cancel' to return to the main screen</value>
+  </data>
+  <data name="NotificationCaption" xml:space="preserve">
+    <value>activiser sync in progress</value>
+  </data>
+  <data name="SyncNotificationTemplate" xml:space="preserve">
+    <value>&lt;html&gt;&lt;head&gt;&lt;title&gt;activiser™ sync in progress&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;a href="popup" style="font-family: Sans-Serif; text-decoration: none;"&gt;{0}&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Notify" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICACAAAAAQAwAQAAJgAAABAQAgAAAAEAsAAAAFYBAAAoAAAAIAAAAEAAAAABAAEAAAAAAIAA
+        AAAAAAAAAAAAAAIAAAACAAAAAAAAAP///wAAAAAAAAAAAAAAAAADwwwAD/HHAA/w44Af+PHAH/hw4B/4
+        ePAf+HhwD/B4eA/w+HgDwPh8AAH4fBAD8HwYB/B8DB/g/A//wPwH/4H8A/8B+BD8A/gYAAf4DAAP8A4A
+        P/AHgP/gA///wAH//4AA//8AAD/8AAAP4AAAAAAAAAAAAP////////////////w88//wDjj/8A8cf+AH
+        Dj/gB48f4AeHD+AHh4/wD4eH8A8Hh/w/B4P//geD7/wPg+f4D4Pz4B8D8AA/A/gAfgP8AP4H7wP8B+f/
+        +Afz//AP8f/AD/h/AB/8AAA//gAAf/8AAP//wAP///Af////////////KAAAABAAAAAgAAAAAQABAAAA
+        AABAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAD///8AAAAAADkwAAB8mAAAfMwAAHzMAAA4zgAAAc4AAEOO
+        AAA/HgAAHhwAAEA8AABg/AAAP/gAAB/wAAAHgAAAAAAAAP//AADGzwAAg2cAAIMzAACDMwAAxzEAAP4x
+        AAC8cQAAwOEAAOHjAAC/wwAAnwMAAMAHAADgDwAA+H8AAP//AAA=
+</value>
+  </data>
+  <data name="RequestFormOpenCancelled" xml:space="preserve">
+    <value>Sync still in progress, opening of {0} cancelled</value>
+  </data>
+  <data name="RequestFormSyncInProgressQuestion" xml:space="preserve">
+    <value>A sync is in progress, select 'Ok' to open the sync screen or 'Cancel' to return to the request screen</value>
+  </data>
+  <data name="SyncAutoSynchCompleteBanner" xml:space="preserve">
+    <value>Auto-sync complete</value>
+  </data>
+  <data name="SyncAutoSyncInProgressBanner" xml:space="preserve">
+    <value>Auto-sync in progress</value>
+  </data>
+  <data name="SyncAutoSyncStarted" xml:space="preserve">
+    <value>Started</value>
+  </data>
+  <data name="ClientFormRequestLockedMessage" xml:space="preserve">
+    <value>Cannot create job for completed or cancelled request</value>
+  </data>
+  <data name="MainFormRequestLockedMessage" xml:space="preserve">
+    <value>Cannot create job for completed or cancelled request</value>
+  </data>
+  <data name="RequestFormRequestLockedMessage" xml:space="preserve">
+    <value>Cannot create job for completed or cancelled request</value>
+  </data>
+  <data name="SyncGettingClientRequests" xml:space="preserve">
+    <value>Synchronising Client Requests...</value>
+  </data>
+  <data name="AppConfigAllowJobsForClosedRequestsKey" xml:space="preserve">
+    <value>AllowJobsForClosedRequests</value>
+  </data>
+  <data name="RequestUtilitiesConfirmJobForClosedRequest" xml:space="preserve">
+    <value>Create new job for closed/cancelled request?</value>
+  </data>
+  <data name="RequestUtilitiesRequestLockedMessage" xml:space="preserve">
+    <value>Cannot create job for completed or cancelled request</value>
+  </data>
+  <data name="SyncErrorSettingSystemTime" xml:space="preserve">
+    <value>Warning: Unable to set system time:
+{2}
+(Error code: {0}; Native error code: {1})
+</value>
+  </data>
+  <data name="SoundsNewRequest" xml:space="preserve">
+    <value>Sounds\NewRequest.wav</value>
+  </data>
+  <data name="SoundsSyncStarted" xml:space="preserve">
+    <value>Sounds\SyncStart.wav</value>
+  </data>
+  <data name="SyncNotificationInProgress" xml:space="preserve">
+    <value>Handshake OK, Sync in progress...</value>
+  </data>
+  <data name="SyncAuthenticating" xml:space="preserve">
+    <value>Authenticating...</value>
+  </data>
+  <data name="SyncCheckingCustomTerms" xml:space="preserve">
+    <value>Checking for terminology updates...</value>
+  </data>
+  <data name="AppConfigRequestShowToolBarsKey" xml:space="preserve">
+    <value>JobFormShowToolBars</value>
+  </data>
+  <data name="InputPanelEnabledRegValueName" xml:space="preserve">
+    <value> Input Panel Enabled</value>
+  </data>
+  <data name="AppConfigClientFormShowToolBarsKey" xml:space="preserve">
+    <value>ClientFormShowToolBars</value>
+  </data>
+  <data name="NoWIPJobsForClosedRequest" xml:space="preserve">
+    <value>There are no current WIP jobs, and this request is closed or cancelled. Would you like to create a new job?</value>
+  </data>
+  <data name="RequestFormClientSelectionRequired" xml:space="preserve">
+    <value>Please select a client before creating a new job</value>
+  </data>
+  <data name="RequestUtilitiesRequestConfirmRemoveDirty" xml:space="preserve">
+    <value>Request {0}:
+Unsynchronised information will be lost if this item is removed. 
+Are you sure ?</value>
+  </data>
+  <data name="CopiedToClipboard" xml:space="preserve">
+    <value>(Copied to clipboard)</value>
+  </data>
+  <data name="MainFormNoRequestToChange" xml:space="preserve">
+    <value>No current or selected request. Please select one or more requests to change.</value>
+  </data>
+  <data name="SetupFormDeviceIdCopiedToClipboard" xml:space="preserve">
+    <value>{0}
+(copied to clipboard)</value>
+  </data>
+  <data name="MainFormClientSiteUnknown" xml:space="preserve">
+    <value>&lt;Unknown&gt;</value>
+  </data>
+  <data name="RequestFormConstraintExceptionMessage" xml:space="preserve">
+    <value>Unable to save request due to missing information. Please make sure that you have selected a client and provided at least a short description.</value>
+  </data>
+  <data name="RequestFormNoNullAllowedMessage" xml:space="preserve">
+    <value>Unable to save request due to missing information. Please make sure that you have selected a client and provided at least a short description.</value>
+  </data>
+  <data name="SyncCompleting" xml:space="preserve">
+    <value>Notifying server of main sync completion.</value>
+  </data>
+  <data name="RegistryServerUrlKey" xml:space="preserve">
+    <value>ServerUrl</value>
+  </data>
+  <data name="SyncSaveCompleting" xml:space="preserve">
+    <value>Completing save of main database...</value>
+  </data>
+  <data name="SoundsSyncComplete" xml:space="preserve">
+    <value>Sounds\SyncComplete.wav</value>
+  </data>
+  <data name="InvalidURL" xml:space="preserve">
+    <value>Specified URL is invalid</value>
+  </data>
+  <data name="StartupFormUrlError" xml:space="preserve">
+    <value>The server URL is invalid:
+{0}
+</value>
+  </data>
+  <data name="CustomFormConfirmDelete" xml:space="preserve">
+    <value>Delete {0} record ?</value>
+  </data>
+  <data name="CustomFormConfirmCancelInsert" xml:space="preserve">
+    <value>Cancel entry of {0} record ?</value>
+  </data>
+  <data name="GPSNoInfo" xml:space="preserve">
+    <value>No valid GPS information found</value>
+  </data>
+  <data name="GPSPositionInfo" xml:space="preserve">
+    <value>Last known GPS Position:
+latitude:	{0}
+longitude:	{1}
+altitude:	{2}
+time:	{3} (UTC)
+
+Current GPS State: {4}</value>
+  </data>
+  <data name="NoGPSInfo" xml:space="preserve">
+    <value>No GPS information available</value>
+  </data>
+  <data name="AppConfigGpsLogDefault" xml:space="preserve">
+    <value>Tracking.XML</value>
+  </data>
+  <data name="AppConfigGpsLogKey" xml:space="preserve">
+    <value>TrackingDB</value>
+  </data>
+  <data name="RequestFormClientTemplate" xml:space="preserve">
+    <value>Site name: {0}
+--------------------------
+Address: {1}
+--------------------------
+Contact: {2}
+Primary phone: {3}
+Alt phone: {4}
+Email: {5}
+--------------------------
+Notes: {6}</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>&lt;Unknown&gt;</value>
+  </data>
+  <data name="AppConfigTrackingIntervalKey" xml:space="preserve">
+    <value>TrackingInterval</value>
+  </data>
+  <data name="GPSInfoInvalid" xml:space="preserve">
+    <value>GPS information is invalid</value>
+  </data>
+  <data name="GPSInitTimeout" xml:space="preserve">
+    <value>Timed out while initialising GPS</value>
+  </data>
+  <data name="OffLabel" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="SideBarOff32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\32x32_switch_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SideBarOn32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\32x32_switch_off.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPSLocationUnknown" xml:space="preserve">
+    <value>Location unknown</value>
+  </data>
+  <data name="AppConfigTrackingInfoFormatKey" xml:space="preserve">
+    <value>TrackingInfoFormat</value>
+  </data>
+  <data name="AppConfigTrackingInfoDefaultFormat" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="ContextMenuPaste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="ContextMenuClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ContextMenuSelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="ContextMenuCopy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="ContextMenuCall" xml:space="preserve">
+    <value>Call</value>
+  </data>
+  <data name="ContextMenuCut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="AppConfigAutoCloseSyncFormKey" xml:space="preserve">
+    <value>AutoCloseSyncForm</value>
+  </data>
+  <data name="SyncErrorGettingServerVersion" xml:space="preserve">
+    <value>Error getting server version</value>
+  </data>
+  <data name="RegistryPasswordKey" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="RegistryUserNameKey" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="SetupFormUrlInvalid" xml:space="preserve">
+    <value>URL cannot be validated</value>
+  </data>
+  <data name="SetupFormAuthenticated" xml:space="preserve">
+    <value>Authenticated</value>
+  </data>
+  <data name="SetupFormAuthenticationFailed" xml:space="preserve">
+    <value>Authentication Failed. Please make sure your network is connected and that this device is registered with the activiser™ database via the activiser™ Console.</value>
+  </data>
+  <data name="SetupFormNavigationError" xml:space="preserve">
+    <value>Error navigating to specified URL</value>
+  </data>
+  <data name="SetupFormTestingURL" xml:space="preserve">
+    <value>Testing URL...</value>
+  </data>
+  <data name="SetupFormNoActiviserUserNameSupplied" xml:space="preserve">
+    <value>No activiser user name supplied.</value>
+  </data>
+  <data name="SetupFormDeviceIDCheckFailed" xml:space="preserve">
+    <value>Device ID check failed</value>
+  </data>
+  <data name="SetupFormActiviserUserNotFound" xml:space="preserve">
+    <value>Activiser user not found.</value>
+  </data>
+  <data name="SetupFormActiviserUserOrPasswordInvalid" xml:space="preserve">
+    <value>Activiser user not found, or password invalid.</value>
+  </data>
+  <data name="SetupFormUserInfoFormat" xml:space="preserve">
+    <value>User: {0}
+Name:     {1}
+Phone:    {2}
+Email:    {3}</value>
+  </data>
+  <data name="AppConfigForceLastSyncDateTimeKey" xml:space="preserve">
+    <value>ForceLastSyncDateTime</value>
+  </data>
+  <data name="AppConfigUseIntegratedAuthenticationKey" xml:space="preserve">
+    <value>UseIntegratedAuthentication</value>
+  </data>
+  <data name="SyncUploadingTrackingInformation" xml:space="preserve">
+    <value>Uploading tracking information</value>
+  </data>
+  <data name="SyncCompletedWithErrors" xml:space="preserve">
+    <value>Completed with errors</value>
+  </data>
+  <data name="SyncIcon48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\32x32\_32X32_sync1.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppConfigMainFormShowTimeInDateColumnKey" xml:space="preserve">
+    <value>MainFormShowTimeInDateColumn</value>
+  </data>
+  <data name="AppConfigMainFormUseLastModifiedForNullActionDatesKey" xml:space="preserve">
+    <value>MainFormUseLastModifiedForNullActionDates</value>
+  </data>
+  <data name="AppConfigMainFormShowColumnHeadersKey" xml:space="preserve">
+    <value>MainFormShowColumnHeaders</value>
+  </data>
+  <data name="AppConfigMainFormShowSyncInfoKey" xml:space="preserve">
+    <value>MainFormShowSyncInfo</value>
+  </data>
+  <data name="AppConfigMainFormShowCheckBoxesKey" xml:space="preserve">
+    <value>MainShowCheckBoxes</value>
+  </data>
+  <data name="AppConfigMainFormSortColumnKey" xml:space="preserve">
+    <value>MainFormSortColumn</value>
+  </data>
+  <data name="AppConfigMainFormSortAscendingKey" xml:space="preserve">
+    <value>MainFormSortAscending</value>
+  </data>
+  <data name="AppConfigMainFormShowToolBarKey" xml:space="preserve">
+    <value>MainFormShowToolBar</value>
+  </data>
+  <data name="Logo100x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Logos\Logo100x50.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo200x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Logos\Logo200x100.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo400x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Logos\Logo400x200.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NetFxMinimumVersion" xml:space="preserve">
+    <value>3.5.7283.0</value>
+  </data>
+  <data name="CreateJobCancelled" xml:space="preserve">
+    <value>Creation of job cancelled</value>
+  </data>
+  <data name="CreateRequestCancelled" xml:space="preserve">
+    <value>Creation of request cancelled</value>
+  </data>
+  <data name="OpenJobCancelled" xml:space="preserve">
+    <value>Opening of job cancelled</value>
+  </data>
+  <data name="ResumeCreateJobQuestion" xml:space="preserve">
+    <value>Sync completed, continue creating job ?</value>
+  </data>
+  <data name="ResumeCreateRequestQuestion" xml:space="preserve">
+    <value>Sync completed, continue creating request ?</value>
+  </data>
+  <data name="ResumeOpenJobQuestion" xml:space="preserve">
+    <value>Sync completed, continue opening job ?</value>
+  </data>
+  <data name="SharedMessagesKey" xml:space="preserve">
+    <value>$SHARED</value>
+  </data>
+  <data name="AppConfigIgnoreServerCertificateErrorsKey" xml:space="preserve">
+    <value>IgnoreServerCertificateErrors</value>
+  </data>
+  <data name="SetupFormCancelChanges" xml:space="preserve">
+    <value>Cancel changes</value>
+  </data>
+  <data name="SetupFormFetchingProfile" xml:space="preserve">
+    <value>Fetching consultant profile...</value>
+    <comment>SetupFormFetchingProfile description</comment>
+  </data>
+  <data name="LoadingProfile" xml:space="preserve">
+    <value>Loading consultant profile...</value>
+  </data>
+  <data name="DoneLabel" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="NextLabel" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="SetupFormErrorMessageFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="TestLabel" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="AppConfigLanguageIdDefault" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AppConfigLanguageIdKey" xml:space="preserve">
+    <value>LanguageId</value>
+  </data>
+  <data name="AppConfigLastSchemaCheckKey" xml:space="preserve">
+    <value>LastSchemaCheck</value>
+  </data>
+  <data name="AppConfigVerboseMessagesKey" xml:space="preserve">
+    <value>VerboseSyncMessages</value>
+  </data>
+  <data name="CustomFormTableNotFoundTemplate" xml:space="preserve">
+    <value>Table '{0}' not found in database</value>
+  </data>
+  <data name="AppConfigLockCustomJobFormsWhenSyncedKey" xml:space="preserve">
+    <value>LockCustomJobFormsWhenSynced</value>
+    <comment>AppConfigLockCustomJobFormsWhenSyncedKey description</comment>
+  </data>
+  <data name="AppConfigLockCustomJobFormsWhenApprovedKey" xml:space="preserve">
+    <value>LockCustomJobFormsWhenApproved</value>
+    <comment>AppConfigLockCustomJobFormsWhenApprovedKey description</comment>
+  </data>
+  <data name="AppConfigFlushCustomLookupsKey" xml:space="preserve">
+    <value>FlushCustomLookupsOnDefinitionChange</value>
+  </data>
+  <data name="IgnoreLabel" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="MenuLabel" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="RequestFormSaveError" xml:space="preserve">
+    <value>Unable to save Request.Please make sure that you have selected a client and provided at least a short description.</value>
+  </data>
+  <data name="RequestFormClientListLoadError" xml:space="preserve">
+    <value>Error loading client list.</value>
+  </data>
+  <data name="RequestFormClientMissing" xml:space="preserve">
+    <value>Please select a client.</value>
+  </data>
+  <data name="ConfigurationFileMissing" xml:space="preserve">
+    <value>No config file</value>
+    <comment>ConfigurationFileMissing description</comment>
+  </data>
+  <data name="ConfigurationFileError" xml:space="preserve">
+    <value>Error in config file</value>
+    <comment>ConfigurationFileError description</comment>
+  </data>
+  <data name="ConfigurationFileLoadError" xml:space="preserve">
+    <value>Error loading config file</value>
+    <comment>ConfigurationFileLoadError description</comment>
+  </data>
+  <data name="ConfigurationKeyValuePairDisplayFormat" xml:space="preserve">
+    <value>{0}={1}</value>
+  </data>
+  <data name="SerialisationErrorSavingDataSet" xml:space="preserve">
+    <value>Error saving DataSet</value>
+  </data>
+  <data name="SerialisationUnableToProcessErrors" xml:space="preserve">
+    <value>Error processing DataSet errors</value>
+  </data>
+  <data name="CustomFormUnableToAddRecord" xml:space="preserve">
+    <value>Unable to add record</value>
+  </data>
+  <data name="CustomFormDeleteError" xml:space="preserve">
+    <value>Error deleting record</value>
+    <comment>CustomFormDeleteError description</comment>
+  </data>
+  <data name="CustomFormErrorLoadingRecord" xml:space="preserve">
+    <value>Error setting current row</value>
+    <comment>CustomFormErrorLoadingRecord description</comment>
+  </data>
+  <data name="JobFormRequestStatusListLoadError" xml:space="preserve">
+    <value>Unable to load request status list.</value>
+  </data>
+  <data name="MainFormRequestListInitialisationError" xml:space="preserve">
+    <value>Error initialising request list</value>
+  </data>
+  <data name="SettingsFormErrorLoadingHistoryLimit" xml:space="preserve">
+    <value>Error loading history limit</value>
+  </data>
+  <data name="SettingsFormErrorLoadingJobTimeInterval" xml:space="preserve">
+    <value>Error setting job time interval</value>
+  </data>
+  <data name="SettingsFormErrorLoadingJobStartOffset" xml:space="preserve">
+    <value>Error loading job start offset</value>
+  </data>
+  <data name="SettingsFormErrorLoadingDefaultTravelTime" xml:space="preserve">
+    <value>Error loading job default travel time</value>
+  </data>
+  <data name="SettingsFormErrorLoadingAutoSyncInterval" xml:space="preserve">
+    <value>Error loading auto sync interval</value>
+  </data>
+  <data name="SettingsFormErrorSettingSyncDays" xml:space="preserve">
+    <value>Error setting sync days</value>
+  </data>
+  <data name="SettingsFormErrorLoadingSyncStartTime" xml:space="preserve">
+    <value>Error loading sync start time</value>
+  </data>
+  <data name="SettingsFormErrorLoadingSyncFinishTime" xml:space="preserve">
+    <value>Error loading sync finish time</value>
+  </data>
+  <data name="SettingsFormErrorLoadingDefaultJobDuration" xml:space="preserve">
+    <value>Error loading default job duration</value>
+  </data>
+  <data name="SyncErrorSettingStatusText" xml:space="preserve">
+    <value>Error setting status text</value>
+  </data>
+  <data name="SyncObjectDisposedExceptionMessage" xml:space="preserve">
+    <value>{0} ObjectDisposedException in SyncForm.SetSyncStatus: {1}</value>
+  </data>
+  <data name="SyncErrorGettingTerminologyUpdates" xml:space="preserve">
+    <value>Error getting terminology updates</value>
+  </data>
+  <data name="AppConfigSchemaCheckIntervalKey" xml:space="preserve">
+    <value>SchemaCheckInterval</value>
+  </data>
+  <data name="SyncNotConnectedToANetwork" xml:space="preserve">
+    <value>Not connected to a network</value>
+  </data>
+  <data name="SyncUnableToResolveHostName" xml:space="preserve">
+    <value>Unable to resolve host name</value>
+  </data>
+  <data name="SyncHttpResponseTemplate" xml:space="preserve">
+    <value>HTTP Response: {0} - {1}</value>
+  </data>
+  <data name="ChecksumErrorXml" xml:space="preserve">
+    <value>ChecksumError.xml</value>
+  </data>
+  <data name="JobFormNoClientContactDetails" xml:space="preserve">
+    <value>No contact info</value>
+  </data>
+  <data name="JobFormNoClientPhone" xml:space="preserve">
+    <value>No phone #</value>
+  </data>
+  <data name="JobFormNoClientAddress" xml:space="preserve">
+    <value>No address</value>
+  </data>
+  <data name="JobFormClientDetailsFormat" xml:space="preserve">
+    <value>{0}
+{1}
+{2}
+{3}</value>
+  </data>
+  <data name="AppConfigMainFormShowRequestedStatusKey" xml:space="preserve">
+    <value>MainFormShowRequestedStatus</value>
+  </data>
+  <data name="ActiviserBase32Table" xml:space="preserve">
+    <value>0123456789ABCDEFGHJKLMNPRSTVWXYZ</value>
+  </data>
+  <data name="JobIcon16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\16x16\jobicon16.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JobIcon24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\24x24\jobicon24.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JobIcon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\32x32\jobicon32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JobIcon48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\48x48\jobicon48.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppConfigLocalItemsDefault" xml:space="preserve">
+    <value>LocalItems.Xml</value>
+  </data>
+  <data name="AppConfigLocalItemsKey" xml:space="preserve">
+    <value>LocalItemsDB</value>
+  </data>
+  <data name="StartupFormErrorGettingMainDataBase" xml:space="preserve">
+    <value>Error downloading main database ({0})</value>
+  </data>
+  <data name="StartupFormNoDataGettingMainDataBase" xml:space="preserve">
+    <value>No Data Returned</value>
+  </data>
+  <data name="XmlHeader" xml:space="preserve">
+    <value>&lt;?xml version="1.0" standalone="yes"?&gt;</value>
+  </data>
+  <data name="StartupFormErrorLoadingMainDatabase" xml:space="preserve">
+    <value>An error occurred while loading the main database</value>
+  </data>
+  <data name="JobFormCustomTabsBeforeSignature" xml:space="preserve">
+    <value>JobFormCustomTabsBeforeSignature</value>
+  </data>
+  <data name="JobFormShortShortCutListKey" xml:space="preserve">
+    <value>JobFormShowShortcuts</value>
+  </data>
+  <data name="TimePickerIntervalKey" xml:space="preserve">
+    <value>TimePickerInterval</value>
+    <comment>TimePickerIntervalKey description</comment>
+  </data>
+  <data name="DefaultJobDurationKey" xml:space="preserve">
+    <value>DefaultJobDuration</value>
+    <comment>DefaultJobDurationKey description</comment>
+  </data>
+  <data name="DefaultTravelTimeKey" xml:space="preserve">
+    <value>DefaultTravelTime</value>
+    <comment>DefaultTravelTimeKey description</comment>
+  </data>
+  <data name="SyncCancelling" xml:space="preserve">
+    <value>Cancelling...</value>
+  </data>
+  <data name="AppConfigFormDefinitionsDefault" xml:space="preserve">
+    <value>FormDefinitions.Xml</value>
+  </data>
+  <data name="AppConfigFormDefinitionsKey" xml:space="preserve">
+    <value>FormDefinitionsDB</value>
+  </data>
+  <data name="StartupFormLoadingForms" xml:space="preserve">
+    <value>Loading custom form definitions</value>
+  </data>
+  <data name="StartupFormErrorLoadingForms" xml:space="preserve">
+    <value>Warning: an error was encountered while loading custom forms. </value>
+  </data>
+  <data name="StartupFormFatalErrorLoadingMainDB" xml:space="preserve">
+    <value>An error occurred while loading the main database. Unable to continue loading activiser.
+(Error message: {0})</value>
+  </data>
+  <data name="SettingsFormConfirmClientCleanup" xml:space="preserve">
+    <value>Remove unnecessary client details 
+(address, phone numbers, notes, etc) 
+for clients with no requests on this device?</value>
+  </data>
+  <data name="RequestUtilitiesConfirmRequestCleanup" xml:space="preserve">
+    <value>Remove all requests marked as completed or cancelled from this device?</value>
+  </data>
+  <data name="RequestUtilitiesCleanupClientsToo" xml:space="preserve">
+    <value>Also remove unnecessary client details 
+(address, phone numbers, notes, etc) 
+for removed requests?</value>
+  </data>
+  <data name="RequestUtilitiesRequestsNotRemoved" xml:space="preserve">
+    <value>{0} Request(s) removed, {1} not removed due to the presence of incomplete or unsynchronised jobs.</value>
+  </data>
+  <data name="RequestUtilitiesRequestsRemoved" xml:space="preserve">
+    <value>{0} Request(s) removed.</value>
+  </data>
+  <data name="SyncFindingDataToUpload" xml:space="preserve">
+    <value>Getting data to upload...</value>
+  </data>
+  <data name="AppConfigAllowGps" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="ConsultantSettingsMissing" xml:space="preserve">
+    <value>Consultant settings missing</value>
+  </data>
+  <data name="RequestUtilitiesWaitMessage" xml:space="preserve">
+    <value>Removing old requests, please wait...
+({0} requests removed so far)</value>
+  </data>
+</root>

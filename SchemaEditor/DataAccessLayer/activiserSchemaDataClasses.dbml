@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="kinetics" Class="activiserSchemaDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=RCP-W2K3-DEV2\SS2K8;Initial Catalog=kinetics;Integrated Security=True" SettingsObjectName="activiser.SchemaEditor.DataAccessLayer.Properties.Settings" SettingsPropertyName="activiserConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="metadata.SchemaEntity" Member="Entities">
+    <Type Name="Entity">
+      <Column Name="EntityId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EntityName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="PrimaryKeyAttributeName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="PrimaryKeyAttributeType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsCoreEntity" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ClientMask" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientMaskInsert" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientMaskUpdate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FillSequence" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ParentEntityName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ParentAttributeName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Modified" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Association Name="SchemaEntity_SchemaAttribute" Member="Attributes" ThisKey="EntityId" OtherKey="EntityId" Type="Attribute" />
+      <Association Name="SchemaAttributeType_SchemaEntity" Member="AttributeType" ThisKey="PrimaryKeyAttributeType" OtherKey="AttributeTypeCode" Type="AttributeType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="metadata.SchemaAttribute" Member="Attributes">
+    <Type Name="Attribute">
+      <Column Name="AttributeId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EntityId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="AttributeName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="IsCoreAttribute" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsPrimaryKeyAttribute" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Required" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AttributeTypeCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaxLength" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientMask" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientMaskInsert" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientMaskUpdate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LookupSourceEntityId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Expression" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Modified" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Association Name="SchemaEntity_SchemaAttribute" Member="Entity" ThisKey="EntityId" OtherKey="EntityId" Type="Entity" IsForeignKey="true" />
+      <Association Name="SchemaAttributeType_SchemaAttribute" Member="AttributeType" ThisKey="AttributeTypeCode" OtherKey="AttributeTypeCode" Type="AttributeType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="metadata.SchemaClient" Member="Clients">
+    <Type Name="Client">
+      <Column Name="Mask" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Modified" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="metadata.SchemaAttributeType" Member="AttributeTypes">
+    <Type Name="AttributeType">
+      <Column Name="AttributeTypeCode" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="SqlTypeName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Association Name="SchemaAttributeType_SchemaEntity" Member="Entities" ThisKey="AttributeTypeCode" OtherKey="PrimaryKeyAttributeType" Type="Entity" />
+      <Association Name="SchemaAttributeType_SchemaAttribute" Member="Attributes" ThisKey="AttributeTypeCode" OtherKey="AttributeTypeCode" Type="Attribute" />
+    </Type>
+  </Table>
+  <Table Name="metadata.FormField" Member="FormFields">
+    <Type Name="FormField">
+      <Column Name="FormFieldId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FormId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ClientMask" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Attribute" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="Label" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SortPriority" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="DisplayOrder" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="FieldType" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="LockCode" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="MinimumValue" Type="System.Decimal" DbType="Decimal(18,8) NOT NULL" CanBeNull="false" />
+      <Column Name="MaximumValue" Type="System.Decimal" DbType="Decimal(18,8) NOT NULL" CanBeNull="false" />
+      <Column Name="DecimalPlaces" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Lines" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Position" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="Width" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="LabelWidth" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ListDataSource" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ListValueColumn" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ListDisplayColumn" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ListData" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Modified" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Association Name="Form_FormField" Member="Form" ThisKey="FormId" OtherKey="FormId" Type="Form" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="metadata.Form" Member="Forms">
+    <Type Name="Form">
+      <Column Name="FormId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ClientMask" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FormName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="FormLabel" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="Entity" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="EntityPK" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="ParentEntity" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="ParentPK" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="EntityParentFK" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="MaxItems" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Priority" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LockCode" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ParentFilter" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Modified" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Association Name="Form_FormField" Member="FormFields" ThisKey="FormId" OtherKey="FormId" Type="FormField" />
+    </Type>
+  </Table>
+</Database>

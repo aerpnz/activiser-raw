@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ErrorTipDataSet xmlns="ErrorTip.xsd">
+    <ErrorTip>
+        <Exception>DivideByZeroException</Exception>
+        <Tip>Check for Data values that are zero that should have a value.</Tip>
+    </ErrorTip>
+</ErrorTipDataSet>

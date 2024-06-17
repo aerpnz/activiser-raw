@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://www.activiser.com/schemas/Utilities.xsd" xmlns="http://www.activiser.com/schemas/Utilities.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.activiser.com/schemas/Utilities.xsd" id="Utility" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="Utility">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ActiveConsultants">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msdata:Caption="UID" name="ConsultantUID" type="xs:string" />
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Username">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="User">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="ConsultantUID" type="xs:string" />
+              <xs:element minOccurs="0" name="Username">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DomainLogon">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Management" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Administration" type="xs:boolean" />
+              <xs:element minOccurs="0" name="IsActiviserUser" type="xs:boolean" />
+              <xs:element minOccurs="0" name="SyncTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="LastSyncTime" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ServerSetting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="ServerSettingId" type="xs:string" />
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="Value">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LongValue">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ValidAfter" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ValidBefore" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreatedBy">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Modified" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ModifiedBy">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:ActiveConsultants" />
+      <xs:field xpath="mstns:ConsultantUID" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="PK_User">
+      <xs:selector xpath=".//mstns:User" />
+      <xs:field xpath="mstns:ConsultantUID" />
+    </xs:unique>
+    <xs:unique name="UC_Username">
+      <xs:selector xpath=".//mstns:User" />
+      <xs:field xpath="mstns:Username" />
+    </xs:unique>
+    <xs:unique name="ServerSetting_UC">
+      <xs:selector xpath=".//mstns:ServerSetting" />
+      <xs:field xpath="mstns:Name" />
+      <xs:field xpath="mstns:Status" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="ServerSettingPK">
+      <xs:selector xpath=".//mstns:ServerSetting" />
+      <xs:field xpath="mstns:ServerSettingId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

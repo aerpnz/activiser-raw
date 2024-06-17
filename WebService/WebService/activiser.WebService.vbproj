@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C0AA4A2D-48B5-4755-BF38-8E5C3578D707}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>activiser</RootNamespace>
+    <AssemblyName>activiser.WebService</AssemblyName>
+    <OptionStrict>On</OptionStrict>
+    <OptionCompare>Binary</OptionCompare>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>activiserWebService.snk</AssemblyOriginatorKeyFile>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRules>-Microsoft.Design#CA1031;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Portability#CA1901;-Microsoft.Portability#CA1900</CodeAnalysisRules>
+    <DefineConstants>NOGATEWAY=1</DefineConstants>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseX64|AnyCPU' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="activiser.Licensing.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=27edafc340171fbf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Licensing\activiser.Licensing.Client\bin\activiser.Licensing.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="activiser.WebService.DataAccessLayer, Version=4.0.0.1701, Culture=neutral, PublicKeyToken=71e76f00ae955ef6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\activiser.WebService.DataAccessLayer\bin\Debug\activiser.WebService.DataAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="activiser.WebService.Gateway.DataAccessLayer, Version=4.0.0.1701, Culture=neutral, PublicKeyToken=71e76f00ae955ef6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\activiser.WebService.Gateway.DataAccessLayer\bin\Debug\activiser.WebService.Gateway.DataAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Services.Client">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="activiser.asmx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Web.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="activiser.asmx.logging.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="activiser.asmx.client.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="activiser.asmx.clientSettings.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="activiser.asmx.console.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="activiser.asmx.customData.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="activiser.asmx.debug.vb">
+    </Compile>
+    <Compile Include="activiser.asmx.gateway.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="activiser.asmx.globals.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="activiser.asmx.sql.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="activiser.asmx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ChecksumUtilities.vb" />
+    <Compile Include="ErrorLogger.vb" />
+    <Compile Include="JobEmail.vb" />
+    <Compile Include="JobStatusCodes.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="Utilities.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="activiser.asmx.resx">
+      <DependentUpon>activiser.asmx</DependentUpon>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="activiserWebService.snk" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\activiser.WebService.OutputGatewayBase\activiser.WebService.OutputGateway.Base.csproj">
+      <Project>{4A6C552B-BE73-4B8D-BC20-3FF67BF7B953}</Project>
+      <Name>activiser.WebService.OutputGateway.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\activiser.WebService.Utilities.vbproj">
+      <Project>{403EAFFD-3605-45A1-8E93-B7AFFB58DC4E}</Project>
+      <Name>activiser.WebService.Utilities</Name>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.CompilerServices" />
+    <Import Include="System" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <Import Project="..\..\BuildSupport\VersionNumber.Targets" />
+  <Import Project="..\..\BuildSupport\CopyBuildResults.Targets" />
+  <!--<Target Name="AfterBuild" Condition="$(MaxAssemblyVersion) != ''">
+    <MakeDir Directories="C:\BuildResults\$(MaxAssemblyVersion)\$(AssemblyName)" />
+    <CreateItem Include="$(OutputPath)\**\*.*">
+      <Output TaskParameter="Include" ItemName="FilesToArchive" />
+    </CreateItem>
+    <Copy SourceFiles="@(FilesToArchive)" DestinationFolder="C:\BuildResults\$(MaxAssemblyVersion)\$(AssemblyName)\%(FilesToArchive.RecursiveDir)" />
+  </Target>-->
+  <!--
+	<Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets"/>
+
+	<Target Name="Test">
+		<Message Text="Input:&#xA;@(TestGroup, '&#xA;')"/>
+		<RegexReplace Input="@(TestGroup)" Expression="foo\." Replacement="" Count="1">
+			<Output ItemName ="ReplaceReturn1" TaskParameter="Output" />
+		</RegexReplace>
+		<Message Text="&#xA;Output Replace 1:&#xA;@(ReplaceReturn1, '&#xA;')" />
+		<RegexReplace Input="@(TestGroup)" Expression="foo\." Replacement="oop" Startat="6">
+			<Output ItemName ="ReplaceReturn2" TaskParameter="Output" />
+		</RegexReplace>
+		<Message Text="&#xA;Output Replace 2:&#xA;@(ReplaceReturn2, '&#xA;')" />
+	</Target>
+	
+	-->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4200</DevelopmentServerPort>
+          <DevelopmentServerVPath>/activiser</DevelopmentServerVPath>
+          <IISUrl>http://localhost:4200/activiser</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:4200/activiser</IISAppRootUrl>
+          <NTLMAuthentication>True</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

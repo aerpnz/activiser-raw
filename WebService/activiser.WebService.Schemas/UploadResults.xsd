@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UploadResults" targetNamespace="http://www.activiser.com/Schemas/IDGUIDMap.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://www.activiser.com/Schemas/IDGUIDMap.xsd" xmlns:mstns="http://www.activiser.com/Schemas/IDGUIDMap.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" version="V2.0">
+  <xs:element name="Result">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Type" type="xs:string" minOccurs="1" maxOccurs="1" />
+        <xs:element name="GUID" msdata:DataType="System.Guid, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="1" maxOccurs="1" />
+        <xs:element name="ID" type="xs:int" minOccurs="0" maxOccurs="1" />
+        <xs:element name="Number" type="xs:string" minOccurs="0" maxOccurs="1" />
+        <xs:element name="TimeStamp" type="xs:dateTime" minOccurs="0" maxOccurs="1" />
+        <xs:element name="Checksum" type="xs:string" minOccurs="0" maxOccurs="1" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

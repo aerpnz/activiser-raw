@@ -1,0 +1,35 @@
+Imports System
+Imports System.Reflection
+Imports System.Runtime.InteropServices
+
+' General Information about an assembly is controlled through the following 
+' set of attributes. Change these attribute values to modify the information
+' associated with an assembly.
+
+' Review the values of the assembly attributes
+
+<Assembly: AssemblyTitle("activiser™ Web Service Schemas")> 
+<Assembly: AssemblyDescription("Schema class library for activiser™ web service")> 
+<Assembly: AssemblyCompany("Activiser Limited")> 
+<Assembly: AssemblyProduct("activiser™")> 
+<Assembly: AssemblyCopyright("© 2008 Activiser Limited")> 
+<Assembly: AssemblyTrademark("activiser™")> 
+
+<Assembly: ComVisible(False)>
+
+'The following GUID is for the ID of the typelib if this project is exposed to COM
+<Assembly: Guid("1211576f-3382-487e-8352-f45b4bf2b5c7")> 
+
+' Version information for an assembly consists of the following four values:
+'
+'      Major Version
+'      Minor Version 
+'      Build Number
+'      Revision
+'
+' You can specify all the values or you can default the Build and Revision Numbers 
+' by using the '*' as shown below:
+' <Assembly: AssemblyVersion("1.0.*")> 
+
+<Assembly: AssemblyVersion("3.5.0.1594")> 
+<Assembly: AssemblyFileVersion("3.5.1594.17")> 

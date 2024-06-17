@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InstanceMap" targetNamespace="http://activiser.com/Schemas/InputGateway/Crm/InstanceMap.xsd" xmlns:mstns="http://activiser.com/Schemas/InputGateway/Crm/InstanceMap.xsd" xmlns="http://activiser.com/Schemas/InputGateway/Crm/InstanceMap.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InstanceMap" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:Prefix="im" msprop:Generator_UserDSName="InstanceMap" msprop:Generator_DataSetName="InstanceMap">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Map" msprop:Generator_UserTableName="Map" msprop:Generator_RowDeletedName="MapRowDeleted" msprop:Generator_RowChangedName="MapRowChanged" msprop:Generator_RowClassName="MapRow" msprop:Generator_RowChangingName="MapRowChanging" msprop:Generator_RowEvArgName="MapRowChangeEvent" msprop:Generator_RowEvHandlerName="MapRowChangeEventHandler" msprop:Generator_TableClassName="MapDataTable" msprop:Generator_TableVarName="tableMap" msprop:Generator_RowDeletingName="MapRowDeleting" msprop:Generator_TablePropName="Map">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrganizationId" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="OrganizationId" msprop:Generator_ColumnPropNameInRow="OrganizationId" msprop:Generator_ColumnVarNameInTable="columnOrganizationId" msprop:Generator_ColumnPropNameInTable="OrganizationIdColumn" type="xs:string" />
+              <xs:element name="ActiviserUrl" msprop:Generator_UserColumnName="ActiviserUrl" msprop:Generator_ColumnPropNameInRow="ActiviserUrl" msprop:Generator_ColumnVarNameInTable="columnActiviserUrl" msprop:Generator_ColumnPropNameInTable="ActiviserUrlColumn" type="xs:string" default="http://localhost:4200/activiser.asmx" />
+              <xs:element name="Timeout" msprop:Generator_UserColumnName="Timeout" msprop:Generator_ColumnVarNameInTable="columnTimeout" msprop:Generator_ColumnPropNameInRow="Timeout" msprop:Generator_ColumnPropNameInTable="TimeoutColumn" type="xs:int" default="60" minOccurs="0" />
+              <xs:element name="UserName" msprop:Generator_UserColumnName="UserName" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" msprop:Generator_ColumnPropNameInRow="UserName" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="Password" msprop:Generator_UserColumnName="Password" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnPassword" msprop:Generator_ColumnPropNameInTable="PasswordColumn" msprop:Generator_ColumnPropNameInRow="Password" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="Domain" msprop:Generator_UserColumnName="Domain" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnDomain" msprop:Generator_ColumnPropNameInTable="DomainColumn" msprop:Generator_ColumnPropNameInRow="Domain" type="xs:string" default="" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Map" />
+      <xs:field xpath="mstns:OrganizationId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

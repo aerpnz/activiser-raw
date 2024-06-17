@@ -1,0 +1,34 @@
+C:\Projects\Activiser3.5.0\activiser.MicrosoftCrm.Callouts\activiser.Crm.Callouts.csproj
+C:\Projects\Activiser3.5.0\activiser.MicrosoftCrm.Callouts\Installer\activiser.Crm.Callouts.Installer.csproj
+C:\Projects\Activiser3.5.0\Console\activiser Management Console.sln
+C:\Projects\Activiser3.5.0\Console\Activiser Management Console\activiser.Console.vbproj
+C:\Projects\Activiser3.5.0\Console\CSharpLibrary\activiser.Library.cs.csproj
+C:\Projects\Activiser3.5.0\CustomFormDesigner\Custom Form Designer.sln
+C:\Projects\Activiser3.5.0\CustomFormDesigner\CustomFormDesigner\activiser.CustomFormDesigner.vbproj
+C:\Projects\Activiser3.5.0\Library\activiser.Library.ExceptionDialog\activiser.Library.ExceptionDialog.vbproj
+C:\Projects\Activiser3.5.0\Library\activiser.Library.Forms\activiser.Library.Forms.csproj
+C:\Projects\Activiser3.5.0\Library\activiser.Library.Gps\activiser.Library.Gps.csproj
+C:\Projects\Activiser3.5.0\Library\activiser.Library.Phone\activiser.Library.Phone.csproj
+C:\Projects\Activiser3.5.0\Library\activiser.Library.PlatformInfo\activiser.Library.PlatformInfo.csproj
+C:\Projects\Activiser3.5.0\Library\activiser.Library.Sound\activiser.Library.Sound.csproj
+C:\Projects\Activiser3.5.0\Library\DateTimePicker\activiser.Library.DateTimePicker.vbproj
+C:\Projects\Activiser3.5.0\Library\Windows Mobile Library (CS)\activiser.Library.wm.CS.csproj
+C:\Projects\Activiser3.5.0\Library\Windows Mobile Library (VB)\activiser.Library.wm.VB.vbproj
+C:\Projects\Activiser3.5.0\Licensing\Client\activiser.Licensing.Client.vbproj
+C:\Projects\Activiser3.5.0\MicrosoftCRMCallouts\activiser.Crm.Callouts.csproj
+C:\Projects\Activiser3.5.0\MicrosoftCRMCallouts\Installer\activiser.Crm.Callouts.Installer.csproj
+C:\Projects\Activiser3.5.0\OutlookAddIn\activiser.OutlookAddIn.sln
+C:\Projects\Activiser3.5.0\OutlookAddIn\activiser.OutlookAddIn\activiser.OutlookAddIn.vbproj
+C:\Projects\Activiser3.5.0\Suite\Suite.sln
+C:\Projects\Activiser3.5.0\WebService\WebService with setup kit.sln
+C:\Projects\Activiser3.5.0\WebService\activiser.Gateway\Base\activiser.Gateway.Base.vbproj
+C:\Projects\Activiser3.5.0\WebService\activiser.Gateway\MicrosoftCRM\activiser.Gateway.MicrosoftCRM.OutputGateway.vbproj
+C:\Projects\Activiser3.5.0\WebService\activiser.Gateway.WebService\activiser.Gateway.WebService.Legacy.vbproj
+C:\Projects\Activiser3.5.0\WebService\activiser.WebService.Schemas\activiser.WebService.Schemas.vbproj
+C:\Projects\Activiser3.5.0\WebService\Utilities\activiser.WebService.Utilities.vbproj
+C:\Projects\Activiser3.5.0\WebService\WebService\activiser.WebService.vbproj
+C:\Projects\Activiser3.5.0\WindowsMobileClient\activiser Windows Mobile Client with Setup Kits.sln
+C:\Projects\Activiser3.5.0\WindowsMobileClient\activiser Windows Mobile Client.sln
+C:\Projects\Activiser3.5.0\WindowsMobileClient\activiser.WindowsMobileClient.vbproj
+C:\Projects\Activiser3.5.0\WindowsMobileClient\CustomInstaller\activiser.WindowsMobileClient.ActiveSyncInstallationAssistant.vbproj
+C:\Projects\Activiser3.5.0\WindowsMobileClient\Windows Mobile Client\activiser Windows Mobile Client.vbproj

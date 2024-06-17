@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NotificationFormat" xml:space="preserve">
+    <value>{4} 
+has just synchronised {2} {3} for {0} {1}</value>
+  </data>
+  <data name="LoginFormUnhandledError" xml:space="preserve">
+    <value>Unanticipated Error has occurred during login.</value>
+  </data>
+  <data name="ServerProfileFormMailTemplateExplanation" xml:space="preserve">
+    <value>Enter the template for job completion messages to be sent to clients. 
+
+Text enclosed in braces ( '{' and '}') and matching an escape code or field name will be replaced with the relevant text.
+
+Special escape codes:
+{LicenseeName} - activiser license holder name
+{AdminEmail} - activiser administrator email address 
+
+Any field from the Job, Request, ClientSite or Consultant Tables is valid, and must be formatted as {&lt;TableName&gt;.&lt;FieldName&gt;}, e.g.
+{Job.StartTime}
+{Job.FinishTime}
+{Request.RequestNumber}
+{ClientSite.SiteName} 
+{Consultant.Name} 
+
+If {LicenseeName} is not included in the template, then a standard line including {LicenseeName} will be appended to the email.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OK.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServerProfileFormMailServerExplanation" xml:space="preserve">
+    <value>To send various alerts, and job notifications to client, the activiser™ web service needs access to an SMTP server.
+
+Please provide either the DNS domain name or IP address of your SMTP Server, and the port number (SMTP default port is 25)
+
+Additionally, please provide the 'activiser' and 'administrator' mail addresses. 
+The 'activiser' mail address is the 'From' address for email sent by the activiser web service.
+The 'administrator' mail address is the email address of the person responsible for administering activiser.
+
+To test the server, click the 'Test' button, and an email will be sent to the 'administrator' email address.</value>
+  </data>
+  <data name="OptionsFormUrlTestKeyPhrase" xml:space="preserve">
+    <value>activiser Web Service</value>
+  </data>
+  <data name="JobAdminSubFormStatusBarSiteName" xml:space="preserve">
+    <value>Client: {0}</value>
+  </data>
+  <data name="JobAdminSubFormStatusBarHasEquipment" xml:space="preserve">
+    <value>Has Equipment</value>
+  </data>
+  <data name="StatusBarRefreshEnabled" xml:space="preserve">
+    <value>Refresh Enabled</value>
+  </data>
+  <data name="SaveAllHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaveAllHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JobSheetServerProfileError" xml:space="preserve">
+    <value>Error getting server profile</value>
+  </data>
+  <data name="Logo32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="activiserFormTitle" xml:space="preserve">
+    <value>activiser™ Console</value>
+  </data>
+  <data name="LicenseWillExpireMessageTemplate" xml:space="preserve">
+    <value>Current activiser™ License will expire in {0} days</value>
+  </data>
+  <data name="CustomFormNonStandardColumn" xml:space="preserve">
+    <value>Custom form configured to use non-standard column in standard table</value>
+  </data>
+  <data name="find" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\find.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainFormJobApprovalTreeLoadFailureMessageTemplate" xml:space="preserve">
+    <value>Fatal error loading job approval tree: {0}</value>
+  </data>
+  <data name="ConsoleDataInitialDataLoadFailureTemplate" xml:space="preserve">
+    <value>Failed initial data load:{0}</value>
+  </data>
+  <data name="ServerProfileFormLicenseTestTemplate" xml:space="preserve">
+    <value>Expiry Date: {0:dd MMM yyyy}
+Version: {1}
+Users: {2}</value>
+  </data>
+  <data name="TooManyCustomFields" xml:space="preserve">
+    <value>Can't add more than 200 controls to a form.</value>
+  </data>
+  <data name="CustomFormSchemaError" xml:space="preserve">
+    <value>Error getting custom data schema</value>
+  </data>
+  <data name="NotificationBackgroundImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NotificationBackgroundImage.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JobSheetLicenseePostScript" xml:space="preserve">
+    <value>This service brought to you by the activiser™ system of {LicenseeName}</value>
+  </data>
+  <data name="users2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\users2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaveAsWebPageHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaveAsWebPageHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="activiser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\activiser.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConsultantSubFormPasswordMismatch" xml:space="preserve">
+    <value>Passwords do not match, please re-enter</value>
+  </data>
+  <data name="MainFormConsultantStatusRootNodeLabel" xml:space="preserve">
+    <value>Consultant Status</value>
+  </data>
+  <data name="LicenseExpiredWarning" xml:space="preserve">
+    <value>activiser™ License has expired. Web service disabled.</value>
+  </data>
+  <data name="JobAdminSubFormStatusBarHasNotes" xml:space="preserve">
+    <value>Has Notes</value>
+  </data>
+  <data name="Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refresh.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JobAdminSubFormStatusBarConsultant" xml:space="preserve">
+    <value>Consultant: {0}</value>
+  </data>
+  <data name="ServerProfileFormDefaultActiviserAdministratorAddress" xml:space="preserve">
+    <value>administrator@localhost</value>
+  </data>
+  <data name="JobAdminSubFormStatusBarDoNotHaveSignature" xml:space="preserve">
+    <value>Not Signed</value>
+  </data>
+  <data name="ConsultantSubFormConfirmUserDisable" xml:space="preserve">
+    <value>Are you sure you want to disable user '{0}' ?</value>
+  </data>
+  <data name="CustomFormTableNotFoundTemplate" xml:space="preserve">
+    <value>Couldn't load custom for for table {0}</value>
+  </data>
+  <data name="JobAdminSubFormDoNotHaveSignature" xml:space="preserve">
+    <value>Not signed</value>
+  </data>
+  <data name="warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConsultantSubFormFailedToLoad" xml:space="preserve">
+    <value>Failed to load Consultant Sub Form.</value>
+  </data>
+  <data name="ServerProfileFormDefaultSMSAddress" xml:space="preserve">
+    <value>&lt;Number&gt;@SMSProvider.com</value>
+  </data>
+  <data name="UnableToPrintJob" xml:space="preserve">
+    <value>Unable to print job.</value>
+  </data>
+  <data name="ServerProfileFormSaveFailureMesasge" xml:space="preserve">
+    <value>Unable to save server profile</value>
+  </data>
+  <data name="ServerProfileFormDefaultMailTemplate" xml:space="preserve">
+    <value>Greetings.
+
+Please do not reply to this message, as it an automated message from the activiser system at {LicenseeName}
+
+As requested, please find below details of work completed at your site by our consultant {Consultant.Name}.
+
+Started: {Job.StartTime}
+Finished: {Job.FinishTime}
+Travel Time: {Job.MinsTravelled} minutes
+
+Details/Equipment:
+{Job.JobDetails}
+{Job.Equipment}
+
+
+If you have any questions about this work, please contact us at {AdminEmail}
+
+Kind Regards,
+
+{LicenseeName}</value>
+  </data>
+  <data name="ServerProfileFormMailServerTestMessage" xml:space="preserve">
+    <value>This is a test message from the activiser™ console.</value>
+  </data>
+  <data name="ServerProfileFormMailServerTestSubject" xml:space="preserve">
+    <value>activiser console mail test</value>
+  </data>
+  <data name="document_error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document_error.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginFormUserLinkFailure" xml:space="preserve">
+    <value>Error linking activiser user to network user, please contact your administrator</value>
+  </data>
+  <data name="ServerProfileFormDefaultSMSMessage" xml:space="preserve">
+    <value>You have been assigned request &lt;Request&gt; for &lt;Client&gt;. Please synchronise your activiser™ client.</value>
+  </data>
+  <data name="CustomFieldAlreadyPresent" xml:space="preserve">
+    <value>The selected field is already on the form</value>
+  </data>
+  <data name="UnableToProcessActiviserLicenseMessage" xml:space="preserve">
+    <value>Unable to process activiser™ License.</value>
+  </data>
+  <data name="Collapse_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Collapse_large.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document_delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServerProfileFormMailTestSuccessMessage" xml:space="preserve">
+    <value>Message sent OK</value>
+  </data>
+  <data name="MainFormTitleTemplate" xml:space="preserve">
+    <value>activiser™ Management Console {2} [{0} on {1}]</value>
+  </data>
+  <data name="JobAdminSubFormStatusBarHaveSignature" xml:space="preserve">
+    <value>Signed</value>
+  </data>
+  <data name="Expand_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Expand_large.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>&lt;None&gt;</value>
+  </data>
+  <data name="Web" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Web.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="history" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\history.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServerProfileFormLicenseInvalid" xml:space="preserve">
+    <value>Client Name or License Key is invalid or do not match.</value>
+  </data>
+  <data name="MainFormApprovalStatusRootNodeLabel" xml:space="preserve">
+    <value>Approval</value>
+  </data>
+  <data name="MainFormApprovalNodeTagItemListMessage" xml:space="preserve">
+    <value>ApprovalNodeTag ItemList must contain at least four items</value>
+  </data>
+  <data name="ServerProfileFormDefaultActiviserMailAddress" xml:space="preserve">
+    <value>activiser@localhost</value>
+  </data>
+  <data name="MainFormConsultantRootNodeLabel" xml:space="preserve">
+    <value>Consultant</value>
+  </data>
+  <data name="OptionsFormUrlPrefixMessage" xml:space="preserve">
+    <value>Server URL must start with http:// or https://</value>
+  </data>
+  <data name="JobAdminSubFormUpdateStatusButton" xml:space="preserve">
+    <value>Update Status</value>
+  </data>
+  <data name="Unassigned" xml:space="preserve">
+    <value>&lt;Unassigned&gt;</value>
+  </data>
+  <data name="ServerProfileFormMailTestFailureMessage" xml:space="preserve">
+    <value>Message send failure:
+{0}</value>
+  </data>
+  <data name="text_ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text_ok.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusBarRefreshDisabled" xml:space="preserve">
+    <value>Refresh Disabled</value>
+  </data>
+  <data name="SplashScreenVersionTemplate" xml:space="preserve">
+    <value>version {0}.{1}.{2}.{3}</value>
+  </data>
+  <data name="NoAction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NoAction.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disk_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disk_blue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JobAdminSubFormHaveSignature" xml:space="preserve">
+    <value>Signed</value>
+  </data>
+  <data name="TaskHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TaskHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saveHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printer2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServerProfileFormDefaultMailServerAddress" xml:space="preserve">
+    <value>localhost</value>
+  </data>
+  <data name="MainFormRequestStatusRootNodeLabel" xml:space="preserve">
+    <value>Request Status</value>
+  </data>
+  <data name="SplashScreenApplicationTitle" xml:space="preserve">
+    <value>activiser management console</value>
+  </data>
+  <data name="document_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document_time.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OptionsFormErrorUpdatingEventDescriptions" xml:space="preserve">
+    <value>Error updating event descriptions</value>
+  </data>
+  <data name="JobAdminSubFormStatusBarRequestNumber" xml:space="preserve">
+    <value>Request #: {0}</value>
+  </data>
+  <data name="StatusChangeMessageTemplate" xml:space="preserve">
+    <value>STATUS CHANGE ({0})</value>
+  </data>
+  <data name="document_check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document_check.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginFormUserLinkConfirmationTemplate" xml:space="preserve">
+    <value>Re-link consultant {0} to domain user {1} ?</value>
+  </data>
+  <data name="Logo48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogInOutLoginFailure" xml:space="preserve">
+    <value>Unknown username or incorrect password, please try again.</value>
+  </data>
+  <data name="SplashLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SplashLogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogInOutWebServiceCommunicationFailure" xml:space="preserve">
+    <value>Error communicating with activiser Web Service</value>
+  </data>
+  <data name="TerminologyMessageNotFound" xml:space="preserve">
+    <value>Message not found</value>
+  </data>
+  <data name="UnlicensedWarning" xml:space="preserve">
+    <value>Warning: this installation of activiser™ is currently unlicensed, web service disabled.</value>
+  </data>
+  <data name="ServerProfileFormDefaultJobMailSubjectTemplate" xml:space="preserve">
+    <value>Message from activiser at {LicenseeName}</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>&lt;N/A&gt;</value>
+  </data>
+  <data name="Edit_UndoHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit_UndoHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JobAdminSubFormNoRequestStatusID" xml:space="preserve">
+    <value>&lt;None&gt;</value>
+  </data>
+  <data name="RequestAdminSubFormNoRequestStatusID" xml:space="preserve">
+    <value>&lt;None&gt;</value>
+  </data>
+  <data name="JobAdminSubFormNoClientInformation" xml:space="preserve">
+    <value>No Client Information</value>
+  </data>
+  <data name="ActiviserWebServiceMagic" xml:space="preserve">
+    <value>&lt;p class="intro"&gt;activiser™ Web Service</value>
+  </data>
+  <data name="UnsupportedOperatingSystem" xml:space="preserve">
+    <value>Unsupported Operating System</value>
+  </data>
+  <data name="ConsoleRegistryBase" xml:space="preserve">
+    <value>SOFTWARE\activiser\Console</value>
+  </data>
+  <data name="Credential2KHelpInfo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CredentialsProxyCredentialPrompt" xml:space="preserve">
+    <value>Please supply login information for your proxy server at {0}{1}</value>
+  </data>
+  <data name="CredentialsRegistryBase" xml:space="preserve">
+    <value>SOFTWARE\activiser\credentialCache</value>
+  </data>
+  <data name="CredentialsWebServiceCredentialPrompt" xml:space="preserve">
+    <value>Please supply login information for your activiser web service at {0}
+{1}</value>
+  </data>
+  <data name="CredentialXPHelpInfo" xml:space="preserve">
+    <value>Username should be specified in the format &lt;username&gt;@&lt;domainname&gt; or &lt;domain&gt;\&lt;username&gt;</value>
+  </data>
+  <data name="LogInOutWebServiceAuthenticationFailure" xml:space="preserve">
+    <value>Failed to authenticate with web service.</value>
+  </data>
+  <data name="LogInOutWebServiceCommunicationSuccessful" xml:space="preserve">
+    <value>Communication with Web Service successful.</value>
+  </data>
+  <data name="RegistryServerUrlValueName" xml:space="preserve">
+    <value>ServerUrl</value>
+  </data>
+  <data name="CustomFormDefinitionError" xml:space="preserve">
+    <value>Error in custom form definition
+Please report this incident to your support team.
+Error Details:
+{0}</value>
+    <comment>0 = form 'type' - should be 'J', 'R' or 'C'</comment>
+  </data>
+  <data name="CustomFormForeignKeyNotGuid" xml:space="preserve">
+    <value>Custom form must use GUID for foreign key</value>
+  </data>
+  <data name="CustomFormNullDataError" xml:space="preserve">
+    <value>Unable to save custom form data due to missing information</value>
+  </data>
+  <data name="CustomFormPrimaryKeyNotGuid" xml:space="preserve">
+    <value>Custom form must use GUID for primary key</value>
+  </data>
+  <data name="CustomFormUnsupportedControlType" xml:space="preserve">
+    <value>Control type '{0}' is not supported by this version of activiser™</value>
+    <comment>0 = control type </comment>
+  </data>
+  <data name="CustomFormDeleteConfirmation" xml:space="preserve">
+    <value>Delete this record?</value>
+  </data>
+  <data name="CustomFormUndoChangesToCustomData" xml:space="preserve">
+    <value>Undo changes made to this record since last saved?</value>
+  </data>
+  <data name="JobAdminSubFormFinishTimeBeforeStartTime" xml:space="preserve">
+    <value>Warning: Finish Time specified is before Start Time</value>
+  </data>
+  <data name="ButtonBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonBG.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonBGDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonBGDown.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonMouseDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonMouseDown.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonOver.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSelected.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolHeadBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolHeadBG.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainFormRequestAdminButtonTemplate" xml:space="preserve">
+    <value>Request Admin ({0})</value>
+  </data>
+  <data name="SharedMessagesKey" xml:space="preserve">
+    <value>$SHARED</value>
+  </data>
+  <data name="StringNotFound" xml:space="preserve">
+    <value>{1}({0}): string not found</value>
+  </data>
+  <data name="UnableToSaveCustomForm" xml:space="preserve">
+    <value>UnableToSaveCustomForm</value>
+    <comment>UnableToSaveCustomForm description</comment>
+  </data>
+  <data name="DeviceIdCharsToIgnore" xml:space="preserve">
+    <value>.- 
+	</value>
+  </data>
+</root>

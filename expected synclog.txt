@@ -1,0 +1,7 @@
+SyncDateTime|	Message
+2013-05-14 09:59:35.507|	Android client sync started; sync'ing from: 2013-05-14T09:40:06.5000000Z
+2013-05-14 09:59:35.647|	Starting UploadClientDataSetUpdatesAsJSON(devicedId='4.1.0.1;000000000000000a48ada2f7b4d7300', consultantUid='ae68fa4d-6d50-4a63-876a-4b1496c9343b')
+2013-05-14 09:59:36.240|	Completed UploadClientDataSetUpdatesAsJSON(devicedId='4.1.0.1;000000000000000a48ada2f7b4d7300', consultantUid='ae68fa4d-6d50-4a63-876a-4b1496c9343b')
+2013-05-14 09:59:36.537|	Starting GetClientDataSetUpdatesAsJSON(devicedId='4.1.0.1;000000000000000a48ada2f7b4d7300', consultantUid='ae68fa4d-6d50-4a63-876a-4b1496c9343b', since='2013-05-14T09:40:06.5000000Z')
+2013-05-14 09:59:37.960|	Completed GetClientDataSetUpdatesAsJSON(devicedId='4.1.0.1;000000000000000a48ada2f7b4d7300', consultantUid='ae68fa4d-6d50-4a63-876a-4b1496c9343b', since='2013-05-14T09:40:06.5000000Z')
+2013-05-14 09:59:38.303|	Client sync completed

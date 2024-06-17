@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+	<WixVariable Id="WixUILicenseRtf" Value="License.rtf" />
+	<WixVariable Id="WixUIBannerBmp" Value="Images\BannerBitmap.bmp" />
+	<WixVariable Id="WixUIDialogBmp" Value="Images\DialogBitmap.bmp" />
+
+	<Icon Id="activiserIconFile.exe" SourceFile="Images/activiser.ico"/>
+</Include>
